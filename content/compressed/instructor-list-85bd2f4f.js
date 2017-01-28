@@ -1,0 +1,1 @@
+$(function(){var a=false;$("#load-more a").bind("click",function(){if(!a){a=$("#load-more").data("count")}$.ajax({url:window.location.href,data:{offset:a},success:function(b){$("#load-more").prev().append($(b.data).html());a=b.offset;if(!b.more){$("#load-more").remove()}}})})});

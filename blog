@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<title>Creativebug - creative video workshops</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="http://blog.creativebug.com/xmlrpc.php" />
+<link rel="shortcut icon" href="http://www.creativebug.com/blog/wp-content/uploads/2013/12/creativebug-logo.jpg">
+		
+<!--[if lt IE 9]>
+<script src="http://blog.creativebug.com/wp-content/themes/upright/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+
+
+
+<!-- This site is optimized with the Yoast WordPress SEO plugin v2.0.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Creativebug offers online video arts and crafts workshops, classes and techniques. Learn how to paint, knit, crochet, sew, screen print, and more."/>
+<link rel="canonical" href="http://blog.creativebug.com" />
+<link rel="next" href="http://blog.creativebug.com/page/2/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Creativebug - creative video workshops" />
+<meta property="og:description" content="Creativebug offers online video arts and crafts workshops, classes and techniques. Learn how to paint, knit, crochet, sew, screen print, and more." />
+<meta property="og:url" content="http://blog.creativebug.com" />
+<meta property="og:site_name" content="Creativebug Blog" />
+<script type='application/ld+json'>{ "@context": "http://schema.org","@type": "WebSite","url": "http://blog.creativebug.com/","potentialAction": {"@type": "SearchAction","target": "http://blog.creativebug.com/?s={search_term}","query-input": "required name=search_term"}}</script>
+<!-- / Yoast WordPress SEO plugin. -->
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Creativebug Blog &raquo; Feed" href="http://blog.creativebug.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Creativebug Blog &raquo; Comments Feed" href="http://blog.creativebug.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/blog.creativebug.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.6.1"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='instapress-css'  href='http://blog.creativebug.com/wp-content/plugins/instapress/instapress.css?ver=4.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://blog.creativebug.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='http://blog.creativebug.com/wp-content/themes/upright/style.css?ver=4.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='default-body-font-css'  href='http://fonts.googleapis.com/css?family=Raleway%3A400%2C700&#038;ver=4.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='default-heading-font-css'  href='http://fonts.googleapis.com/css?family=Nixie+One&#038;ver=4.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wpmu-animate-min-css-css'  href='http://blog.creativebug.com/wp-content/plugins/popover/css/animate.min.css?ver=4.6.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://blog.creativebug.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://blog.creativebug.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://blog.creativebug.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://blog.creativebug.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blog.creativebug.com/wp-includes/wlwmanifest.xml" /> 
+<link type="text/css" rel="stylesheet" href="http://blog.creativebug.com/wp-content/plugins/category-specific-rss-feed-menu/wp_cat_rss_style.css" />
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-30229519-2']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+<script type="text/javascript">
+  var _kmq = _kmq || [];
+  function _kms(u){
+    setTimeout(function(){
+      var s = document.createElement('script'); var f = document.getElementsByTagName('script')[0]; s.type = 'text/javascript'; s.async = true;
+      s.src = u; f.parentNode.insertBefore(s, f);
+    }, 1);
+  }
+  _kms('//i.kissmetrics.com/i.js');_kms('//doug1izaerwt3.cloudfront.net/ca1ae7c8abe0aaa81f58fcbd27eafb75111d6aea.1.js');
+</script>
+
+    <style id="extra-font">
+		body, .no-heading-style, input[type=text], input[type=email], input[type=password], textarea{
+		font-family: "Helvetica",Arial, Helvetica, sans;	}
+			h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
+		font-family: "Helvetica",Arial, Helvetica, sans;		font-style: normal;		font-weight: 700;	}
+			.secondary-navigation > div > ul > li > a, .section-title, #reply-title, .widget-title, button, html input[type="button"], input[type="reset"], input[type="submit"]{
+		font-family: "Helvetica",Arial, Helvetica, sans;		font-style: normal;		font-weight: 400;	}
+		</style>
+	<style id="extra-color">
+			a,
+	.tabs ul.nav-tab li.tab-active a:before, #secondary .entry-title a:hover, .popular-posts article .home-thumb:hover:after{ 
+		color: #606ca1;	}
+			.main-navigation, .main-navigation ul ul{
+		background-color: #666666;	}
+				.main-navigation div ul li > a:hover, .main-navigation > div > ul > li.current-menu-item > a{
+		color: #ff4b55;	}
+			.widget_posts article a.home-thumb:after, .secondary-navigation ul ul{
+		background-color:#f4f4f4;
+	}
+			.main-navigation > div > ul,
+	.main-navigation #searchform, .menu-toggle a{
+		border-left-color: #666666;		border-right-color: #666666;	}
+	.main-small-navigation ul li a{
+		border-top-color: #666666;	}
+	.main-navigation div > ul ul li a{
+		border-bottom-color: #666666;	}
+								#primary, #primary .entry-title a, #primary input[type=text], #primary input[type=email], #primary input[type=password], #primary textarea{
+		color: #424242;	}
+	#primary button:hover, #primary input[type="button"]:hover, #primary input[type="reset"]:hover, #primary input[type="submit"]:hover{
+		background-color: #424242;	}
+			#primary a, #primary .entry-title a:hover{
+		color: #ff4b55;	}
+	#primary button, #primary input[type="button"], #primary input[type="reset"], #primary input[type="submit"]{
+		background-color: #ff4b55;	}
+					.section-title, #primary .section-title a, #reply-title, .section-title:after, #reply-title:after, #carousel-slider .flex-direction-nav a{
+		background-color: #ff4b55;		color: #ffffff;	}
+				 .layout-toggle a:before{
+	 	color: #ffffff;	 }
+	 		#primary #breadcrumbs, #comments .commentlist li article.comment, .single .post .related-box ul li{
+		border-bottom-color: #ededed;	}
+	#primary input[type=text], #primary input[type=email], #primary input[type=password], #primary textarea, .wp-caption, pre{
+		border-color: #ededed;	}
+	.hentry:before, .single .post > footer, .page-navigation, #comments .commentlist li article.comment {
+		border-top-color: #ededed;	}
+	.hentry blockquote{
+		border-left-color: #ededed;	}
+		</style>
+	
+<!--[if lt IE 9]>
+<script src="http://blog.creativebug.com/wp-content/themes/upright/js/selectivizr-min.js" type="text/javascript"></script>
+<![endif]-->
+<!--[if lt IE 9]>
+<script src="http://blog.creativebug.com/wp-content/themes/upright/js/respond.min.js" type="text/javascript"></script>
+<![endif]-->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-551b3e7a61847364" async="async"></script>
+</head>
+
+<body class="home blog right-sidebar group-blog">
+<div id="page" class="hfeed site">
+		<header id="masthead" class="site-header sticky-nav" role="banner">
+		<nav role="navigation" class="site-navigation main-navigation group">
+			<div class="assistive-text skip-link"><a href="#content" title="Skip to content"><span>&nbsp;</span><span>Skip to content</span></a></div>
+            <div>
+            			<ul id="menu-navigation" class="menu group"><li id="menu-item-22423" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-22423"><a href="https://www.creativebug.com/?utm_source=Blog&#038;utm_medium=BackToCB">Back to Creativebug.com</a>
+<ul class="sub-menu">
+	<li id="menu-item-25097" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-25097"><a href="https://www.creativebug.com/classes/knitting">Knitting</a></li>
+	<li id="menu-item-22433" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22433"><a href="http://www.creativebug.com/subjects/sewing">Sewing</a></li>
+	<li id="menu-item-25098" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-25098"><a href="https://www.creativebug.com/classes/crochet">Crochet</a></li>
+	<li id="menu-item-22435" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22435"><a href="http://www.creativebug.com/subjects/paper">Paper</a></li>
+	<li id="menu-item-22434" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22434"><a href="http://www.creativebug.com/subjects/yarn">Yarn</a></li>
+	<li id="menu-item-22437" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22437"><a href="http://www.creativebug.com/subjects/quilting">Quilting</a></li>
+	<li id="menu-item-22438" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22438"><a href="http://www.creativebug.com/subjects/jewelry">Jewelry</a></li>
+	<li id="menu-item-22432" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22432"><a href="http://www.creativebug.com/subjects/kids-crafts">Kids Crafts</a></li>
+</ul>
+</li>
+<li id="menu-item-24066" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-24066"><a href="http://www.creativebug.com/blog/category/diy/">DIY</a></li>
+<li id="menu-item-17169" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17169"><a href="http://www.creativebug.com/blog/category/videos/">Videos</a></li>
+<li id="menu-item-22605" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-22605"><a href="http://blog.creativebug.com/category/behind-the-scenes/">Behind the Scenes</a></li>
+<li id="menu-item-22606" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-22606"><a href="http://blog.creativebug.com/category/contests/">Contests</a></li>
+<li id="menu-item-22607" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-22607"><a href="http://blog.creativebug.com/category/holiday-2/">Holiday</a></li>
+</ul>                        	<form method="get" id="searchform" action="http://blog.creativebug.com/" role="search">
+		<label for="s" class="assistive-text">Search</label>
+		<input type="text" class="field" name="s" value="" id="s" placeholder="Search here..." />
+		<input type="submit" class="submit" name="submit" id="searchsubmit" value="Search" />
+	</form>
+            </div>
+		</nav><!-- .site-navigation .main-navigation -->
+
+		        <div id="sidebar-top" class="boxed" >
+                    </div>
+        
+		<hgroup class="logo boxed">
+					<h2 class="no-heading-style"><a href="http://blog.creativebug.com/" title="Creativebug Blog" >
+				<img src="http://blog.creativebug.com/wp-content/uploads/2015/10/CB_blog_header.png" alt="Creativebug Blog" /></a></h2>
+				</hgroup>
+
+		<nav role="navigation" class="site-navigation secondary-navigation group">
+			<div class="menu group"><ul><li class="current_page_item"><a href="http://blog.creativebug.com/">Home</a></li></ul></div>
+		</nav><!-- .site-navigation .main-navigation -->
+
+	</header><!-- #masthead .site-header -->
+
+	<div id="main" class="site-main boxed group">
+
+		<div id="primary" class="content-area boxed">
+			
+	<div id="featured-slider" class="flexslider">
+		<ul class="slides group">
+										<li class="post group">
+										<a href="http://blog.creativebug.com/playing-watercolor-giveaway/" title="Playing with Watercolor Giveaway" class="featured-thumb"><img width="650" height="650" src="http://blog.creativebug.com/wp-content/uploads/2016/05/PlayingWithWatercolor_Part1_Instagram_650x650_2.jpg" class="attachment-large size-large wp-post-image" alt="PlayingWithWatercolor_Part1_Instagram_650x650_2" srcset="http://blog.creativebug.com/wp-content/uploads/2016/05/PlayingWithWatercolor_Part1_Instagram_650x650_2.jpg 650w, http://blog.creativebug.com/wp-content/uploads/2016/05/PlayingWithWatercolor_Part1_Instagram_650x650_2-290x290.jpg 290w, http://blog.creativebug.com/wp-content/uploads/2016/05/PlayingWithWatercolor_Part1_Instagram_650x650_2-300x300.jpg 300w" sizes="(max-width: 650px) 100vw, 650px" /></a>
+							
+					<article class="boxed">
+						<header>
+                            <div class="entry-meta">
+                            <time class="entry-date" datetime="2016-05-16T14:34:45+00:00">May 16, 2016</time>                            	<span class="sep">/</span> <span class="comments-link"><a href="http://blog.creativebug.com/playing-watercolor-giveaway/#respond">Leave a comment</a></span>
+                            </div>
+							<h2 class="post-title h1"><a href="http://blog.creativebug.com/playing-watercolor-giveaway/" rel="bookmark" title="Playing with Watercolor Giveaway">Playing with Watercolor Giveaway</a></h2>
+						</header>
+
+					</article>
+
+
+				</li> <!-- end article header -->
+											<li class="post group">
+										<a href="http://blog.creativebug.com/creative-library-giveaway/" title="Creative Library Giveaway" class="featured-thumb"><img width="900" height="480" src="http://blog.creativebug.com/wp-content/uploads/2016/04/CreativeLibraryFeatured.jpg" class="attachment-large size-large wp-post-image" alt="CreativeLibraryFeatured" srcset="http://blog.creativebug.com/wp-content/uploads/2016/04/CreativeLibraryFeatured.jpg 900w, http://blog.creativebug.com/wp-content/uploads/2016/04/CreativeLibraryFeatured-300x160.jpg 300w" sizes="(max-width: 900px) 100vw, 900px" /></a>
+							
+					<article class="boxed">
+						<header>
+                            <div class="entry-meta">
+                            <time class="entry-date" datetime="2016-04-15T12:29:25+00:00">April 15, 2016</time>                            	<span class="sep">/</span> <span class="comments-link"><a href="http://blog.creativebug.com/creative-library-giveaway/#respond">Leave a comment</a></span>
+                            </div>
+							<h2 class="post-title h1"><a href="http://blog.creativebug.com/creative-library-giveaway/" rel="bookmark" title="Creative Library Giveaway">Creative Library Giveaway</a></h2>
+						</header>
+
+					</article>
+
+
+				</li> <!-- end article header -->
+											<li class="post group">
+										<a href="http://blog.creativebug.com/donut-fridge-flair/" title="Donut Fridge Flair" class="featured-thumb"><img width="900" height="480" src="http://blog.creativebug.com/wp-content/uploads/2016/04/cork.jpg" class="attachment-large size-large wp-post-image" alt="cork" srcset="http://blog.creativebug.com/wp-content/uploads/2016/04/cork.jpg 900w, http://blog.creativebug.com/wp-content/uploads/2016/04/cork-300x160.jpg 300w" sizes="(max-width: 900px) 100vw, 900px" /></a>
+							
+					<article class="boxed">
+						<header>
+                            <div class="entry-meta">
+                            <time class="entry-date" datetime="2016-04-15T09:48:55+00:00">April 15, 2016</time>                            	<span class="sep">/</span> <span class="comments-link"><a href="http://blog.creativebug.com/donut-fridge-flair/#respond">Leave a comment</a></span>
+                            </div>
+							<h2 class="post-title h1"><a href="http://blog.creativebug.com/donut-fridge-flair/" rel="bookmark" title="Donut Fridge Flair">Donut Fridge Flair</a></h2>
+						</header>
+
+					</article>
+
+
+				</li> <!-- end article header -->
+											<li class="post group">
+										<a href="http://blog.creativebug.com/diy-sharpie-coffee-mug/" title="DIY Sharpie Coffee Mug" class="featured-thumb"><img width="900" height="480" src="http://blog.creativebug.com/wp-content/uploads/2016/04/Featured.jpg" class="attachment-large size-large wp-post-image" alt="Featured" srcset="http://blog.creativebug.com/wp-content/uploads/2016/04/Featured.jpg 900w, http://blog.creativebug.com/wp-content/uploads/2016/04/Featured-300x160.jpg 300w" sizes="(max-width: 900px) 100vw, 900px" /></a>
+							
+					<article class="boxed">
+						<header>
+                            <div class="entry-meta">
+                            <time class="entry-date" datetime="2016-04-11T11:56:22+00:00">April 11, 2016</time>                            	<span class="sep">/</span> <span class="comments-link"><a href="http://blog.creativebug.com/diy-sharpie-coffee-mug/#respond">Leave a comment</a></span>
+                            </div>
+							<h2 class="post-title h1"><a href="http://blog.creativebug.com/diy-sharpie-coffee-mug/" rel="bookmark" title="DIY Sharpie Coffee Mug">DIY Sharpie Coffee Mug</a></h2>
+						</header>
+
+					</article>
+
+
+				</li> <!-- end article header -->
+											<li class="post group">
+										<a href="http://blog.creativebug.com/april-cbdrawaday-challenge/" title="April #CBDrawADay Challenge" class="featured-thumb"><img width="900" height="480" src="http://blog.creativebug.com/wp-content/uploads/2016/04/IMG_2553.jpeg" class="attachment-large size-large wp-post-image" alt="IMG_2553" srcset="http://blog.creativebug.com/wp-content/uploads/2016/04/IMG_2553.jpeg 900w, http://blog.creativebug.com/wp-content/uploads/2016/04/IMG_2553-300x160.jpeg 300w" sizes="(max-width: 900px) 100vw, 900px" /></a>
+							
+					<article class="boxed">
+						<header>
+                            <div class="entry-meta">
+                            <time class="entry-date" datetime="2016-04-01T16:23:47+00:00">April 1, 2016</time>                            	<span class="sep">/</span> <span class="comments-link"><a href="http://blog.creativebug.com/april-cbdrawaday-challenge/#respond">Leave a comment</a></span>
+                            </div>
+							<h2 class="post-title h1"><a href="http://blog.creativebug.com/april-cbdrawaday-challenge/" rel="bookmark" title="April #CBDrawADay Challenge">April #CBDrawADay Challenge</a></h2>
+						</header>
+
+					</article>
+
+
+				</li> <!-- end article header -->
+									</ul>
+	</div> <!--End of slider-->
+
+            			<h3 class="section-title"><span>Recent Posts</span></h3>
+
+            
+			<div id="content" class="site-content group one-column" role="main">
+
+			
+				
+								
+					
+<article id="post-25151" class="boxed post-25151 post type-post status-publish format-standard hentry category-contests category-creative-time tag-cbdrawaday tag-giveaway tag-next-instructor">
+	    	<header class="entry-header no-thumb">
+		<div class="entry-meta">
+			<a href="http://blog.creativebug.com/category/contests/" rel="category tag">Contests</a>, <a href="http://blog.creativebug.com/category/creative-time/" rel="category tag">Creative Time</a> <span class="sep">/</span> <time class="entry-date" datetime="2016-08-29T12:26:09+00:00">August 29, 2016</time>            <span class="sep">/</span> <span class="comments-link"><a href="http://blog.creativebug.com/cbdrawaday-giveaway-the-next-creativebug-art-instructor/#comments">1 Comment</a></span>
+			
+		</div><!-- .entry-meta -->
+		<h2 class="entry-title"><a href="http://blog.creativebug.com/cbdrawaday-giveaway-the-next-creativebug-art-instructor/" title="Permalink to #CBDRAWADAY Giveaway: The Next Creativebug Art Instructor!" rel="bookmark">#CBDRAWADAY Giveaway: The Next Creativebug Art Instructor!</a></h2>
+
+					</header><!-- .entry-header -->
+
+	<div class="entry-summary  no-thumb">
+		<p>Have you ever dreamed of teaching art classes on Creativebug? Now is your chance! During the month of September, we&#8217;re&#8230;</p>
+        <p class="read-more"><a href="http://blog.creativebug.com/cbdrawaday-giveaway-the-next-creativebug-art-instructor/" title="Permalink to #CBDRAWADAY Giveaway: The Next Creativebug Art Instructor!" rel="bookmark">Read More &rarr;</a></p>
+	</div><!-- .entry-summary -->
+
+</article><!-- #post-25151 -->
+
+				
+					
+<article id="post-25145" class="boxed post-25145 post type-post status-publish format-standard has-post-thumbnail hentry category-contests category-featured tag-lindsay-stripling tag-painting tag-series tag-watercolor">
+	        	<a href="http://blog.creativebug.com/playing-watercolor-giveaway/" title="Playing with Watercolor Giveaway" class="home-thumb boxed" >
+    	<img width="435" height="247" src="http://blog.creativebug.com/wp-content/uploads/2016/05/PlayingWithWatercolor_Part1_Instagram_650x650_2-435x247.jpg" class="attachment-thumb-435 size-thumb-435 wp-post-image" alt="PlayingWithWatercolor_Part1_Instagram_650x650_2" />    	</a>
+    	    	<header class="entry-header ">
+		<div class="entry-meta">
+			<a href="http://blog.creativebug.com/category/contests/" rel="category tag">Contests</a>, <a href="http://blog.creativebug.com/category/featured/" rel="category tag">Featured</a> <span class="sep">/</span> <time class="entry-date" datetime="2016-05-16T14:34:45+00:00">May 16, 2016</time>            <span class="sep">/</span> <span class="comments-link"><a href="http://blog.creativebug.com/playing-watercolor-giveaway/#respond">Leave a comment</a></span>
+			
+		</div><!-- .entry-meta -->
+		<h2 class="entry-title"><a href="http://blog.creativebug.com/playing-watercolor-giveaway/" title="Permalink to Playing with Watercolor Giveaway" rel="bookmark">Playing with Watercolor Giveaway</a></h2>
+
+					</header><!-- .entry-header -->
+
+	<div class="entry-summary  ">
+		<p>This month we’re celebrating all things watercolor with Lindsay Stripling&#8217;s Creativebug class series Playing with Watercolor that teaches core watercolor&#8230;</p>
+        <p class="read-more"><a href="http://blog.creativebug.com/playing-watercolor-giveaway/" title="Permalink to Playing with Watercolor Giveaway" rel="bookmark">Read More &rarr;</a></p>
+	</div><!-- .entry-summary -->
+
+</article><!-- #post-25145 -->
+
+				
+					
+<article id="post-25139" class="boxed post-25139 post type-post status-publish format-standard has-post-thumbnail hentry category-creative-time category-featured">
+	        	<a href="http://blog.creativebug.com/creative-library-giveaway/" title="Creative Library Giveaway" class="home-thumb boxed" >
+    	<img width="435" height="247" src="http://blog.creativebug.com/wp-content/uploads/2016/04/CreativeLibraryFeatured-435x247.jpg" class="attachment-thumb-435 size-thumb-435 wp-post-image" alt="CreativeLibraryFeatured" />    	</a>
+    	    	<header class="entry-header ">
+		<div class="entry-meta">
+			<a href="http://blog.creativebug.com/category/creative-time/" rel="category tag">Creative Time</a>, <a href="http://blog.creativebug.com/category/featured/" rel="category tag">Featured</a> <span class="sep">/</span> <time class="entry-date" datetime="2016-04-15T12:29:25+00:00">April 15, 2016</time>            <span class="sep">/</span> <span class="comments-link"><a href="http://blog.creativebug.com/creative-library-giveaway/#respond">Leave a comment</a></span>
+			
+		</div><!-- .entry-meta -->
+		<h2 class="entry-title"><a href="http://blog.creativebug.com/creative-library-giveaway/" title="Permalink to Creative Library Giveaway" rel="bookmark">Creative Library Giveaway</a></h2>
+
+					</header><!-- .entry-header -->
+
+	<div class="entry-summary  ">
+		<p>Sometimes we all need creative inspiration and nothing does that better than a good book. The best ones deserve sharing,&#8230;</p>
+        <p class="read-more"><a href="http://blog.creativebug.com/creative-library-giveaway/" title="Permalink to Creative Library Giveaway" rel="bookmark">Read More &rarr;</a></p>
+	</div><!-- .entry-summary -->
+
+</article><!-- #post-25139 -->
+
+				
+					
+<article id="post-25131" class="boxed post-25131 post type-post status-publish format-standard has-post-thumbnail hentry category-creative-time category-featured">
+	        	<a href="http://blog.creativebug.com/donut-fridge-flair/" title="Donut Fridge Flair" class="home-thumb boxed" >
+    	<img width="435" height="247" src="http://blog.creativebug.com/wp-content/uploads/2016/04/cork-435x247.jpg" class="attachment-thumb-435 size-thumb-435 wp-post-image" alt="cork" />    	</a>
+    	    	<header class="entry-header ">
+		<div class="entry-meta">
+			<a href="http://blog.creativebug.com/category/creative-time/" rel="category tag">Creative Time</a>, <a href="http://blog.creativebug.com/category/featured/" rel="category tag">Featured</a> <span class="sep">/</span> <time class="entry-date" datetime="2016-04-15T09:48:55+00:00">April 15, 2016</time>            <span class="sep">/</span> <span class="comments-link"><a href="http://blog.creativebug.com/donut-fridge-flair/#respond">Leave a comment</a></span>
+			
+		</div><!-- .entry-meta -->
+		<h2 class="entry-title"><a href="http://blog.creativebug.com/donut-fridge-flair/" title="Permalink to Donut Fridge Flair" rel="bookmark">Donut Fridge Flair</a></h2>
+
+					</header><!-- .entry-header -->
+
+	<div class="entry-summary  ">
+		<p>This is a guest post from Sallie from The Urban Acres* When I was in the 6th grade, I got my&#8230;</p>
+        <p class="read-more"><a href="http://blog.creativebug.com/donut-fridge-flair/" title="Permalink to Donut Fridge Flair" rel="bookmark">Read More &rarr;</a></p>
+	</div><!-- .entry-summary -->
+
+</article><!-- #post-25131 -->
+
+				
+					
+<article id="post-25120" class="boxed post-25120 post type-post status-publish format-standard has-post-thumbnail hentry category-creative-time category-featured">
+	        	<a href="http://blog.creativebug.com/diy-sharpie-coffee-mug/" title="DIY Sharpie Coffee Mug" class="home-thumb boxed" >
+    	<img width="435" height="247" src="http://blog.creativebug.com/wp-content/uploads/2016/04/Featured-435x247.jpg" class="attachment-thumb-435 size-thumb-435 wp-post-image" alt="Featured" />    	</a>
+    	    	<header class="entry-header ">
+		<div class="entry-meta">
+			<a href="http://blog.creativebug.com/category/creative-time/" rel="category tag">Creative Time</a>, <a href="http://blog.creativebug.com/category/featured/" rel="category tag">Featured</a> <span class="sep">/</span> <time class="entry-date" datetime="2016-04-11T11:56:22+00:00">April 11, 2016</time>            <span class="sep">/</span> <span class="comments-link"><a href="http://blog.creativebug.com/diy-sharpie-coffee-mug/#respond">Leave a comment</a></span>
+			
+		</div><!-- .entry-meta -->
+		<h2 class="entry-title"><a href="http://blog.creativebug.com/diy-sharpie-coffee-mug/" title="Permalink to DIY Sharpie Coffee Mug" rel="bookmark">DIY Sharpie Coffee Mug</a></h2>
+
+					</header><!-- .entry-header -->
+
+	<div class="entry-summary  ">
+		<p>This is a guest post from Joanna from Lazy Moms Blog* Would you like to have a new coffee mug&#8230;</p>
+        <p class="read-more"><a href="http://blog.creativebug.com/diy-sharpie-coffee-mug/" title="Permalink to DIY Sharpie Coffee Mug" rel="bookmark">Read More &rarr;</a></p>
+	</div><!-- .entry-summary -->
+
+</article><!-- #post-25120 -->
+
+				
+					
+<article id="post-25114" class="boxed post-25114 post type-post status-publish format-standard has-post-thumbnail hentry category-contests category-featured">
+	        	<a href="http://blog.creativebug.com/april-cbdrawaday-challenge/" title="April #CBDrawADay Challenge" class="home-thumb boxed" >
+    	<img width="435" height="247" src="http://blog.creativebug.com/wp-content/uploads/2016/04/IMG_2553-435x247.jpeg" class="attachment-thumb-435 size-thumb-435 wp-post-image" alt="IMG_2553" />    	</a>
+    	    	<header class="entry-header ">
+		<div class="entry-meta">
+			<a href="http://blog.creativebug.com/category/contests/" rel="category tag">Contests</a>, <a href="http://blog.creativebug.com/category/featured/" rel="category tag">Featured</a> <span class="sep">/</span> <time class="entry-date" datetime="2016-04-01T16:23:47+00:00">April 1, 2016</time>            <span class="sep">/</span> <span class="comments-link"><a href="http://blog.creativebug.com/april-cbdrawaday-challenge/#respond">Leave a comment</a></span>
+			
+		</div><!-- .entry-meta -->
+		<h2 class="entry-title"><a href="http://blog.creativebug.com/april-cbdrawaday-challenge/" title="Permalink to April #CBDrawADay Challenge" rel="bookmark">April #CBDrawADay Challenge</a></h2>
+
+					</header><!-- .entry-header -->
+
+	<div class="entry-summary  ">
+		<p>Keep flexing your artistic muscles in April with a special daily drawing challenge. This month, rather than showing you exactly&#8230;</p>
+        <p class="read-more"><a href="http://blog.creativebug.com/april-cbdrawaday-challenge/" title="Permalink to April #CBDrawADay Challenge" rel="bookmark">Read More &rarr;</a></p>
+	</div><!-- .entry-summary -->
+
+</article><!-- #post-25114 -->
+
+				
+					
+<article id="post-25106" class="boxed post-25106 post type-post status-publish format-standard has-post-thumbnail hentry category-desktop-calendars category-featured">
+	        	<a href="http://blog.creativebug.com/creativebug-presents-april-2/" title="Creativebug Presents April" class="home-thumb boxed" >
+    	<img width="435" height="247" src="http://blog.creativebug.com/wp-content/uploads/2016/04/April_Blog_900x480_v2-435x247.jpg" class="attachment-thumb-435 size-thumb-435 wp-post-image" alt="April_Blog_900x480_v2" />    	</a>
+    	    	<header class="entry-header ">
+		<div class="entry-meta">
+			<a href="http://blog.creativebug.com/category/desktop-calendars/" rel="category tag">Desktop Calendars</a>, <a href="http://blog.creativebug.com/category/featured/" rel="category tag">Featured</a> <span class="sep">/</span> <time class="entry-date" datetime="2016-04-01T10:35:50+00:00">April 1, 2016</time>            <span class="sep">/</span> <span class="comments-link"><a href="http://blog.creativebug.com/creativebug-presents-april-2/#respond">Leave a comment</a></span>
+			
+		</div><!-- .entry-meta -->
+		<h2 class="entry-title"><a href="http://blog.creativebug.com/creativebug-presents-april-2/" title="Permalink to Creativebug Presents April" rel="bookmark">Creativebug Presents April</a></h2>
+
+					</header><!-- .entry-header -->
+
+	<div class="entry-summary  ">
+		<p>Every month, we release a slew of gorgeous, top-notch classes that we hope you are going to love. (We aim&#8230;</p>
+        <p class="read-more"><a href="http://blog.creativebug.com/creativebug-presents-april-2/" title="Permalink to Creativebug Presents April" rel="bookmark">Read More &rarr;</a></p>
+	</div><!-- .entry-summary -->
+
+</article><!-- #post-25106 -->
+
+				
+					
+<article id="post-25101" class="boxed post-25101 post type-post status-publish format-standard has-post-thumbnail hentry category-contests category-featured">
+	        	<a href="http://blog.creativebug.com/30-coloring-pages-by-lisa-congdon-pam-garrison-and-courtney-cerruti/" title="30 Coloring Pages by Lisa Congdon, Pam Garrison, and Courtney Cerruti" class="home-thumb boxed" >
+    	<img width="435" height="247" src="http://blog.creativebug.com/wp-content/uploads/2016/03/ColoringBook_Blog_900x480-435x247.jpg" class="attachment-thumb-435 size-thumb-435 wp-post-image" alt="ColoringBook_Blog_900x480" />    	</a>
+    	    	<header class="entry-header ">
+		<div class="entry-meta">
+			<a href="http://blog.creativebug.com/category/contests/" rel="category tag">Contests</a>, <a href="http://blog.creativebug.com/category/featured/" rel="category tag">Featured</a> <span class="sep">/</span> <time class="entry-date" datetime="2016-03-31T13:39:58+00:00">March 31, 2016</time>            <span class="sep">/</span> <span class="comments-link"><a href="http://blog.creativebug.com/30-coloring-pages-by-lisa-congdon-pam-garrison-and-courtney-cerruti/#comments">2 Comments</a></span>
+			
+		</div><!-- .entry-meta -->
+		<h2 class="entry-title"><a href="http://blog.creativebug.com/30-coloring-pages-by-lisa-congdon-pam-garrison-and-courtney-cerruti/" title="Permalink to 30 Coloring Pages by Lisa Congdon, Pam Garrison, and Courtney Cerruti" rel="bookmark">30 Coloring Pages by Lisa Congdon, Pam Garrison, and Courtney Cerruti</a></h2>
+
+					</header><!-- .entry-header -->
+
+	<div class="entry-summary  ">
+		<p>You have all fallen in love with #cbdrawaday, and a lot of you have been wondering what we will be&#8230;</p>
+        <p class="read-more"><a href="http://blog.creativebug.com/30-coloring-pages-by-lisa-congdon-pam-garrison-and-courtney-cerruti/" title="Permalink to 30 Coloring Pages by Lisa Congdon, Pam Garrison, and Courtney Cerruti" rel="bookmark">Read More &rarr;</a></p>
+	</div><!-- .entry-summary -->
+
+</article><!-- #post-25101 -->
+
+				
+					
+<article id="post-25091" class="boxed post-25091 post type-post status-publish format-standard has-post-thumbnail hentry category-featured category-holiday-2 tag-creativebug tag-diy-easter tag-easter">
+	        	<a href="http://blog.creativebug.com/diy-your-easter/" title="DIY Your Easter" class="home-thumb boxed" >
+    	<img width="435" height="247" src="http://blog.creativebug.com/wp-content/uploads/2016/03/Easter_BlogHeader_900x480-435x247.jpg" class="attachment-thumb-435 size-thumb-435 wp-post-image" alt="Easter_BlogHeader_900x480" />    	</a>
+    	    	<header class="entry-header ">
+		<div class="entry-meta">
+			<a href="http://blog.creativebug.com/category/featured/" rel="category tag">Featured</a>, <a href="http://blog.creativebug.com/category/holiday-2/" rel="category tag">Holiday</a> <span class="sep">/</span> <time class="entry-date" datetime="2016-03-24T14:14:59+00:00">March 24, 2016</time>            <span class="sep">/</span> <span class="comments-link"><a href="http://blog.creativebug.com/diy-your-easter/#respond">Leave a comment</a></span>
+			
+		</div><!-- .entry-meta -->
+		<h2 class="entry-title"><a href="http://blog.creativebug.com/diy-your-easter/" title="Permalink to DIY Your Easter" rel="bookmark">DIY Your Easter</a></h2>
+
+					</header><!-- .entry-header -->
+
+	<div class="entry-summary  ">
+		<p>Looking for some fun DIY Easter projects? Look no further! Learn how to create cute Easter Bunny ears using wire&#8230;</p>
+        <p class="read-more"><a href="http://blog.creativebug.com/diy-your-easter/" title="Permalink to DIY Your Easter" rel="bookmark">Read More &rarr;</a></p>
+	</div><!-- .entry-summary -->
+
+</article><!-- #post-25091 -->
+
+				
+					
+<article id="post-25086" class="boxed post-25086 post type-post status-publish format-standard has-post-thumbnail hentry category-creative-time category-featured">
+	        	<a href="http://blog.creativebug.com/natural-fabric-dyeing-how-to-dye-cotton-and-other-cellulose-fibers-with-kristine-vejar/" title="Natural Fabric Dyeing: How to Dye Cotton and Other Cellulose Fibers with Kristine Vejar" class="home-thumb boxed" >
+    	<img width="435" height="247" src="http://blog.creativebug.com/wp-content/uploads/2016/03/kristine-435x247.jpg" class="attachment-thumb-435 size-thumb-435 wp-post-image" alt="kristine" />    	</a>
+    	    	<header class="entry-header ">
+		<div class="entry-meta">
+			<a href="http://blog.creativebug.com/category/creative-time/" rel="category tag">Creative Time</a>, <a href="http://blog.creativebug.com/category/featured/" rel="category tag">Featured</a> <span class="sep">/</span> <time class="entry-date" datetime="2016-03-18T10:13:09+00:00">March 18, 2016</time>            <span class="sep">/</span> <span class="comments-link"><a href="http://blog.creativebug.com/natural-fabric-dyeing-how-to-dye-cotton-and-other-cellulose-fibers-with-kristine-vejar/#respond">Leave a comment</a></span>
+			
+		</div><!-- .entry-meta -->
+		<h2 class="entry-title"><a href="http://blog.creativebug.com/natural-fabric-dyeing-how-to-dye-cotton-and-other-cellulose-fibers-with-kristine-vejar/" title="Permalink to Natural Fabric Dyeing: How to Dye Cotton and Other Cellulose Fibers with Kristine Vejar" rel="bookmark">Natural Fabric Dyeing: How to Dye Cotton and Other Cellulose Fibers with Kristine Vejar</a></h2>
+
+					</header><!-- .entry-header -->
+
+	<div class="entry-summary  ">
+		<p>This is a guest post from an expert on all things art and crafts Melanie Falick* In her book, The Modern&#8230;</p>
+        <p class="read-more"><a href="http://blog.creativebug.com/natural-fabric-dyeing-how-to-dye-cotton-and-other-cellulose-fibers-with-kristine-vejar/" title="Permalink to Natural Fabric Dyeing: How to Dye Cotton and Other Cellulose Fibers with Kristine Vejar" rel="bookmark">Read More &rarr;</a></p>
+	</div><!-- .entry-summary -->
+
+</article><!-- #post-25086 -->
+
+				
+								<nav class="page-navigation"><span class="page-of">Page 1 of 73</span><ul class="page_navi clearfix"><li><span class='page-numbers current'>1</span></li><li><a class='page-numbers' href='http://blog.creativebug.com/page/2/'>2</a></li><li><a class='page-numbers' href='http://blog.creativebug.com/page/3/'>3</a></li><li><a class='page-numbers' href='http://blog.creativebug.com/page/4/'>4</a></li><li><span>...</span></li><li><a class='page-numbers' href='http://blog.creativebug.com/page/73/'>Last</a></li><li><a class="next page-numbers" href="http://blog.creativebug.com/page/2/">&rarr;</a></li></ul></nav>				<div class="layout-toggle group">
+					<a class="layout-grid" href="#">Grid</a>
+					<a class="layout-list" href="#">List</a>
+				</div>
+			
+			</div><!-- #content .site-content -->
+		</div><!-- #primary .content-area -->
+
+		<div id="secondary" class="widget-area" role="complementary">
+						<aside id="search-5" class="widget widget_search"><h3 class="widget-title">Looking for something?</h3>	<form method="get" id="searchform" action="http://blog.creativebug.com/" role="search">
+		<label for="s" class="assistive-text">Search</label>
+		<input type="text" class="field" name="s" value="" id="s" placeholder="Search here..." />
+		<input type="submit" class="submit" name="submit" id="searchsubmit" value="Search" />
+	</form>
+</aside><aside id="text-24" class="widget widget_text"><h3 class="widget-title">Connect with us</h3>			<div class="textwidget"><div><a href="http://www.creativebug.com/"><img title="Creativebug" src="/wp-content/uploads/2014/02/creativebug_logo_BW.png" alt="" width="35" height="35" /></a>
+    <a href="https://twitter.com/creativebug"><img title="Twitter" src="/wp-content/uploads/2014/02/twitter_1.png" alt="" width="35" height="35" /></a>
+    <a href="http://www.pinterest.com/creativebuginc/"><img title="Pinterest" src="/wp-content/uploads/2014/02/pinterest.png" alt="" width="35" height="35" /></a>
+    <a href="https://www.facebook.com/creative.bug"><img title="Facebook" src="/wp-content/uploads/2014/02/fb_1.png" alt="" width="35" height="35" /></a> <a href="http://instagram.com/creativebug"><img title="Instagram" src="/wp-content/uploads/2014/02/instagram1.jpeg" alt="" width="35" height="35" /></a>
+    <a href="http://www.google.com/+CreativebugSF"><img title="Google+" src="/wp-content/uploads/2014/02/google_plus.png" alt="" width="35" height="35" /></a>
+    <a href="http://www.creativebug.com/mailing_list"><img title="Newsletter" src="/wp-content/uploads/2014/02/email.png" alt="" width="35" height="35" /></a></div></div>
+		</aside><aside id="text-27" class="widget widget_text"><h3 class="widget-title">Check us out on Pinterest</h3>			<div class="textwidget"><a data-pin-do="embedUser" href="http://www.pinterest.com/creativebuginc/" data-pin-scale-width="90" data-pin-scale-height="800" data-pin-board-width="350"></a>
+<!-- Please call pinit.js only once per page -->
+<script type="text/javascript" async src="//assets.pinterest.com/js/pinit.js"></script></div>
+		</aside><aside id="categories-3" class="widget widget_categories"><h3 class="widget-title">Categories</h3><label class="screen-reader-text" for="cat">Categories</label><select  name='cat' id='cat' class='postform' >
+	<option value='-1'>Select Category</option>
+	<option class="level-0" value="124">Behind the Scenes</option>
+	<option class="level-0" value="437">Contests</option>
+	<option class="level-0" value="107">Creative Time</option>
+	<option class="level-0" value="789">Desktop Calendars</option>
+	<option class="level-0" value="158">DIY Projects</option>
+	<option class="level-0" value="114">Events</option>
+	<option class="level-0" value="36">Featured</option>
+	<option class="level-0" value="975">Furniture</option>
+	<option class="level-0" value="966">History of</option>
+	<option class="level-0" value="219">Holiday</option>
+	<option class="level-0" value="194">Inspiration</option>
+	<option class="level-0" value="105">Jewelry</option>
+	<option class="level-0" value="227">Kids</option>
+	<option class="level-0" value="939">Knitting</option>
+	<option class="level-0" value="1">News</option>
+	<option class="level-0" value="106">Paper</option>
+	<option class="level-0" value="350">Quilting</option>
+	<option class="level-0" value="7">Sewing</option>
+	<option class="level-0" value="53">Videos</option>
+	<option class="level-0" value="6">Yarn</option>
+</select>
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+(function() {
+	var dropdown = document.getElementById( "cat" );
+	function onCatChange() {
+		if ( dropdown.options[ dropdown.selectedIndex ].value > 0 ) {
+			location.href = "http://blog.creativebug.com/?cat=" + dropdown.options[ dropdown.selectedIndex ].value;
+		}
+	}
+	dropdown.onchange = onCatChange;
+})();
+/* ]]> */
+</script>
+
+</aside><aside id="archives-5" class="widget widget_archive"><h3 class="widget-title">Archives</h3>		<label class="screen-reader-text" for="archives-dropdown-5">Archives</label>
+		<select id="archives-dropdown-5" name="archive-dropdown" onchange='document.location.href=this.options[this.selectedIndex].value;'>
+			
+			<option value="">Select Month</option>
+				<option value='http://blog.creativebug.com/2016/08/'> August 2016 </option>
+	<option value='http://blog.creativebug.com/2016/05/'> May 2016 </option>
+	<option value='http://blog.creativebug.com/2016/04/'> April 2016 </option>
+	<option value='http://blog.creativebug.com/2016/03/'> March 2016 </option>
+	<option value='http://blog.creativebug.com/2016/02/'> February 2016 </option>
+	<option value='http://blog.creativebug.com/2016/01/'> January 2016 </option>
+	<option value='http://blog.creativebug.com/2015/12/'> December 2015 </option>
+	<option value='http://blog.creativebug.com/2015/11/'> November 2015 </option>
+	<option value='http://blog.creativebug.com/2015/10/'> October 2015 </option>
+	<option value='http://blog.creativebug.com/2015/09/'> September 2015 </option>
+	<option value='http://blog.creativebug.com/2015/08/'> August 2015 </option>
+	<option value='http://blog.creativebug.com/2015/07/'> July 2015 </option>
+	<option value='http://blog.creativebug.com/2015/06/'> June 2015 </option>
+	<option value='http://blog.creativebug.com/2015/05/'> May 2015 </option>
+	<option value='http://blog.creativebug.com/2015/04/'> April 2015 </option>
+	<option value='http://blog.creativebug.com/2015/03/'> March 2015 </option>
+	<option value='http://blog.creativebug.com/2015/02/'> February 2015 </option>
+	<option value='http://blog.creativebug.com/2015/01/'> January 2015 </option>
+	<option value='http://blog.creativebug.com/2014/12/'> December 2014 </option>
+	<option value='http://blog.creativebug.com/2014/11/'> November 2014 </option>
+	<option value='http://blog.creativebug.com/2014/10/'> October 2014 </option>
+	<option value='http://blog.creativebug.com/2014/09/'> September 2014 </option>
+	<option value='http://blog.creativebug.com/2014/08/'> August 2014 </option>
+	<option value='http://blog.creativebug.com/2014/07/'> July 2014 </option>
+	<option value='http://blog.creativebug.com/2014/06/'> June 2014 </option>
+	<option value='http://blog.creativebug.com/2014/05/'> May 2014 </option>
+	<option value='http://blog.creativebug.com/2014/04/'> April 2014 </option>
+	<option value='http://blog.creativebug.com/2014/03/'> March 2014 </option>
+	<option value='http://blog.creativebug.com/2014/02/'> February 2014 </option>
+	<option value='http://blog.creativebug.com/2014/01/'> January 2014 </option>
+	<option value='http://blog.creativebug.com/2013/12/'> December 2013 </option>
+	<option value='http://blog.creativebug.com/2013/11/'> November 2013 </option>
+	<option value='http://blog.creativebug.com/2013/10/'> October 2013 </option>
+	<option value='http://blog.creativebug.com/2013/09/'> September 2013 </option>
+	<option value='http://blog.creativebug.com/2013/08/'> August 2013 </option>
+	<option value='http://blog.creativebug.com/2013/07/'> July 2013 </option>
+	<option value='http://blog.creativebug.com/2013/06/'> June 2013 </option>
+	<option value='http://blog.creativebug.com/2013/05/'> May 2013 </option>
+	<option value='http://blog.creativebug.com/2013/04/'> April 2013 </option>
+	<option value='http://blog.creativebug.com/2013/03/'> March 2013 </option>
+	<option value='http://blog.creativebug.com/2013/02/'> February 2013 </option>
+	<option value='http://blog.creativebug.com/2013/01/'> January 2013 </option>
+	<option value='http://blog.creativebug.com/2012/12/'> December 2012 </option>
+	<option value='http://blog.creativebug.com/2012/11/'> November 2012 </option>
+	<option value='http://blog.creativebug.com/2012/10/'> October 2012 </option>
+	<option value='http://blog.creativebug.com/2012/09/'> September 2012 </option>
+	<option value='http://blog.creativebug.com/2012/08/'> August 2012 </option>
+	<option value='http://blog.creativebug.com/2012/07/'> July 2012 </option>
+
+		</select>
+		</aside><aside id="text-29" class="widget widget_text"><h3 class="widget-title">About Us</h3>			<div class="textwidget">Creativebug is the award-winning destination for high-quality online art and craft video classes. For just $4.95 per month, you get unlimited access to 700+ classes in painting, drawing, knitting, crochet, sewing, quilting, and much more. 
+<a href="http://creativebug.com/">Back to Creativebug</a>
+</div>
+		</aside>		</div><!-- #secondary .widget-area -->
+
+	</div><!-- #main .site-main -->
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="site-info">
+			    					            &copy; Creativebug Blog is powered by <a href="http://wordpress.org/" title="WordPress">WordPress</a>.
+            		</div><!-- .site-info -->
+	</footer> <!-- #colophon .site-footer -->
+</div><!-- #page .hfeed .site -->
+<script type="text/javascript">
+
+jQuery(document).ready(function($){
+	$('#featured-slider').flexslider({ controlNav : false  , slideshow:false , slideshowSpeed:5000});
+	if ( $('#carousel-slider').width() < 720 ){
+		slideWidth = (($('#carousel-slider').width() )/2)  ;
+	}
+	else{
+		slideWidth = (($('#carousel-slider').width() )/3)  ;
+	}
+	$('#carousel-slider').flexslider({ controlNav : false, itemWidth: slideWidth,minItems:2,  maxItem:3, animation: 'slide', move:1 , slideshow:false , slideshowSpeed:5000});
+});
+
+</script>
+<script>window._popup_data = {"ajaxurl":"https:\/\/blog.creativebug.com\/wp-admin\/admin-ajax.php","do":"get_data","ajax_data":{"orig_request_uri":"\/"}};</script><script type='text/javascript' src='http://blog.creativebug.com/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/blog.creativebug.com\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ...","cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://blog.creativebug.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.1.1'></script>
+<script type='text/javascript' src='http://blog.creativebug.com/wp-content/themes/upright/js/small-menu.js?ver=20120206'></script>
+<script type='text/javascript' src='http://blog.creativebug.com/wp-includes/js/imagesloaded.min.js?ver=3.2.0'></script>
+<script type='text/javascript' src='http://blog.creativebug.com/wp-content/themes/upright/js/jquery.flexslider.min.js?ver=20120206'></script>
+<script type='text/javascript' src='http://blog.creativebug.com/wp-content/themes/upright/js/upright.js?ver=20120206'></script>
+<script type='text/javascript' src='http://blog.creativebug.com/wp-content/themes/upright/js/jquery.fitvids.js?ver=20120206'></script>
+<script type='text/javascript' src='http://blog.creativebug.com/wp-content/plugins/popover/js/public.min.js?ver=4.6.1'></script>
+<script type='text/javascript' src='http://blog.creativebug.com/wp-includes/js/wp-embed.min.js?ver=4.6.1'></script>
+
+</body>
+</html>

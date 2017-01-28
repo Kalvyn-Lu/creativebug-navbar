@@ -1,0 +1,11 @@
+User-Agent: *
+Disallow: /promos/
+Disallow: /promo/
+Disallow: /se/
+Disallow: /af/
+Disallow: /ajax/modal
+Disallow: /search/results/
+Disallow: /services/
+Disallow: /trial/create-account
+Disallow: /login
+Sitemap: http://www.creativebug.com/sitemap.xml

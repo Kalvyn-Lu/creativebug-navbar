@@ -1,0 +1,582 @@
+<!doctype html>
+<!--[if IE 7]><html class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html class="v2"  ><!--<![endif]-->
+<head lang="en">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Creativebug - Craft Classes &amp; Workshops - What will you make today?</title>
+  <meta name="copyright" content="Copyright 2016, Creativebug">
+  <meta name="description" content="Creativebug offers online video arts and crafts workshops and techniques. Learn how to paint, knit, crochet, sew, screen print, and more.">
+  <meta name="keywords" content="Creativebug has free online craft classes, crafting techniques. Learn how to paint with watercolors, learn to knit, drawing lessons, crochet, sewing, jewelry making, quilting, paper crafts, patterns, wedding ideas, free crafting classes, home décor, beginner crafting, advanced crafting, DIY Projects">
+
+  <meta property="fb:app_id" content="275120962590744"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  <meta name="build_version" content="php-master-2f13c271ea8adabf499afe257e6d4f7cf179938b" />
+  <link rel="apple-touch-icon" href="/ui/images/app_icon.png"><link rel="alternate" type="application/rss+xml" title="RSS Feed for Latest Classes" href="/rss/latest.rss" />  <script type="application/ld+json">
+  {
+     "@context": "http://schema.org",
+     "@type": "WebSite",
+     "url": "https://www.creativebug.com/",
+     "potentialAction": {
+       "@type": "SearchAction",
+       "target": "https://www.creativebug.com/search/results?query={query}",
+       "query-input": "required name=query"
+     }
+  }
+  </script>
+  <script type='text/javascript'>
+  /* IE console mock up */
+  if(typeof console == 'undefined') {var console = {log: function(x){}}};
+  </script>
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-551b3e7a61847364" async="async"></script>
+  <link href="/ui/images/cbugfavicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link href="/ui/images/cbugfavicon.ico" rel="icon" type="image/x-icon" />
+  <link href='//fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700' rel='stylesheet' type='text/css'>
+
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+  <![endif]-->
+
+    <script async src="//cdn.optimizely.com/js/1743310672.js"></script>
+  <link rel="stylesheet" href="/content/compressed/website_header-9d3f33bd.css">
+    <link rel="stylesheet" href="/content/compressed/website-footer-ecf968d6.css">
+    <link rel="stylesheet" href="/content/compressed/cb-login-modal-95b63eb2.css">
+  <script type="text/javascript" src="/content/compressed/website_header-694aa2a1.js"></script>
+  
+  <!-- Facebook Pixel Code: start -->
+  <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+    document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+    fbq('init', '597271883734030');
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=597271883734030&ev=PageView&noscript=1" />
+  </noscript>
+  <!-- Facebook Pixel Code: end -->
+
+  </head>
+<body>
+  <div id="page-wrapper">
+  
+  
+  <header id="header" class="clearfix fixed searchon" itemscope itemtype="http://schema.org/WPHeader">
+  <div>
+    <a href="javascript:;" id="sidebar-toggle" onclick="$('html').toggleClass('sidebar-open');">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </a>
+    <div id="logo"><a href="/"><img src="/ui/images/homev2/logo-red.png" alt="Creativebug"/></a></div>
+    <nav>
+  <ul class="navigation">
+
+          <li class="login"><a class="js-login" title="Log In">Log In</a></li>
+      <li class="signup"><a href="/trial/create-account?redirect_on_success=/site/terms" title="Start Your Free Trial" class='action-login'>Start Free Trial</a></li>
+    
+  </ul>
+
+  <ul class="subjects" itemscope itemtype="http://schema.org/SiteNavigationElement"><li onmouseover="sel(this);"><a itemprop="url" class="sub" href="/classes">Classes</a></li><div class="submenu"><ul id="submenu-classes"><li onmouseover="sel(this);"><a itemprop="url" href="/classes/knitting">Knitting</a></li><div class="submenu2"><div><ul class="strong"><li><a href="/classes/knitting/accessories">Accessories</a></li><li><a href="/classes/knitting/baby-and-kids">Baby & Kids</a></li><li><a href="/classes/knitting/felting">Felting</a></li><li><a href="/classes/knitting/holiday-and-party">Holiday & Party</a></li></ul><ul class="strong"><li><a href="/classes/knitting/home-decor">Home Décor</a></li><li><a href="/classes/knitting/sweaters">Sweaters</a></li><li><a href="/classes/knitting/yarn-craft">Yarn Craft</a></li></ul><ul><li><a href="/classes/knitting/for-beginners">For Beginners</a></li><li><a href="/classes/knitting/multi-part-classes">Multi-Part Classes</a></li><li><a href="/classes/knitting/quick-classes">Quick Classes</a></li><li><a href="/classes/knitting/techniques">Techniques</a></li></ul><ul class="strong"><li><a href="/classes/knitting">See All Knitting Classes<span class="arrow">►</span></a></li><div><img src="/ui/images/menu/knitting.jpg"/></div></ul></div></div><li onmouseover="sel(this);"><a itemprop="url" href="/classes/crochet">Crochet</a></li><div class="submenu2"><div><ul class="strong"><li><a href="/classes/crochet/accessories">Accessories</a></li><li><a href="/classes/crochet/baby-and-kids">Baby & Kids</a></li><li><a href="/classes/crochet/home-decor">Home Décor</a></li></ul><ul class="strong"><li><a href="/classes/crochet/yarn-craft">Yarn Craft</a></li></ul><ul><li><a href="/classes/crochet/for-beginners">For Beginners</a></li><li><a href="/classes/crochet/multi-part-classes">Multi-Part Classes</a></li><li><a href="/classes/crochet/quick-classes">Quick Classes</a></li><li><a href="/classes/crochet/techniques">Techniques</a></li></ul><ul class="strong"><li><a href="/classes/crochet">See All Crochet Classes<span class="arrow">►</span></a></li><div><img src="/ui/images/menu/crochet.jpg"/></div></ul></div></div><li onmouseover="sel(this);"><a itemprop="url" href="/classes/art-and-design">Art + Design</a></li><div class="submenu2"><div><ul class="strong"><li><a href="/classes/art-and-design/ceramics">Ceramics</a></li><li><a href="/classes/art-and-design/drawing-and-illustration">Drawing & Illustration</a></li><li><a href="/classes/art-and-design/home-decor">Home Décor</a></li><li><a href="/classes/art-and-design/lettering">Lettering</a></li><li><a href="/classes/art-and-design/mixed-media">Mixed Media</a></li></ul><ul class="strong"><li><a href="/classes/art-and-design/painting">Painting</a></li><li><a href="/classes/art-and-design/printmaking">Printmaking</a></li><li><a href="/classes/art-and-design/sketchbook-exercises">Sketchbook Exercises</a></li><li><a href="/classes/art-and-design/textiles">Textiles</a></li></ul><ul><li><a href="/classes/art-and-design/for-beginners">For Beginners</a></li><li><a href="/classes/art-and-design/multi-part-classes">Multi-Part Classes</a></li><li><a href="/classes/art-and-design/quick-classes">Quick Classes</a></li><li><a href="/classes/art-and-design/techniques">Techniques</a></li></ul><ul class="strong"><li><a href="/classes/art-and-design">See All Art + Design Classes<span class="arrow">►</span></a></li><div><img src="/ui/images/menu/art-and-design.jpg"/></div></ul></div></div><li onmouseover="sel(this);"><a href="/classes/paper">Paper</a></li><div class="submenu2"><div><ul class="strong"><li><a href="/classes/paper/book-binding">Book Binding</a></li><li><a href="/classes/paper/cards-and-gift-wrap">Cards & Gift Wrap</a></li><li><a href="/classes/paper/collage-and-decoupage">Collage & Decoupage</a></li><li><a href="/classes/paper/cutting-machine-crafts">Cutting Machine Crafts</a></li><li><a href="/classes/paper/holiday-and-party">Holiday & Party</a></li><li><a href="/classes/paper/home-decor">Home Décor</a></li></ul><ul class="strong"><li><a href="/classes/paper/kids">Kids</a></li><li><a href="/classes/paper/paper-flowers">Paper Flowers</a></li><li><a href="/classes/paper/printing">Printing</a></li><li><a href="/classes/paper/sketchbook-exercises">Sketchbook Exercises</a></li></ul><ul><li><a href="/classes/paper/for-beginners">For Beginners</a></li><li><a href="/classes/paper/multi-part-classes">Multi-Part Classes</a></li><li><a href="/classes/paper/quick-classes">Quick Classes</a></li><li><a href="/classes/paper/techniques">Techniques</a></li></ul><ul class="strong"><li><a href="/classes/paper">See All Paper Classes<span class="arrow">►</span></a></li><div><img src="/ui/images/menu/paper.jpg"/></div></ul></div></div><li onmouseover="sel(this);"><a itemprop="url" href="/classes/sewing">Sewing</a></li><div class="submenu2"><div><ul class="strong"><li><a href="/classes/sewing/accessories">Accessories</a></li><li><a href="/classes/sewing/baby-and-kids">Baby & Kids</a></li><li><a href="/classes/sewing/fabric-design">Fabric Design</a></li><li><a href="/classes/sewing/garments">Garments</a></li><li><a href="/classes/sewing/hand-stitching">Hand-stitching</a></li></ul><ul class="strong"><li><a href="/classes/sewing/holiday-and-party">Holiday & Party</a></li><li><a href="/classes/sewing/home-decor">Home Décor</a></li><li><a href="/classes/sewing/pattern-drafting">Pattern Drafting</a></li></ul><ul><li><a href="/classes/sewing/for-beginners">For Beginners</a></li><li><a href="/classes/sewing/multi-part-classes">Multi-Part Classes</a></li><li><a href="/classes/sewing/quick-classes">Quick Classes</a></li><li><a href="/classes/sewing/techniques">Techniques</a></li></ul><ul class="strong"><li><a href="/classes/sewing">See All Sewing Classes<span class="arrow">►</span></a></li><div><img src="/ui/images/menu/sewing.jpg"/></div></ul></div></div><li onmouseover="sel(this);"><a href="/classes/quilting">Quilting</a></li><div class="submenu2"><div><ul class="strong"><li><a href="/classes/quilting/baby-and-kids">Baby & Kids</a></li><li><a href="/classes/quilting/blocks">Blocks</a></li><li><a href="/classes/quilting/design">Design</a></li><li><a href="/classes/quilting/home-decor">Home Décor</a></li></ul><ul class="strong"><li><a href="/classes/quilting/modern-quilts">Modern Quilts</a></li><li><a href="/classes/quilting/quilt-tops">Quilt Tops</a></li><li><a href="/classes/quilting/quilting">Quilting</a></li></ul><ul><li><a href="/classes/quilting/for-beginners">For Beginners</a></li><li><a href="/classes/quilting/multi-part-classes">Multi-Part Classes</a></li><li><a href="/classes/quilting/quick-classes">Quick Classes</a></li><li><a href="/classes/quilting/techniques">Techniques</a></li></ul><ul class="strong"><li><a href="/classes/quilting">See All Quilting Classes<span class="arrow">►</span></a></li><div><img src="/ui/images/menu/quilting.jpg"/></div></ul></div></div><li onmouseover="sel(this);"><a href="/classes/jewelry">Jewelry</a></li><div class="submenu2"><div><ul class="strong"><li><a href="/classes/jewelry/beading">Beading</a></li><li><a href="/classes/jewelry/bracelets">Bracelets</a></li><li><a href="/classes/jewelry/earrings-and-rings">Earrings and Rings</a></li><li><a href="/classes/jewelry/kids">Kids</a></li></ul><ul class="strong"><li><a href="/classes/jewelry/leather">Leather</a></li><li><a href="/classes/jewelry/metal-and-wire">Metal and Wire</a></li><li><a href="/classes/jewelry/necklaces">Necklaces</a></li></ul><ul><li><a href="/classes/jewelry/for-beginners">For Beginners</a></li><li><a href="/classes/jewelry/quick-classes">Quick Classes</a></li><li><a href="/classes/jewelry/techniques">Techniques</a></li></ul><ul class="strong"><li><a href="/classes/jewelry">See All Jewelry Classes<span class="arrow">►</span></a></li><div><img src="/ui/images/menu/jewelry.jpg"/></div></ul></div></div><li onmouseover="sel(this);"><a href="/classes/kids">Kids</a></li><div class="submenu2"><div><ul class="strong"><li><a href="/classes/kids/crafts">Crafts</a></li><li><a href="/classes/kids/drawing-and-painting">Drawing & Painting</a></li><li><a href="/classes/kids/holiday-and-party">Holiday & Party</a></li><li><a href="/classes/kids/jewelry">Jewelry</a></li></ul><ul class="strong"><li><a href="/classes/kids/paper">Paper</a></li><li><a href="/classes/kids/sewing">Sewing</a></li><li><a href="/classes/kids/yarn">Yarn</a></li></ul><ul><li><a href="/classes/kids/quick-classes">Quick Classes</a></li></ul><ul class="strong"><li><a href="/classes/kids">See All Kids Classes<span class="arrow">►</span></a></li><div><img src="/ui/images/menu/kids.jpg"/></div></ul></div></div><li onmouseover="sel(this);"><a href="/classes/food-and-home">Food + Home</a></li><div class="submenu2"><div><ul class="strong"><li><a href="/classes/food-and-home/baking-and-cake-decorating">Baking & Cake Decorating</a></li><li><a href="/classes/food-and-home/bath-and-body">Bath & Body</a></li><li><a href="/classes/food-and-home/canning-and-preserving">Canning & Preserving</a></li><li><a href="/classes/food-and-home/flowers">Flowers</a></li></ul><ul class="strong"><li><a href="/classes/food-and-home/furniture-refinishing-and-upholstery">Furniture Refinishing & Upholstery</a></li><li><a href="/classes/food-and-home/home-decor">Home Decor</a></li><li><a href="/classes/food-and-home/packaging-and-presentation">Packaging & Presentation</a></li></ul><ul><li><a href="/classes/food-and-home/multi-part-classes">Multi-Part Classes</a></li><li><a href="/classes/food-and-home/quick-classes">Quick Classes</a></li></ul><ul class="strong"><li><a href="/classes/food-and-home">See All Food + Home Classes<span class="arrow">►</span></a></li><div><img src="/ui/images/menu/food-and-home.jpg"/></div></ul></div></div><li onmouseover="sel(this);"><a href="/classes/holiday-and-party">Holiday + Party</a></li><div class="submenu2"><div><ul class="strong"><li><a href="/classes/holiday-and-party/packaging-and-presentation">Packaging & Presentation</a></li><li><a href="/classes/holiday-and-party/birthday-parties">Parties</a></li><li><a href="/classes/holiday-and-party/weddings">Weddings</a></li><li><a href="/classes/holiday-and-party/valentines-day">Valentine’s Day</a></li><li><a href="/classes/holiday-and-party/easter">Easter</a></li></ul><ul class="strong"><li><a href="/classes/holiday-and-party/mothers-day-and-fathers-day">Mother’s Day & Father’s Day</a></li><li><a href="/classes/holiday-and-party/halloween">Halloween</a></li><li><a href="/classes/holiday-and-party/thanksgiving">Thanksgiving</a></li><li><a href="/classes/holiday-and-party/christmas">Christmas</a></li></ul><ul><li><a href="/classes/holiday-and-party/quick-classes">Quick Classes</a></li></ul><ul class="strong"><li><a href="/classes/holiday-and-party">See All Holiday + Party Classes<span class="arrow">►</span></a></li><div><img src="/ui/images/menu/holiday-and-party.jpg"/></div></ul></div></div></ul></div><li onmouseover="sel(this);"><a class="sub" href="/inspiration">Inspiration</a></li><div class="submenu"><ul id="submenu-inspiration"><li onmouseover="sel(this);"><a href="/inspiration">Inspiration Feeds</a></li><li onmouseover="sel(this);"><a href="/patterns">Pattern Library</a></li><li onmouseover="sel(this);"><a href="/collections">Class Collections</a></li><li onmouseover="sel(this);"><a href="/inspiration/blog">Blog</a></li></ul></div><li onmouseover="sel(this);"><a class="sub" href="/arts-&-crafts-instructors">Instructors</a></li><li onmouseover="sel(this);"><a class="sub" href="/calendar">Calendar</a></li><li onmouseover="sel(this);"><a itemprop="url" class="sub" href="/free-arts-and-crafts-classes">Free</a></li><li><a href="/cbtv" style="color: #ff4b55">CBTV</a></li></ul>
+</nav>
+
+<form id="topnav_search" class="nav-search form-inline" action="/search/results" method="get"
+    accept-charset="UTF-8" autocomplete="off"
+    itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction"
+    role="search">
+  <link itemprop="target" href="/search/results?query={query}">
+
+  <div class="input-group">
+    <div class="input-group-btn">
+      <button type="button" class="search-categories btn dropdown-toggle" data-toggle="dropdown">
+        <span class="js-search-category-name">Classes</span><span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu">
+        <li class="dropdown-header">Search Category</li>
+        <li><a class="search-category">Classes</a></li>
+        <li><a class="search-category">Images</a></li>
+        <li><a class="search-category">Instructors</a></li>
+        <li><a class="search-category">Blog</a></li>
+      </ul>
+    </div>
+    <input class="js-search-query search-box form-control" type="text"
+        name="query" value="" autocomplete="off"
+        placeholder="Search" itemprop="query-input"
+        onkeypress="if(event.keyCode == 13){$(this).close('form').submit();}">
+    <div class="search-submit input-group-btn">
+      <a class="btn btn-primary" href="javascript:;" onclick="$('#topnav_search').submit();"><i class="glyphicon glyphicon-search"></i></a>
+    </div>
+  </div>
+  <input class="js-search-category" type="hidden" name="category" value="Classes">
+</form>
+  </div>
+  </header>
+  <aside class="main-sidebar">
+    <ul class="on"><li onclick="$('html').removeClass('sidebar-open'); $('.js-login').trigger('click');" class="bold"><a class="sub" href="javascript:;">Log in</a></li><li onclick="document.location.href='/trial/add/monthly-trial'" class="bold"><a class="sub" href="javascript:;">Start Free Trial</a></li><li onclick="liopen(this);" class="bold arrow"><a class="sub" href="/classes">Classes</a></li><ul><li onclick="liopen(this);" class="bold arrow"><a href="/classes/knitting">Knitting</a></li><ul><li onclick="document.location.href='/classes/knitting/accessories';"><a href="javascript:;">Accessories</a></li><li onclick="document.location.href='/classes/knitting/baby-and-kids';"><a href="javascript:;">Baby & Kids</a></li><li onclick="document.location.href='/classes/knitting/felting';"><a href="javascript:;">Felting</a></li><li onclick="document.location.href='/classes/knitting/holiday-and-party';"><a href="javascript:;">Holiday & Party</a></li><li onclick="document.location.href='/classes/knitting/home-decor';"><a href="javascript:;">Home Décor</a></li><li onclick="document.location.href='/classes/knitting/sweaters';"><a href="javascript:;">Sweaters</a></li><li onclick="document.location.href='/classes/knitting/yarn-craft';"><a href="javascript:;">Yarn Craft</a></li><li onclick="document.location.href='/classes/knitting/for-beginners';"><a href="javascript:;">For Beginners</a></li><li onclick="document.location.href='/classes/knitting/multi-part-classes';"><a href="javascript:;">Multi-Part Classes</a></li><li onclick="document.location.href='/classes/knitting/quick-classes';"><a href="javascript:;">Quick Classes</a></li><li onclick="document.location.href='/classes/knitting/techniques';"><a href="javascript:;">Techniques</a></li></ul><li onclick="liopen(this);" class="bold arrow"><a href="/classes/crochet">Crochet</a></li><ul><li onclick="document.location.href='/classes/crochet/accessories';"><a href="javascript:;">Accessories</a></li><li onclick="document.location.href='/classes/crochet/baby-and-kids';"><a href="javascript:;">Baby & Kids</a></li><li onclick="document.location.href='/classes/crochet/home-decor';"><a href="javascript:;">Home Décor</a></li><li onclick="document.location.href='/classes/crochet/yarn-craft';"><a href="javascript:;">Yarn Craft</a></li><li onclick="document.location.href='/classes/crochet/for-beginners';"><a href="javascript:;">For Beginners</a></li><li onclick="document.location.href='/classes/crochet/multi-part-classes';"><a href="javascript:;">Multi-Part Classes</a></li><li onclick="document.location.href='/classes/crochet/quick-classes';"><a href="javascript:;">Quick Classes</a></li><li onclick="document.location.href='/classes/crochet/techniques';"><a href="javascript:;">Techniques</a></li></ul><li onclick="liopen(this);" class="bold arrow"><a href="/classes/art-and-design">Art + Design</a></li><ul><li onclick="document.location.href='/classes/art-and-design/ceramics';"><a href="javascript:;">Ceramics</a></li><li onclick="document.location.href='/classes/art-and-design/drawing-and-illustration';"><a href="javascript:;">Drawing & Illustration</a></li><li onclick="document.location.href='/classes/art-and-design/home-decor';"><a href="javascript:;">Home Décor</a></li><li onclick="document.location.href='/classes/art-and-design/lettering';"><a href="javascript:;">Lettering</a></li><li onclick="document.location.href='/classes/art-and-design/mixed-media';"><a href="javascript:;">Mixed Media</a></li><li onclick="document.location.href='/classes/art-and-design/painting';"><a href="javascript:;">Painting</a></li><li onclick="document.location.href='/classes/art-and-design/printmaking';"><a href="javascript:;">Printmaking</a></li><li onclick="document.location.href='/classes/art-and-design/sketchbook-exercises';"><a href="javascript:;">Sketchbook Exercises</a></li><li onclick="document.location.href='/classes/art-and-design/textiles';"><a href="javascript:;">Textiles</a></li><li onclick="document.location.href='/classes/art-and-design/for-beginners';"><a href="javascript:;">For Beginners</a></li><li onclick="document.location.href='/classes/art-and-design/multi-part-classes';"><a href="javascript:;">Multi-Part Classes</a></li><li onclick="document.location.href='/classes/art-and-design/quick-classes';"><a href="javascript:;">Quick Classes</a></li><li onclick="document.location.href='/classes/art-and-design/techniques';"><a href="javascript:;">Techniques</a></li></ul><li onclick="liopen(this);" class="bold arrow"><a href="/classes/paper">Paper</a></li><ul><li onclick="document.location.href='/classes/paper/book-binding';"><a href="javascript:;">Book Binding</a></li><li onclick="document.location.href='/classes/paper/cards-and-gift-wrap';"><a href="javascript:;">Cards & Gift Wrap</a></li><li onclick="document.location.href='/classes/paper/collage-and-decoupage';"><a href="javascript:;">Collage & Decoupage</a></li><li onclick="document.location.href='/classes/paper/cutting-machine-crafts';"><a href="javascript:;">Cutting Machine Crafts</a></li><li onclick="document.location.href='/classes/paper/holiday-and-party';"><a href="javascript:;">Holiday & Party</a></li><li onclick="document.location.href='/classes/paper/home-decor';"><a href="javascript:;">Home Décor</a></li><li onclick="document.location.href='/classes/paper/kids';"><a href="javascript:;">Kids</a></li><li onclick="document.location.href='/classes/paper/paper-flowers';"><a href="javascript:;">Paper Flowers</a></li><li onclick="document.location.href='/classes/paper/printing';"><a href="javascript:;">Printing</a></li><li onclick="document.location.href='/classes/paper/sketchbook-exercises';"><a href="javascript:;">Sketchbook Exercises</a></li><li onclick="document.location.href='/classes/paper/for-beginners';"><a href="javascript:;">For Beginners</a></li><li onclick="document.location.href='/classes/paper/multi-part-classes';"><a href="javascript:;">Multi-Part Classes</a></li><li onclick="document.location.href='/classes/paper/quick-classes';"><a href="javascript:;">Quick Classes</a></li><li onclick="document.location.href='/classes/paper/techniques';"><a href="javascript:;">Techniques</a></li></ul><li onclick="liopen(this);" class="bold arrow"><a href="/classes/sewing">Sewing</a></li><ul><li onclick="document.location.href='/classes/sewing/accessories';"><a href="javascript:;">Accessories</a></li><li onclick="document.location.href='/classes/sewing/baby-and-kids';"><a href="javascript:;">Baby & Kids</a></li><li onclick="document.location.href='/classes/sewing/fabric-design';"><a href="javascript:;">Fabric Design</a></li><li onclick="document.location.href='/classes/sewing/garments';"><a href="javascript:;">Garments</a></li><li onclick="document.location.href='/classes/sewing/hand-stitching';"><a href="javascript:;">Hand-stitching</a></li><li onclick="document.location.href='/classes/sewing/holiday-and-party';"><a href="javascript:;">Holiday & Party</a></li><li onclick="document.location.href='/classes/sewing/home-decor';"><a href="javascript:;">Home Décor</a></li><li onclick="document.location.href='/classes/sewing/pattern-drafting';"><a href="javascript:;">Pattern Drafting</a></li><li onclick="document.location.href='/classes/sewing/for-beginners';"><a href="javascript:;">For Beginners</a></li><li onclick="document.location.href='/classes/sewing/multi-part-classes';"><a href="javascript:;">Multi-Part Classes</a></li><li onclick="document.location.href='/classes/sewing/quick-classes';"><a href="javascript:;">Quick Classes</a></li><li onclick="document.location.href='/classes/sewing/techniques';"><a href="javascript:;">Techniques</a></li></ul><li onclick="liopen(this);" class="bold arrow"><a href="/classes/quilting">Quilting</a></li><ul><li onclick="document.location.href='/classes/quilting/baby-and-kids';"><a href="javascript:;">Baby & Kids</a></li><li onclick="document.location.href='/classes/quilting/blocks';"><a href="javascript:;">Blocks</a></li><li onclick="document.location.href='/classes/quilting/design';"><a href="javascript:;">Design</a></li><li onclick="document.location.href='/classes/quilting/home-decor';"><a href="javascript:;">Home Décor</a></li><li onclick="document.location.href='/classes/quilting/modern-quilts';"><a href="javascript:;">Modern Quilts</a></li><li onclick="document.location.href='/classes/quilting/quilt-tops';"><a href="javascript:;">Quilt Tops</a></li><li onclick="document.location.href='/classes/quilting/quilting';"><a href="javascript:;">Quilting</a></li><li onclick="document.location.href='/classes/quilting/for-beginners';"><a href="javascript:;">For Beginners</a></li><li onclick="document.location.href='/classes/quilting/multi-part-classes';"><a href="javascript:;">Multi-Part Classes</a></li><li onclick="document.location.href='/classes/quilting/quick-classes';"><a href="javascript:;">Quick Classes</a></li><li onclick="document.location.href='/classes/quilting/techniques';"><a href="javascript:;">Techniques</a></li></ul><li onclick="liopen(this);" class="bold arrow"><a href="/classes/jewelry">Jewelry</a></li><ul><li onclick="document.location.href='/classes/jewelry/beading';"><a href="javascript:;">Beading</a></li><li onclick="document.location.href='/classes/jewelry/bracelets';"><a href="javascript:;">Bracelets</a></li><li onclick="document.location.href='/classes/jewelry/earrings-and-rings';"><a href="javascript:;">Earrings and Rings</a></li><li onclick="document.location.href='/classes/jewelry/kids';"><a href="javascript:;">Kids</a></li><li onclick="document.location.href='/classes/jewelry/leather';"><a href="javascript:;">Leather</a></li><li onclick="document.location.href='/classes/jewelry/metal-and-wire';"><a href="javascript:;">Metal and Wire</a></li><li onclick="document.location.href='/classes/jewelry/necklaces';"><a href="javascript:;">Necklaces</a></li><li onclick="document.location.href='/classes/jewelry/for-beginners';"><a href="javascript:;">For Beginners</a></li><li onclick="document.location.href='/classes/jewelry/quick-classes';"><a href="javascript:;">Quick Classes</a></li><li onclick="document.location.href='/classes/jewelry/techniques';"><a href="javascript:;">Techniques</a></li></ul><li onclick="liopen(this);" class="bold arrow"><a href="/classes/kids">Kids</a></li><ul><li onclick="document.location.href='/classes/kids/crafts';"><a href="javascript:;">Crafts</a></li><li onclick="document.location.href='/classes/kids/drawing-and-painting';"><a href="javascript:;">Drawing & Painting</a></li><li onclick="document.location.href='/classes/kids/holiday-and-party';"><a href="javascript:;">Holiday & Party</a></li><li onclick="document.location.href='/classes/kids/jewelry';"><a href="javascript:;">Jewelry</a></li><li onclick="document.location.href='/classes/kids/paper';"><a href="javascript:;">Paper</a></li><li onclick="document.location.href='/classes/kids/sewing';"><a href="javascript:;">Sewing</a></li><li onclick="document.location.href='/classes/kids/yarn';"><a href="javascript:;">Yarn</a></li><li onclick="document.location.href='/classes/kids/quick-classes';"><a href="javascript:;">Quick Classes</a></li></ul><li onclick="liopen(this);" class="bold arrow"><a href="/classes/food-and-home">Food + Home</a></li><ul><li onclick="document.location.href='/classes/food-and-home/baking-and-cake-decorating';"><a href="javascript:;">Baking & Cake Decorating</a></li><li onclick="document.location.href='/classes/food-and-home/bath-and-body';"><a href="javascript:;">Bath & Body</a></li><li onclick="document.location.href='/classes/food-and-home/canning-and-preserving';"><a href="javascript:;">Canning & Preserving</a></li><li onclick="document.location.href='/classes/food-and-home/flowers';"><a href="javascript:;">Flowers</a></li><li onclick="document.location.href='/classes/food-and-home/furniture-refinishing-and-upholstery';"><a href="javascript:;">Furniture Refinishing & Upholstery</a></li><li onclick="document.location.href='/classes/food-and-home/home-decor';"><a href="javascript:;">Home Decor</a></li><li onclick="document.location.href='/classes/food-and-home/packaging-and-presentation';"><a href="javascript:;">Packaging & Presentation</a></li><li onclick="document.location.href='/classes/food-and-home/multi-part-classes';"><a href="javascript:;">Multi-Part Classes</a></li><li onclick="document.location.href='/classes/food-and-home/quick-classes';"><a href="javascript:;">Quick Classes</a></li></ul><li onclick="liopen(this);" class="bold arrow"><a href="/classes/holiday-and-party">Holiday + Party</a></li><ul><li onclick="document.location.href='/classes/holiday-and-party/packaging-and-presentation';"><a href="javascript:;">Packaging & Presentation</a></li><li onclick="document.location.href='/classes/holiday-and-party/birthday-parties';"><a href="javascript:;">Parties</a></li><li onclick="document.location.href='/classes/holiday-and-party/weddings';"><a href="javascript:;">Weddings</a></li><li onclick="document.location.href='/classes/holiday-and-party/valentines-day';"><a href="javascript:;">Valentine’s Day</a></li><li onclick="document.location.href='/classes/holiday-and-party/easter';"><a href="javascript:;">Easter</a></li><li onclick="document.location.href='/classes/holiday-and-party/mothers-day-and-fathers-day';"><a href="javascript:;">Mother’s Day & Father’s Day</a></li><li onclick="document.location.href='/classes/holiday-and-party/halloween';"><a href="javascript:;">Halloween</a></li><li onclick="document.location.href='/classes/holiday-and-party/thanksgiving';"><a href="javascript:;">Thanksgiving</a></li><li onclick="document.location.href='/classes/holiday-and-party/christmas';"><a href="javascript:;">Christmas</a></li><li onclick="document.location.href='/classes/holiday-and-party/quick-classes';"><a href="javascript:;">Quick Classes</a></li></ul></ul><li onclick="liopen(this);" class="bold arrow"><a class="sub" href="/inspiration">Inspiration</a></li><ul><li onclick="document.location.href='/inspiration';" class="bold"><a href="javascript:;">Inspiration Feeds</a></li><li onclick="document.location.href='/patterns';" class="bold"><a href="javascript:;">Pattern Library</a></li><li onclick="document.location.href='/collections';" class="bold"><a href="javascript:;">Class Collections</a></li><li onclick="document.location.href='/inspiration/blog';" class="bold"><a href="javascript:;">Blog</a></li></ul><li onclick="document.location.href='/arts-&-crafts-instructors';" class="bold"><a href="javascript:;">Instructors</a></li><li onclick="document.location.href='/calendar';" class="bold"><a href="javascript:;">Calendar</a></li><li onclick="document.location.href='/free-arts-and-crafts-classes';" class="bold"><a href="javascript:;">Free</a></li><li><a href="/cbtv" style="color: #ff4b55">CBTV</a></li></ul>  </aside>
+  <div id="main-content" onmousedown="$('html').removeClass('sidebar-open');" ontouchstart="$('html').removeClass('sidebar-open');">
+  <section id="main" class="clearfix">
+<div id="primary">
+  <div class="terms">
+
+    <h1>Creativebug’s Website Terms Of Use</h1>
+
+    <h2 class="important">IMPORTANT – PLEASE READ EVERYTHING BELOW CAREFULLY BEFORE ACCEPTING</h2>
+
+    <p class="revision-stamp">
+      Creativebug, LLC
+      <br>
+      www.creativebug.com
+      <br>
+      Website Terms of Use
+      <br>
+      Revised as of February 10, 2015
+    </p>
+
+    <h2>Introduction</h2>
+
+    <p>Welcome to the www.creativebug.com network of websites and Applications (the “Site”) of Creativebug LLC, a California limited liability corporation (“Creativebug,” also referred to herein as “us,” “we” and “our”). Thank you for your interest in using our services (“Services”) and tangible products (separately, “Products,” and collectively “Offerings”). As part of our Offerings, we provide our Registered Users (defined below) access to our Site, and to a wide array of arts and crafts related multi-media content, including video classes, audio, graphics, photos, text, special features, digital downloads and/or messages, and a forum for blogs and postings (collectively, “Content”) from experienced artist instructors (“Artists”), students and others. We provide access to the Content by streaming it over the internet.</p>
+
+    <h2>Binding Agreement</h2>
+
+    <p>These Terms of Use (including any linked policies, such as but not limited to our <a data-toggle="modal" data-target="#pp" href="privacy-policy">Privacy Policy</a> and our Community Guidelines), as they or any of them may be updated from time to time (collectively, this “Agreement”), constitute a binding contract between you and us if you apply to subscribe to our Services under this Agreement without limitation or qualification, and we agree to provide them. References to “you” in these Terms of Use refer to the individuals who either: (i) join the Site with a free membership to access free Services and contribute Content to the Site (ii) subscribe to the Services and meet the requirements of Subscribers set forth below (“Subscribers”), or (iii) Artists and others who contribute Content to the Site (collectively with Subscribers, “Registered Users”).</p>
+
+    <p>These Terms of Use explain our, your, and other Registered Users’ respective rights and limitations governing the Site, Offerings, and Content. This includes explaining how our Services work, including the kinds of data we collect, the way we bill, how we interact with you, restrictions on your access to and use of the Site, limitations of our liability, warranty disclaimers, indemnities, and other important terms. We encourage you to revisit these Terms of Use and the rest of this Agreement whenever you have a question and from time to time, as they may be updated or amended frequently at Creativebug’s discretion.</p>
+
+    <p>PLEASE THEREFORE CAREFULLY READ THIS AGREEMENT BEFORE YOU REGISTER OR USE ANY SERVICES. IF YOU DO NOT AGREE WITH THIS AGREEMENT IN ITS ENTIRETY, YOU MAY NOT REGISTER OR USE ANY SERVICES, AND DOING SO WOULD BE UNAUTHORIZED, CONSTITUTE A TRESPASS, AND VIOLATE APPLICABLE LAW. Any acceptance of your offer, and the provision of our Offerings will occur at our principal places of business, currently in San Francisco, California.</p>
+
+    <h2>Changes to Agreement</h2>
+
+    <p>We reserve the right, in our sole discretion, to change this Agreement at any time, effective ten (10) days after posting of the revised Agreement on the Site. Your continued use of the Site or any Services after such posting or notification means you accept all revisions. If you do not agree to the revised Agreement, you must terminate this Agreement pursuant to the termination provisions below, and discontinue your use of this Site and all Services. Except solely as provided in this paragraph and the severability provision of this Agreement, this Agreement may not be changed without the handwritten (non-electronic) signature of an authorized person at Creativebug&reg;.</p>
+
+    <h2>Registration, Profiles, and Access</h2>
+
+    <p>To be a Registered User, you must: (i) be at least eighteen (18) years old; (ii) apply online through our Site by providing complete and accurate information; (iii) reside in the United States of America (including its territories), or anywhere else in the world not prohibited by U.S. export regulations or other applicable law (“Territory”); and (iv) otherwise comply with this Agreement. Subscribers must also pay the applicable subscription fees. As and while a Registered User, you represent and warrant to us that you meet each of the foregoing requirements, and that you have read, understood and agree to abide by these Terms of Use.</p>
+
+    <p>Only Registered Users may view, play, download, or upload Content or otherwise use restricted portions of the Site or request or receive certain Services. In order to become a Registered User, you will need to create an account initially by registering with us online and then logging into the Site. In creating an account, you must provide us with a unique (as to us) email address, username and password, along with other accurate and complete registration information, as prompted in the registration form. You shall be solely responsible for the use of your user name and password, including their safekeeping so they are not disclosed to or used by any unauthorized third party. Login credentials are non-transferable.</p>
+
+    <p>Each Registered User must also establish a user profile that will be publicly displayed and will identify you to other Registered Users (“Profile”). Your Profile must, at a minimum, include a username of your choice and a profile picture (which may be a photograph or image provided by you or a default option provided by Creativebug). You may also, at your election, display on your Profile other information which you wish to make public such as a profile description prepared by you, links to your website, blog, Twitter feed, Facebook page or other online presence, interests (e.g., knitting, jewelry, painting), including content created by you and submitted to Creativebug in connection with your use of the Site and your participation in classes (including video and/or written content, images, information and other materials (collectively, “User Submissions”). You understand that whether or not such User Submissions are published, Creativebug does not guarantee any confidentiality with respect to any User Submissions. (We discuss User Submissions more fully under the heading, User Submissions, below.)</p>
+
+    <p>You must promptly notify us if any of your registration information changes. If you fail to provide or update such information, we may suspend or terminate your subscription or registration, and we may not be able to contact you to provide information in which you may be interested. In dealing with us, you may not impersonate another person or misrepresent your authority to act on behalf of others.</p>
+
+    <p>When you agree to the Creativebug Terms of Use, register, or use our Site: (i) you represent and warrant that the registration information you provide is complete and accurate, (ii) you consent to be bound by, and become a party to this Agreement, and (iii) you agree to keep your registration and payment information with us current. If you do not agree to (or cannot comply with) all of the terms of this Agreement, do not agree to the Terms of Use or use the Site or any Services.</p>
+
+    <p>We reserve the right to deny you and others access to the Site, refuse service, suspend or terminate accounts, remove or edit Content, or cancel orders at any time, either temporarily or permanently, for any reason in our sole discretion, including without limitation our determination that you have failed to abide by the terms of this Agreement or appear likely to us to do so. By granting you access at any time, we do not obligate ourselves to maintain the Site in any form, and we expressly reserve the right to modify, suspend, or terminate your access privileges. You agree and understand that we may, in our sole discretion and without any prior notice, close the Site and delete any files which you may maintain at the Site and any information which you may choose to post. You should keep a copy of any material which you post to or maintain at the Site because we will not undertake to retain copies of any material which we or others may delete from the Site.</p>
+
+    <p>The Creativebug Application allows you to access certain materials and functionality available on the Site through a tablet or mobile device. Creativebug reserves the right to withdraw or amend any Application at any time for any reason. As a Registered User, You acknowledge that the terms of the agreement with your mobile network provider will continue to apply when using an Application. You acknowledge you may be charged by your mobile network provider for access to mobile network connection services while accessing an Application or any such third party charges as may arise, and you accept responsibility for any such charges that arise. If you are not responsible for the bill payment of the service for the mobile telephone or handheld device being used to access an Application, you will also be assumed to have received permission to access the Application from the responsible party.</p>
+
+    <p>To use an Application, you will be required to have a compatible mobile telephone or handheld device, internet access, and certain minimum specifications that are specified within the Application. Creativebug does not accept any responsibility for the unavailability of any Application, or any difficulty or inability to download or access content or any other communication system failure that may result in an Application being unavailable. Creativebug will not be responsible for any support or maintenance for Applications.</p>
+
+    <h2>Electronic Communications</h2>
+
+    <p>When you visit our Site or email us, you are communicating with us electronically. You consent to receive communications from us electronically, either by email or notices we post on our Site, and if necessary, by regular mail or telephone. You agree that any agreements, notices, disclosures and other communications that we provide to you electronically satisfies any legal requirement that such communications be in writing.</p>
+
+    <h2>Licenses</h2>
+
+    <p>As between the parties, and provided that you continue to meet all of the Registered User requirements, we grant to you as a limited, non-exclusive, personal, non-sublicensable, non-transferable, revocable, license to access and use the Site and Services only in order to view only such Content on no more than one (1) computer or personal device at the same time and, for Subscribers, solely for your non-commercial, personal or household use (“License”). Except for the foregoing limited License, no right, title or interest is provided to you. If you are a Subscriber, your License extends only during your subscription period. If you are an Artist, these Terms of Service incorporate by reference the separate Artist Agreement between you and us, and your License term extends only during the period specified therein. By posting or providing to us any Content on the Site, you grant to us a non-exclusive, perpetual, paid-up, royalty-free worldwide, license to use (including but not limited to copying, sublicensing, creating derivative works of, and performing publicly) your Content on the Site and in any other media.</p>
+
+    <p>The License will enable you to view, select, stream and access Content via the Services in accordance with these Terms of Use during the term of your subscription. Not all Content may be available for all purposes or at all times. Access to certain Content may depend, among other things, upon your geographic location (i.e. you will not be permitted to access Content from outside the Territory), whether you are able to maintain an internet connection, and available bandwidth and equipment used to access the Services. While we do our best to keep the Content descriptions up-to-date, we do not warrant that such descriptions will always be complete, current, or accurate. No transfer of ownership to any portion of the Content shall be made as a result of any access you are granted to the Site or Services. Any unauthorized copying, retransmission, display, performance, or distribution of the Site, Content or any portion thereof, and any material breach or violation of these Terms of Use, automatically terminates the license granted to you, obligates you to cease all use of the Service, and may constitute copyright infringement. Creativebug and its licensors reserve all rights not expressly granted in and to the Service and the Content.</p>
+
+    <h2>Restrictions</h2>
+
+    <p>Except as provided in the License and except for your own Content that you authored and uploaded to the Site, you may not download or copy (other than through page caching necessary for personal use, or as otherwise expressly permitted by these Terms of Use), or distribute, transmit, display, perform publicly, publish, upload, edit, post, link to, frame, transmit, rent, lease, lend, sublicense, modify, create derivative works of, or offer for sale, in whole or in part, any Content, advertisements, or other information contained on, or obtained from or through, the Site without our express written consent. Without limiting the generality of the foregoing, you may not distribute any part of these Services over any network, including a local area network, nor sell or offer it or them for sale.</p>
+
+    <p>You may not use any data mining, robots, or similar data gathering and extraction tools on the Site or on any portion of it. You may not circumvent, remove, alter, deactivate, degrade or thwart any of the content protections in the Site or any copyright or trademark notices on any Content. Any unauthorized use of the Site, any Services or any Content or any other content (e.g., promotional materials) will automatically and without notice terminate the limited License granted by us and will result in the cancellation of your subscription. You may not decompile, reverse engineer, disassemble, or otherwise reduce the code used in any software or digital rights management feature on the Site into a readable form in order to examine the construction of such software and/or to copy or create other competitive products or materials based in whole or in part on such software or any feature of the Site or Services or Content, or intercepting or recording network communications between the Site and us.</p>
+
+    <p>In no event shall any Content, Artist Submissions or User Submissions be used for any website or publication of any sort which is competitive with the Site. For the sake of clarity, a website or publication is competitive if it distributes, publishes or otherwise makes available by any means educational courses and materials in any field or if it is otherwise competitive with any business activities of Creativebug and/or the Site.</p>
+
+    <p>We and our affiliates and partners may suspend or terminate your subscription and access to the Site immediately if we reasonably determine that you or anyone for whom you are responsible hereunder are in violation of the Terms of Use or receive information that you no longer meet the Subscriber requirements. In such event, you must cease all use of the Services. The suspension or termination of your subscription is in addition to, and not in lieu of, any rights and remedies available to us and our partners and affiliates under the Terms of Use or under applicable laws.</p>
+
+    <h2>Service Updates and Software</h2>
+
+    <p>At various times, we may choose to make available updates, bug fixes, enhancements or other changes to the Services or Site (collectively, “Service Updates”). Service Updates may be: (i) automatic, such as in connection with general network changes and additional features or updates to data required by the Service; (ii) at your election, in which instance you will receive information and instructions for how to authorize optional Service Updates; or (iii) mandatory, in which case you will be required to consent to the Service Update or install or upgrade a third-party plug-in if you wish to maintain continued access to the Site and fully utilize the Services.</p>
+
+    <h2>Payment for Offerings</h2>
+
+    <h3>Subscription Plans and Fees, Class Credits, and Refund Policy</h3>
+
+    <p><strong>Subscription Plans.</strong> Creativebug offers a monthly recurring subscription, multi-month non-renewing subscriptions and gift subscriptions for differing subscription periods, currently monthly, 3-month, 6-month and 12-month periods. As an active subscriber, a user receives full access to all classes on Creativebug.com. We also may, but are not promising to, offer trial periods, special promotional plans, bundled plans, premium services with respect to one or more types or categories of Content, and subscriptions with different limitations.</p>
+
+    <p>WE RESERVE THE RIGHT TO MODIFY, TERMINATE OR OTHERWISE AMEND OUR OFFERED SUBSCRIPTION PLANS AT ANY TIME WITHOUT PRIOR NOTICE.</p>
+
+    <p>Recipients of gift subscriptions will receive a welcome email from us notifying them of your gift. Such recipients must register with us to become a Subscriber. To view the specific details of your subscription, visit the Site and click on the Account Profile icon to view your Membership Plan information. You can cancel your subscription from creativebug.com by logging in and choosing Account Profile icon from the top right side of the site, then selecting Cancel Subscription under the Account menu These Terms of Use shall survive any cancellation or termination of your subscription.</p>
+
+    <p><strong>Class Credits - Monthly Subscribers.</strong> Class Credits are an added subscriber benefit which can be redeemed to add classes to a user’s Library. Each credit allows the addition of a single class to the Library. Access to classes within a user’s Library does not expire, and users will continue to have access to the classes in their Library even after they are no longer active subscribers.</p>
+
+    <p>Subscribers with active subscriptions will receive one Class Credit at the time of the initial subscription purchase, and one additional Class Credit with each monthly renewal charge.  Subscribers in a free trail period will not earn a Class Credit until the free trial has ended and an initial payment of a paid subscription has been made. Class Credits received but not yet redeemed will be displayed in a user’s profile next to the My Classes tab.</p>
+
+    <p>A user must have an active subscription to redeem Class Credits. If a user’s subscription has expired and the user has Class Credits remaining, the user must reactive their subscription within six months in order to redeem Class Credits. With the reactivation of a subscription, the user will also receive one additional Class Credit that can be redeemed at any time through the duration of a paid subscription.</p>
+
+    <p>Class Credits may be redeemed through the creativebug.com website or mobile website. Class Credits cannot be redeemed through mobile applications. Once a Class has been added to the Library, that class may not be exchanged for a different class. Once a Class has been added to the Library it may not be credited for a future Class credit.</p>
+
+    <p>WE RESERVE THE RIGHT TO MODIFY, TERMINATE OR OTHERWISE AMEND THE OFFERING OF CLASS CREDITS AT ANY TIME WITHOUT PRIOR NOTICE.</p>
+
+    <p><strong>Class Credits – Gift Subscriptions.</strong>  Recipients of multi-month non-renewing subscriptions and gift subscriptions will receive all eligible Class Credits when the non-renewing subscription or gift subscription is added to an active subscription account. For example, when a three (3) month subscription is added to an account, the subscriber will receive three (3) Class Credits. No additional Class Credits will be given for the duration of the non-renewing subscription or gift subscription.</p>
+
+    <p><strong>Payment.</strong> By starting your Creativebug subscription, you expressly agree that we are authorized when you register to charge to the Payment Method you provided at that time (or to a different Payment Method if you change your Billing information or we change Payment Methods) the applicable subscription fee at the then current rate plus any applicable taxes, and any other charges you may incur in connection with your use of the Services or purchase of Products. We will begin billing your Payment Method for such amounts at the end of the free trial period of your subscription unless you cancel prior to the end of the free trial period, beginning of your subscription AND, EXCEPT FOR NON-RENEWING SUBSCRIPTIONS AND GIFT SUBSCRIPTIONS, AT THE BEGINNING OF EACH SUBSEQUENT CORRESPONDING SUBSCRIPTION PERIOD THEREAFTER UNLESS AND UNTIL YOU CANCEL YOUR SUBSCRIPTION PRIOR TO SUCH RENEWAL. Discounts, rebates or other special offers are only valid for the initial subscription period; subscriptions therefore renew at the then-current full subscription rate. If an existing Subscriber receives a non-renewing subscription or gift subscription, Creativebug will either (i) credit the value of the non-renewing subscription or gift subscription towards the Subscriber’s renewal subscription payment obligations if the non-renewing subscription or gift subscription period is shorter than the Subscriber’s existing subscription, or (ii) commence the non-renewing subscription or gift subscription after the termination of the person’s existing subscription if the non-renewing subscription or gift subscription period is longer than the Subscriber’s existing subscription.</p>
+
+    <p>Subscription fees and charges for both standard and non-renewing subscriptions or gift subscriptions are fully earned upon payment. UNUSED SUBSCRIPTION FEES ARE THEREFORE NON-REFUNDABLE. Gift subscriptions have no exchange, cash or surrender value. Each Subscriber’s License is expressly conditioned upon timely payment of all applicable subscription fees.</p>
+
+    <p>At any time, and for any reason, we may provide a refund, discount, bonus, or other consideration to some or all of our Subscribers (“considerations”). The amount and form of such considerations, and the decision to provide them or not, are at our sole and absolute discretion. The provision of considerations in one instance does not entitle you to considerations in the future for similar instances, nor does it obligate us to provide considerations in the future, under any circumstance.</p>
+
+    <p>Additional charges for Services may include, without limitation, gift subscription purchases you make, or changes in subscription plans. We may change the fees and charges in effect, or add new fees and charges from time to time, but we will give you at least thirty (30) days’ advance notice of these changes by email. Such notices to you shall be deemed to have been given upon transmission.</p>
+
+    <h3>Video Class Sales</h3>
+
+    <p>Registered Users who comply with the Terms of Use may buy video classes either separately or (when available) bundled through the Site.  To order a video class, you will need to follow the ordering procedures on the Site.  Pricing details for video classes and the procedures for payment and delivery are displayed on the Site.  Prices are subject to change without notice.  You must pay for the video class(es) purchased from the Site by credit card, through Paypal, or by other methods specified on the Site.</p>
+
+    <p>You represent and warrant that all details you provide to us for the purpose of purchasing video classes from the Site will be correct, that the credit card, or any alectronic cash, which you use is your own and that there are sufficient funds or credit facilities to cover the cost of any video classes you purchase.  We reserve the right to obtain validation of your credit card details before providing you with any video classes.  We are entitled to refuse any order placed by you for any reason.  When your video class purchase is completed, we will confirm acceptance to you by online electronic means to your provided email address.  For any issues that you experience with a video class purchase, you may contact our customer service team at support@creativebug.com.</p>
+
+    <p>If you are not satisfied with your video class purchase, you may request a refund within thirty (30) days after purchase.  Refunds will be issued for the full amount paid for a video class(es), in the original form of payment used to purchase a video class(es).</p>
+
+    <h3>Payment Methods</h3>
+
+    <p>You must have Internet access and a valid Payment Method to subscribe to our Services or purchase a gift subscription. All prices, features, specifications, Offerings, and Content are subject to change or discontinuance at any time without prior notice. Special Service offerings and promotions displayed on the Site are considered no longer valid once they are removed from the Site.</p>
+
+    <p>All prices are listed in U.S. dollars and are valid until altered by us. We currently accept VISA, MasterCard, and American Express credit cards, PayPal (in some instances), and may accept in the future other payment methods (collectively, “Payment Methods”). We reserve the right to change the Payment Methods we accept at any time without notice.</p>
+
+    <p>If you want to use a different Payment Method or if there is a change in Payment Method, such as your credit card validity or expiration date, you may edit your Payment Method information by logging on to your account and clicking on the Account Profile icon then selecting the Account menu available at the top of the pages of the Site. If your Payment Method reaches its expiration date and you do not edit your Payment Method information or cancel your Account, you authorize us to continue billing that Payment Method and you remain responsible for any uncollected amounts.</p>
+
+    <p>If we are unable to process a payment using your selected Payment Method, we may, but are under no obligation to, call or email you to ask whether you wish to use an alternate Payment Method. We may terminate your Subscription, withhold upgrades to the Services, and take such other action as appropriate if we are unable to process your Payment Method and you do not provide an alternate Payment Method. You agree to reimburse us for any and all costs incurred in collecting amounts owed by you to us or any of our suppliers, or incurred by us in collecting any payment, including, without limitation, attorneys’ fees and costs of collection agencies.</p>
+
+    <h2>Content Generally</h2>
+
+    <p>Due to the potentially large amount of Content posted by subscribers on the Site, we generally do not undertake to monitor or control the nature of the available Content. You are solely responsible for your interactions with Artists, other Content providers, and other users of the Services. We reserve the right but have no obligation to monitor interactions between you and other users of the Services, remove, edit, or take any other action to restrict access to or the availability of any material that we or a user of the Services may consider to be unlawful, obscene, lewd, lascivious, filthy, excessively violent, harassing, threatening, demeaning, offensive, invasive of privacy, or otherwise objectionable.</p>
+
+    <h2>User Submissions</h2>
+
+    <p>By posting, storing, transmitting or sending to us any User Submissions (including your Profile information), you hereby grant us and our affiliates, successors, and assigns a non-exclusive, worldwide, perpetual, irrevocable, royalty-free, paid-up, sub-licensable right to use, modify, and exercise the copyrights, patents, privacy and publicity rights, database rights, trade secret rights, and other rights to and in such Submissions, in any media now known or created in the future, and to display your User Submissions throughout the world in any media, for any purpose whatsoever, including, without limitation, developing, manufacturing, providing, or promoting new products or services using such information and User Submissions, whether alone or combined with anyone else’s Content. To the maximum extent permitted under applicable law, you hereby irrevocably waive any claims based on moral rights, if any, to such User Submissions. You represent, warrant and agree that: you own or have all necessary rights in and to all Subscriber Content and User Submissions to use and to allow Creativebug to use as described in this Agreement such materials (including but not limited to their respective patent, trademark, trade secret, copyright, moral, or other proprietary rights); the User Submissions do not contain any virus or malware, including but not limited to any trap or back doors, time bombs, spyware, or other computer code, files or programs designed to interrupt, destroy or limit the functionality of any computer software or hardware or telecommunications equipment; and use of the Submissions you supply does not violate these Terms of Use, or the rights of any third party, and will not negligently or willfully cause injury to any person or entity. Without limiting the foregoing, you agree that you will not: (i) submit material that is copyrighted, protected by trade secret or otherwise subject to third-party proprietary rights, including privacy and publicity rights, unless you are the owner of such rights or have permission from their rightful owner to post the material and to grant Creativebug all of the license rights granted herein; (ii) publish falsehoods or misrepresentations that could damage Creativebug or any third party; (iii) submit material that is unlawful, obscene, defamatory, libelous, threatening, pornographic, harassing, hateful, offensive, discriminatory on the basis of race, ethnicity, gender or sexual orientation, or encourages conduct that would be considered a criminal offense, give rise to civil liability or violate any law; (iv) post advertisements or solicitations of business; (v) impersonate another person or falsely state or otherwise misrepresent yourself, your age or your affiliation with any person or entity; (vi) use the Site in any unlawful manner or in any other manner that could damage, disable, overburden or impair the Site; (vii) upload, post, transmit, share or otherwise make available any unsolicited or unauthorized advertising, solicitations, promotional materials, “junk mail,” “spam,” “chain letters,” “pyramid schemes,” or any other form of solicitation; (viii) upload, post, transmit, share, store or otherwise make publicly available on or through the Site any private information of any third party, including, addresses, phone numbers, email addresses, Social Security numbers and credit card numbers; (ix) solicit personal information from anyone under 18 years of age or solicit passwords or personally identifying information for commercial or unlawful purposes; (x) intimidate or harass another; (xi) use or attempt to use another’s account, service or system without authorization from Creativebug, or create a false identity on the Site; or (xii) upload, post, transmit, share, store or otherwise make available content that restricts or inhibits any other person from using or enjoying the Site, or which may expose Creativebug, the Site, or other Subscribers to any harm or liability of any type.</p>
+
+    <p>Please act responsibly when using the Services. You may only use the Services, Site, and Content for lawful purposes and in accordance with applicable law, and you may not store, distribute or transmit any unlawful material through the Site or Services. You may not collect or store personal information regarding other Subscribers. You recognize that storing, distributing or transmitting unlawful material could expose you to criminal and/or civil liability. You agree that if any third party claims that any of your User Submissions are unlawful, you will bear the burden of establishing that they are lawful.</p>
+
+    <p>You understand that when using the Service, you will be exposed to Content from a variety of sources, and that Creativebug is not responsible for the accuracy, usefulness, safety, or intellectual property rights of or relating to such Content. You further understand and acknowledge that you may be exposed to Content that is inaccurate, offensive, indecent, or objectionable, and you agree to waive, and hereby do waive, any legal or equitable rights or remedies you have or may have against Creativebug with respect thereto, and, to the extent permitted by applicable law, agree to indemnify and hold harmless Creativebug, its owners, operators, affiliates, licensors, and licensees to the fullest extent allowed by law regarding all matters related to your use of the Service.</p>
+
+    <p>You acknowledge and agree that neither we nor any of our licensees, Artists, sponsors, suppliers, successors or assigns has now, or shall have in the future, any duty or liability, direct or indirect, vicarious, contributory or otherwise, with respect to the infringement or protection of any copyrights or other rights in and to any User Submissions, and that Creativebug and its licensees, Artists, sponsors, suppliers, successors or assigns are not responsible for the loss, deletion, failure to store or misdelivery of any User Submissions submitted.</p>
+
+    <p>TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAWS, WE EXCLUDE AND DISCLAIM ALL RESPONSIBILITY AND LIABILITY FOR ANY USER SUBMISSIONS, AND FOR ANY LOSSES OR EXPENSES RESULTING FROM THEIR USE AND/OR APPEARANCE ON THE SITE OR ELSEWHERE. We nonetheless reserve the right to monitor all User Submissions and to remove any which we consider in our absolute discretion to be offensive or otherwise in breach of these Terms of Use or in violation of general community standards and notions of decency.</p>
+
+    <h2>Hyperlinks to and from Third-Party Sites</h2>
+
+    <p>You are not permitted to link to the Site from any third-party site without our prior written permission. However, the Site may link you to other sites on the internet including, without limitation, sites owned or controlled by our sponsors and Affinity Providers. These may include links to third-party retailers of class materials for the convenience of Subscribers. Third-party sites may contain information or material that some people may find inappropriate or offensive. All third-party sites may have their own, different privacy policies. Such other sites are not under our control, and you acknowledge that (whether or not such sites are affiliated in any way with us or our partners) we are not responsible for the accuracy, copyright compliance, legality, decency, or any other aspect of the content of such sites. The inclusion of such a link does not imply endorsement of any site by us or any association with its operators.</p>
+
+    <h2>Intellectual Property</h2>
+
+    <h3>Non-Infringement and Other User Conduct</h3>
+
+    <p>In your use of our Site or Services, you may not: (i) infringe, misappropriate or violate any patent, trademark, trade secret, copyright, right of publicity or other right of anyone; (ii) attempt to or actually disrupt, interfere with, or damage the Site or any Service or any web sites linked to our Site, including, without limitation, by using viruses, cancel bots, Trojan horses, harmful code, flood pings, denial of service attacks, packet or IP spoofing, forged routing or electronic mail address information or other methods or technology; (iii) attempt to use another user’s account, impersonate another person or entity (e.g., pretexting or spoofing); (iv) attempt to obtain unauthorized access to the Site or portions of the Site that are restricted from general access or otherwise restricted to you; (v) engage, directly or indirectly, in transmission of “spam,” chain letters, junk mail or any other type of unsolicited solicitation; (vi) collect, manually or through automated processes, information about other users (without their express consent) or other information relating to the Site or the Services; (vii) use any meta tags or other “hidden text” utilizing our name, trademarks, service marks, or trade dress, or those of permitted suppliers or other sponsors of web pages or Services, or Products on the Site; (viii) link (including “deep linking”) to the Site without our prior express written permission specifying you by name; (ix) engage in any activity that interferes with a third party’s ability to use or enjoy the Site or Services; (x) place or attempt to place unreasonable or disproportionately large loads on the Site or Service infrastructure; or (xi) assist any third party in engaging in an activity prohibited by these Terms of Use.</p>
+
+    <h3>Copyrights</h3>
+
+    <p>You agree that, as between you and Creativebug, all content included on and software used on or by the Site and any compilations and derivatives thereof, including, but not limited to, text, design, graphics, logos, button icons, images, audio clips, digital downloads, interfaces, data compilations, software and code, and all related intellectual property rights, are the exclusive property of Creativebug, its affiliates or its respective content suppliers, and is protected by United States and international copyright laws. For purposes of these Terms of Use, “affiliates” means any entity or person, directly or indirectly, owning a controlling interest in, or under common ownership control with, Creativebug, or any entity or person in which we, directly or indirectly, own a controlling interest. Except as expressly provided in the Terms of Use to the contrary, nothing contained on the Site should be construed as granting, by implication, estoppel or otherwise, any license or right to use any of the Content or any other copyrighted works displayed or contained in the Site without our express, written consent or that of the respective copyright owner. Copyright &copy; 2015 Creativebug, LLC ALL RIGHTS RESERVED.</p>
+
+    <h3>Trademarks</h3>
+
+    <p>CREATIVEBUG&reg;, the Creativebug logo, Aircraft&reg; and WHAT WILL YOU MAKE TODAY?&#8480; are trademarks or service marks owned by Creativebug. All page headers, custom graphics, button icons, and scripts, are trademarks, trade dress, or service marks of Creativebug. You hereby acknowledge that any use by you of such trademarks, trade dress, or service marks is for the sole benefit of Creativebug, and all goodwill generated by such use shall inure to our sole benefit. All other trademarks, trade names, service marks and the like that appear on the Site, Service or Products are the property of their respective owners. You may not use any of these trademarks, trade names, trade dress, or service marks without the respective owner’s express permission.</p>
+
+    <p>You may not frame or utilize any framing techniques to enclose any trademark, logo, or other proprietary information (including images, text, page layout, or form) of Creativebug or third parties without our or their respective express written consent. You may not purchase search terms or use any meta tags or any other “hidden text” utilizing the Creativebug name or trademarks without our express written consent.</p>
+
+    <h3>Ownership of Data</h3>
+
+    <p>You agree that, as between you and us, all rights, title, and interest in and to the data generated by or on our system or Site or through contract performance is owned by us or our providers, except as expressly provided otherwise in our Privacy Policy, and except that certain data provided by Artists or third parties pursuant to separate agreements with us may be owned by the respective Artist or third party data provider. In the latter case, you agree to comply with such provider’s terms and conditions of use. We may retain, use, or transfer our data as we, in our sole discretion, may determine.</p>
+
+    <h2>Indemnification</h2>
+
+    <p>You agree to defend, indemnify and hold us, our shareholders, directors, officers, employees, agents, affiliates, suppliers, artists, partners, service providers, and/or licensors (“Indemnified Persons”) harmless from any claim, demand, damage, loss, or expense, including costs and attorneys’ fees, made by any third party due to or arising out of: (i) your access to or use of the Site, Content, or Services; (ii) any of your Submissions or Subscriber Content (see the Intellectual Property section below); (iii) the violation of these Terms of use by you; or (iv) the infringement by you, or any third party using your account, of any intellectual property or other right of any person or entity (“Claim”). If you are obligated to provide indemnification pursuant to this provision, the involved Indemnified Person may, in its sole and absolute discretion, control the disposition of any Claim at your sole cost and expense. Without limiting the foregoing, you may not settle, compromise, or in any other manner dispose of any Claim without the consent of the respective Indemnified Persons.</p>
+
+    <h2>DISCLAIMERS, EXCLUSIONS, AND LIMITATIONS</h2>
+
+    <h3>DISCLAIMER OF WARRANTIES</h3>
+
+    <p>CREATIVEBUG PROVIDES THE SITE, PRODUCTS AND SERVICES ON AN “AS IS” AND “AS AVAILABLE” BASIS. CREATIVEBUG AND OUR AFFILIATES, ARTISTS, SPONSORS, OTHER CONTENT PROVIDERS, LICENSORS, SUPPLIERS AND PRODUCT PROVIDERS MAKE NO WARRANTIES, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION, ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. WE AND THEY DO NOT REPRESENT OR WARRANT THAT THE SITE, OR THE SERVICES, PRODUCTS, CONTENT, INFORMATION, OR MATERIALS AVAILABLE ON OR THROUGH THE SITE, ITS SERVERS, OR EMAIL WILL: (I) BE UNINTERRUPTED, (II) BE FREE OF DEFECTS, VIRUSES, INACCURACIES, ERRORS, OR OTHER HARMFUL COMPONENTS, (III) MEET YOUR REQUIREMENTS OR SATISFACTION, (IV) BE SECURE FROM HACKERS OR OTHER UNAUTHORIZED PERSONS; OR (V) OPERATE IN THE CONFIGURATION OR WITH OTHER HARDWARE OR SOFTWARE THAT YOU USE. YOU EXPRESSLY AGREE THAT YOUR USE OF THE SITE, PRODUCTS AND SERVICES IS AT YOUR SOLE RISK. IF APPLICABLE LAW DOES NOT ALLOW THE EXCLUSION OF SOME OR ALL OF THE ABOVE WARRANTIES TO APPLY TO YOU, THE ABOVE EXCLUSIONS WILL APPLY TO YOU ONLY TO THE EXTENT PERMITTED BY APPLICABLE LAW. CREATIVEBUG IS NOT RESPONSIBLE IN ANY WAY FOR ANY TRANSACTIONS BETWEEN YOU AND ANY THIRD-PARTY PROVIDER OF PRODUCTS, SERVICES, OR CONTENT.</p>
+
+    <h3>THIRD PARTY SERVICES</h3>
+
+    <p>ANY THIRD-PARTY CONTENT, LINKS, PRODUCTS, SERVICES, RESOURCES, OR INFORMATION THAT WE PROVIDE ON OR MAKE AVAILABLE THROUGH THE SITE OR SERVICES, INCLUDING, WITHOUT LIMITATION, THOSE AVAILABLE THROUGH THIRD-PARTY WEBSITES, LINKS, ADVERTISING OR ADVERTISEMENTS, ARE NOT CONTROLLED BY US. ACCORDINGLY, WE MAKE NO WARRANTIES REGARDING THEM, INCLUDING, WITHOUT LIMITATION, WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, NON-INFRINGEMENT, AND COMPLIANCE WITH APPLICABLE LAW, AND YOU EXPRESSLY AGREE THAT WE (AND OUR SHAREHOLDERS, DIRECTORS, OFFICERS, EMPLOYEES, AGENTS, AFFILIATES, SUPPLIERS, ARTISTS, PARTNERS, SERVICE PROVIDERS, AND/OR LICENSORS) WILL NOT BE LIABLE FOR, AND YOU WAIVE ANY CLAIMS ARISING OUT OF, YOUR USE OF OR RELIANCE ON SUCH THIRD-PARTY PRODUCTS, SERVICES, RESOURCES, OR INFORMATION.</p>
+
+    <h3>EXCLUSION OF DAMAGES</h3>
+
+    <p>CREATIVEBUG AND ITS SHAREHOLDERS, DIRECTORS, OFFICERS, EMPLOYEES, AGENTS, AFFILIATES, SUPPLIERS, ARTISTS, PARTNERS, SERVICE PROVIDERS, AND/OR LICENSORS WILL NOT BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY CONSEQUENTIAL, INCIDENTAL, INDIRECT, PUNITIVE, OR SPECIAL DAMAGES (INCLUDING, WITHOUT LIMITATION, DAMAGES RELATING TO LOST PROFITS, LOST DATA, OR LOSS OF GOODWILL, LOSS CAUSED BY A VIRUS, WORM, TROJAN HORSE PROGRAM OR DISABLING CODE, DELAY IN OPERATION OR TRANSMISSION, ERROR, OMISSION, INTERRUPTION, DELETION, DEFECT, COMMUNICATION LINE FAILURE, THEFT, DESTRUCTION OR UNAUTHORIZED ACCESS TO, ALTERATION OF, OR USE OF A RECORD) ARISING OUT OF, RELATING TO OR CONNECTED WITH THE USE OF THE SITE, SERVICES, OR PRODUCTS, BASED ON ANY CAUSE OF ACTION (INCLUDING, WITHOUT LIMITATION, NEGLIGENCE, BREACH OF CONTRACT, INFRINGEMENT, INVASION OF PRIVACY, OR STRICT LIABILITY), EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. WITHOUT LIMITATION, YOU (AND NOT CREATIVEBUG) ASSUME THE ENTIRE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION IN THE EVENT OF ANY SUCH LOSS OR DAMAGE ARISING. YOU ASSUME THE RISK IN USING THE SERVICES AS WELL AS TOTAL RESPONSIBILITY FOR ESTABLISHING SUCH PROCEDURES FOR DATA BACK UP AND VIRUS CHECKING AS YOU CONSIDER NECESSARY. SOME STATES OR OTHER JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF INCIDENTAL OR CONSEQUENTIAL DAMAGES IN CERTAIN CIRCUMSTANCES. ACCORDINGLY, THE FOREGOING LIMITATION EXCLUSION SHALL APPLY TO THE EXTENT PERMITTED BY LAW.</p>
+
+    <h3>LIMITATIONS OF LIABILITY</h3>
+
+    <p>IN NO EVENT WILL OUR LIABILITY IN CONNECTION WITH THE TERMS OF USE, THE SITE, THE SERVICES OR THE PRODUCTS EXCEED THE AMOUNT PAID BY YOU TO US WITH RESPECT TO THE TRANSACTION THAT GIVES RISE TO SUCH LIABILITY. WE EXPECT SUBSCRIBERS, ARTISTS, SPONSORS, AND OTHER CONTENT PROVIDERS TO TAKE RESPONSIBILITY FOR THEIR OWN ACTIONS, AND CANNOT ASSUME LIABILITY FOR ANY THIRD-PARTY ACTS WHICH TAKE PLACE THROUGH THE SERVICES OR ON OUR SITE. YOU ACKNOWLEDGE THAT IN RESPONDING TO COMPLAINTS REGARDING ANY CONTENT OR OTHER MATERIAL POSTED OR HANDLED THROUGH THE SITE, WE ARE TAKING ON THE ROLE OF A GOOD SAMARITAN. YOU AGREE TO WAIVE ANY CLAIMS OR REMEDIES WHICH YOU MIGHT OTHERWISE BE ABLE TO MAKE AGAINST US UNDER ANY THEORY OF LAW (INCLUDING, BUT NOT LIMITED TO, EMPLOYMENT, TORT, AND INTELLECTUAL PROPERTY LAWS) ARISING OUT OF OR RELATING IN ANY WAY TO THE CONTENT ON OUR SITE OR OUR RESPONSE, OR FAILURE TO RESPOND, TO A COMPLAINT.</p>
+
+    <h3>LIMITATION OF ACTIONS</h3>
+
+    <p>NOTWITHSTANDING ANY STATUTE OR LAW TO THE CONTRARY, ANY CLAIM OR CAUSE OF ACTION YOU MAY HAVE ARISING OUT OF, RELATING TO, OR IN CONNECTION WITH YOUR USE OF THE SITE, SERVICES, OR PRODUCTS MUST BE MADE IN WRITING PURSUANT TO THE ARBITRATION PROVISION BELOW WITHIN ONE CALENDAR YEAR AFTER SUCH CLAIM OR CAUSE OF ACTION ARISES, OR SHALL FOREVER BE BARRED.</p>
+
+    <h2>Force Majeure</h2>
+
+    <p>We will not be liable for failing to perform under the Terms of Use by the occurrence of any event beyond our reasonable control, including, without limitation, a labor disturbance, an Internet outage or interruption of service, a communication outage, a failure by a service provided to us to perform, fire, threatened or actual act of terrorism, natural disaster, or war.</p>
+
+    <h2>Termination</h2>
+
+    <p>We will have the right in our sole discretion, for any reason or no reason at all, without notice or liability to you or any third party, to terminate your subscription(s) or your access to the Site or Services. Such reasons may, but need not include, without limitation: (i) your breach of any part of the Terms of Use, (ii) your violation of the rights of any third party or of law, (iii) the invalidity or suspension of your Payment Method, (iv) your exceeding your credit card limit or balance, or (v) “chargeback” of a fee or other payment. If you are a Subscriber, you may terminate your subscription(s) for any reason at any time by terminating it through the Account Profile feature on the Site, subject to the Terms of Use.</p>
+
+    <h2>Effect of Termination</h2>
+
+    <p>If your Account is terminated, we may, in our sole discretion, delete any web sites, files, graphics or other content or materials (including any Submissions) relating to your use of the Site or Services on our servers or otherwise in our possession. Immediately upon termination, either by you or us, you are not permitted to access or use the Site or Services (including, without limitation, accessing the Site or viewing any Content through the Service). We reserve the right to exercise whatever means we deem necessary to prevent unauthorized access to the Site or Services, including, without limitation, technological barriers, IP mapping, and direct contact with your Internet Service Provider (“ISP”). If your subscription is terminated, you must immediately pay us any fees or other amounts that you owe or that are based on your activity prior to termination, and you will not be entitled to reimbursement of or credit for any subscription fees.</p>
+
+    <p>All provisions of these Terms of Use, except the License and Site access to you and your use of the Services, shall survive the termination of these Terms of Use as between you and us.</p>
+
+    <h2>Relationship of Parties</h2>
+
+    <p>The relationship of Creativebug and its affiliates, successors, and assigns to you is one of independent contractor and customer. Notwithstanding the use of the term “partner” to describe a relationship between you and us or between us and any of our suppliers, no party to the Terms of Use intends to create any legal relationship of partnership with any other party, and nothing in the Terms of Use shall be construed to give any party the power to direct or control the activities of, or bind, any other party, or to constitute any combination of parties as principal and agent, employer and employee, franchisor and franchisee, partners, joint venturers, co-owners, or otherwise as participants in a joint undertaking. You agree that neither we nor any of our affiliates, Artists, suppliers, licensors, successors and assigns owe to you any fiduciary duties.</p>
+
+    <p>You may not assign, sublicense, pledge or transfer any of your rights or obligations under the Terms of Use to any person or entity without our prior written consent which may be withheld in our sole discretion. Any such purported assignment, pledge or transfer without such prior written consent shall be void ab initio and without legal effect. As between you and us, these Terms of Use and our rights hereunder are freely assignable by us in our sole and absolute discretion.</p>
+
+    <h2>Severability</h2>
+
+    <p>If any provision of these Terms of Use is held unenforceable, the remaining portions thereof shall remain in full force and effect. Without limiting the foregoing, you agree that if any remedy hereunder is determined to have failed of its essential purpose, all limitations of liability and exclusions of damages set forth herein shall remain in effect.</p>
+
+    <h2>Governing Law</h2>
+
+    <p>By visiting our Site and by our acceptance of your offer to enter into the Terms of Use, you agree that the Terms of Use have been entered into in the State of California of the United States of America. You further agree that the laws of the State of California, without regard to its principles of conflict of laws, and applicable U.S. law will govern these Terms of Use, and any dispute of any sort that might arise between you and us. Notwithstanding the preceding sentence, the United Nations Convention for the International Sale of Goods and the Uniform Computer Information Transactions Act shall not apply to the interpretation or enforcement of the Terms of Use. Nothing in this paragraph exempts or excuses you from complying with any laws which may apply to you, including those of the jurisdiction in which you are located. You agree that our Site operates solely in San Francisco, California ("Place of Performance"), and that you are using the Internet as your own agent to access and use our Site from the local internet point of presence (POP) here at our Place of Performance to transmit, send, and take delivery of any information, Service, Content, and Submissions, as the case may be, at our Place of Performance. This means all operations, services, deliveries, performance and contacts of our Site occur solely at the Place of Performance. We do not submit to personal jurisdiction anywhere else and you irrevocably waive any claim to the contrary. You agree that any legal action initiated or maintained by you may only be in such designated state/locale and irrevocably consent to exclusive personal jurisdiction and venue therein.</p>
+
+    <h2>Arbitration of Certain Disputes</h2>
+
+    <p>Any dispute relating in any way to your visit to the Site or to your purchase or use of any Services or any privacy-related issues shall be submitted to confidential arbitration in San Francisco, California, United States of America, except that, to the extent you have in any manner violated or threatened to violate Creativebug’s intellectual property rights, Creativebug may seek injunctive or other appropriate relief in any state or federal court in the State of California, and you consent to exclusive jurisdiction and venue in such courts. Arbitration under these Terms of Use shall be conducted under the commercial arbitration rules then prevailing of JAMS. The arbitrator’s award shall be binding and may be entered as a judgment in any court of competent jurisdiction. To the fullest extent permitted by applicable law, no arbitration under these Terms of Use shall be joined to an arbitration involving any other party subject to the Terms of Use, whether through class arbitration proceedings or otherwise.</p>
+
+    <h2>Contact Us</h2>
+
+    <p>In the event of any dispute or for any other information concerning these Terms of Use, please contact us via US mail or email at:</p>
+
+    <p>
+      Creativebug, LLC
+      <br>
+      835 Market St, Ste 700
+      <br>
+      San Francisco, CA 94103-1905
+    </p>
+
+    <p><a href="https://creativebughelp.zendesk.com/hc/en-us/requests/new">support@creativebug.com</a></p>
+
+    <h2>Copyright Policy and Copyright Agent</h2>
+
+    <p>We respect the intellectual property rights of others, and we expect our users to do the same. In appropriate circumstances, and in our sole discretion, we may but are not required to terminate the rights of any user to use the Site (or any part thereof) who infringes the intellectual property rights of others. Subject to the foregoing, it is our policy to terminate in appropriate circumstances users who are repeat infringers. If you believe that a user of the Site or Service has infringed the intellectual property rights of another, please provide the following information to the Copyright Agent specified below.</p>
+
+    <ul>
+      <li>An electronic or physical signature of the person authorized to act on behalf of the owner of the intellectual property interest;</li>
+
+      <li>A description of the intellectual property interest that you claim has been infringed upon;</li>
+
+      <li>A detailed description of where the material that you claim is infringing is located on the Site, including the URL or Content where the infringing material appears or is evident;</li>
+
+      <li>Your complete address, telephone number and email address;</li>
+
+      <li>A statement that you have a good faith belief that the disputed use is not authorized by the intellectual property rights owner, its agent, or the law;</li>
+
+      <li>A statement by you, made under penalty of perjury, that the above information in your notice is accurate and that you are the owner of the intellectual property rights involved, or are authorized to act on behalf of such owner.</li>
+    </ul>
+
+    <p>You may send any notices, including notices of copyright infringement under the Digital Millennium Copyright Act, to Creativebug’s designated agent for notice of claims of copyright infringement on the Site at the address below. You can find more information about the DMCA on the U.S. Copyright Office website, currently located at http://www.loc.gov/copyright/. You are advised to consult a legal advisor before filing a notice or counter-notice. Please be forewarned that there can be penalties for false claims.</p>
+
+    <p>
+      Creativebug, LLC
+      <br>
+      835 Market St, Ste 700
+      <br>
+      San Francisco, CA 94103-1905
+    </p>
+
+    <p><a href="https://creativebughelp.zendesk.com/hc/en-us/requests/new">support@creativebug.com</a></p>
+
+    <p>Please note that this procedure is exclusively for notifying us that copyrights have been infringed. This policy is intended to comply fully with the requirements of the Online Copyright Infringement Liability Limitation Act. However, By this provision, we do not necessarily stipulate that we or any affiliate is a service provider as defined in 17 USC section 512c or elsewhere in the law, but merely seek to preserve any and all exemptions from liability that may be available to us under the copyright law or otherwise.</p>
+
+    <h2>Entire Agreement</h2>
+
+    <p>These Terms of Use, including our <a data-toggle="modal" data-target="#pp" href="privacy-policy">Privacy Policy</a>, and all third-party terms and conditions of use which are incorporated herein, contain the entire understanding and agreement of you and us regarding such subject matter, and supersede all prior and contemporaneous agreements and understandings between us regarding such subject matter.</p>
+
+  </div>
+
+</div>
+  <div class="push"></div>
+  </section>
+  <footer id="website_footer">
+  <div class="footer-wrapper">
+    <div class="row">
+      <div class="col-xs-4 col-sm-2 col-sm-offset-1">
+        <h3>Classes</h3>
+        <ul>
+          <li><a href="/classes/knitting">Knitting</a></li>
+          <li><a href="/classes/crochet">Crochet</a></li>
+          <li><a href="/classes/art-and-design">Art + Design</a></li>
+          <li><a href="/classes/paper">Paper</a></li>
+          <li><a href="/classes/sewing">Sewing</a></li>
+          <li><a href="/classes/quilting">Quilting</a></li>
+          <li><a href="/classes/jewelry">Jewelry</a></li>
+          <li><a href="/classes/kids">Kids</a></li>
+          <li><a href="/classes/food-and-home">Food + Home</a></li>
+          <li><a href="/classes/holiday-and-party">Holiday + Party</a></li>
+        </ul>
+      </div>
+      <div class="col-xs-4 col-sm-2">
+        <h3>About Us</h3>
+        <ul>
+          <li><a href="/instructors">Instructors</a></li>
+          <li><a href="/site/about">About Creativebug</a></li>
+          <li><a href="/site/meet-creativebug-team">Meet the Team</a></li>
+          <li><a href="/site/jobs">Careers</a></li>
+          <li><a href="/site/contact">Contact Us</a></li>
+          <li><a href="/site/affiliate-program">Affiliate Program</a></li>
+          <li><a href="/site/rss">RSS Feeds</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/site/creativebug-brand-ambassadors">Brand Ambassadors</a></li>
+        </ul>
+      </div>
+      <div class="col-xs-4 col-sm-2">
+        <h3>Help Center</h3>
+        <ul>
+          <li><a href="/site/contact">Contact Us</a></li>
+          <li><a href="/gift_subscriptions">Gift Subscriptions</a></li>
+          <li><a href="/redeem">Redeem a Gift</a></li>
+          <li><a href="https://creativebughelp.zendesk.com">Customer Support</a></li>
+          <li><a href="/site/terms">Terms of Use</a></li>
+          <li><a href="/site/privacy-policy">Privacy Policy</a></li>
+          <li><a href="/site/community-guidelines">Community Guidelines</a></li>
+        </ul>
+      </div>
+      <div class="widgets col-xs-12 col-sm-4">
+        <div class="widgets-wrapper">
+                      <section class="subscribe">
+              <h3>Subscribe Now</h3>
+              Only $4.95 per month
+              &nbsp;&nbsp;
+              <a class="js-ga-click confirm-btn btn btn-primary"
+                  data-ga-click-cat="CTA"
+                  data-ga-click-label="footer free_trial sign_up button"
+                  href="/trial/create-account?redirect_on_success=/site/terms" title="Start Free Trial">Start Free Trial</a>
+            </section>
+          
+                      <section class="newsletter-signup">
+              <h3>Creativebug Newsletter</h3>
+              <form class="js-newsletter-signup" action="/mailing_list" method="post" accept-charset="UTF-8">
+                <div class="error status hidden">Sorry, that didn't work.  Please try again.</div>
+                <div class="success status hidden">Thank you for signing up!  We'll be in touch soon.</div>
+                <input type="text" name="email" placeholder="Email">
+                <button class="btn btn-danger" type="submit">Sign Up</button>
+              </form>
+            </section>
+          
+          <section class="connect">
+            <h3>Connect</h3>
+            <ul class="social">
+              <li><a href="http://www.facebook.com/pages/Creativebug/356129344439441" target="_blank"><div data-icon class="icon-facebook"></div></a></li>
+              <li><a href="http://twitter.com/#!/creativebug" target="_blank"><div data-icon class="icon-twitter"></div></a></li>
+              <li><a href="http://instagram.com/creativebug" target="_blank"><div data-icon class="icon-instagram"></div></a></li>
+              <li><a href="http://pinterest.com/creativebuginc/" target="_blank"><div data-icon class="icon-pinterest"></div></a></li>
+              <li><a href="https://www.youtube.com/user/cbugstudio" target="_blank"><div data-icon class="icon-youtube"></div></a></li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">© 2016 Creativebug, LLC.</div>
+  </div>
+</footer>
+      <div id="overlay" class='modal'>
+        <div id="overlay-content">
+          <div id="fragment-content"></div>
+        </div>
+      </div>
+  <script type="text/javascript" src="/content/compressed/website-footer-5901413a.js"></script>
+<script type="text/javascript" src="/content/compressed/cb-login-modal-25e7119e.js"></script>
+<script type="text/javascript" src="/content/compressed/website_footer-ed432f77.js"></script>
+
+  <!-- CB Login Modal: start -->
+<div id="cb_login_modal" class="js-login-form cb-login cb-modal modal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+              <div type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <img src="/ui/images/icon-x.png">
+        </div>
+            <div class="modal-header">
+        Sign In      </div>
+      <form id="cb_login_modal_form" action="https://www.creativebug.com/services/access/validate" method="post" accept-charset="UTF-8">
+      <div class="modal-body">
+        <div class="login-error elem hidden">
+          Email/password combination not found. Please try again.        </div>
+        <input id="cb_login_modal_email" class="input elem" type="text" placeholder="Email" name="email">
+        <input id="cb_login_modal_password" class="input elem" type="password" placeholder="Password" name="password">
+        <div class="login-opts elem">
+          <a class="forgot-pass" href="/forgot-password">Forgot password?</a>
+          <label class="remember-me">
+            <input id="cb_login_modal_remember_me" type="checkbox" name="remember_me" value="true">
+            Stay logged in
+          </label>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+      <div class="modal-footer">
+        <input class="login-btn" type="submit" value="Sign In">
+
+                <div class="spacer-or"></div>
+        <a class="fb-btn login-btn" href="/facebook/signin">
+          <img src="/ui/images/signup/1504/fb-icon.png" width="28" height="28">
+          <span>Sign In with Facebook</span>
+        </a>
+        <div class="not-subscriber">
+          Not a subscriber yet?
+          <div class="subtext">
+            Start your free trial today to access over 700 classes!
+          </div>
+        </div>
+        <a class="login-btn" href="/trial/create-account" title="join">
+          Start Free Trial
+        </a>
+              </div>
+        <input id="cb_login_modal_redirect_on_success" type="hidden" name="redirect_on_success" value="">
+        <input id="cb_login_modal_source" type="hidden" name="source" value="/site/terms">
+        <input id="cb_login_modal_slug" type="hidden" name="slug">
+      </form>
+    </div>
+  </div>
+</div>
+<!-- CB Login Modal: end -->
+
+<script type='text/javascript'>
+
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('require','linker');
+ga('create','UA-30229519-4');
+ga('require','ecommerce','ecommerce.js');
+ga('send','pageview');
+</script>
+<!-- Quantcast Tag -->
+<script type="text/javascript">
+var _qevents = _qevents || [];
+
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+qacct:"p-3esR6EkV-2DJB"
+});
+</script>
+
+<noscript>
+<div style="display:none;">
+<img src="//pixel.quantserve.com/pixel/p-3esR6EkV-2DJB.gif" border="0" height="1" width="1" alt="Quantcast"/>
+</div>
+</noscript>
+<!-- End Quantcast tag -->
+
+    </div>
+  </div>
+</body>
+</html>

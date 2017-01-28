@@ -1,0 +1,975 @@
+<!doctype html>
+<!--[if IE 7]><html class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html class="v2"  ><!--<![endif]-->
+<head lang="en">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Accessories - Creativebug</title>
+  <meta name="copyright" content="Copyright 2016, Creativebug">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <meta property="fb:app_id" content="275120962590744"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  <meta name="build_version" content="php-master-2f13c271ea8adabf499afe257e6d4f7cf179938b" />
+  <link rel="apple-touch-icon" href="/ui/images/app_icon.png"><link rel="alternate" type="application/rss+xml" title="RSS Feed for Accessories" href="/rss/classes/knitting/accessories.rss" />
+  <script type="application/ld+json">
+  {
+     "@context": "http://schema.org",
+     "@type": "WebSite",
+     "url": "https://www.creativebug.com/",
+     "potentialAction": {
+       "@type": "SearchAction",
+       "target": "https://www.creativebug.com/search/results?query={query}",
+       "query-input": "required name=query"
+     }
+  }
+  </script>
+  <script type='text/javascript'>
+  /* IE console mock up */
+  if(typeof console == 'undefined') {var console = {log: function(x){}}};
+  </script>
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-551b3e7a61847364" async="async"></script>
+  <link href="http://www.creativebug.com/classes/knitting/accessories" rel="canonical" />
+  <link href="/ui/images/cbugfavicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link href="/ui/images/cbugfavicon.ico" rel="icon" type="image/x-icon" />
+  <link href='//fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700' rel='stylesheet' type='text/css'>
+
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+  <![endif]-->
+
+    <script async src="//cdn.optimizely.com/js/1743310672.js"></script>
+  <link rel="stylesheet" href="/content/compressed/website_header-9d3f33bd.css">
+    <link rel="stylesheet" href="/content/compressed/subcategories-d0ac416c.css">
+    <link rel="stylesheet" href="/content/compressed/website-footer-ecf968d6.css">
+    <link rel="stylesheet" href="/content/compressed/cb-login-modal-95b63eb2.css">
+  <script type="text/javascript" src="/content/compressed/website_header-694aa2a1.js"></script>
+  
+  <!-- Facebook Pixel Code: start -->
+  <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+    document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+    fbq('init', '597271883734030');
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=597271883734030&ev=PageView&noscript=1" />
+  </noscript>
+  <!-- Facebook Pixel Code: end -->
+
+  </head>
+<body>
+  <div id="page-wrapper">
+  
+  
+  <header id="header" class="clearfix fixed searchon" itemscope itemtype="http://schema.org/WPHeader">
+  <div>
+    <a href="javascript:;" id="sidebar-toggle" onclick="$('html').toggleClass('sidebar-open');">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </a>
+    <div id="logo"><a href="/"><img src="/ui/images/homev2/logo-red.png" alt="Creativebug"/></a></div>
+    <nav>
+  <ul class="navigation">
+
+          <li class="login"><a class="js-login" title="Log In">Log In</a></li>
+      <li class="signup"><a href="/trial/create-account?redirect_on_success=/classes/knitting/accessories" title="Start Your Free Trial" class='action-login'>Start Free Trial</a></li>
+    
+  </ul>
+
+  <ul class="subjects" itemscope itemtype="http://schema.org/SiteNavigationElement"><li onmouseover="sel(this);"><a itemprop="url" class="sub" href="/classes">Classes</a></li><div class="submenu"><ul id="submenu-classes"><li onmouseover="sel(this);"><a itemprop="url" href="/classes/knitting">Knitting</a></li><div class="submenu2"><div><ul class="strong"><li><a href="/classes/knitting/accessories">Accessories</a></li><li><a href="/classes/knitting/baby-and-kids">Baby & Kids</a></li><li><a href="/classes/knitting/felting">Felting</a></li><li><a href="/classes/knitting/holiday-and-party">Holiday & Party</a></li></ul><ul class="strong"><li><a href="/classes/knitting/home-decor">Home Décor</a></li><li><a href="/classes/knitting/sweaters">Sweaters</a></li><li><a href="/classes/knitting/yarn-craft">Yarn Craft</a></li></ul><ul><li><a href="/classes/knitting/for-beginners">For Beginners</a></li><li><a href="/classes/knitting/multi-part-classes">Multi-Part Classes</a></li><li><a href="/classes/knitting/quick-classes">Quick Classes</a></li><li><a href="/classes/knitting/techniques">Techniques</a></li></ul><ul class="strong"><li><a href="/classes/knitting">See All Knitting Classes<span class="arrow">►</span></a></li><div><img src="/ui/images/menu/knitting.jpg"/></div></ul></div></div><li onmouseover="sel(this);"><a itemprop="url" href="/classes/crochet">Crochet</a></li><div class="submenu2"><div><ul class="strong"><li><a href="/classes/crochet/accessories">Accessories</a></li><li><a href="/classes/crochet/baby-and-kids">Baby & Kids</a></li><li><a href="/classes/crochet/home-decor">Home Décor</a></li></ul><ul class="strong"><li><a href="/classes/crochet/yarn-craft">Yarn Craft</a></li></ul><ul><li><a href="/classes/crochet/for-beginners">For Beginners</a></li><li><a href="/classes/crochet/multi-part-classes">Multi-Part Classes</a></li><li><a href="/classes/crochet/quick-classes">Quick Classes</a></li><li><a href="/classes/crochet/techniques">Techniques</a></li></ul><ul class="strong"><li><a href="/classes/crochet">See All Crochet Classes<span class="arrow">►</span></a></li><div><img src="/ui/images/menu/crochet.jpg"/></div></ul></div></div><li onmouseover="sel(this);"><a itemprop="url" href="/classes/art-and-design">Art + Design</a></li><div class="submenu2"><div><ul class="strong"><li><a href="/classes/art-and-design/ceramics">Ceramics</a></li><li><a href="/classes/art-and-design/drawing-and-illustration">Drawing & Illustration</a></li><li><a href="/classes/art-and-design/home-decor">Home Décor</a></li><li><a href="/classes/art-and-design/lettering">Lettering</a></li><li><a href="/classes/art-and-design/mixed-media">Mixed Media</a></li></ul><ul class="strong"><li><a href="/classes/art-and-design/painting">Painting</a></li><li><a href="/classes/art-and-design/printmaking">Printmaking</a></li><li><a href="/classes/art-and-design/sketchbook-exercises">Sketchbook Exercises</a></li><li><a href="/classes/art-and-design/textiles">Textiles</a></li></ul><ul><li><a href="/classes/art-and-design/for-beginners">For Beginners</a></li><li><a href="/classes/art-and-design/multi-part-classes">Multi-Part Classes</a></li><li><a href="/classes/art-and-design/quick-classes">Quick Classes</a></li><li><a href="/classes/art-and-design/techniques">Techniques</a></li></ul><ul class="strong"><li><a href="/classes/art-and-design">See All Art + Design Classes<span class="arrow">►</span></a></li><div><img src="/ui/images/menu/art-and-design.jpg"/></div></ul></div></div><li onmouseover="sel(this);"><a href="/classes/paper">Paper</a></li><div class="submenu2"><div><ul class="strong"><li><a href="/classes/paper/book-binding">Book Binding</a></li><li><a href="/classes/paper/cards-and-gift-wrap">Cards & Gift Wrap</a></li><li><a href="/classes/paper/collage-and-decoupage">Collage & Decoupage</a></li><li><a href="/classes/paper/cutting-machine-crafts">Cutting Machine Crafts</a></li><li><a href="/classes/paper/holiday-and-party">Holiday & Party</a></li><li><a href="/classes/paper/home-decor">Home Décor</a></li></ul><ul class="strong"><li><a href="/classes/paper/kids">Kids</a></li><li><a href="/classes/paper/paper-flowers">Paper Flowers</a></li><li><a href="/classes/paper/printing">Printing</a></li><li><a href="/classes/paper/sketchbook-exercises">Sketchbook Exercises</a></li></ul><ul><li><a href="/classes/paper/for-beginners">For Beginners</a></li><li><a href="/classes/paper/multi-part-classes">Multi-Part Classes</a></li><li><a href="/classes/paper/quick-classes">Quick Classes</a></li><li><a href="/classes/paper/techniques">Techniques</a></li></ul><ul class="strong"><li><a href="/classes/paper">See All Paper Classes<span class="arrow">►</span></a></li><div><img src="/ui/images/menu/paper.jpg"/></div></ul></div></div><li onmouseover="sel(this);"><a itemprop="url" href="/classes/sewing">Sewing</a></li><div class="submenu2"><div><ul class="strong"><li><a href="/classes/sewing/accessories">Accessories</a></li><li><a href="/classes/sewing/baby-and-kids">Baby & Kids</a></li><li><a href="/classes/sewing/fabric-design">Fabric Design</a></li><li><a href="/classes/sewing/garments">Garments</a></li><li><a href="/classes/sewing/hand-stitching">Hand-stitching</a></li></ul><ul class="strong"><li><a href="/classes/sewing/holiday-and-party">Holiday & Party</a></li><li><a href="/classes/sewing/home-decor">Home Décor</a></li><li><a href="/classes/sewing/pattern-drafting">Pattern Drafting</a></li></ul><ul><li><a href="/classes/sewing/for-beginners">For Beginners</a></li><li><a href="/classes/sewing/multi-part-classes">Multi-Part Classes</a></li><li><a href="/classes/sewing/quick-classes">Quick Classes</a></li><li><a href="/classes/sewing/techniques">Techniques</a></li></ul><ul class="strong"><li><a href="/classes/sewing">See All Sewing Classes<span class="arrow">►</span></a></li><div><img src="/ui/images/menu/sewing.jpg"/></div></ul></div></div><li onmouseover="sel(this);"><a href="/classes/quilting">Quilting</a></li><div class="submenu2"><div><ul class="strong"><li><a href="/classes/quilting/baby-and-kids">Baby & Kids</a></li><li><a href="/classes/quilting/blocks">Blocks</a></li><li><a href="/classes/quilting/design">Design</a></li><li><a href="/classes/quilting/home-decor">Home Décor</a></li></ul><ul class="strong"><li><a href="/classes/quilting/modern-quilts">Modern Quilts</a></li><li><a href="/classes/quilting/quilt-tops">Quilt Tops</a></li><li><a href="/classes/quilting/quilting">Quilting</a></li></ul><ul><li><a href="/classes/quilting/for-beginners">For Beginners</a></li><li><a href="/classes/quilting/multi-part-classes">Multi-Part Classes</a></li><li><a href="/classes/quilting/quick-classes">Quick Classes</a></li><li><a href="/classes/quilting/techniques">Techniques</a></li></ul><ul class="strong"><li><a href="/classes/quilting">See All Quilting Classes<span class="arrow">►</span></a></li><div><img src="/ui/images/menu/quilting.jpg"/></div></ul></div></div><li onmouseover="sel(this);"><a href="/classes/jewelry">Jewelry</a></li><div class="submenu2"><div><ul class="strong"><li><a href="/classes/jewelry/beading">Beading</a></li><li><a href="/classes/jewelry/bracelets">Bracelets</a></li><li><a href="/classes/jewelry/earrings-and-rings">Earrings and Rings</a></li><li><a href="/classes/jewelry/kids">Kids</a></li></ul><ul class="strong"><li><a href="/classes/jewelry/leather">Leather</a></li><li><a href="/classes/jewelry/metal-and-wire">Metal and Wire</a></li><li><a href="/classes/jewelry/necklaces">Necklaces</a></li></ul><ul><li><a href="/classes/jewelry/for-beginners">For Beginners</a></li><li><a href="/classes/jewelry/quick-classes">Quick Classes</a></li><li><a href="/classes/jewelry/techniques">Techniques</a></li></ul><ul class="strong"><li><a href="/classes/jewelry">See All Jewelry Classes<span class="arrow">►</span></a></li><div><img src="/ui/images/menu/jewelry.jpg"/></div></ul></div></div><li onmouseover="sel(this);"><a href="/classes/kids">Kids</a></li><div class="submenu2"><div><ul class="strong"><li><a href="/classes/kids/crafts">Crafts</a></li><li><a href="/classes/kids/drawing-and-painting">Drawing & Painting</a></li><li><a href="/classes/kids/holiday-and-party">Holiday & Party</a></li><li><a href="/classes/kids/jewelry">Jewelry</a></li></ul><ul class="strong"><li><a href="/classes/kids/paper">Paper</a></li><li><a href="/classes/kids/sewing">Sewing</a></li><li><a href="/classes/kids/yarn">Yarn</a></li></ul><ul><li><a href="/classes/kids/quick-classes">Quick Classes</a></li></ul><ul class="strong"><li><a href="/classes/kids">See All Kids Classes<span class="arrow">►</span></a></li><div><img src="/ui/images/menu/kids.jpg"/></div></ul></div></div><li onmouseover="sel(this);"><a href="/classes/food-and-home">Food + Home</a></li><div class="submenu2"><div><ul class="strong"><li><a href="/classes/food-and-home/baking-and-cake-decorating">Baking & Cake Decorating</a></li><li><a href="/classes/food-and-home/bath-and-body">Bath & Body</a></li><li><a href="/classes/food-and-home/canning-and-preserving">Canning & Preserving</a></li><li><a href="/classes/food-and-home/flowers">Flowers</a></li></ul><ul class="strong"><li><a href="/classes/food-and-home/furniture-refinishing-and-upholstery">Furniture Refinishing & Upholstery</a></li><li><a href="/classes/food-and-home/home-decor">Home Decor</a></li><li><a href="/classes/food-and-home/packaging-and-presentation">Packaging & Presentation</a></li></ul><ul><li><a href="/classes/food-and-home/multi-part-classes">Multi-Part Classes</a></li><li><a href="/classes/food-and-home/quick-classes">Quick Classes</a></li></ul><ul class="strong"><li><a href="/classes/food-and-home">See All Food + Home Classes<span class="arrow">►</span></a></li><div><img src="/ui/images/menu/food-and-home.jpg"/></div></ul></div></div><li onmouseover="sel(this);"><a href="/classes/holiday-and-party">Holiday + Party</a></li><div class="submenu2"><div><ul class="strong"><li><a href="/classes/holiday-and-party/packaging-and-presentation">Packaging & Presentation</a></li><li><a href="/classes/holiday-and-party/birthday-parties">Parties</a></li><li><a href="/classes/holiday-and-party/weddings">Weddings</a></li><li><a href="/classes/holiday-and-party/valentines-day">Valentine’s Day</a></li><li><a href="/classes/holiday-and-party/easter">Easter</a></li></ul><ul class="strong"><li><a href="/classes/holiday-and-party/mothers-day-and-fathers-day">Mother’s Day & Father’s Day</a></li><li><a href="/classes/holiday-and-party/halloween">Halloween</a></li><li><a href="/classes/holiday-and-party/thanksgiving">Thanksgiving</a></li><li><a href="/classes/holiday-and-party/christmas">Christmas</a></li></ul><ul><li><a href="/classes/holiday-and-party/quick-classes">Quick Classes</a></li></ul><ul class="strong"><li><a href="/classes/holiday-and-party">See All Holiday + Party Classes<span class="arrow">►</span></a></li><div><img src="/ui/images/menu/holiday-and-party.jpg"/></div></ul></div></div></ul></div><li onmouseover="sel(this);"><a class="sub" href="/inspiration">Inspiration</a></li><div class="submenu"><ul id="submenu-inspiration"><li onmouseover="sel(this);"><a href="/inspiration">Inspiration Feeds</a></li><li onmouseover="sel(this);"><a href="/patterns">Pattern Library</a></li><li onmouseover="sel(this);"><a href="/collections">Class Collections</a></li><li onmouseover="sel(this);"><a href="/inspiration/blog">Blog</a></li></ul></div><li onmouseover="sel(this);"><a class="sub" href="/arts-&-crafts-instructors">Instructors</a></li><li onmouseover="sel(this);"><a class="sub" href="/calendar">Calendar</a></li><li onmouseover="sel(this);"><a itemprop="url" class="sub" href="/free-arts-and-crafts-classes">Free</a></li><li><a href="/cbtv" style="color: #ff4b55">CBTV</a></li></ul>
+</nav>
+
+<form id="topnav_search" class="nav-search form-inline" action="/search/results" method="get"
+    accept-charset="UTF-8" autocomplete="off"
+    itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction"
+    role="search">
+  <link itemprop="target" href="/search/results?query={query}">
+
+  <div class="input-group">
+    <div class="input-group-btn">
+      <button type="button" class="search-categories btn dropdown-toggle" data-toggle="dropdown">
+        <span class="js-search-category-name">Classes</span><span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu">
+        <li class="dropdown-header">Search Category</li>
+        <li><a class="search-category">Classes</a></li>
+        <li><a class="search-category">Images</a></li>
+        <li><a class="search-category">Instructors</a></li>
+        <li><a class="search-category">Blog</a></li>
+      </ul>
+    </div>
+    <input class="js-search-query search-box form-control" type="text"
+        name="query" value="" autocomplete="off"
+        placeholder="Search" itemprop="query-input"
+        onkeypress="if(event.keyCode == 13){$(this).close('form').submit();}">
+    <div class="search-submit input-group-btn">
+      <a class="btn btn-primary" href="javascript:;" onclick="$('#topnav_search').submit();"><i class="glyphicon glyphicon-search"></i></a>
+    </div>
+  </div>
+  <input class="js-search-category" type="hidden" name="category" value="Classes">
+</form>
+  </div>
+  </header>
+  <aside class="main-sidebar">
+    <ul class="on"><li onclick="$('html').removeClass('sidebar-open'); $('.js-login').trigger('click');" class="bold"><a class="sub" href="javascript:;">Log in</a></li><li onclick="document.location.href='/trial/add/monthly-trial'" class="bold"><a class="sub" href="javascript:;">Start Free Trial</a></li><li onclick="liopen(this);" class="bold arrow"><a class="sub" href="/classes">Classes</a></li><ul><li onclick="liopen(this);" class="bold arrow"><a href="/classes/knitting">Knitting</a></li><ul><li onclick="document.location.href='/classes/knitting/accessories';"><a href="javascript:;">Accessories</a></li><li onclick="document.location.href='/classes/knitting/baby-and-kids';"><a href="javascript:;">Baby & Kids</a></li><li onclick="document.location.href='/classes/knitting/felting';"><a href="javascript:;">Felting</a></li><li onclick="document.location.href='/classes/knitting/holiday-and-party';"><a href="javascript:;">Holiday & Party</a></li><li onclick="document.location.href='/classes/knitting/home-decor';"><a href="javascript:;">Home Décor</a></li><li onclick="document.location.href='/classes/knitting/sweaters';"><a href="javascript:;">Sweaters</a></li><li onclick="document.location.href='/classes/knitting/yarn-craft';"><a href="javascript:;">Yarn Craft</a></li><li onclick="document.location.href='/classes/knitting/for-beginners';"><a href="javascript:;">For Beginners</a></li><li onclick="document.location.href='/classes/knitting/multi-part-classes';"><a href="javascript:;">Multi-Part Classes</a></li><li onclick="document.location.href='/classes/knitting/quick-classes';"><a href="javascript:;">Quick Classes</a></li><li onclick="document.location.href='/classes/knitting/techniques';"><a href="javascript:;">Techniques</a></li></ul><li onclick="liopen(this);" class="bold arrow"><a href="/classes/crochet">Crochet</a></li><ul><li onclick="document.location.href='/classes/crochet/accessories';"><a href="javascript:;">Accessories</a></li><li onclick="document.location.href='/classes/crochet/baby-and-kids';"><a href="javascript:;">Baby & Kids</a></li><li onclick="document.location.href='/classes/crochet/home-decor';"><a href="javascript:;">Home Décor</a></li><li onclick="document.location.href='/classes/crochet/yarn-craft';"><a href="javascript:;">Yarn Craft</a></li><li onclick="document.location.href='/classes/crochet/for-beginners';"><a href="javascript:;">For Beginners</a></li><li onclick="document.location.href='/classes/crochet/multi-part-classes';"><a href="javascript:;">Multi-Part Classes</a></li><li onclick="document.location.href='/classes/crochet/quick-classes';"><a href="javascript:;">Quick Classes</a></li><li onclick="document.location.href='/classes/crochet/techniques';"><a href="javascript:;">Techniques</a></li></ul><li onclick="liopen(this);" class="bold arrow"><a href="/classes/art-and-design">Art + Design</a></li><ul><li onclick="document.location.href='/classes/art-and-design/ceramics';"><a href="javascript:;">Ceramics</a></li><li onclick="document.location.href='/classes/art-and-design/drawing-and-illustration';"><a href="javascript:;">Drawing & Illustration</a></li><li onclick="document.location.href='/classes/art-and-design/home-decor';"><a href="javascript:;">Home Décor</a></li><li onclick="document.location.href='/classes/art-and-design/lettering';"><a href="javascript:;">Lettering</a></li><li onclick="document.location.href='/classes/art-and-design/mixed-media';"><a href="javascript:;">Mixed Media</a></li><li onclick="document.location.href='/classes/art-and-design/painting';"><a href="javascript:;">Painting</a></li><li onclick="document.location.href='/classes/art-and-design/printmaking';"><a href="javascript:;">Printmaking</a></li><li onclick="document.location.href='/classes/art-and-design/sketchbook-exercises';"><a href="javascript:;">Sketchbook Exercises</a></li><li onclick="document.location.href='/classes/art-and-design/textiles';"><a href="javascript:;">Textiles</a></li><li onclick="document.location.href='/classes/art-and-design/for-beginners';"><a href="javascript:;">For Beginners</a></li><li onclick="document.location.href='/classes/art-and-design/multi-part-classes';"><a href="javascript:;">Multi-Part Classes</a></li><li onclick="document.location.href='/classes/art-and-design/quick-classes';"><a href="javascript:;">Quick Classes</a></li><li onclick="document.location.href='/classes/art-and-design/techniques';"><a href="javascript:;">Techniques</a></li></ul><li onclick="liopen(this);" class="bold arrow"><a href="/classes/paper">Paper</a></li><ul><li onclick="document.location.href='/classes/paper/book-binding';"><a href="javascript:;">Book Binding</a></li><li onclick="document.location.href='/classes/paper/cards-and-gift-wrap';"><a href="javascript:;">Cards & Gift Wrap</a></li><li onclick="document.location.href='/classes/paper/collage-and-decoupage';"><a href="javascript:;">Collage & Decoupage</a></li><li onclick="document.location.href='/classes/paper/cutting-machine-crafts';"><a href="javascript:;">Cutting Machine Crafts</a></li><li onclick="document.location.href='/classes/paper/holiday-and-party';"><a href="javascript:;">Holiday & Party</a></li><li onclick="document.location.href='/classes/paper/home-decor';"><a href="javascript:;">Home Décor</a></li><li onclick="document.location.href='/classes/paper/kids';"><a href="javascript:;">Kids</a></li><li onclick="document.location.href='/classes/paper/paper-flowers';"><a href="javascript:;">Paper Flowers</a></li><li onclick="document.location.href='/classes/paper/printing';"><a href="javascript:;">Printing</a></li><li onclick="document.location.href='/classes/paper/sketchbook-exercises';"><a href="javascript:;">Sketchbook Exercises</a></li><li onclick="document.location.href='/classes/paper/for-beginners';"><a href="javascript:;">For Beginners</a></li><li onclick="document.location.href='/classes/paper/multi-part-classes';"><a href="javascript:;">Multi-Part Classes</a></li><li onclick="document.location.href='/classes/paper/quick-classes';"><a href="javascript:;">Quick Classes</a></li><li onclick="document.location.href='/classes/paper/techniques';"><a href="javascript:;">Techniques</a></li></ul><li onclick="liopen(this);" class="bold arrow"><a href="/classes/sewing">Sewing</a></li><ul><li onclick="document.location.href='/classes/sewing/accessories';"><a href="javascript:;">Accessories</a></li><li onclick="document.location.href='/classes/sewing/baby-and-kids';"><a href="javascript:;">Baby & Kids</a></li><li onclick="document.location.href='/classes/sewing/fabric-design';"><a href="javascript:;">Fabric Design</a></li><li onclick="document.location.href='/classes/sewing/garments';"><a href="javascript:;">Garments</a></li><li onclick="document.location.href='/classes/sewing/hand-stitching';"><a href="javascript:;">Hand-stitching</a></li><li onclick="document.location.href='/classes/sewing/holiday-and-party';"><a href="javascript:;">Holiday & Party</a></li><li onclick="document.location.href='/classes/sewing/home-decor';"><a href="javascript:;">Home Décor</a></li><li onclick="document.location.href='/classes/sewing/pattern-drafting';"><a href="javascript:;">Pattern Drafting</a></li><li onclick="document.location.href='/classes/sewing/for-beginners';"><a href="javascript:;">For Beginners</a></li><li onclick="document.location.href='/classes/sewing/multi-part-classes';"><a href="javascript:;">Multi-Part Classes</a></li><li onclick="document.location.href='/classes/sewing/quick-classes';"><a href="javascript:;">Quick Classes</a></li><li onclick="document.location.href='/classes/sewing/techniques';"><a href="javascript:;">Techniques</a></li></ul><li onclick="liopen(this);" class="bold arrow"><a href="/classes/quilting">Quilting</a></li><ul><li onclick="document.location.href='/classes/quilting/baby-and-kids';"><a href="javascript:;">Baby & Kids</a></li><li onclick="document.location.href='/classes/quilting/blocks';"><a href="javascript:;">Blocks</a></li><li onclick="document.location.href='/classes/quilting/design';"><a href="javascript:;">Design</a></li><li onclick="document.location.href='/classes/quilting/home-decor';"><a href="javascript:;">Home Décor</a></li><li onclick="document.location.href='/classes/quilting/modern-quilts';"><a href="javascript:;">Modern Quilts</a></li><li onclick="document.location.href='/classes/quilting/quilt-tops';"><a href="javascript:;">Quilt Tops</a></li><li onclick="document.location.href='/classes/quilting/quilting';"><a href="javascript:;">Quilting</a></li><li onclick="document.location.href='/classes/quilting/for-beginners';"><a href="javascript:;">For Beginners</a></li><li onclick="document.location.href='/classes/quilting/multi-part-classes';"><a href="javascript:;">Multi-Part Classes</a></li><li onclick="document.location.href='/classes/quilting/quick-classes';"><a href="javascript:;">Quick Classes</a></li><li onclick="document.location.href='/classes/quilting/techniques';"><a href="javascript:;">Techniques</a></li></ul><li onclick="liopen(this);" class="bold arrow"><a href="/classes/jewelry">Jewelry</a></li><ul><li onclick="document.location.href='/classes/jewelry/beading';"><a href="javascript:;">Beading</a></li><li onclick="document.location.href='/classes/jewelry/bracelets';"><a href="javascript:;">Bracelets</a></li><li onclick="document.location.href='/classes/jewelry/earrings-and-rings';"><a href="javascript:;">Earrings and Rings</a></li><li onclick="document.location.href='/classes/jewelry/kids';"><a href="javascript:;">Kids</a></li><li onclick="document.location.href='/classes/jewelry/leather';"><a href="javascript:;">Leather</a></li><li onclick="document.location.href='/classes/jewelry/metal-and-wire';"><a href="javascript:;">Metal and Wire</a></li><li onclick="document.location.href='/classes/jewelry/necklaces';"><a href="javascript:;">Necklaces</a></li><li onclick="document.location.href='/classes/jewelry/for-beginners';"><a href="javascript:;">For Beginners</a></li><li onclick="document.location.href='/classes/jewelry/quick-classes';"><a href="javascript:;">Quick Classes</a></li><li onclick="document.location.href='/classes/jewelry/techniques';"><a href="javascript:;">Techniques</a></li></ul><li onclick="liopen(this);" class="bold arrow"><a href="/classes/kids">Kids</a></li><ul><li onclick="document.location.href='/classes/kids/crafts';"><a href="javascript:;">Crafts</a></li><li onclick="document.location.href='/classes/kids/drawing-and-painting';"><a href="javascript:;">Drawing & Painting</a></li><li onclick="document.location.href='/classes/kids/holiday-and-party';"><a href="javascript:;">Holiday & Party</a></li><li onclick="document.location.href='/classes/kids/jewelry';"><a href="javascript:;">Jewelry</a></li><li onclick="document.location.href='/classes/kids/paper';"><a href="javascript:;">Paper</a></li><li onclick="document.location.href='/classes/kids/sewing';"><a href="javascript:;">Sewing</a></li><li onclick="document.location.href='/classes/kids/yarn';"><a href="javascript:;">Yarn</a></li><li onclick="document.location.href='/classes/kids/quick-classes';"><a href="javascript:;">Quick Classes</a></li></ul><li onclick="liopen(this);" class="bold arrow"><a href="/classes/food-and-home">Food + Home</a></li><ul><li onclick="document.location.href='/classes/food-and-home/baking-and-cake-decorating';"><a href="javascript:;">Baking & Cake Decorating</a></li><li onclick="document.location.href='/classes/food-and-home/bath-and-body';"><a href="javascript:;">Bath & Body</a></li><li onclick="document.location.href='/classes/food-and-home/canning-and-preserving';"><a href="javascript:;">Canning & Preserving</a></li><li onclick="document.location.href='/classes/food-and-home/flowers';"><a href="javascript:;">Flowers</a></li><li onclick="document.location.href='/classes/food-and-home/furniture-refinishing-and-upholstery';"><a href="javascript:;">Furniture Refinishing & Upholstery</a></li><li onclick="document.location.href='/classes/food-and-home/home-decor';"><a href="javascript:;">Home Decor</a></li><li onclick="document.location.href='/classes/food-and-home/packaging-and-presentation';"><a href="javascript:;">Packaging & Presentation</a></li><li onclick="document.location.href='/classes/food-and-home/multi-part-classes';"><a href="javascript:;">Multi-Part Classes</a></li><li onclick="document.location.href='/classes/food-and-home/quick-classes';"><a href="javascript:;">Quick Classes</a></li></ul><li onclick="liopen(this);" class="bold arrow"><a href="/classes/holiday-and-party">Holiday + Party</a></li><ul><li onclick="document.location.href='/classes/holiday-and-party/packaging-and-presentation';"><a href="javascript:;">Packaging & Presentation</a></li><li onclick="document.location.href='/classes/holiday-and-party/birthday-parties';"><a href="javascript:;">Parties</a></li><li onclick="document.location.href='/classes/holiday-and-party/weddings';"><a href="javascript:;">Weddings</a></li><li onclick="document.location.href='/classes/holiday-and-party/valentines-day';"><a href="javascript:;">Valentine’s Day</a></li><li onclick="document.location.href='/classes/holiday-and-party/easter';"><a href="javascript:;">Easter</a></li><li onclick="document.location.href='/classes/holiday-and-party/mothers-day-and-fathers-day';"><a href="javascript:;">Mother’s Day & Father’s Day</a></li><li onclick="document.location.href='/classes/holiday-and-party/halloween';"><a href="javascript:;">Halloween</a></li><li onclick="document.location.href='/classes/holiday-and-party/thanksgiving';"><a href="javascript:;">Thanksgiving</a></li><li onclick="document.location.href='/classes/holiday-and-party/christmas';"><a href="javascript:;">Christmas</a></li><li onclick="document.location.href='/classes/holiday-and-party/quick-classes';"><a href="javascript:;">Quick Classes</a></li></ul></ul><li onclick="liopen(this);" class="bold arrow"><a class="sub" href="/inspiration">Inspiration</a></li><ul><li onclick="document.location.href='/inspiration';" class="bold"><a href="javascript:;">Inspiration Feeds</a></li><li onclick="document.location.href='/patterns';" class="bold"><a href="javascript:;">Pattern Library</a></li><li onclick="document.location.href='/collections';" class="bold"><a href="javascript:;">Class Collections</a></li><li onclick="document.location.href='/inspiration/blog';" class="bold"><a href="javascript:;">Blog</a></li></ul><li onclick="document.location.href='/arts-&-crafts-instructors';" class="bold"><a href="javascript:;">Instructors</a></li><li onclick="document.location.href='/calendar';" class="bold"><a href="javascript:;">Calendar</a></li><li onclick="document.location.href='/free-arts-and-crafts-classes';" class="bold"><a href="javascript:;">Free</a></li><li><a href="/cbtv" style="color: #ff4b55">CBTV</a></li></ul>  </aside>
+  <div id="main-content" onmousedown="$('html').removeClass('sidebar-open');" ontouchstart="$('html').removeClass('sidebar-open');">
+  <section id="main" class="clearfix">
+<script>
+window.LOAD_MORE_AJAX_OFFSET = 27;
+</script>
+<style>
+
+#latest-tutorials .tutorials-wrapper {
+  padding-top: 18px;
+}
+.description {
+  font-size: 16px;
+  line-height: 21px;
+  color: #424242;
+  font-weight: 100;
+  padding: 0 0 22px 0;
+}
+@media screen and (max-width: 1080px) {
+  .description {
+    padding: 0 2% 22px 2%;
+  }
+}
+</style>
+
+<div id='primary' class='home-v2'>
+  <div id="latest-tutorials">
+
+      
+      <h1 class="filter">
+        <small><a href="/">Home</a> &gt; <a href="/classes">Classes</a> &gt; <a href="/classes/knitting">Knitting</a> &gt; <a href="/classes/knitting/accessories">Accessories</a></small>Accessories              </h1>
+      <style>
+  .upsell-banner {
+    margin: 0 auto 25px auto;
+    text-align: center;
+  }
+  @media screen and (max-width: 1080px) {
+    .upsell-banner {
+      margin-left: 2%;
+      margin-right: 2%;
+    }
+  }
+</style>
+<div class="upsell-banner">
+  <a onclick="ga('send', 'event', 'upsell-banner', 'click', '/classes/knitting/accessories');" href="/trial/create-account?redirect_on_success=/classes/knitting/accessories"><img title="Unlimited Access to Over 700 Classes. New Classes Released Every Week. 1 Free Class to Keep with Free Trial." style="width:100%; max-width:1080px;" src="/ui/images/promo/free-trial.jpg" /></a>
+</div>
+
+<script type="text/javascript">
+  $(function() {
+    ga('send', 'event', 'upsell-banner', 'view', '/classes/knitting/accessories', { nonInteraction: true } );
+  });
+</script>
+
+      <div class="tutorials-wrapper">
+        <div class="tutorials clearfix">
+          <div class="workshop-collection-segments"  id="workshop-collection-paginator" >
+  <div  class='workshop-collection clearfix'>
+  <ul class='workshop-collection-list'>
+    <li class='workshop-collection-item'>
+    <div class="tutorial-item-v2 workshop-thumbnail-medium">
+  <a href="/classseries/single/adding-duplicate-stitch-to-knits" class='tutorial-thumbnail-container'>
+    <div>
+      <img src="https://www.creativebug.com/pimage/dynamic/workshop-thumbnail-medium~storage/public/images/tutorial_thumbnails/original/1139/b9q9jzz7qcj1ih6uonth.jpg" width="350" height="270" alt="Adding Duplicate Stitch to Knits">
+    </div>
+  </a>
+  <div class="tutorial-information">
+    <div class="tutorial-information-top">
+      <h2 class="tooltip-show" data-tooltip-id="1139-title-tooltip">
+      Adding Duplicate Stitch to Knits</h2>
+      <a class="instructor" href="/instructors/marly-bird">
+        <img alt="Marly Bird" src="https://www.creativebug.com/pimage/dynamic/profile-thumbnail~storage/images/profile/142471/original/sjanpop6dumxkfqyhccp.jpg" width="40" style="width:40px">
+        <div class='name'>Marly Bird</div>
+      </a>
+      <a href="/classseries/single/adding-duplicate-stitch-to-knits" class="view-class">view class</a>
+    </div>
+    <div class="tutorial-information-overlay"></div>
+  </div>
+  </div>
+    </li><li class='workshop-collection-item'>
+    <div class="tutorial-item-v2 workshop-thumbnail-medium">
+  <a href="/classseries/single/knit-a-super-scarf" class='tutorial-thumbnail-container'>
+    <div>
+      <img src="https://www.creativebug.com/pimage/dynamic/workshop-thumbnail-medium~storage/public/images/tutorial_thumbnails/original/1104/da1asen4ay0musgrpa7h.jpg" width="350" height="270" alt="Knit a Super Scarf">
+    </div>
+  </a>
+  <div class="tutorial-information">
+    <div class="tutorial-information-top">
+      <h2 class="tooltip-show" data-tooltip-id="1104-title-tooltip">
+      Knit a Super Scarf</h2>
+      <a class="instructor" href="/instructors/faith-hale">
+        <img alt="Faith Hale" src="https://www.creativebug.com/pimage/dynamic/profile-thumbnail~storage/images/profile/282057/original/slnoqetuagpbnatfyjm0.jpg" width="40" style="width:40px">
+        <div class='name'>Faith Hale</div>
+      </a>
+      <a href="/classseries/single/knit-a-super-scarf" class="view-class">view class</a>
+    </div>
+    <div class="tutorial-information-overlay"></div>
+  </div>
+  </div>
+    </li><li class='workshop-collection-item'>
+    <div class="tutorial-item-v2 workshop-thumbnail-medium">
+  <a href="/classseries/single/knitted-lace-mitts" class='tutorial-thumbnail-container'>
+    <div>
+      <img src="https://www.creativebug.com/pimage/dynamic/workshop-thumbnail-medium~storage/public/images/tutorial_thumbnails/original/963/9jp75z5dq1x0l5w9oagx.jpg" width="350" height="270" alt="Knitted Lace Mitts">
+    </div>
+  </a>
+  <div class="tutorial-information">
+    <div class="tutorial-information-top">
+      <h2 class="tooltip-show" data-tooltip-id="963-title-tooltip">
+      Knitted Lace Mitts</h2>
+      <a class="instructor" href="/instructors/wendy-bernard">
+        <img alt="Wendy Bernard" src="https://www.creativebug.com/pimage/dynamic/profile-thumbnail~storage/images/profile/84903/original/qxcepbptotcrltgtsm26.jpg" width="40" style="width:40px">
+        <div class='name'>Wendy Bernard</div>
+      </a>
+      <a href="/classseries/single/knitted-lace-mitts" class="view-class">view class</a>
+    </div>
+    <div class="tutorial-information-overlay"></div>
+  </div>
+  </div>
+    </li><li class='workshop-collection-item'>
+    <div class="tutorial-item-v2 workshop-thumbnail-medium">
+  <a href="/classseries/single/fair-isle-mitts-and-mittens" class='tutorial-thumbnail-container'>
+    <div>
+      <img src="https://www.creativebug.com/pimage/dynamic/workshop-thumbnail-medium~storage/public/images/tutorial_thumbnails/original/922/xfsgtxyw8spt2jinkhyw.jpg" width="350" height="270" alt="Fair Isle Mitts and Mittens">
+    </div>
+  </a>
+  <div class="tutorial-information">
+    <div class="tutorial-information-top">
+      <h2 class="tooltip-show" data-tooltip-id="922-title-tooltip">
+      Fair Isle Mitts and Mittens</h2>
+      <a class="instructor" href="/instructors/edie-eckman">
+        <img alt="Edie Eckman" src="https://www.creativebug.com/pimage/dynamic/profile-thumbnail~storage/images/profile/53953/original/imvpzbdxw4nrgzmfitxg.jpg" width="40" style="width:40px">
+        <div class='name'>Edie Eckman</div>
+      </a>
+      <a href="/classseries/single/fair-isle-mitts-and-mittens" class="view-class">view class</a>
+    </div>
+    <div class="tutorial-information-overlay"></div>
+  </div>
+  </div>
+    </li><li class='workshop-collection-item'>
+    <div class="tutorial-item-v2 workshop-thumbnail-medium">
+  <a href="/classseries/single/loom-knitting-make-a-cowl" class='tutorial-thumbnail-container'>
+    <div>
+      <img src="https://www.creativebug.com/pimage/dynamic/workshop-thumbnail-medium~storage/public/images/tutorial_thumbnails/original/902/5m3xkm3tjjmh3thhxkfu.jpg" width="350" height="270" alt="Loom Knitting: Make a Cowl">
+    </div>
+  </a>
+  <div class="tutorial-information">
+    <div class="tutorial-information-top">
+      <h2 class="tooltip-show" data-tooltip-id="902-title-tooltip">
+      Loom Knitting: Make a Cowl</h2>
+      <a class="instructor" href="/instructors/michele-of-simplicity">
+        <img alt="Michele of Simplicity" src="https://www.creativebug.com/pimage/dynamic/profile-thumbnail~storage/images/profile/92396/original/s2asc3kr4jkhp6rdepdb.jpg" width="40" style="width:40px">
+        <div class='name'>Michele of Simplicity</div>
+      </a>
+      <a href="/classseries/single/loom-knitting-make-a-cowl" class="view-class">view class</a>
+    </div>
+    <div class="tutorial-information-overlay"></div>
+  </div>
+  </div>
+    </li><li class='workshop-collection-item'>
+    <div class="tutorial-item-v2 workshop-thumbnail-medium">
+  <a href="/classseries/single/loom-knitting-make-a-hat" class='tutorial-thumbnail-container'>
+    <div>
+      <img src="https://www.creativebug.com/pimage/dynamic/workshop-thumbnail-medium~storage/public/images/tutorial_thumbnails/original/890/zstw69xkmg8hg54xbezl.jpg" width="350" height="270" alt="Loom Knitting: Make a Hat">
+    </div>
+  </a>
+  <div class="tutorial-information">
+    <div class="tutorial-information-top">
+      <h2 class="tooltip-show" data-tooltip-id="890-title-tooltip">
+      Loom Knitting: Make a Hat</h2>
+      <a class="instructor" href="/instructors/michele-of-simplicity">
+        <img alt="Michele of Simplicity" src="https://www.creativebug.com/pimage/dynamic/profile-thumbnail~storage/images/profile/92396/original/s2asc3kr4jkhp6rdepdb.jpg" width="40" style="width:40px">
+        <div class='name'>Michele of Simplicity</div>
+      </a>
+      <a href="/classseries/single/loom-knitting-make-a-hat" class="view-class">view class</a>
+    </div>
+    <div class="tutorial-information-overlay"></div>
+  </div>
+  </div>
+    </li><li class='workshop-collection-item'>
+    <div class="tutorial-item-v2 workshop-thumbnail-medium">
+  <a href="/classseries/single/knitted-seed-stitch-slippers" class='tutorial-thumbnail-container'>
+    <div>
+      <img src="https://www.creativebug.com/pimage/dynamic/workshop-thumbnail-medium~storage/public/images/tutorial_thumbnails/original/888/yr8w4ctcpmhs4ahwdkoc.jpg" width="350" height="270" alt="Knitted Seed Stitch Slippers">
+    </div>
+  </a>
+  <div class="tutorial-information">
+    <div class="tutorial-information-top">
+      <h2 class="tooltip-show" data-tooltip-id="888-title-tooltip">
+      Knitted Seed Stitch Slippers</h2>
+      <a class="instructor" href="/instructors/wendy-bernard">
+        <img alt="Wendy Bernard" src="https://www.creativebug.com/pimage/dynamic/profile-thumbnail~storage/images/profile/84903/original/qxcepbptotcrltgtsm26.jpg" width="40" style="width:40px">
+        <div class='name'>Wendy Bernard</div>
+      </a>
+      <a href="/classseries/single/knitted-seed-stitch-slippers" class="view-class">view class</a>
+    </div>
+    <div class="tutorial-information-overlay"></div>
+  </div>
+  </div>
+    </li><li class='workshop-collection-item'>
+    <div class="tutorial-item-v2 workshop-thumbnail-medium">
+  <a href="/classseries/single/circular-knitting-basics-making-hats-in-the-round" class='tutorial-thumbnail-container'>
+    <div>
+      <img src="https://www.creativebug.com/pimage/dynamic/workshop-thumbnail-medium~storage/public/images/tutorial_thumbnails/original/855/1zs1iterpvqgsnnpg9bh.jpg" width="350" height="270" alt="Circular Knitting Basics: Hats in the Round">
+    </div>
+  </a>
+  <div class="tutorial-information">
+    <div class="tutorial-information-top">
+      <h2 class="tooltip-show" data-tooltip-id="855-title-tooltip">
+      Circular Knitting Basics: Hats in the Round</h2>
+      <a class="instructor" href="/instructors/joy-macdonell">
+        <img alt="Joy Macdonell" src="https://www.creativebug.com/pimage/dynamic/profile-thumbnail~storage/images/profile/33743/original/kmqppfujs9gaakc507bk.jpg" width="40" style="width:40px">
+        <div class='name'>Joy Macdonell</div>
+      </a>
+      <a href="/classseries/single/circular-knitting-basics-making-hats-in-the-round" class="view-class">view class</a>
+    </div>
+    <div class="tutorial-information-overlay"></div>
+  </div>
+  </div>
+    </li><li class='workshop-collection-item'>
+    <div class="tutorial-item-v2 workshop-thumbnail-medium">
+  <a href="/classseries/single/knitted-pom-pom-socks" class='tutorial-thumbnail-container'>
+    <div>
+      <img src="https://www.creativebug.com/pimage/dynamic/workshop-thumbnail-medium~storage/public/images/tutorial_thumbnails/original/815/a6afgupo24w0dzm6wvye.jpg" width="350" height="270" alt="Knitted Pom Pom Socks">
+    </div>
+  </a>
+  <div class="tutorial-information">
+    <div class="tutorial-information-top">
+      <h2 class="tooltip-show" data-tooltip-id="815-title-tooltip">
+      Knitted Pom Pom Socks</h2>
+      <a class="instructor" href="/instructors/wendy-bernard">
+        <img alt="Wendy Bernard" src="https://www.creativebug.com/pimage/dynamic/profile-thumbnail~storage/images/profile/84903/original/qxcepbptotcrltgtsm26.jpg" width="40" style="width:40px">
+        <div class='name'>Wendy Bernard</div>
+      </a>
+      <a href="/classseries/single/knitted-pom-pom-socks" class="view-class">view class</a>
+    </div>
+    <div class="tutorial-information-overlay"></div>
+  </div>
+  </div>
+    </li><li class='workshop-collection-item'>
+    <div class="tutorial-item-v2 workshop-thumbnail-medium">
+  <a href="/classseries/single/knit-a-linen-stitch-glasses-case" class='tutorial-thumbnail-container'>
+    <div>
+      <img src="https://www.creativebug.com/pimage/dynamic/workshop-thumbnail-medium~storage/public/images/tutorial_thumbnails/original/783/eco2cc3i6oni618l8r6o.jpg" width="350" height="270" alt="Knit a Linen Stitch Glasses Case">
+    </div>
+  </a>
+  <div class="tutorial-information">
+    <div class="tutorial-information-top">
+      <h2 class="tooltip-show" data-tooltip-id="783-title-tooltip">
+      Knit a Linen Stitch Glasses Case</h2>
+      <a class="instructor" href="/instructors/wendy-bernard">
+        <img alt="Wendy Bernard" src="https://www.creativebug.com/pimage/dynamic/profile-thumbnail~storage/images/profile/84903/original/qxcepbptotcrltgtsm26.jpg" width="40" style="width:40px">
+        <div class='name'>Wendy Bernard</div>
+      </a>
+      <a href="/classseries/single/knit-a-linen-stitch-glasses-case" class="view-class">view class</a>
+    </div>
+    <div class="tutorial-information-overlay"></div>
+  </div>
+  </div>
+    </li><li class='workshop-collection-item'>
+    <div class="tutorial-item-v2 workshop-thumbnail-medium">
+  <a href="/classseries/single/knit-a-cabled-hat" class='tutorial-thumbnail-container'>
+    <div>
+      <img src="https://www.creativebug.com/pimage/dynamic/workshop-thumbnail-medium~storage/public/images/tutorial_thumbnails/original/640/fhp0aiqe2ilk17kxbkon.jpg" width="350" height="270" alt="Knit a Cabled Hat">
+    </div>
+  </a>
+  <div class="tutorial-information">
+    <div class="tutorial-information-top">
+      <h2 class="tooltip-show" data-tooltip-id="640-title-tooltip">
+      Knit a Cabled Hat</h2>
+      <a class="instructor" href="/instructors/norah-gaughan">
+        <img alt="Norah Gaughan" src="https://www.creativebug.com/pimage/dynamic/profile-thumbnail~storage/images/profile/51769/original/pttzzhodqt9pvgz19adf.jpg" width="40" style="width:40px">
+        <div class='name'>Norah Gaughan</div>
+      </a>
+      <a href="/classseries/single/knit-a-cabled-hat" class="view-class">view class</a>
+    </div>
+    <div class="tutorial-information-overlay"></div>
+  </div>
+  </div>
+    </li><li class='workshop-collection-item'>
+    <div class="tutorial-item-v2 workshop-thumbnail-medium">
+  <a href="/classseries/single/how-to-knit-twisted-rib-socks-1" class='tutorial-thumbnail-container'>
+    <div>
+      <img src="https://www.creativebug.com/pimage/dynamic/workshop-thumbnail-medium~storage/public/images/tutorial_thumbnails/original/690/9hfg5bw3rcxzkxifnced.jpg" width="350" height="270" alt="How to Knit Twisted Rib Socks">
+    </div>
+  </a>
+  <div class="tutorial-information">
+    <div class="tutorial-information-top">
+      <h2 class="tooltip-show" data-tooltip-id="690-title-tooltip">
+      How to Knit Twisted Rib Socks</h2>
+      <a class="instructor" href="/instructors/edie-eckman">
+        <img alt="Edie Eckman" src="https://www.creativebug.com/pimage/dynamic/profile-thumbnail~storage/images/profile/53953/original/imvpzbdxw4nrgzmfitxg.jpg" width="40" style="width:40px">
+        <div class='name'>Edie Eckman</div>
+      </a>
+      <a href="/classseries/single/how-to-knit-twisted-rib-socks-1" class="view-class">view class</a>
+    </div>
+    <div class="tutorial-information-overlay"></div>
+  </div>
+  </div>
+    </li><li class='workshop-collection-item'>
+    <div class="tutorial-item-v2 workshop-thumbnail-medium">
+  <a href="/classseries/single/knit-a-log-cabin-shawl" class='tutorial-thumbnail-container'>
+    <div>
+      <img src="https://www.creativebug.com/pimage/dynamic/workshop-thumbnail-medium~storage/public/images/tutorial_thumbnails/original/682/vmyk2lqpwblu2efmcgeb.jpg" width="350" height="270" alt="Knit a Log Cabin Shawl">
+    </div>
+  </a>
+  <div class="tutorial-information">
+    <div class="tutorial-information-top">
+      <h2 class="tooltip-show" data-tooltip-id="682-title-tooltip">
+      Knit a Log Cabin Shawl</h2>
+      <a class="instructor" href="/instructors/norah-gaughan">
+        <img alt="Norah Gaughan" src="https://www.creativebug.com/pimage/dynamic/profile-thumbnail~storage/images/profile/51769/original/pttzzhodqt9pvgz19adf.jpg" width="40" style="width:40px">
+        <div class='name'>Norah Gaughan</div>
+      </a>
+      <a href="/classseries/single/knit-a-log-cabin-shawl" class="view-class">view class</a>
+    </div>
+    <div class="tutorial-information-overlay"></div>
+  </div>
+  </div>
+    </li><li class='workshop-collection-item'>
+    <div class="tutorial-item-v2 workshop-thumbnail-medium">
+  <a href="/classseries/single/knit-a-custom-fit-dog-sweater" class='tutorial-thumbnail-container'>
+    <div>
+      <img src="https://www.creativebug.com/pimage/dynamic/workshop-thumbnail-medium~storage/public/images/tutorial_thumbnails/original/600/vsufvtm8lshzoxxzegqx.jpg" width="350" height="270" alt="Knit a Custom-Fit Dog Sweater">
+    </div>
+  </a>
+  <div class="tutorial-information">
+    <div class="tutorial-information-top">
+      <h2 class="tooltip-show" data-tooltip-id="600-title-tooltip">
+      Knit a Custom-Fit Dog Sweater</h2>
+      <a class="instructor" href="/instructors/wendy-bernard">
+        <img alt="Wendy Bernard" src="https://www.creativebug.com/pimage/dynamic/profile-thumbnail~storage/images/profile/84903/original/qxcepbptotcrltgtsm26.jpg" width="40" style="width:40px">
+        <div class='name'>Wendy Bernard</div>
+      </a>
+      <a href="/classseries/single/knit-a-custom-fit-dog-sweater" class="view-class">view class</a>
+    </div>
+    <div class="tutorial-information-overlay"></div>
+  </div>
+  </div>
+    </li><li class='workshop-collection-item'>
+    <div class="tutorial-item-v2 workshop-thumbnail-medium">
+  <a href="/classseries/single/how-to-make-a-pom-pom" class='tutorial-thumbnail-container'>
+    <div>
+      <img src="https://www.creativebug.com/pimage/dynamic/workshop-thumbnail-medium~storage/public/images/tutorial_thumbnails/original/526/vajekel9v1m5ikxeikuj.jpg" width="350" height="270" alt="How to Make a Pom Pom">
+    </div>
+  </a>
+  <div class="tutorial-information">
+    <div class="tutorial-information-top">
+      <h2 class="tooltip-show" data-tooltip-id="526-title-tooltip">
+      How to Make a Pom Pom</h2>
+      <a class="instructor" href="/instructors/maggie-pace">
+        <img alt="Maggie Pace" src="https://www.creativebug.com/pimage/dynamic/profile-thumbnail~storage/images/profile/22/original/igvu0buuyyhw3cfrfgsn.jpg" width="40" style="width:40px">
+        <div class='name'>Maggie Pace</div>
+      </a>
+      <a href="/classseries/single/how-to-make-a-pom-pom" class="view-class">view class</a>
+    </div>
+    <div class="tutorial-information-overlay"></div>
+  </div>
+  </div>
+    </li><li class='workshop-collection-item'>
+    <div class="tutorial-item-v2 workshop-thumbnail-medium">
+  <a href="/classseries/single/beginner-knits-how-to-knit-a-baby-hat" class='tutorial-thumbnail-container'>
+    <div>
+      <img src="https://www.creativebug.com/pimage/dynamic/workshop-thumbnail-medium~storage/public/images/tutorial_thumbnails/original/411/a44buglviaejiihoftts.jpg" width="350" height="270" alt="Beginner Knits: How to Knit a Baby Hat">
+    </div>
+  </a>
+  <div class="tutorial-information">
+    <div class="tutorial-information-top">
+      <h2 class="tooltip-show" data-tooltip-id="411-title-tooltip">
+      Beginner Knits: How to Knit a Baby Hat</h2>
+      <a class="instructor" href="/instructors/maggie-pace">
+        <img alt="Maggie Pace" src="https://www.creativebug.com/pimage/dynamic/profile-thumbnail~storage/images/profile/22/original/igvu0buuyyhw3cfrfgsn.jpg" width="40" style="width:40px">
+        <div class='name'>Maggie Pace</div>
+      </a>
+      <a href="/classseries/single/beginner-knits-how-to-knit-a-baby-hat" class="view-class">view class</a>
+    </div>
+    <div class="tutorial-information-overlay"></div>
+  </div>
+  </div>
+    </li><li class='workshop-collection-item'>
+    <div class="tutorial-item-v2 workshop-thumbnail-medium">
+  <a href="/classseries/single/knit-a-necklace" class='tutorial-thumbnail-container'>
+    <div>
+      <img src="https://www.creativebug.com/pimage/dynamic/workshop-thumbnail-medium~storage/public/images/tutorial_thumbnails/original/479/rwjbcufsvt6ata8wgkfv.jpg" width="350" height="270" alt="Knit a Necklace">
+    </div>
+  </a>
+  <div class="tutorial-information">
+    <div class="tutorial-information-top">
+      <h2 class="tooltip-show" data-tooltip-id="479-title-tooltip">
+      Knit a Necklace</h2>
+      <a class="instructor" href="/instructors/lynne-barr">
+        <img alt="Lynne Barr" src="https://www.creativebug.com/pimage/dynamic/profile-thumbnail~storage/images/profile/12177/original/lquxnaqemxswgplch9nn.jpg" width="40" style="width:40px">
+        <div class='name'>Lynne Barr</div>
+      </a>
+      <a href="/classseries/single/knit-a-necklace" class="view-class">view class</a>
+    </div>
+    <div class="tutorial-information-overlay"></div>
+  </div>
+  </div>
+    </li><li class='workshop-collection-item'>
+    <div class="tutorial-item-v2 workshop-thumbnail-medium">
+  <a href="/classseries/single/knit-the-imposters-shawl" class='tutorial-thumbnail-container'>
+    <div>
+      <img src="https://www.creativebug.com/pimage/dynamic/workshop-thumbnail-medium~storage/public/images/tutorial_thumbnails/original/569/ilpsyesi5xwsglsmvss4.jpg" width="350" height="270" alt="Knit the Imposter's Shawl">
+    </div>
+  </a>
+  <div class="tutorial-information">
+    <div class="tutorial-information-top">
+      <h2 class="tooltip-show" data-tooltip-id="569-title-tooltip">
+      Knit the Imposter's Shawl</h2>
+      <a class="instructor" href="/instructors/fancy-tiger">
+        <img alt="Fancy Tiger " src="https://www.creativebug.com/pimage/dynamic/profile-thumbnail~storage/images/profile/106864/original/vcgc6pdtiau0ikat6kla.jpg" width="40" style="width:40px">
+        <div class='name'>Fancy Tiger </div>
+      </a>
+      <a href="/classseries/single/knit-the-imposters-shawl" class="view-class">view class</a>
+    </div>
+    <div class="tutorial-information-overlay"></div>
+  </div>
+  </div>
+    </li><li class='workshop-collection-item'>
+    <div class="tutorial-item-v2 workshop-thumbnail-medium">
+  <a href="/classseries/single/knitting-in-the-round-hat" class='tutorial-thumbnail-container'>
+    <div>
+      <img src="https://www.creativebug.com/pimage/dynamic/workshop-thumbnail-medium~storage/public/images/tutorial_thumbnails/original/325/by1u8klpng5hqqzwmi8j.jpg" width="350" height="270" alt="How to Knit a Hat in the Round">
+    </div>
+  </a>
+  <div class="tutorial-information">
+    <div class="tutorial-information-top">
+      <h2 class="tooltip-show" data-tooltip-id="325-title-tooltip">
+      How to Knit a Hat in the Round</h2>
+      <a class="instructor" href="/instructors/jill-draper">
+        <img alt="Jill Draper" src="https://www.creativebug.com/images/member_headshots/large/20/jillDraper.jpg" width="40" style="width:40px">
+        <div class='name'>Jill Draper</div>
+      </a>
+      <a href="/classseries/single/knitting-in-the-round-hat" class="view-class">view class</a>
+    </div>
+    <div class="tutorial-information-overlay"></div>
+  </div>
+  </div>
+    </li><li class='workshop-collection-item'>
+    <div class="tutorial-item-v2 workshop-thumbnail-medium">
+  <a href="/classseries/single/falling-leaves-lace-scarf" class='tutorial-thumbnail-container'>
+    <div>
+      <img src="https://www.creativebug.com/pimage/dynamic/workshop-thumbnail-medium~storage/public/images/tutorial_thumbnails/original/116/72fswai4589ebvthx2wi.jpg" width="350" height="270" alt="Falling Leaves Lace Scarf">
+    </div>
+  </a>
+  <div class="tutorial-information">
+    <div class="tutorial-information-top">
+      <h2 class="tooltip-show" data-tooltip-id="116-title-tooltip">
+      Falling Leaves Lace Scarf</h2>
+      <a class="instructor" href="/instructors/debbie-stoller">
+        <img alt="Debbie Stoller" src="https://www.creativebug.com/pimage/dynamic/profile-thumbnail~storage/images/profile/26/original/6ix4ycunxaeiosfdpcz5.jpg" width="40" style="width:40px">
+        <div class='name'>Debbie Stoller</div>
+      </a>
+      <a href="/classseries/single/falling-leaves-lace-scarf" class="view-class">view class</a>
+    </div>
+    <div class="tutorial-information-overlay"></div>
+  </div>
+  </div>
+    </li><li class='workshop-collection-item'>
+    <div class="tutorial-item-v2 workshop-thumbnail-medium">
+  <a href="/classseries/single/beginner-knits-how-to-knit-baby-booties" class='tutorial-thumbnail-container'>
+    <div>
+      <img src="https://www.creativebug.com/pimage/dynamic/workshop-thumbnail-medium~storage/public/images/tutorial_thumbnails/original/409/eruwzrq4t7obma7onxag.jpg" width="350" height="270" alt="Beginner Knits: How to Knit Baby Booties">
+    </div>
+  </a>
+  <div class="tutorial-information">
+    <div class="tutorial-information-top">
+      <h2 class="tooltip-show" data-tooltip-id="409-title-tooltip">
+      Beginner Knits: How to Knit Baby Booties</h2>
+      <a class="instructor" href="/instructors/maggie-pace">
+        <img alt="Maggie Pace" src="https://www.creativebug.com/pimage/dynamic/profile-thumbnail~storage/images/profile/22/original/igvu0buuyyhw3cfrfgsn.jpg" width="40" style="width:40px">
+        <div class='name'>Maggie Pace</div>
+      </a>
+      <a href="/classseries/single/beginner-knits-how-to-knit-baby-booties" class="view-class">view class</a>
+    </div>
+    <div class="tutorial-information-overlay"></div>
+  </div>
+  </div>
+    </li><li class='workshop-collection-item'>
+    <div class="tutorial-item-v2 workshop-thumbnail-medium">
+  <a href="/classseries/single/knit-a-reflective-hat" class='tutorial-thumbnail-container'>
+    <div class="icon-free-class ">
+      <img src="https://www.creativebug.com/pimage/dynamic/workshop-thumbnail-medium~storage/public/images/tutorial_thumbnails/original/405/i79l213kezbviabpamsz.jpg" width="350" height="270" alt="Knit a Reflective Hat">
+    </div>
+  </a>
+  <div class="tutorial-information">
+    <div class="tutorial-information-top">
+      <h2 class="tooltip-show" data-tooltip-id="405-title-tooltip">
+      Knit a Reflective Hat</h2>
+      <a class="instructor" href="/instructors/maggie-pace">
+        <img alt="Maggie Pace" src="https://www.creativebug.com/pimage/dynamic/profile-thumbnail~storage/images/profile/22/original/igvu0buuyyhw3cfrfgsn.jpg" width="40" style="width:40px">
+        <div class='name'>Maggie Pace</div>
+      </a>
+      <a href="/classseries/single/knit-a-reflective-hat" class="view-class">view class</a>
+    </div>
+    <div class="tutorial-information-overlay"></div>
+  </div>
+  </div>
+    </li><li class='workshop-collection-item'>
+    <div class="tutorial-item-v2 workshop-thumbnail-medium">
+  <a href="/classseries/single/reversible-double-knitting-basics" class='tutorial-thumbnail-container'>
+    <div>
+      <img src="https://www.creativebug.com/pimage/dynamic/workshop-thumbnail-medium~storage/public/images/tutorial_thumbnails/original/389/5ncuxsewp5wm4e5wka1d.jpg" width="350" height="270" alt="Make a Reversible Double Knitted Cowl">
+    </div>
+  </a>
+  <div class="tutorial-information">
+    <div class="tutorial-information-top">
+      <h2 class="tooltip-show" data-tooltip-id="389-title-tooltip">
+      Make a Reversible Double Knitted Cowl</h2>
+      <a class="instructor" href="/instructors/lynne-barr">
+        <img alt="Lynne Barr" src="https://www.creativebug.com/pimage/dynamic/profile-thumbnail~storage/images/profile/12177/original/lquxnaqemxswgplch9nn.jpg" width="40" style="width:40px">
+        <div class='name'>Lynne Barr</div>
+      </a>
+      <a href="/classseries/single/reversible-double-knitting-basics" class="view-class">view class</a>
+    </div>
+    <div class="tutorial-information-overlay"></div>
+  </div>
+  </div>
+    </li><li class='workshop-collection-item'>
+    <div class="tutorial-item-v2 workshop-thumbnail-medium">
+  <a href="/classseries/single/knit-a-twist-top-hat" class='tutorial-thumbnail-container'>
+    <div>
+      <img src="https://www.creativebug.com/pimage/dynamic/workshop-thumbnail-medium~storage/public/images/tutorial_thumbnails/original/385/zl34odn6nwoc5svrtyhz.jpg" width="350" height="270" alt="Knit a Twist Top Hat">
+    </div>
+  </a>
+  <div class="tutorial-information">
+    <div class="tutorial-information-top">
+      <h2 class="tooltip-show" data-tooltip-id="385-title-tooltip">
+      Knit a Twist Top Hat</h2>
+      <a class="instructor" href="/instructors/lynne-barr">
+        <img alt="Lynne Barr" src="https://www.creativebug.com/pimage/dynamic/profile-thumbnail~storage/images/profile/12177/original/lquxnaqemxswgplch9nn.jpg" width="40" style="width:40px">
+        <div class='name'>Lynne Barr</div>
+      </a>
+      <a href="/classseries/single/knit-a-twist-top-hat" class="view-class">view class</a>
+    </div>
+    <div class="tutorial-information-overlay"></div>
+  </div>
+  </div>
+    </li><li class='workshop-collection-item'>
+    <div class="tutorial-item-v2 workshop-thumbnail-medium">
+  <a href="/classseries/single/knit-a-lace-shawl" class='tutorial-thumbnail-container'>
+    <div>
+      <img src="https://www.creativebug.com/pimage/dynamic/workshop-thumbnail-medium~storage/public/images/tutorial_thumbnails/original/369/y5zqtsitmkacf6ngvcj8.jpg" width="350" height="270" alt="Knit a Lace Shawl">
+    </div>
+  </a>
+  <div class="tutorial-information">
+    <div class="tutorial-information-top">
+      <h2 class="tooltip-show" data-tooltip-id="369-title-tooltip">
+      Knit a Lace Shawl</h2>
+      <a class="instructor" href="/instructors/gudrun-johnston">
+        <img alt="Gudrun Johnston" src="https://www.creativebug.com/pimage/dynamic/profile-thumbnail~storage/images/profile/22483/original/3qdmcksu1e799annzrvz.jpg" width="40" style="width:40px">
+        <div class='name'>Gudrun Johnston</div>
+      </a>
+      <a href="/classseries/single/knit-a-lace-shawl" class="view-class">view class</a>
+    </div>
+    <div class="tutorial-information-overlay"></div>
+  </div>
+  </div>
+    </li><li class='workshop-collection-item'>
+    <div class="tutorial-item-v2 workshop-thumbnail-medium">
+  <a href="/classseries/single/knit-crossbody-clutch" class='tutorial-thumbnail-container'>
+    <div>
+      <img src="https://www.creativebug.com/pimage/dynamic/workshop-thumbnail-medium~storage/public/images/tutorial_thumbnails/original/343/9fdedtmrjavf5k75f6fl.jpg" width="350" height="270" alt="Knit  Crossbody Clutch">
+    </div>
+  </a>
+  <div class="tutorial-information">
+    <div class="tutorial-information-top">
+      <h2 class="tooltip-show" data-tooltip-id="343-title-tooltip">
+      Knit  Crossbody Clutch</h2>
+      <a class="instructor" href="/instructors/cirilia-rose">
+        <img alt="Cirilia Rose" src="https://www.creativebug.com/pimage/dynamic/profile-thumbnail~storage/images/profile/4936/original/9zu5xfe5uaze1abhenjy.jpg" width="40" style="width:40px">
+        <div class='name'>Cirilia Rose</div>
+      </a>
+      <a href="/classseries/single/knit-crossbody-clutch" class="view-class">view class</a>
+    </div>
+    <div class="tutorial-information-overlay"></div>
+  </div>
+  </div>
+    </li><li class='workshop-collection-item'>
+    <div class="tutorial-item-v2 workshop-thumbnail-medium">
+  <a href="/classseries/single/finger-knitting" class='tutorial-thumbnail-container'>
+    <div>
+      <img src="https://www.creativebug.com/pimage/dynamic/workshop-thumbnail-medium~storage/public/images/tutorial_thumbnails/original/106/9svli8krpklszxoarhvg.jpg" width="350" height="270" alt="Finger Knitting">
+    </div>
+  </a>
+  <div class="tutorial-information">
+    <div class="tutorial-information-top">
+      <h2 class="tooltip-show" data-tooltip-id="106-title-tooltip">
+      Finger Knitting</h2>
+      <a class="instructor" href="/instructors/amelia-strader">
+        <img alt="Amelia Strader" src="https://www.creativebug.com/images/member_headshots/large/415/amelia.jpg" width="40" style="width:40px">
+        <div class='name'>Amelia Strader</div>
+      </a>
+      <a href="/classseries/single/finger-knitting" class="view-class">view class</a>
+    </div>
+    <div class="tutorial-information-overlay"></div>
+  </div>
+  </div>
+    </li>  </ul>
+</div>
+</div>
+
+<a onClick="ga('send', 'event', 'classes/knitting/accessories', 'click', 'load-more', 1, {'nonInteraction': 1});" class='load-more-workshop-collection'>Load More</a>
+        </div>
+      </div>
+
+  </div>
+</div>
+
+  <script type="text/javascript">
+
+  $(function(){
+
+    var tutorialsWrapper = $(".tutorials-wrapper");
+    var loading = "<img src='/ui/images/loader_30.gif' style='float:right;margin-top:-40px'/>";
+
+    $(document).on('click', '.pagenav a', function (e) {
+      e.preventDefault();
+      var self, url;
+
+      self = $(this);
+      url = self.attr('href');
+
+      $.ajax({
+        url: url,
+        type: 'post',
+        beforeSend: function() {
+          tutorialsWrapper.html(loading);
+        },
+        success: function(response) {
+
+          $(".request-ajax.current").removeClass('current');
+          self.addClass('current');
+
+          tutorialsWrapper.fadeOut(500,function(){
+            $(this).html(response).fadeIn(500);
+          })
+
+        // Push State support
+        // CBUG-333
+        if( typeof history.pushState === 'function' ) {
+
+          var matched = url.match(/\?.+/);
+
+          if( matched ) {
+
+            matched = matched[0];
+
+          } else {
+
+            matched = location.pathname;
+
+          }
+
+          history.pushState({}, '', matched);
+        }
+
+        }
+      });
+
+
+    });
+
+  });
+
+  </script>
+  <div class="push"></div>
+  </section>
+  <footer id="website_footer">
+  <div class="footer-wrapper">
+    <div class="row">
+      <div class="col-xs-4 col-sm-2 col-sm-offset-1">
+        <h3>Classes</h3>
+        <ul>
+          <li><a href="/classes/knitting">Knitting</a></li>
+          <li><a href="/classes/crochet">Crochet</a></li>
+          <li><a href="/classes/art-and-design">Art + Design</a></li>
+          <li><a href="/classes/paper">Paper</a></li>
+          <li><a href="/classes/sewing">Sewing</a></li>
+          <li><a href="/classes/quilting">Quilting</a></li>
+          <li><a href="/classes/jewelry">Jewelry</a></li>
+          <li><a href="/classes/kids">Kids</a></li>
+          <li><a href="/classes/food-and-home">Food + Home</a></li>
+          <li><a href="/classes/holiday-and-party">Holiday + Party</a></li>
+        </ul>
+      </div>
+      <div class="col-xs-4 col-sm-2">
+        <h3>About Us</h3>
+        <ul>
+          <li><a href="/instructors">Instructors</a></li>
+          <li><a href="/site/about">About Creativebug</a></li>
+          <li><a href="/site/meet-creativebug-team">Meet the Team</a></li>
+          <li><a href="/site/jobs">Careers</a></li>
+          <li><a href="/site/contact">Contact Us</a></li>
+          <li><a href="/site/affiliate-program">Affiliate Program</a></li>
+          <li><a href="/site/rss">RSS Feeds</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/site/creativebug-brand-ambassadors">Brand Ambassadors</a></li>
+        </ul>
+      </div>
+      <div class="col-xs-4 col-sm-2">
+        <h3>Help Center</h3>
+        <ul>
+          <li><a href="/site/contact">Contact Us</a></li>
+          <li><a href="/gift_subscriptions">Gift Subscriptions</a></li>
+          <li><a href="/redeem">Redeem a Gift</a></li>
+          <li><a href="https://creativebughelp.zendesk.com">Customer Support</a></li>
+          <li><a href="/site/terms">Terms of Use</a></li>
+          <li><a href="/site/privacy-policy">Privacy Policy</a></li>
+          <li><a href="/site/community-guidelines">Community Guidelines</a></li>
+        </ul>
+      </div>
+      <div class="widgets col-xs-12 col-sm-4">
+        <div class="widgets-wrapper">
+                      <section class="subscribe">
+              <h3>Subscribe Now</h3>
+              Only $4.95 per month
+              &nbsp;&nbsp;
+              <a class="js-ga-click confirm-btn btn btn-primary"
+                  data-ga-click-cat="CTA"
+                  data-ga-click-label="footer free_trial sign_up button"
+                  href="/trial/create-account?redirect_on_success=/classes/knitting/accessories" title="Start Free Trial">Start Free Trial</a>
+            </section>
+          
+                      <section class="newsletter-signup">
+              <h3>Creativebug Newsletter</h3>
+              <form class="js-newsletter-signup" action="/mailing_list" method="post" accept-charset="UTF-8">
+                <div class="error status hidden">Sorry, that didn't work.  Please try again.</div>
+                <div class="success status hidden">Thank you for signing up!  We'll be in touch soon.</div>
+                <input type="text" name="email" placeholder="Email">
+                <button class="btn btn-danger" type="submit">Sign Up</button>
+              </form>
+            </section>
+          
+          <section class="connect">
+            <h3>Connect</h3>
+            <ul class="social">
+              <li><a href="http://www.facebook.com/pages/Creativebug/356129344439441" target="_blank"><div data-icon class="icon-facebook"></div></a></li>
+              <li><a href="http://twitter.com/#!/creativebug" target="_blank"><div data-icon class="icon-twitter"></div></a></li>
+              <li><a href="http://instagram.com/creativebug" target="_blank"><div data-icon class="icon-instagram"></div></a></li>
+              <li><a href="http://pinterest.com/creativebuginc/" target="_blank"><div data-icon class="icon-pinterest"></div></a></li>
+              <li><a href="https://www.youtube.com/user/cbugstudio" target="_blank"><div data-icon class="icon-youtube"></div></a></li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">© 2016 Creativebug, LLC.</div>
+  </div>
+</footer>
+      <div id="overlay" class='modal'>
+        <div id="overlay-content">
+          <div id="fragment-content"></div>
+        </div>
+      </div>
+  <script type="text/javascript" src="/content/compressed/categories-2fda0236.js"></script>
+<script type="text/javascript" src="/content/compressed/website-footer-5901413a.js"></script>
+<script type="text/javascript" src="/content/compressed/cb-login-modal-25e7119e.js"></script>
+<script type="text/javascript" src="/content/compressed/website_footer-ed432f77.js"></script>
+
+  <!-- CB Login Modal: start -->
+<div id="cb_login_modal" class="js-login-form cb-login cb-modal modal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+              <div type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <img src="/ui/images/icon-x.png">
+        </div>
+            <div class="modal-header">
+        Sign In      </div>
+      <form id="cb_login_modal_form" action="https://www.creativebug.com/services/access/validate" method="post" accept-charset="UTF-8">
+      <div class="modal-body">
+        <div class="login-error elem hidden">
+          Email/password combination not found. Please try again.        </div>
+        <input id="cb_login_modal_email" class="input elem" type="text" placeholder="Email" name="email">
+        <input id="cb_login_modal_password" class="input elem" type="password" placeholder="Password" name="password">
+        <div class="login-opts elem">
+          <a class="forgot-pass" href="/forgot-password">Forgot password?</a>
+          <label class="remember-me">
+            <input id="cb_login_modal_remember_me" type="checkbox" name="remember_me" value="true">
+            Stay logged in
+          </label>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+      <div class="modal-footer">
+        <input class="login-btn" type="submit" value="Sign In">
+
+                <div class="spacer-or"></div>
+        <a class="fb-btn login-btn" href="/facebook/signin">
+          <img src="/ui/images/signup/1504/fb-icon.png" width="28" height="28">
+          <span>Sign In with Facebook</span>
+        </a>
+        <div class="not-subscriber">
+          Not a subscriber yet?
+          <div class="subtext">
+            Start your free trial today to access over 700 classes!
+          </div>
+        </div>
+        <a class="login-btn" href="/trial/create-account" title="join">
+          Start Free Trial
+        </a>
+              </div>
+        <input id="cb_login_modal_redirect_on_success" type="hidden" name="redirect_on_success" value="">
+        <input id="cb_login_modal_source" type="hidden" name="source" value="/classes/knitting/accessories">
+        <input id="cb_login_modal_slug" type="hidden" name="slug">
+      </form>
+    </div>
+  </div>
+</div>
+<!-- CB Login Modal: end -->
+
+<script type='text/javascript'>
+
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('require','linker');
+ga('create','UA-30229519-4');
+ga('require','ecommerce','ecommerce.js');
+ga('send','pageview');
+</script>
+<!-- Quantcast Tag -->
+<script type="text/javascript">
+var _qevents = _qevents || [];
+
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+qacct:"p-3esR6EkV-2DJB"
+});
+</script>
+
+<noscript>
+<div style="display:none;">
+<img src="//pixel.quantserve.com/pixel/p-3esR6EkV-2DJB.gif" border="0" height="1" width="1" alt="Quantcast"/>
+</div>
+</noscript>
+<!-- End Quantcast tag -->
+
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,2785 @@
+<!doctype html>
+<!--[if IE 7]><html class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html class="v2"  ><!--<![endif]-->
+<head lang="en">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UAcOUVVTGwAHXVdaAAk="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(15),c={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,o.indexOf("dev")!==-1&&(c.dev=!0),o.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&i.on("internal-error",function(t){r(t.stack)}),c.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(c){try{i("ierr",[c,(new Date).getTime(),!0])}catch(s){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,(new Date).getTime()])}var i=t("handle"),a=t(16),c=t("ee"),s=t("loader"),f=window.onerror,u=!1,d=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),s.xhrWrappable&&t(9),u=!0)}c.on("fn-start",function(t,e,n){u&&(d+=1)}),c.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),c.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),c.on("internal-error",function(t){i("ierr",[t,(new Date).getTime(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),c=t(7),s="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState";t("loader").features.stn=!0,t(6);var g=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof g&&(this.bstStart=Date.now())}),o.on(w,function(t,e){var n=t[0];n instanceof g&&i("bst",[n,e,this.bstStart,Date.now()])}),a.on(m,function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),a.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),this.bstType])}),c.on(m,function(){this.bstStart=Date.now()}),c.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=Date.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+s]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+s]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+s]()},!1)),document[f]("scroll",r,!1),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){c.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),c=t(17)(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,e,n){var r=t("ee").get("history"),o=t(17)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,e,n){var r=t("ee").get("raf"),o=t(17)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(17)(i),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(s+u,r),i.on(c+u,o)},{}],9:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",c)}function i(t){v.push(t),h&&(g=-g,b.data=g)}function a(){for(var t=0;t<v.length;t++)r([],v[t]);v.length&&(v=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(5);var f=t("ee"),u=f.get("xhr"),d=t(17)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],v=[];e.exports=u;var y=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(m,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var g=1,b=document.createTextNode(g);new h(a).observe(b,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],10:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var a=t.getResponseHeader("X-NewRelic-App-Data");a&&(e.cat=a.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var a=0;a<d;a++)e.addEventListener(u[a],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{}],11:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],12:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(15),c=t(16),s=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var u=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],d="api-",l=d+"ixn-";a(u,function(t,e){f[e]=o(d+e,!0,"api")}),f.addPageAction=o(d+"addPageAction",!0),f.setCurrentRouteName=o(d+"routeName",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var p=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(s.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{s.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){p[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],13:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],14:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],15:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],16:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],17:[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,c,s;try{a=this,r=i(arguments),c="function"==typeof n?n(r,a):n||{}}catch(f){l([f,"",[r,a,o],c])}u(e+"start",[r,a,o],c);try{return s=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],c),d}finally{u(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,c,s,f="-"===o.charAt(0);for(s=0;s<e.length;s++)c=e[s],a=t[c],r(a)||(t[c]=n(a,f?c+o:o,i,c))}function u(n,r,o){if(!s||e){var i=s;s=!0;try{t.emit(n,r,o)}catch(a){l([a,n,r,o])}s=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){l([r])}for(var o in t)c.call(t,o)&&(e[o]=t[o]);return e}function l(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,c,i):i()}function n(n,r,o){if(!l.aborted){t&&t(n,r,o);for(var i=e(o),a=h(n),c=a.length,s=0;s<c;s++)a[s].apply(i,r);var f=u[y[n]];return f&&f.push([g,n,r,i]),i}}function p(t,e){v[t]=h(t).concat(e)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(n)}function w(t,e){f(t,function(t,n){e=e||"feature",y[n]=e,e in u||(u[e]=[])})}var v={},y={},g={on:p,emit:n,get:m,listeners:h,context:e,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var c="nr@context",s=t("gos"),f=t(15),u={},d={},l=e.exports=o();l.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!b++){var t=g.info=NREUM.info,e=d.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return f.abort();s(v,function(e,n){t[e]||(t[e]=n)}),c("mark",["onload",a()],null,"api");var n=d.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var c=t("handle"),s=t(15),f=t("ee"),u=window,d=u.document,l="addEventListener",p="attachEvent",h=u.XMLHttpRequest,m=h&&h.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:h,REQ:u.Request,EV:u.Event,PR:u.Promise,MO:u.MutationObserver},t(12);var w=""+location,v={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-998.min.js"},y=h&&m&&m[l]&&!/CriOS/.test(navigator.userAgent),g=e.exports={offset:a(),origin:w,features:{},xhrWrappable:y};d[l]?(d[l]("DOMContentLoaded",i,!1),u[l]("load",r,!1)):(d[p]("onreadystatechange",o),u[p]("onload",r)),c("mark",["firstbyte",a()],null,"api");var b=0},{}]},{},["loader",2,10,4,3]);</script>
+  <title>Creativebug - Craft Classes &amp; Workshops - What will you make today?</title>
+  <meta name="copyright" content="Copyright 2016, Creativebug">
+  <meta name="description" content="Creativebug offers online video arts and crafts workshops and techniques. Learn how to paint, knit, crochet, sew, screen print, and more.">
+  <meta name="keywords" content="Creativebug has free online craft classes, crafting techniques. Learn how to paint with watercolors, learn to knit, drawing lessons, crochet, sewing, jewelry making, quilting, paper crafts, patterns, wedding ideas, free crafting classes, home décor, beginner crafting, advanced crafting, DIY Projects">
+
+  <meta property="fb:app_id" content="275120962590744"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  <meta name="build_version" content="php-master-2f13c271ea8adabf499afe257e6d4f7cf179938b" />
+  <link rel="apple-touch-icon" href="/ui/images/app_icon.png"><link rel="alternate" type="application/rss+xml" title="RSS Feed for Latest Classes" href="/rss/latest.rss" />  <script type="application/ld+json">
+  {
+     "@context": "http://schema.org",
+     "@type": "WebSite",
+     "url": "https://www.creativebug.com/",
+     "potentialAction": {
+       "@type": "SearchAction",
+       "target": "https://www.creativebug.com/search/results?query={query}",
+       "query-input": "required name=query"
+     }
+  }
+  </script>
+  <script type='text/javascript'>
+  /* IE console mock up */
+  if(typeof console == 'undefined') {var console = {log: function(x){}}};
+  </script>
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-551b3e7a61847364" async="async"></script>
+  <link href="/ui/images/cbugfavicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link href="/ui/images/cbugfavicon.ico" rel="icon" type="image/x-icon" />
+  <link href='//fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700' rel='stylesheet' type='text/css'>
+
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+  <![endif]-->
+
+    <script async src="//cdn.optimizely.com/js/1743310672.js"></script>
+  <link rel="stylesheet" href="/content/compressed/website_header-9d3f33bd.css">
+    <link rel="stylesheet" href="/content/compressed/classseries-c47f93fc.css">
+    <link rel="stylesheet" href="/content/compressed/register-modal-7db5d5af.css">
+    <link rel="stylesheet" href="/content/compressed/website-footer-ecf968d6.css">
+    <link rel="stylesheet" href="/content/compressed/cb-login-modal-95b63eb2.css">
+  <script type="text/javascript" src="/content/compressed/website_header-694aa2a1.js"></script>
+  
+  <!-- Facebook Pixel Code: start -->
+  <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+    document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+    fbq('init', '597271883734030');
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=597271883734030&ev=PageView&noscript=1" />
+  </noscript>
+  <!-- Facebook Pixel Code: end -->
+
+  </head>
+<body>
+  <div id="page-wrapper">
+  
+  
+  <header id="header" class="clearfix fixed searchon" itemscope itemtype="http://schema.org/WPHeader">
+  <div>
+    <a href="javascript:;" id="sidebar-toggle" onclick="$('html').toggleClass('sidebar-open');">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </a>
+    <div id="logo"><a href="/"><img src="/ui/images/homev2/logo-red.png" alt="Creativebug"/></a></div>
+    <nav>
+  <ul class="navigation">
+
+          <li class="login"><a class="js-login" title="Log In">Log In</a></li>
+      <li class="signup"><a href="/trial/create-account?redirect_on_success=/patterns" title="Start Your Free Trial" class='action-login'>Start Free Trial</a></li>
+    
+  </ul>
+
+  <ul class="subjects" itemscope itemtype="http://schema.org/SiteNavigationElement"><li onmouseover="sel(this);"><a itemprop="url" class="sub" href="/classes">Classes</a></li><div class="submenu"><ul id="submenu-classes"><li onmouseover="sel(this);"><a itemprop="url" href="/classes/knitting">Knitting</a></li><div class="submenu2"><div><ul class="strong"><li><a href="/classes/knitting/accessories">Accessories</a></li><li><a href="/classes/knitting/baby-and-kids">Baby & Kids</a></li><li><a href="/classes/knitting/felting">Felting</a></li><li><a href="/classes/knitting/holiday-and-party">Holiday & Party</a></li></ul><ul class="strong"><li><a href="/classes/knitting/home-decor">Home Décor</a></li><li><a href="/classes/knitting/sweaters">Sweaters</a></li><li><a href="/classes/knitting/yarn-craft">Yarn Craft</a></li></ul><ul><li><a href="/classes/knitting/for-beginners">For Beginners</a></li><li><a href="/classes/knitting/multi-part-classes">Multi-Part Classes</a></li><li><a href="/classes/knitting/quick-classes">Quick Classes</a></li><li><a href="/classes/knitting/techniques">Techniques</a></li></ul><ul class="strong"><li><a href="/classes/knitting">See All Knitting Classes<span class="arrow">►</span></a></li><div><img src="/ui/images/menu/knitting.jpg"/></div></ul></div></div><li onmouseover="sel(this);"><a itemprop="url" href="/classes/crochet">Crochet</a></li><div class="submenu2"><div><ul class="strong"><li><a href="/classes/crochet/accessories">Accessories</a></li><li><a href="/classes/crochet/baby-and-kids">Baby & Kids</a></li><li><a href="/classes/crochet/home-decor">Home Décor</a></li></ul><ul class="strong"><li><a href="/classes/crochet/yarn-craft">Yarn Craft</a></li></ul><ul><li><a href="/classes/crochet/for-beginners">For Beginners</a></li><li><a href="/classes/crochet/multi-part-classes">Multi-Part Classes</a></li><li><a href="/classes/crochet/quick-classes">Quick Classes</a></li><li><a href="/classes/crochet/techniques">Techniques</a></li></ul><ul class="strong"><li><a href="/classes/crochet">See All Crochet Classes<span class="arrow">►</span></a></li><div><img src="/ui/images/menu/crochet.jpg"/></div></ul></div></div><li onmouseover="sel(this);"><a itemprop="url" href="/classes/art-and-design">Art + Design</a></li><div class="submenu2"><div><ul class="strong"><li><a href="/classes/art-and-design/ceramics">Ceramics</a></li><li><a href="/classes/art-and-design/drawing-and-illustration">Drawing & Illustration</a></li><li><a href="/classes/art-and-design/home-decor">Home Décor</a></li><li><a href="/classes/art-and-design/lettering">Lettering</a></li><li><a href="/classes/art-and-design/mixed-media">Mixed Media</a></li></ul><ul class="strong"><li><a href="/classes/art-and-design/painting">Painting</a></li><li><a href="/classes/art-and-design/printmaking">Printmaking</a></li><li><a href="/classes/art-and-design/sketchbook-exercises">Sketchbook Exercises</a></li><li><a href="/classes/art-and-design/textiles">Textiles</a></li></ul><ul><li><a href="/classes/art-and-design/for-beginners">For Beginners</a></li><li><a href="/classes/art-and-design/multi-part-classes">Multi-Part Classes</a></li><li><a href="/classes/art-and-design/quick-classes">Quick Classes</a></li><li><a href="/classes/art-and-design/techniques">Techniques</a></li></ul><ul class="strong"><li><a href="/classes/art-and-design">See All Art + Design Classes<span class="arrow">►</span></a></li><div><img src="/ui/images/menu/art-and-design.jpg"/></div></ul></div></div><li onmouseover="sel(this);"><a href="/classes/paper">Paper</a></li><div class="submenu2"><div><ul class="strong"><li><a href="/classes/paper/book-binding">Book Binding</a></li><li><a href="/classes/paper/cards-and-gift-wrap">Cards & Gift Wrap</a></li><li><a href="/classes/paper/collage-and-decoupage">Collage & Decoupage</a></li><li><a href="/classes/paper/cutting-machine-crafts">Cutting Machine Crafts</a></li><li><a href="/classes/paper/holiday-and-party">Holiday & Party</a></li><li><a href="/classes/paper/home-decor">Home Décor</a></li></ul><ul class="strong"><li><a href="/classes/paper/kids">Kids</a></li><li><a href="/classes/paper/paper-flowers">Paper Flowers</a></li><li><a href="/classes/paper/printing">Printing</a></li><li><a href="/classes/paper/sketchbook-exercises">Sketchbook Exercises</a></li></ul><ul><li><a href="/classes/paper/for-beginners">For Beginners</a></li><li><a href="/classes/paper/multi-part-classes">Multi-Part Classes</a></li><li><a href="/classes/paper/quick-classes">Quick Classes</a></li><li><a href="/classes/paper/techniques">Techniques</a></li></ul><ul class="strong"><li><a href="/classes/paper">See All Paper Classes<span class="arrow">►</span></a></li><div><img src="/ui/images/menu/paper.jpg"/></div></ul></div></div><li onmouseover="sel(this);"><a itemprop="url" href="/classes/sewing">Sewing</a></li><div class="submenu2"><div><ul class="strong"><li><a href="/classes/sewing/accessories">Accessories</a></li><li><a href="/classes/sewing/baby-and-kids">Baby & Kids</a></li><li><a href="/classes/sewing/fabric-design">Fabric Design</a></li><li><a href="/classes/sewing/garments">Garments</a></li><li><a href="/classes/sewing/hand-stitching">Hand-stitching</a></li></ul><ul class="strong"><li><a href="/classes/sewing/holiday-and-party">Holiday & Party</a></li><li><a href="/classes/sewing/home-decor">Home Décor</a></li><li><a href="/classes/sewing/pattern-drafting">Pattern Drafting</a></li></ul><ul><li><a href="/classes/sewing/for-beginners">For Beginners</a></li><li><a href="/classes/sewing/multi-part-classes">Multi-Part Classes</a></li><li><a href="/classes/sewing/quick-classes">Quick Classes</a></li><li><a href="/classes/sewing/techniques">Techniques</a></li></ul><ul class="strong"><li><a href="/classes/sewing">See All Sewing Classes<span class="arrow">►</span></a></li><div><img src="/ui/images/menu/sewing.jpg"/></div></ul></div></div><li onmouseover="sel(this);"><a href="/classes/quilting">Quilting</a></li><div class="submenu2"><div><ul class="strong"><li><a href="/classes/quilting/baby-and-kids">Baby & Kids</a></li><li><a href="/classes/quilting/blocks">Blocks</a></li><li><a href="/classes/quilting/design">Design</a></li><li><a href="/classes/quilting/home-decor">Home Décor</a></li></ul><ul class="strong"><li><a href="/classes/quilting/modern-quilts">Modern Quilts</a></li><li><a href="/classes/quilting/quilt-tops">Quilt Tops</a></li><li><a href="/classes/quilting/quilting">Quilting</a></li></ul><ul><li><a href="/classes/quilting/for-beginners">For Beginners</a></li><li><a href="/classes/quilting/multi-part-classes">Multi-Part Classes</a></li><li><a href="/classes/quilting/quick-classes">Quick Classes</a></li><li><a href="/classes/quilting/techniques">Techniques</a></li></ul><ul class="strong"><li><a href="/classes/quilting">See All Quilting Classes<span class="arrow">►</span></a></li><div><img src="/ui/images/menu/quilting.jpg"/></div></ul></div></div><li onmouseover="sel(this);"><a href="/classes/jewelry">Jewelry</a></li><div class="submenu2"><div><ul class="strong"><li><a href="/classes/jewelry/beading">Beading</a></li><li><a href="/classes/jewelry/bracelets">Bracelets</a></li><li><a href="/classes/jewelry/earrings-and-rings">Earrings and Rings</a></li><li><a href="/classes/jewelry/kids">Kids</a></li></ul><ul class="strong"><li><a href="/classes/jewelry/leather">Leather</a></li><li><a href="/classes/jewelry/metal-and-wire">Metal and Wire</a></li><li><a href="/classes/jewelry/necklaces">Necklaces</a></li></ul><ul><li><a href="/classes/jewelry/for-beginners">For Beginners</a></li><li><a href="/classes/jewelry/quick-classes">Quick Classes</a></li><li><a href="/classes/jewelry/techniques">Techniques</a></li></ul><ul class="strong"><li><a href="/classes/jewelry">See All Jewelry Classes<span class="arrow">►</span></a></li><div><img src="/ui/images/menu/jewelry.jpg"/></div></ul></div></div><li onmouseover="sel(this);"><a href="/classes/kids">Kids</a></li><div class="submenu2"><div><ul class="strong"><li><a href="/classes/kids/crafts">Crafts</a></li><li><a href="/classes/kids/drawing-and-painting">Drawing & Painting</a></li><li><a href="/classes/kids/holiday-and-party">Holiday & Party</a></li><li><a href="/classes/kids/jewelry">Jewelry</a></li></ul><ul class="strong"><li><a href="/classes/kids/paper">Paper</a></li><li><a href="/classes/kids/sewing">Sewing</a></li><li><a href="/classes/kids/yarn">Yarn</a></li></ul><ul><li><a href="/classes/kids/quick-classes">Quick Classes</a></li></ul><ul class="strong"><li><a href="/classes/kids">See All Kids Classes<span class="arrow">►</span></a></li><div><img src="/ui/images/menu/kids.jpg"/></div></ul></div></div><li onmouseover="sel(this);"><a href="/classes/food-and-home">Food + Home</a></li><div class="submenu2"><div><ul class="strong"><li><a href="/classes/food-and-home/baking-and-cake-decorating">Baking & Cake Decorating</a></li><li><a href="/classes/food-and-home/bath-and-body">Bath & Body</a></li><li><a href="/classes/food-and-home/canning-and-preserving">Canning & Preserving</a></li><li><a href="/classes/food-and-home/flowers">Flowers</a></li></ul><ul class="strong"><li><a href="/classes/food-and-home/furniture-refinishing-and-upholstery">Furniture Refinishing & Upholstery</a></li><li><a href="/classes/food-and-home/home-decor">Home Decor</a></li><li><a href="/classes/food-and-home/packaging-and-presentation">Packaging & Presentation</a></li></ul><ul><li><a href="/classes/food-and-home/multi-part-classes">Multi-Part Classes</a></li><li><a href="/classes/food-and-home/quick-classes">Quick Classes</a></li></ul><ul class="strong"><li><a href="/classes/food-and-home">See All Food + Home Classes<span class="arrow">►</span></a></li><div><img src="/ui/images/menu/food-and-home.jpg"/></div></ul></div></div><li onmouseover="sel(this);"><a href="/classes/holiday-and-party">Holiday + Party</a></li><div class="submenu2"><div><ul class="strong"><li><a href="/classes/holiday-and-party/packaging-and-presentation">Packaging & Presentation</a></li><li><a href="/classes/holiday-and-party/birthday-parties">Parties</a></li><li><a href="/classes/holiday-and-party/weddings">Weddings</a></li><li><a href="/classes/holiday-and-party/valentines-day">Valentine’s Day</a></li><li><a href="/classes/holiday-and-party/easter">Easter</a></li></ul><ul class="strong"><li><a href="/classes/holiday-and-party/mothers-day-and-fathers-day">Mother’s Day & Father’s Day</a></li><li><a href="/classes/holiday-and-party/halloween">Halloween</a></li><li><a href="/classes/holiday-and-party/thanksgiving">Thanksgiving</a></li><li><a href="/classes/holiday-and-party/christmas">Christmas</a></li></ul><ul><li><a href="/classes/holiday-and-party/quick-classes">Quick Classes</a></li></ul><ul class="strong"><li><a href="/classes/holiday-and-party">See All Holiday + Party Classes<span class="arrow">►</span></a></li><div><img src="/ui/images/menu/holiday-and-party.jpg"/></div></ul></div></div></ul></div><li onmouseover="sel(this);"><a class="sub" href="/inspiration">Inspiration</a></li><div class="submenu"><ul id="submenu-inspiration"><li onmouseover="sel(this);"><a href="/inspiration">Inspiration Feeds</a></li><li onmouseover="sel(this);"><a href="/patterns">Pattern Library</a></li><li onmouseover="sel(this);"><a href="/collections">Class Collections</a></li><li onmouseover="sel(this);"><a href="/inspiration/blog">Blog</a></li></ul></div><li onmouseover="sel(this);"><a class="sub" href="/arts-&-crafts-instructors">Instructors</a></li><li onmouseover="sel(this);"><a class="sub" href="/calendar">Calendar</a></li><li onmouseover="sel(this);"><a itemprop="url" class="sub" href="/free-arts-and-crafts-classes">Free</a></li><li><a href="/cbtv" style="color: #ff4b55">CBTV</a></li></ul>
+</nav>
+
+<form id="topnav_search" class="nav-search form-inline" action="/search/results" method="get"
+    accept-charset="UTF-8" autocomplete="off"
+    itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction"
+    role="search">
+  <link itemprop="target" href="/search/results?query={query}">
+
+  <div class="input-group">
+    <div class="input-group-btn">
+      <button type="button" class="search-categories btn dropdown-toggle" data-toggle="dropdown">
+        <span class="js-search-category-name">Classes</span><span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu">
+        <li class="dropdown-header">Search Category</li>
+        <li><a class="search-category">Classes</a></li>
+        <li><a class="search-category">Images</a></li>
+        <li><a class="search-category">Instructors</a></li>
+        <li><a class="search-category">Blog</a></li>
+      </ul>
+    </div>
+    <input class="js-search-query search-box form-control" type="text"
+        name="query" value="" autocomplete="off"
+        placeholder="Search" itemprop="query-input"
+        onkeypress="if(event.keyCode == 13){$(this).close('form').submit();}">
+    <div class="search-submit input-group-btn">
+      <a class="btn btn-primary" href="javascript:;" onclick="$('#topnav_search').submit();"><i class="glyphicon glyphicon-search"></i></a>
+    </div>
+  </div>
+  <input class="js-search-category" type="hidden" name="category" value="Classes">
+</form>
+  </div>
+  </header>
+  <aside class="main-sidebar">
+    <ul class="on"><li onclick="$('html').removeClass('sidebar-open'); $('.js-login').trigger('click');" class="bold"><a class="sub" href="javascript:;">Log in</a></li><li onclick="document.location.href='/trial/add/monthly-trial'" class="bold"><a class="sub" href="javascript:;">Start Free Trial</a></li><li onclick="liopen(this);" class="bold arrow"><a class="sub" href="/classes">Classes</a></li><ul><li onclick="liopen(this);" class="bold arrow"><a href="/classes/knitting">Knitting</a></li><ul><li onclick="document.location.href='/classes/knitting/accessories';"><a href="javascript:;">Accessories</a></li><li onclick="document.location.href='/classes/knitting/baby-and-kids';"><a href="javascript:;">Baby & Kids</a></li><li onclick="document.location.href='/classes/knitting/felting';"><a href="javascript:;">Felting</a></li><li onclick="document.location.href='/classes/knitting/holiday-and-party';"><a href="javascript:;">Holiday & Party</a></li><li onclick="document.location.href='/classes/knitting/home-decor';"><a href="javascript:;">Home Décor</a></li><li onclick="document.location.href='/classes/knitting/sweaters';"><a href="javascript:;">Sweaters</a></li><li onclick="document.location.href='/classes/knitting/yarn-craft';"><a href="javascript:;">Yarn Craft</a></li><li onclick="document.location.href='/classes/knitting/for-beginners';"><a href="javascript:;">For Beginners</a></li><li onclick="document.location.href='/classes/knitting/multi-part-classes';"><a href="javascript:;">Multi-Part Classes</a></li><li onclick="document.location.href='/classes/knitting/quick-classes';"><a href="javascript:;">Quick Classes</a></li><li onclick="document.location.href='/classes/knitting/techniques';"><a href="javascript:;">Techniques</a></li></ul><li onclick="liopen(this);" class="bold arrow"><a href="/classes/crochet">Crochet</a></li><ul><li onclick="document.location.href='/classes/crochet/accessories';"><a href="javascript:;">Accessories</a></li><li onclick="document.location.href='/classes/crochet/baby-and-kids';"><a href="javascript:;">Baby & Kids</a></li><li onclick="document.location.href='/classes/crochet/home-decor';"><a href="javascript:;">Home Décor</a></li><li onclick="document.location.href='/classes/crochet/yarn-craft';"><a href="javascript:;">Yarn Craft</a></li><li onclick="document.location.href='/classes/crochet/for-beginners';"><a href="javascript:;">For Beginners</a></li><li onclick="document.location.href='/classes/crochet/multi-part-classes';"><a href="javascript:;">Multi-Part Classes</a></li><li onclick="document.location.href='/classes/crochet/quick-classes';"><a href="javascript:;">Quick Classes</a></li><li onclick="document.location.href='/classes/crochet/techniques';"><a href="javascript:;">Techniques</a></li></ul><li onclick="liopen(this);" class="bold arrow"><a href="/classes/art-and-design">Art + Design</a></li><ul><li onclick="document.location.href='/classes/art-and-design/ceramics';"><a href="javascript:;">Ceramics</a></li><li onclick="document.location.href='/classes/art-and-design/drawing-and-illustration';"><a href="javascript:;">Drawing & Illustration</a></li><li onclick="document.location.href='/classes/art-and-design/home-decor';"><a href="javascript:;">Home Décor</a></li><li onclick="document.location.href='/classes/art-and-design/lettering';"><a href="javascript:;">Lettering</a></li><li onclick="document.location.href='/classes/art-and-design/mixed-media';"><a href="javascript:;">Mixed Media</a></li><li onclick="document.location.href='/classes/art-and-design/painting';"><a href="javascript:;">Painting</a></li><li onclick="document.location.href='/classes/art-and-design/printmaking';"><a href="javascript:;">Printmaking</a></li><li onclick="document.location.href='/classes/art-and-design/sketchbook-exercises';"><a href="javascript:;">Sketchbook Exercises</a></li><li onclick="document.location.href='/classes/art-and-design/textiles';"><a href="javascript:;">Textiles</a></li><li onclick="document.location.href='/classes/art-and-design/for-beginners';"><a href="javascript:;">For Beginners</a></li><li onclick="document.location.href='/classes/art-and-design/multi-part-classes';"><a href="javascript:;">Multi-Part Classes</a></li><li onclick="document.location.href='/classes/art-and-design/quick-classes';"><a href="javascript:;">Quick Classes</a></li><li onclick="document.location.href='/classes/art-and-design/techniques';"><a href="javascript:;">Techniques</a></li></ul><li onclick="liopen(this);" class="bold arrow"><a href="/classes/paper">Paper</a></li><ul><li onclick="document.location.href='/classes/paper/book-binding';"><a href="javascript:;">Book Binding</a></li><li onclick="document.location.href='/classes/paper/cards-and-gift-wrap';"><a href="javascript:;">Cards & Gift Wrap</a></li><li onclick="document.location.href='/classes/paper/collage-and-decoupage';"><a href="javascript:;">Collage & Decoupage</a></li><li onclick="document.location.href='/classes/paper/cutting-machine-crafts';"><a href="javascript:;">Cutting Machine Crafts</a></li><li onclick="document.location.href='/classes/paper/holiday-and-party';"><a href="javascript:;">Holiday & Party</a></li><li onclick="document.location.href='/classes/paper/home-decor';"><a href="javascript:;">Home Décor</a></li><li onclick="document.location.href='/classes/paper/kids';"><a href="javascript:;">Kids</a></li><li onclick="document.location.href='/classes/paper/paper-flowers';"><a href="javascript:;">Paper Flowers</a></li><li onclick="document.location.href='/classes/paper/printing';"><a href="javascript:;">Printing</a></li><li onclick="document.location.href='/classes/paper/sketchbook-exercises';"><a href="javascript:;">Sketchbook Exercises</a></li><li onclick="document.location.href='/classes/paper/for-beginners';"><a href="javascript:;">For Beginners</a></li><li onclick="document.location.href='/classes/paper/multi-part-classes';"><a href="javascript:;">Multi-Part Classes</a></li><li onclick="document.location.href='/classes/paper/quick-classes';"><a href="javascript:;">Quick Classes</a></li><li onclick="document.location.href='/classes/paper/techniques';"><a href="javascript:;">Techniques</a></li></ul><li onclick="liopen(this);" class="bold arrow"><a href="/classes/sewing">Sewing</a></li><ul><li onclick="document.location.href='/classes/sewing/accessories';"><a href="javascript:;">Accessories</a></li><li onclick="document.location.href='/classes/sewing/baby-and-kids';"><a href="javascript:;">Baby & Kids</a></li><li onclick="document.location.href='/classes/sewing/fabric-design';"><a href="javascript:;">Fabric Design</a></li><li onclick="document.location.href='/classes/sewing/garments';"><a href="javascript:;">Garments</a></li><li onclick="document.location.href='/classes/sewing/hand-stitching';"><a href="javascript:;">Hand-stitching</a></li><li onclick="document.location.href='/classes/sewing/holiday-and-party';"><a href="javascript:;">Holiday & Party</a></li><li onclick="document.location.href='/classes/sewing/home-decor';"><a href="javascript:;">Home Décor</a></li><li onclick="document.location.href='/classes/sewing/pattern-drafting';"><a href="javascript:;">Pattern Drafting</a></li><li onclick="document.location.href='/classes/sewing/for-beginners';"><a href="javascript:;">For Beginners</a></li><li onclick="document.location.href='/classes/sewing/multi-part-classes';"><a href="javascript:;">Multi-Part Classes</a></li><li onclick="document.location.href='/classes/sewing/quick-classes';"><a href="javascript:;">Quick Classes</a></li><li onclick="document.location.href='/classes/sewing/techniques';"><a href="javascript:;">Techniques</a></li></ul><li onclick="liopen(this);" class="bold arrow"><a href="/classes/quilting">Quilting</a></li><ul><li onclick="document.location.href='/classes/quilting/baby-and-kids';"><a href="javascript:;">Baby & Kids</a></li><li onclick="document.location.href='/classes/quilting/blocks';"><a href="javascript:;">Blocks</a></li><li onclick="document.location.href='/classes/quilting/design';"><a href="javascript:;">Design</a></li><li onclick="document.location.href='/classes/quilting/home-decor';"><a href="javascript:;">Home Décor</a></li><li onclick="document.location.href='/classes/quilting/modern-quilts';"><a href="javascript:;">Modern Quilts</a></li><li onclick="document.location.href='/classes/quilting/quilt-tops';"><a href="javascript:;">Quilt Tops</a></li><li onclick="document.location.href='/classes/quilting/quilting';"><a href="javascript:;">Quilting</a></li><li onclick="document.location.href='/classes/quilting/for-beginners';"><a href="javascript:;">For Beginners</a></li><li onclick="document.location.href='/classes/quilting/multi-part-classes';"><a href="javascript:;">Multi-Part Classes</a></li><li onclick="document.location.href='/classes/quilting/quick-classes';"><a href="javascript:;">Quick Classes</a></li><li onclick="document.location.href='/classes/quilting/techniques';"><a href="javascript:;">Techniques</a></li></ul><li onclick="liopen(this);" class="bold arrow"><a href="/classes/jewelry">Jewelry</a></li><ul><li onclick="document.location.href='/classes/jewelry/beading';"><a href="javascript:;">Beading</a></li><li onclick="document.location.href='/classes/jewelry/bracelets';"><a href="javascript:;">Bracelets</a></li><li onclick="document.location.href='/classes/jewelry/earrings-and-rings';"><a href="javascript:;">Earrings and Rings</a></li><li onclick="document.location.href='/classes/jewelry/kids';"><a href="javascript:;">Kids</a></li><li onclick="document.location.href='/classes/jewelry/leather';"><a href="javascript:;">Leather</a></li><li onclick="document.location.href='/classes/jewelry/metal-and-wire';"><a href="javascript:;">Metal and Wire</a></li><li onclick="document.location.href='/classes/jewelry/necklaces';"><a href="javascript:;">Necklaces</a></li><li onclick="document.location.href='/classes/jewelry/for-beginners';"><a href="javascript:;">For Beginners</a></li><li onclick="document.location.href='/classes/jewelry/quick-classes';"><a href="javascript:;">Quick Classes</a></li><li onclick="document.location.href='/classes/jewelry/techniques';"><a href="javascript:;">Techniques</a></li></ul><li onclick="liopen(this);" class="bold arrow"><a href="/classes/kids">Kids</a></li><ul><li onclick="document.location.href='/classes/kids/crafts';"><a href="javascript:;">Crafts</a></li><li onclick="document.location.href='/classes/kids/drawing-and-painting';"><a href="javascript:;">Drawing & Painting</a></li><li onclick="document.location.href='/classes/kids/holiday-and-party';"><a href="javascript:;">Holiday & Party</a></li><li onclick="document.location.href='/classes/kids/jewelry';"><a href="javascript:;">Jewelry</a></li><li onclick="document.location.href='/classes/kids/paper';"><a href="javascript:;">Paper</a></li><li onclick="document.location.href='/classes/kids/sewing';"><a href="javascript:;">Sewing</a></li><li onclick="document.location.href='/classes/kids/yarn';"><a href="javascript:;">Yarn</a></li><li onclick="document.location.href='/classes/kids/quick-classes';"><a href="javascript:;">Quick Classes</a></li></ul><li onclick="liopen(this);" class="bold arrow"><a href="/classes/food-and-home">Food + Home</a></li><ul><li onclick="document.location.href='/classes/food-and-home/baking-and-cake-decorating';"><a href="javascript:;">Baking & Cake Decorating</a></li><li onclick="document.location.href='/classes/food-and-home/bath-and-body';"><a href="javascript:;">Bath & Body</a></li><li onclick="document.location.href='/classes/food-and-home/canning-and-preserving';"><a href="javascript:;">Canning & Preserving</a></li><li onclick="document.location.href='/classes/food-and-home/flowers';"><a href="javascript:;">Flowers</a></li><li onclick="document.location.href='/classes/food-and-home/furniture-refinishing-and-upholstery';"><a href="javascript:;">Furniture Refinishing & Upholstery</a></li><li onclick="document.location.href='/classes/food-and-home/home-decor';"><a href="javascript:;">Home Decor</a></li><li onclick="document.location.href='/classes/food-and-home/packaging-and-presentation';"><a href="javascript:;">Packaging & Presentation</a></li><li onclick="document.location.href='/classes/food-and-home/multi-part-classes';"><a href="javascript:;">Multi-Part Classes</a></li><li onclick="document.location.href='/classes/food-and-home/quick-classes';"><a href="javascript:;">Quick Classes</a></li></ul><li onclick="liopen(this);" class="bold arrow"><a href="/classes/holiday-and-party">Holiday + Party</a></li><ul><li onclick="document.location.href='/classes/holiday-and-party/packaging-and-presentation';"><a href="javascript:;">Packaging & Presentation</a></li><li onclick="document.location.href='/classes/holiday-and-party/birthday-parties';"><a href="javascript:;">Parties</a></li><li onclick="document.location.href='/classes/holiday-and-party/weddings';"><a href="javascript:;">Weddings</a></li><li onclick="document.location.href='/classes/holiday-and-party/valentines-day';"><a href="javascript:;">Valentine’s Day</a></li><li onclick="document.location.href='/classes/holiday-and-party/easter';"><a href="javascript:;">Easter</a></li><li onclick="document.location.href='/classes/holiday-and-party/mothers-day-and-fathers-day';"><a href="javascript:;">Mother’s Day & Father’s Day</a></li><li onclick="document.location.href='/classes/holiday-and-party/halloween';"><a href="javascript:;">Halloween</a></li><li onclick="document.location.href='/classes/holiday-and-party/thanksgiving';"><a href="javascript:;">Thanksgiving</a></li><li onclick="document.location.href='/classes/holiday-and-party/christmas';"><a href="javascript:;">Christmas</a></li><li onclick="document.location.href='/classes/holiday-and-party/quick-classes';"><a href="javascript:;">Quick Classes</a></li></ul></ul><li onclick="liopen(this);" class="bold arrow"><a class="sub" href="/inspiration">Inspiration</a></li><ul><li onclick="document.location.href='/inspiration';" class="bold"><a href="javascript:;">Inspiration Feeds</a></li><li onclick="document.location.href='/patterns';" class="bold"><a href="javascript:;">Pattern Library</a></li><li onclick="document.location.href='/collections';" class="bold"><a href="javascript:;">Class Collections</a></li><li onclick="document.location.href='/inspiration/blog';" class="bold"><a href="javascript:;">Blog</a></li></ul><li onclick="document.location.href='/arts-&-crafts-instructors';" class="bold"><a href="javascript:;">Instructors</a></li><li onclick="document.location.href='/calendar';" class="bold"><a href="javascript:;">Calendar</a></li><li onclick="document.location.href='/free-arts-and-crafts-classes';" class="bold"><a href="javascript:;">Free</a></li><li><a href="/cbtv" style="color: #ff4b55">CBTV</a></li></ul>  </aside>
+  <div id="main-content" onmousedown="$('html').removeClass('sidebar-open');" ontouchstart="$('html').removeClass('sidebar-open');">
+  <section id="main" class="clearfix">
+
+<div id="primary" class='v2'>
+
+
+  <div id="page-header" style="padding-top:0">
+    <div class="row">
+      <div class="col-xs-12 col-sm-9 col-md-10 vcenter">
+        <h1>
+          <small><a href="/">Home</a> &gt; <a href="/inspiration">Inspiration</a></small>Pattern Library
+        </h1>
+      </div>
+    </div>
+  </div>
+
+  <div id="overview" style="margin:10px 0 20px 0">
+    <div class="row">
+      <div class="col-xs-12">
+
+          Welcome to our Pattern Library, where you can browse a curated collection of downloadable knit and
+          crochet pattern PDFs. A perk of membership, every pattern here is free for Creativebug subscribers only.
+          This collection is full of stitching inspiration, with new downloadable patterns added every season.
+
+      </div>
+    </div>
+  </div>
+
+  <h1>Crochet Patterns</h1>
+  <div id="listview" style="padding:0 0 10px 0">
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/57/gwrkkxgd4zkhz9wktgcs.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Big Tartan Crochet Super Scarf              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Yarnspirations.com</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                Nothing like a huge tartan scarf to brighten up those dreary winter days! Crocheted in Patons Shetland Chunky and Shetland Chunky Tweeds, the punch of orange will stand out in the sea of winter coats.<br />
+<b>Skill level</b>: Intermediate<br />
+<b>Yarn: </b>PATONS Shetland Chunky, 5 skeins in Gold (A); 5 skeins in Aran (B): PATONS Shetland Chunky Tweeds, 3 skeins Charcoal Tweeds (C); 2 skeins Pewter Tweeds (D)<br />
+<b>Crochet Hook</b>: US L/10.5 (6.5 mm) or size needed to obtain gauge&nbsp;<br />
+<b>Gauge: </b>12 sc and 11 rows = 4&rdquo; (10 cm) in pattern              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/58/mkxzxtwghpzi8hbl1m4r.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Crossing Paths Crochet Super Scarf              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Yarnspirations.com</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                This textured crochet scarf in Bernat Softee Chunky has some fun fringe swinging from the bottom. This is a great scarf for those cold fall nights!<br />
+<b>Skill level</b>: Easy<br />
+<b>Yarn</b>: BERNAT Softee Chunky, 4 skeins Teal<br />
+<b>Crochet Hook</b>: US M/13 (9 mm) or size needed to obtain gauge<br />
+<b>Gauge</b>: &nbsp;6 sc and 7 rows = 4&rdquo; (10 cm)              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/59/ohe3lxplhi2o7ysipk3w.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Granny Takes A Dip Crochet Super Scarf              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Yarnspirations.com</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                A pop of green can go a long way! This simple granny stitch scarf, made in Caron Simply Soft, lets the color speak for itslf.<br />
+<b>Skill Level: </b>Easy<br />
+<b>Yarn</b>: CARON Simply Soft, 2 skeins Chartreuse (A); 2 skeins Country Blue<br />
+<b>Crochet Hook</b>: US H/8 (5 mm) or size needed to obtain gauge<br />
+<b>Gauge: </b>13 dc and 8 rows = 4&rdquo; (10 cm)              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/60/vqzc77yd03jqj4nncyil.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Highline Crochet Super Scarf              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Yarnspirations.com</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                Crocheting this scarf lengthwise means there is no sewing to do! This modern striped scarf, crocheted in Bernat Softee Chunky, is an elegant pattern, perfect for both men and women.<br />
+<b>Skill Level</b>: Easy<br />
+<b>Yarn</b>: BERNAT Softee Chunky, 5 skeins Linen (A); 3 skeins Cinnamon (B)<br />
+<b>Crochet Hook: </b>US N/15 (10 mm) or size needed to obtain gauge<br />
+<b>Gauge</b>: 8 sc and 9 rows = 4&rdquo; (10 cm)              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/64/t9rkqvuk1eiuoviigcwd.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Super Granny Crochet Super Scarf              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Yarnspirations.com</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                Super Granny to the rescue! These oversized granny squares are perfect to customize. Choose your color adventure and whip up this crocheted Super Scarf in Caron Simply Soft.<br />
+<b>Skill level</b>: Easy<br />
+<b>Yarn</b>: CARON Simply Soft, 2 skeins Off White (A); 1 skein Sticks &amp; Stones (B); 1 skein Charcoal Heather (C); 1 skein Grey Heather (D)<br />
+<b>Hook</b>: US H/8 (5 mm)<br />
+<b>Gauge</b>: 13 sc abd 14 rows - 4&quot; (10 cm)<br />
+&nbsp;              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/50/nkf1qzw3gsef1gigia0e.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Sparkly Snowflakes Throw              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Crochet Today! magazine</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                Add a little luster to dark winter nights with this cozy afghan, stitched in shimmery yarn. Join-as-you-go construction makes it surprisingly quick to finish!<br />
+<b>Skill level:&nbsp;</b>Intermediate<br />
+<b>Yarn:&nbsp;</b>RED HEART Holiday, 3 balls #140 White/Silver (A); RED HEART Super Saver, 3 skeins #380 Windsor Blue (B)<br />
+<b>Crochet Hook:&nbsp;</b>Size I/9 (5.5mm) crochet hook or any size to obtain gauge<br />
+<b>Finished Measurements:&nbsp;</b>Approx 54&quot; (137cm) x 47&quot; (119.5cm) at widest point<br />
+<b>Gauge:&nbsp;</b>Rounds 1-6 on motif = 9&quot;/23cm in diameter (between 2 opposite sides).              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/52/eqrlzgqbhx48euraqdfv.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Gingerbread House              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Crochet Today! magazine</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                Why toil in the kitchen when you can crochet a sweet old-fashioned treat? Crocheted candies and &quot;frosting&quot; decorate this delightfully kitschy holiday house - best of all, it will last for years to come.<br />
+<b>Skill level:&nbsp;</b>Easy<br />
+<b>Yarn:</b> RED HEART Super Saver, 1 skein each #360 Cafe (A), #316 Soft White (B), #390 Hot Red (C), #368 Paddy Green (D), #324 Bright Yellow (E), #579 Pale Plum (F), #373 Petal Pink (G) (Note: Only small amounts of colors C, D, E, F, and G are needed)<br />
+<b>Crochet Hook:&nbsp;</b>Size G/6 (4mm) or size needed to obtain gauge&nbsp;<br />
+<b>Finished Measurements:&nbsp;</b>Approx 8.5&quot; x 8.5&quot; x 8.5&quot;&nbsp;<br />
+<b>Gauge:&nbsp;</b>16 sts and 16 rows = 4&quot; (10cm) over single crochet. Gauge is not critical for this project.<br />
+&nbsp;              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/53/bhlkoprol35zv4bccylc.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Stuffable Stockings              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Crochet Today! magazine</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                Add some retro flair to your mantel with these punchy granny stockings. Hexagon motifs are easy to stitch in any color combo for a fun, festive look!<br />
+<b>Skill level:&nbsp;</b>Easy<br />
+<b>Yarn:&nbsp;</b>RED HEART Soft Yarn, 3 balls each #9523 Dark Leaf (A), #5142 Cherry Red (B), #4601 Off White (C), #9522 Leaf (D)<br />
+<b>Crochet Hook:&nbsp;</b>Size G/6 (4mm) or size needed to obtain gauge<br />
+<b>Finished Measurements:&nbsp;</b>Approx 21&quot; (53.5 cm) long measured from top of cuff straight down to tip of toe and 12&quot; (30.5 cm) from back of heel straight across to tip of toe<br />
+<b>Gauge:&nbsp;</b>1 hexagon = 4 x 4.5&quot; (10 x 11.5cm). Gauge is not critical for this project.<br />
+&nbsp;              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/54/z6pgqlkd3wpugj0w8rt6.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Retro Ripples Tree Skirt              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Crochet Today! magazine</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                Trim your tree in retro flair with this snazzy chevron skirt. Sparkly yarn adds a little extra glitter and glam!&nbsp;<br />
+<b>Skill level</b>: Beginner<br />
+<b>Yarn</b>: RED HEART Holiday, 2 balls each #9090 Red/Red (A), #1460 Aran/Gold (B), #6060 Green/Green (C), 1 ball #6560 Hunter/Gold (D)<br />
+<b>Crochet Hook</b>: Size K/10.5 (6.5mm) or size needed to obtain gauge<br />
+<b>Finished Measurements</b>: Approx 54&quot; diameter with 12&quot; center opening<br />
+<b>Gauge</b>: 12 dc and 7 rows = 4&quot;              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/36/so6193ixfu8wec9cdezj.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Crescent Shawl              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Marly Bird and Creativebug</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                Marly Bird designed this classic crescent shawl, which begins with a fanciful trim. This pattern is also available as a class!&nbsp;<b><a href="https://www.creativebug.com/classseries/crochet-shawl-workshop/crochet-shawl-workshop-crescent-shawls">Click here</a> for step-by-step video instructions.</b><br />
+<b>Skill level</b>: Intermediate<br />
+<b>Yarn</b>: LION BRAND Heartland, 3 skeins #389 Isle Royale<br />
+<b>Crochet Hook</b>: Size J/10 (6mm)<br />
+<b>Gauge</b>: 14 hdc x 12 hdc rows = 4&quot;              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/37/14h3nqmijjb8mwls0qnm.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Summer Bag              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Edie Eckman and Creativebug</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                This quintessential summer bag is made using several crochet stitch patterns that come together to form a textural sampler. This pattern is also available as a class! <b><a href="https://www.creativebug.com/classseries/single/crocheted-summer-bag">Click here</a> for step-by-step video instructions.</b><br />
+<b>Skill level</b>: Intermediate<br />
+<b>Yarn</b>: SCHACHENMAYR Catania, 3 balls in #252 Dark Coral (large); SCHACHENMAYR Boston Sun, 7 balls in #054 Midnight Blue<br />
+<b>Crochet Hook</b>: Size F/5 (3.75mm)<br />
+<b>Finished Measurements</b>: Circumference: 20&quot;, Height: 10&quot; (small bag); Circumference: 33&quot;, Height: 17&quot; (large bag)<br />
+<b>Gauge</b>: 20 sts x 20 rounds = 4&quot; (small); 13 sts x 14 rounds = 4&quot; (large)<br />
+&nbsp;              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/34/bjkbm2q7ljuztadzpjo6.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Crocheted Sloth              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Twinkie Chan and Creativebug</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                Make your very own loveable, huggable sloth pal, designed by crochet designer Twinkie Chan. This pattern is also available as a class! <b><a href="https://www.creativebug.com/classseries/single/crocheted-sloth">Click here</a> for step-by-step video instructions.</b><br />
+<b>Skill level:&nbsp;</b>Intermediate&nbsp;<br />
+<b>Yarn:</b>&nbsp;LION BRAND Vanna&rsquo;s Choice in&nbsp;Fisherman,&nbsp;Chocolate, and&nbsp;Toffee<br />
+<b>Crochet Hook:</b>&nbsp;Size H/8 (5mm)<br />
+<b>Finished Measurements:&nbsp;</b>Approximately 9 1/2&quot; tall from head to toe, 3&quot;&nbsp;wide<br />
+<b>Gauge:&nbsp;</b>14 sc x 16 rows = 4&quot;<br />
+&nbsp;              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/4/ikf2nly0eyj7dqh3v0jn.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Granny Chic Pillows              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Crochet Today! magazine</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                Give the classic granny square a breath of fresh air with a softer palette.<br />
+<b>Skill level:&nbsp;</b>Easy&nbsp;<br />
+<b>Yarn:</b>&nbsp;Red Heart&nbsp;Soft Yarn in&nbsp;#4601 Off White,&nbsp;#9520 Seafoam,&nbsp;#9770 Rose Blush,&nbsp;#9623 Spearmint<br />
+<b>Crochet Hook:</b>&nbsp;Size H/8&nbsp;<br />
+<b>Finished Measurements:&nbsp;</b>18&quot; square<br />
+<b>Gauge:&nbsp;</b>Rounds 1&ndash;4 = 4&quot;/10cm square              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/5/gjqvw2srftsotbxmy1vs.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Sweetheart Hangers              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Crochet Today! magazine</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                This easy last-minute gift makes a great stash buster
+<div>
+<div><b>Skill level:&nbsp;</b>Easy<br />
+<b>Yarn:&nbsp;</b>Red Heart&nbsp;Super Saver in #0706 Perfect Pink,&nbsp;#0624 Tea Leaf,&nbsp;#0656 Real Teal,&nbsp;#0311 White,&nbsp;#0512 Turqua,&nbsp;#0390 Hot Red<br />
+<b>Crochet Hook:&nbsp;</b>Size H/8 (5mm) and&nbsp;F/5 (3.75mm)&nbsp;<br />
+<b>Finished Measurements:&nbsp;</b>Hanger Length 16&quot;/40.5cm;&nbsp;Diameter 4.25&quot;/11cm;&nbsp;Heart 3 x 3&quot;/7.5 x 7.5cm square<br />
+<b>Gauge:&nbsp;</b>16 sts and 7 rows = 4&quot;/10cm over hdc with&nbsp;larger hook</div>
+</div>              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/6/fvsmrpllujruotkinls0.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Kauai Tunic              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Crochet Today! magazine</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                Wear this coverup over your swimsuit or dress it up over a tank for summer nights.
+<div>
+<div><b>Skill level:</b>&nbsp;Intermediate<br />
+<b>Yarn:</b>&nbsp;SMC Catania in&nbsp;#0114 Cyclamen<br />
+<b>Crochet Hook:&nbsp;</b>Size E/4<br />
+<b>Finished Measurements:</b>&nbsp;Bust 36 (40, 44, 48, 52, 56)&quot;/91.5 (101.5, 112, 122,&nbsp;132, 142)cm;&nbsp;Length 31 (31, 31, 33, 33, 33)&quot;/78.5 (78.5, 78.5, 84,&nbsp;84, 84)cm<br />
+<b>Gauge:&nbsp;</b>One motif = 4&quot;/10cm across</div>
+</div>              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/7/hrm2pbpykpgty4sgjizh.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Market Shawl              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Crochet Today! magazine</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                <div>Cover up on breezy days in a beautiful Market Shawl.</div>
+
+<div>
+<div>
+<div>
+<div><b>Skill level:&nbsp;</b>Intermediate<br />
+<b>Yarn:&nbsp;</b>Red Heart Soft in #9114 Honey<br />
+<b>Crochet Hook:&nbsp;</b>Size K/10.5 (6.5 mm);&nbsp;F/5 (3.75mm); and&nbsp;I/9 (5.5mm)&nbsp;<br />
+<b>Finished Measurements:&nbsp;</b>Length 46&quot;/117cm;&nbsp;Width 30&quot;/76cm<br />
+<b>Gauge:</b>&nbsp;16 sts and 14 rows = 4&quot;/10cm over pattern with&nbsp;largest hook</div>
+</div>
+</div>
+</div>              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/8/4yvi2zzlhu0kapepexnw.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Blue Horizon Sweater              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Crochet Today! magazine</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                Minimal and modern, this lightly textured pullover makes the perfect warm-weather staple. Try it in other&nbsp;color pairings, too!<br />
+<b>Skill Level:</b> Intermediate<br />
+<b>Yarn:&nbsp;</b>Schachenmayr Northern in&nbsp;#00220 Teal and&nbsp;#00210 Baby Blue<br />
+<b>Crochet Hook:&nbsp;</b>Size H/8<br />
+<b>Finished Measurements:&nbsp;</b>Chest: 36 (41, 46, 50 , 55)&quot;; Length: 20.5 (21, 21.5, 22, 22)&quot;<br />
+<b>Gauge:&nbsp;</b>13 sts and 12 rows = 4&rdquo;/10cm over Textured Pattern              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/9/fcfnrps3tg6xwsqrjayk.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Easter Egg Placemats              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Crochet Today! magazine</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                When it comes to colors, the more the merrier! Set the table with these quick-to-work placemats&mdash;the&nbsp;perfect way to combine bits and pieces of your stash.<br />
+<b>Skill level:&nbsp;</b>Easy<br />
+<b>Yarn:&nbsp;</b>Red Heart Super Saver in&nbsp;#512 Turqua ,&nbsp;#774 Light Raspberry,&nbsp;#256 Carrot,&nbsp;#320 Cornmeal,&nbsp;#776 Dark Orchid<br />
+<b>Crochet Hook:&nbsp;</b>Size 7 (4.5 mm)<br />
+<b>Finished Measurements:&nbsp;</b>Length Approx 18&quot;/45.5cm;&nbsp;Width Approx 13&quot;/33cm (at widest point)<br />
+<b>Gauge:&nbsp;</b>15 dc and 8 dc rows = 4&quot;/10cm              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/10/unpxpes6msnmdudp3rdg.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                He Loves Me Blanket              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Crochet Today! magazine</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                Pick happy daisies for a throw you&rsquo;ll be crushing on for years to come.<br />
+<b>Skill level:&nbsp;</b>Intermediate<br />
+<b>Yarn:&nbsp;</b>Red Heart Soft in&nbsp;#4600 White,&nbsp;#9518 Teal,&nbsp;#9520 Seafoam,&nbsp;#9114 Honey<br />
+<b>Crochet Hook:&nbsp;</b>Size I/9 (5.5mm)&nbsp;<br />
+<b>Finished Measurements:&nbsp;</b>Width 44.5&quot;/113cm;&nbsp;Length 61&quot;/155cm<br />
+<b>Gauge:&nbsp;</b>Rounds 1&ndash;2 = 3.5&quot;/9cm;&nbsp;Completed Motif = 7.5&quot;/19cm              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/13/tyyca66gpzb701ogt7kt.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Peeps Mitts              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Crochet Today! magazine</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                Savor the sweetness of these tiny chick mittens&mdash;a great basket-stuffer!<br />
+<b>Skill level:&nbsp;</b>Easy<br />
+<b>Yarn:&nbsp;</b>Red Heart With Love in&nbsp;&nbsp;#1201 Daffodil and&nbsp;#1252 Mango;&nbsp;<b>&nbsp;</b>Red Heart&nbsp;Classic in&nbsp;#676 Emerald Green&nbsp;<br />
+<b>Crochet Hook:&nbsp;</b>Size H/8 (5mm)<br />
+<b>Finished Measurements:&nbsp;</b>Length Approx 5&quot;/12.5cm<br />
+<b>Gauge:&nbsp;</b>12 sts and 15 rows = 4&quot;/10cm in sc              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/14/nbcv7sd0qkajcfzgfklb.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Neon Tote              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Crochet Today! magazine</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                Contrast neutral stripes with a trendy neon base to make this easy tote&mdash;it&rsquo;s perfect for school or shopping.<br />
+<b>Skill level:&nbsp;</b>Easy<br />
+<b>Yarn:&nbsp;</b>Schachenmayr SMC Catania Grande in&nbsp;#3242 Grey,&nbsp;#3106 White,&nbsp;#3235 Lime<br />
+<b>Crochet Hook:&nbsp;</b>Size G/6 (4 mm)<br />
+<b>Finished Measurements:&nbsp;</b>Length 13&quot;/33cm;&nbsp;Width 16&quot;/40.5cm&nbsp;<br />
+<b>Gauge:&nbsp;</b>Gauge is not critical for this project.              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/1/hjwz3qf5kdclqbbh59ar.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Peep Pillow              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Crochet Today! magazine</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                Marshmallow softness in delicious hues makes these pillows a sweet treat.<br />
+<b>Skill level: </b>Easy&nbsp;<br />
+<b>Yarn:</b> Red Heart&nbsp;Super Saver, 1 skein each in #0722 Pretty n&rsquo; Pink, #0324 Bright Yellow, #0512 Turqua&nbsp;<br />
+<b>Crochet Hook:</b> Size H/8&nbsp;<br />
+<b>Finished Measurements: </b>Approx 12&rdquo; tall, including ears.<br />
+<b>Gauge: </b>Not critical for this project.              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/2/pbsjdimj6t8lbjxv84cd.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Easter Purses              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Crochet Today! magazine</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                Instead of baskets, fill these charming bunny and chic bags with Easter treats!&nbsp;<br />
+<b>Skill level:&nbsp;</b>Easy<br />
+<b>Yarn:&nbsp;</b>Red Heart&nbsp;Super Saver, 1 skein each in #0316 Soft White,&nbsp;#0706 Perfect Pink, #0324 Bright Yellow, #0254 Pumpkin, #0390 Hot Red, #0368 Paddy Green<br />
+<b>Crochet Hook:&nbsp;</b>Size G/6<br />
+<b>Finished Measurements: </b>Bunny Purse: 7&rdquo; tall / Chick Purse: 9&rdquo; tall<br />
+<b>Gauge:&nbsp;</b>14 sts and 15 rows = 4&rdquo;/10cm over sc              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/19/wxfddielcryx9ctclmmt.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Ashbury Blanket              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Crochet Today! magazine</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                <div class="page">
+<div class="layoutArea">
+<div class="column">Sit back and let the yarn do all the work with brilliant self-striping hues.&nbsp;</div>
+</div>
+</div>
+<b>Skill level:&nbsp;</b>Easy&nbsp;<br />
+<b>Yarn:</b>&nbsp;Red Heart Boutique Treasure in #1918 Abstract<br />
+<b>Crochet Hook:</b>&nbsp;Size I/9 (5.5mm)<br />
+<b>Finished Measurements: </b>Length Approx 60&quot;/152cm, not including fringe,&nbsp;Width Approx 43&quot;/109cm&nbsp;<br />
+<b>Gauge:&nbsp;</b>Gauge is not critical for this project.              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/21/cfoz4zwwpvyjhu1xh3p4.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Cargo Tote              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Crochet Today! magazine</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                <div class="page">
+<div class="layoutArea">
+<div class="column">Take flight with rich hues, warm yarns, and globe-trotting style.&nbsp;<br />
+<b>Skill level:</b>&nbsp;Intermediate<br />
+<b>Yarn:</b>&nbsp;Red Heart&nbsp;Boutique Midnight in #1942 Serenade<br />
+<b>Crochet Hook:</b>&nbsp;Size H/8 (5mm)<br />
+<b>Finished Measurements:</b>&nbsp;Height Approx 18&quot;/45.5cm,&nbsp;Width Approx 15&quot;/38cm&nbsp;<br />
+<b>Gauge:</b>&nbsp;16 sts and 20 rows = 4&quot;/10cm over single crochet. Gauge is not critical for this project.&nbsp;</div>
+</div>
+</div>              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/22/iknfvki6dr6qystubg4y.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Chemistry Blanket              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Crochet Today! magazine</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                <div class="page">
+<div class="layoutArea">
+<div class="column">Study the building blocks of crochet with this colorful hexagon-motif throw.&nbsp;<br />
+<b>Skill level:&nbsp;</b>Intermediate<br />
+<b>Yarn:&nbsp;</b>Red Heart With Love in #1907 Boysenberry, #1701 Hot Pink, #1909 Holly Berry, #1704 Bubblegum, #1914 Berry Red, #1012 Black, #1101 Eggshell, #1562 Jadeite, #1814 True Blue<br />
+<b>Crochet Hook:&nbsp;</b>Size K/10.5 (6.5mm) &nbsp;<br />
+<b>Finished Measurements:&nbsp;</b>Length Approx 50&quot;/127cm,&nbsp;Width Approx 42&quot;/106.5cm&nbsp;<br />
+<b>Gauge:&nbsp;</b>Rounds 1&ndash;3 of motif = 3&quot;/7.5cm, One motif = 6&quot;/15cm from corner to opposite corner. Gauge is not critical for this project.</div>
+</div>
+</div>              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/27/zidd8cjvokkxi2ma5rri.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Rickrack Blanket              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Crochet Today! magazine</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                <div class="page">
+<div class="layoutArea">
+<div class="column">Add a little crafty sunshine to your home with a colorful chevron throw.&nbsp;</div>
+</div>
+</div>
+<b>Skill level:&nbsp;</b>Intermediate&nbsp;<br />
+<b>Yarn:</b>&nbsp;Red Heart&nbsp;With Love in #1623 Mallard, #1252 Mango, #1601 Lettuce, #1207 Cornsilk, #1805 Bluebell&nbsp;<br />
+<b>Crochet Hook:</b>&nbsp;Size J/10 (6mm)<br />
+<b>Finished Measurements:&nbsp;</b>Length Approx 50&rdquo;/127cm;&nbsp;Width Approx 40&rdquo;/101.5cm&nbsp;<br />
+<b>Gauge:&nbsp;</b>1 pattern repeat = 4.5&quot;/11.5cm wide; row gauge varies depending on type of row worked.&nbsp;              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/28/jbannmcm5aluqvl2eptq.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Scooter Dress              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Crochet Today! magazine</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                <div class="page">
+<div class="layoutArea">
+<div class="column">Whip up an adorable mod A-line in a range of colorful hues.&nbsp;</div>
+</div>
+</div>
+<b>Skill level:&nbsp;</b>Intermediate<br />
+<b>Yarn:&nbsp;</b>Red Heart Luster Sheen in #0007 Vanilla, #0002 Black, #0251 Orange, #0770 Hot Pink<br />
+<b>Crochet Hook: </b>Size&nbsp;F/5 (3.75mm); Size E/4 (3.5mm) crochet hook&nbsp;<br />
+<b>Finished Measurements: &nbsp;</b>Chest 23 (24, 26, 28)&quot;/58 (61, 66, 71)cm;&nbsp;Bodice Length 7.25 (7.75, 8.5, 10)&quot;/18 (19.5, 21.5, 25.5)cm;&nbsp;Skirt Length 11 (13, 15, 17)&quot;/28 (33, 38, 43)cm&nbsp;
+
+<div class="page">
+<div class="section">
+<div class="layoutArea">
+<div class="column"><b>Gauge:&nbsp;</b>18 sts and 12 rows = 4&quot;/10cm over half double crochet with larger hook.</div>
+</div>
+</div>
+</div>              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/30/aoy5ffc6yyrtgtbcqpht.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Snail Backpack              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Crochet Today! magazine</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                <div class="desc-title">
+<div class="page">
+<div class="layoutArea">
+<div class="column">Give a child a backpack pal to store their favorite things for car rides or other adventures.&nbsp;</div>
+</div>
+</div>
+</div>
+
+<div class="cb-txt-short cb-txt-long"><b>Skill level:&nbsp;</b>Easy<br />
+<b>Yarn:&nbsp;</b>Red Heart Gumdrop in #840 Lime; Red Heart Soft in #4422 Tangerine, #2515 Turquoise&nbsp;<br />
+<b>Crochet Hook:&nbsp;</b>Size H/8 (5mm); Size G/6 (4mm)&nbsp;<br />
+<b>Finished Measurements: </b>Length 12&quot;/30.5cm;&nbsp;Width 10&quot;/25.5cm&nbsp;<br />
+<b>Gauge:&nbsp;</b>13 sc and 12 rows = 4&quot;/10cm square with larger hook&nbsp;</div>              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/31/vsy3hify4brv2ehpqcs8.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Tootsie Top              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Crochet Today! magazine</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                <div class="desc-title">
+<div class="page">
+<div class="layoutArea">
+<div class="column">Slip this lacy top over a tank or sundress for a delicious look.</div>
+</div>
+</div>
+</div>
+
+<div class="cb-txt-short cb-txt-long"><b>Skill level:&nbsp;</b>Intermediate<br />
+<b>Yarn:&nbsp;</b>Schachenmayr Micro Grande in&nbsp;#00172 Lime&nbsp;<br />
+<b>Crochet Hook:&nbsp;</b>Size G/6 (4mm)&nbsp;<br />
+<b>Finished Measurements:&nbsp;</b>Chest 34 (38, 43, 47, 51)&quot;/86.5 (96.5, 109, 119.5, 129.5)cm;&nbsp;Length 25 (25, 25, 26.5, 26.5)&quot;/63.5 (63.5, 63.5, 67.5, 67.5)cm, including lower ribbing&nbsp;<br />
+<b>Gauge:&nbsp;</b>2 pattern repeats = 4.25&quot;/11cm and 10 rows = 4&quot;/10cm over Vertical Lace pattern.&nbsp;</div>              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/33/yhkp9jt5gwsqm4oseddc.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Wheels Turnin' Blanket              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Crochet Today! magazine</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                <div class="page">
+<div class="layoutArea">
+<div class="column">Hit the road with this indoor-or-out blanket in &ldquo;wheels&rdquo; of endless color combinations.&nbsp;</div>
+</div>
+</div>
+<b>Skill level:&nbsp;</b>Easy<br />
+<b>Yarn:&nbsp;</b>Red Heart With Love in #1907 Boysenberry, #1803 Blue Hawaii, #1801 Navy, #1541 Grape Jam&nbsp;<br />
+<b>Crochet Hook:&nbsp;</b>Size I/9 (5.5mm)&nbsp;<br />
+<b>Finished Measurements:&nbsp;</b>Length Approx 62&quot;/157.5cm;&nbsp;Width Approx 40&rdquo;/102cm&nbsp;<br />
+<b>Gauge:&nbsp;</b>Rounds 1&ndash;4 = 5.5&quot;/14cm in diameter&nbsp;              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <h1>Knitting Patterns</h1>
+  <div id="listview" style="padding:0 0 10px 0">
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/56/qr7pcmqzwxggfdpu6uum.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Argyle Cable Lace Knit Scarf              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Yarnspirations.com</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                Knit in Bernat Roving, cable argyle and heavy fringe take this Super Scarf to the next level.<br />
+<b>Skill level</b>: Intermediate<br />
+<b>Yarn</b>: BERNAT Roving, 2 skeins Roving Quartz Pink (A); 2 skeins Roving Cherry (B); 2 skeins Roving Raspberry (C)<br />
+<b>Needles</b>: US 11 (8 mm) or size needed to obtain gauge<br />
+<b>Gauge:</b>&nbsp;10 sts and 14 rows = 4&rdquo; (10 cm) in stockinette stitch              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/61/vtvkwqffskzz8hug7lj7.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Honey Comb Twist Knit Super Scarf              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Yarnspirations.com</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                Master those cable stitch skills with this Super Scarf knit in Patons Classic Wool Roving, featuring thick fringe along both edges.<br />
+<b>Skill Level</b>: Intermediate<br />
+<b>Yarn</b>: PATONS Classic Wool Roving, 7 skeins Aran&nbsp;<br />
+<b>Needles</b>: US 10 (6mm) or size needed to obtain gauge<br />
+<b>Gauge</b>: 15 sts and 20 rows = 4&rdquo; in stockinette stitch              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/62/7sgvy4eafpbiecd6hen9.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Keeping It Simple Knit Super Scarf              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Yarnspirations.com</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                Keeping it simple is right! The simple garter stitch leaves room for a bright POP of color in this knit scarf, made in Bernat Roving.<br />
+<b>Skill Level</b>: Easy<br />
+<b>Yarn: </b>BERNAT Roving, 8 skeins Tidal Blue<br />
+<b>Needles: </b>US 10.5 (6.5 mm) or size needed to obtain gauge<br />
+<b>Gauge</b>: 11 sts and 22 rows = 4&rdquo; (10 cm) in garter stitch              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/63/f4w2pubiklf9kva2zxsj.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Make It Big Knit Super Scarf              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Yarnspirations.com</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                Big pattern definition is key in this scarf, using negative space to enhance the stitch. Knit in Bernat Softee Chunky, this scarf works up quick with the big gauge, perfect for a fast project!<br />
+<b>Skill Level</b>: Easy<br />
+<b>Yarn</b>: BERNAT Softee Chunky, 6 skeins Wine<br />
+<b>Needles</b>: US 11 (8mm) or size needed to obtain gauge<br />
+<b>Gauge</b>: 11 sts and 14 rows = 4&rdquo; (10 cm) in stockinette stitch              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/65/und9tnozfwzrqtpeyw8e.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Moss Stripe Knit Super Scarf              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Yarnspirations.com</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                This simple textured scarf, knit in Patons Classic Wool Worsted, lets the stripe pattern shine. A perfect scarf for a wintery day.<br />
+<b>Skill level</b>: Easy<br />
+<b>Yarn</b>: PATONS Classic Wool, 2 skeins Moss Heather (A); 1 skein Natural Mix (B); 1 skein Yellow (C); 1 skein Gingerbread (D)<br />
+<b>Needles</b>: US 7 (4.5 mm) or size needed to obtain gauge<br />
+<b>Gauge</b>: 20 sts and 26 rows = 4&rdquo; (10 cm) in stockinette stitch              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/66/hbokvuger5mqbkpsodu7.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Marl Stripe Knit Super Scarf              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Yarnspirations.com</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                Mix up your yarn to create solids and heathers when you knit this Super Scarf in Patons Classic Wool Worsted.<br />
+<b>Skill level</b>: Intermediate<br />
+<b>Yarn</b>: PATONS Classic Wool Worsted, 4 skeins Heath Heather (A); 1 skein Natural Mix (B); 2 skeins Cognac Heather (C); 2 skeins Yellow (D); 2 skeins Peacock (E)<br />
+<b>Needles</b>: US 11 (8 mm) or size needed to obtain gauge<br />
+<b>Gauge</b>: 12 sts and 24 rows = 4&rdquo; (10 cm) in Brioche Stitch with 2 strands of yarn held together              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/67/1oxt0kr1vpbaoswbbajp.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Rib Check Knit Super Scarf              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Yarnspirations.com</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                A super simple pattern with a big impact! Knit in Bernat Wool-up Bulky, this scarf is great for all skill levels.<br />
+<b>Skill level</b>: Easy<br />
+<b>Yarn</b>: BERNAT Wool-Up Bulky, 4 skeins Light Grey<br />
+<b>Needles</b>: US 15 (10 mm) or size needed to obtain gauge<br />
+<b>Gauge</b>: 9 sts and 12 rows = 4&rdquo; in stockinette stitch              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/55/d83auyavfa3nfzipuyuc.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Cabled Christmas Stocking              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Marly Bird and Creativebug</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                Get into the holiday spirit with this classic knitted Christmas stocking. Knitwear designer Marly Bird shows you how to construct this oversized stocking, which features a gorgeous centered cable flanked by seed stitch. The stocking is created in two pieces, and then the edges are crocheted together to create a tube. Add decorative tassels and pompoms for an extra dose of holiday cheer.&nbsp;<br />
+<b>Skill level:&nbsp;</b>Easy&nbsp;<br />
+<b>Yarn:</b>&nbsp;RED HEART With Love, 2 skeins #1909 Holly Berry (A); 1 skein #1303 Aran (B)<br />
+<b>Needles:</b>&nbsp;US 13 (9mm) or size needed to obtain gauge.<br />
+<b>Crochet Hook:&nbsp;</b>US N/15 (10mm)<br />
+<b>Gauge:&nbsp;</b>10 sts = 4&quot; (10cm) in Seed st with two strands held together.&nbsp;              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/49/x6unbmqcgphs2equs0h2.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Snowflake Socks              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Knitting Today! magazine</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                These woolly socks will keep adult toes toasty through the snowy season.<br />
+<b>Skill level:&nbsp;</b>Intermediate<br />
+<b>Yarn:&nbsp;</b>REGIA 4-PLY Wool, 2 balls each #2002 Cherry or #540 Royal Blue or #2082 Green (A); 1 ball #2080 Super White (B)<br />
+<b>Knitting Needles:&nbsp;</b>1 set double pointed needles size 2 (2.75mm) or size needed to obtain gauge<br />
+<b>Finished Measurements:&nbsp;</b>Ankle Circumference 8 (9, 10)&quot; / 20.5 (23, 25.5) cm; Foot Length 8.5 (9.5, 10.5)&quot;/ 21.5 (24, 25.5)cm<br />
+<b>Gauge:&nbsp;</b>32 sts and 40 rows = 4&quot;/10cm in Stockinette st.              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/51/lfpongpvuryqyr2qa7cv.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Mr. and Mrs. Bear Claus              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Knitting Today! magazine</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                Be merry this holiday with Mr. and Mrs. Bear Claus (get it?) - they make great gifts for kids and adults alike!<br />
+<b>Skill level:&nbsp;</b>Intermediate<br />
+<b>Yarn:&nbsp;</b>REGIA 4-PLY Wool, 1 ball each #2080 Super White (A), #2054 Red (B), #2066 Black (C), #2903 Brown (D), #2082 Green (E)<br />
+<b>Knitting Needles:&nbsp;</b>1 set size 2 (2.75mm) double pointed needles; 1 pair size 1 (2.25mm) knitting needles or size needed to obtain gauge<br />
+<b>Gauge:&nbsp;</b>32 sts and 44 rows = 4&quot; (10cm) in Stockinette st. using larger needles.              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/35/6srhiytlfmog1b2nyvwx.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Cabled Hat              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Norah Gaughan and Creativebug</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                Make this gloriously textured cabled hat with expert knitwear designer, Norah Gaughan. This pattern is also available as a class! <b><a href="https://www.creativebug.com/classseries/single/knit-a-cabled-hat">Click here</a> for step-by-step video instructions.</b><br />
+<b>Skill level</b>: Intermediate<br />
+<b>Yarn</b>: THE FIBRE COMPANY Terra, 1 skein #397 Belladonna<br />
+<b>Needles</b>: size US 6 (4mm) and Size US 8 (5mm), or size needed to obtain gauge<br />
+<b>Finished Measurements</b>: Circumference: 21&quot;; Height: 8&quot;<br />
+<b>Gauge</b>: 19 sts x 28 rows = 4&quot; in Stockinette stitch, using larger needles<br />
+&nbsp;              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/38/vbkvtyxk6dedwowar5mp.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Dishcloths              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Wendy Bernard and Creativebug</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                A dishcloth knitted with pure linen transforms an ordinary rag into a luxurious textile. Wendy Bernard works with linen yarn to create a washcloth with an I-cord loop for hanging. This pattern is also available as a class!<b> <a href="https://www.creativebug.com/classseries/single/how-to-knit-dishcloths">Click here</a> for step-by-step video instructions.</b><br />
+<b>Skill level</b>: Beginner<br />
+<b>Yarn</b>: QUINCE &amp; CO. Sparrow, 1 hank each #205 Little Fern, #222 Moon, #219 Maize, #210 Grapefruit<br />
+<b>Needles</b>: Size 3 (3.25mm)<br />
+<b>Finished Measurements</b>: 10&quot; x 10&quot;<br />
+<b>Gauge</b>: 28 sts = 4&quot;<br />
+&nbsp;              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/39/wocmzjup182v7bcs8lr1.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Lace Mitts              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Wendy Bernard and Creativebug</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                Designed by Wendy Bernard, these fingerless mitts feature a gorgeous Nested Fans lace pattern.&nbsp;This pattern is also available as a class! <b><a href="https://www.creativebug.com/classseries/single/knitted-lace-mitts">Click here</a> for step-by-step video instructions.</b><br />
+<b>Skill level</b>: Intermediate<br />
+<b>Yarn</b>: MADELINETOSH Hand Dyed Yarns Pashmina, 1 hank Antique Lace<br />
+<b>Needles</b>: Size 2 (2.75mm) DPNs; Size 3 (3.25mm) DPNs<br />
+<b>Finished Measurements</b>: Hand circumference: 7&quot; (7 1/2, 8 1/4)&quot;<br />
+<b>Gauge</b>: 26 sts x 40 rows = 4&quot;              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/40/8dcw42p1lcxqqxit5fl0.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Shetland Lace Shawl              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Gudrun Johnston and Creativebug</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                Learn how to make a beautiful Shetland-inspired lace shawl designed by&nbsp;knitwear designer Gudrun Johnston.&nbsp;This pattern is also available as a class! <b><a href="https://www.creativebug.com/classseries/single/knit-a-lace-shawl">Click here</a>&nbsp;for step-by-step video instructions.</b><br />
+<b>Skill level</b>: Intermediate<br />
+<b>Yarn</b>: MALABRIGO YARN Lace, 1 skein Sealing Wax<br />
+<b>Needles</b>: Size 6 (4mm)<br />
+<b>Finished Measurements</b>:Approximagely 46&quot; across top of shawl, 12&quot; deep at center back<br />
+<b>Gauge</b>: 24 sts x 48 rows = 4&quot; in garter              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/41/2bp3jf861rvms0xceqcb.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Lace Cardigan              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Gudrun Johnston and Creativebug</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                Knitwear designer Gudrun Johnston walks you through every step of making a cute, vintage-style cardigan. This pattern is also available as a class! <b><a href="https://www.creativebug.com/classseries/single/knit-a-lace-cardigan">Click here</a> for step-by-step video instructions.</b><br />
+<b>Skill level</b>: Intermediate<br />
+<b>Yarn</b>: QUINCE &amp; CO. Chickadee, 6 (7, 7, 7, 8, 8, 9, 9, 9, 10, 10) skeins in #125 Carries Yellow<br />
+<b>Needles</b>: Size 5 (3.75mm)<br />
+<b>Finished Measurements</b>: 30 1/2&quot;&nbsp;(32 1&frasl;2, 34 1&frasl;4, 36, 38 1&frasl;2, 40, 42 1&frasl;2, 44, 46 1&frasl;2, 48 1&frasl;2 , 50 1&frasl;2)&quot;<br />
+<b>Gauge</b>: 24 sts x 35 rows = 4&quot;              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/42/sly1apipqvdudi9ppf94.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Seed Stitch Slippers              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Wendy Bernard and Creativebug</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                In no time at all, whip up a pair of cozy slippers designed by Wendy Bernard using bulky yarn and large knitting needles. This pattern is also available as a class! <b><a href="https://www.creativebug.com/classseries/single/knitted-seed-stitch-slippers">Click here</a>&nbsp;for step-by-step video instructions.</b><br />
+<b>Skill level:&nbsp;</b>Beginner&nbsp;<br />
+<b>Yarn:</b>&nbsp;RED HEART Grande, 1(2, 2) skeins Oatmeal<br />
+<b>Needle:</b>&nbsp;Size 11 (8mm)<br />
+<b>Finished Measurements:&nbsp;</b>Approximately 7 1/2&quot; (9, 10)&quot; long<br />
+<b>Gauge:&nbsp;</b>8 sts = 4&quot; in pattern              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/43/b8oooa0b32fqychrov16.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Pom Pom Socks              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Wendy Bernard and Creativebug</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                Here&#39;s a fun, portable project for intermediate knitters &ndash; create multicolored footie socks with Wendy Bernard. This pattern is also available as a class! <b><a href="https://www.creativebug.com/classseries/single/knitted-pom-pom-socks">Click here</a> for step-by-step video instructions.</b><br />
+<b>Skill level:&nbsp;</b>Beginner&nbsp;<br />
+<b>Yarn:</b>&nbsp;SPUD &amp; CHLOE Fine, 1 hank #7806 Calypso, 1 hank #7822 Sidewalk<br />
+<b>Needles:</b>&nbsp;Size 1 (2.25mm) DPNs<br />
+<b>Finished Measurements:&nbsp;</b>Foot circumfrence: 7 1/2&quot; (8, 8 1/2)&quot;; Foot length: 8 3/4&quot; (9 3/4, 10 1/2)&quot;<br />
+<b>Gauge:&nbsp;</b>32 sts x 44 rows = 4&quot;&nbsp;              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/44/hqjrxbvyxsbc1hgfhsbn.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Stuffed Toy Robin              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Megan Kreiner and Creativebug</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                Learn how to knit this adorable English robin, complete with a cherubic little body, wings, tail, and pointy beak.&nbsp;This pattern is also available as a class taught by Megan Kreiner!<b> <a href="https://www.creativebug.com/classseries/single/knitted-robin">Click here</a></b>&nbsp;<b>for step-by-step video instructions.</b><br />
+<b>Skill level:&nbsp;</b>Intermediate&nbsp;<br />
+<b>Yarn:</b>&nbsp;CASCADE YARNS Cerub Aran, 1 ball #1 White, 1 ball #25 Chocolate, 1 ball #18 Mocha<br />
+<b>Needles:</b>&nbsp;Size 4 (3.5 mm) DPNs<br />
+<b>Finished Measurements:&nbsp;</b>4&quot; tall x 4&quot; long<br />
+<b>Gauge:&nbsp;</b>Gauge isn&#39;t vital but knit tightly enough so the stuffing doesn&#39;t show through.&nbsp;              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/45/gcqagofebfryum7xmvtd.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Log Cabin Shawl              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Norah Gaughan and Creativebug</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                This fun-to-knit shawl has the appearance of a log cabin quilt, with long rectangles fitted together in intricate patchwork. This pattern is also available as a class taught by Norah Gaughan! <b><a href="https://www.creativebug.com/classseries/single/knit-a-log-cabin-shawl">Click here</a> for step-by-step video instruction!</b><br />
+<b>Skill level:&nbsp;</b>Beginner&nbsp;<br />
+<b>Yarn:</b>&nbsp;BROOKLYN TWEED Shelter, 6 skeins #35 Sap<br />
+<b>Needles:</b>&nbsp;Size 8 (5mm)<br />
+&nbsp;              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/46/6keo9o9fku7gro3a5osn.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Stuffed Toy Polar Bear and Fish              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Megan Kreiner and Creativebug</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                Learn how to knit this very hungry polar bear and his little fish friend with cute critter expert, Megan Kreiner.&nbsp;This pattern is also available as a class!&nbsp;<b><a href="https://www.creativebug.com/classseries/single/knitted-polar-bear">Click here</a>&nbsp;for step-by-step video instructions.</b><br />
+<b>Skill level:&nbsp;</b>Intermediate&nbsp;<br />
+<b>Yarn:</b>&nbsp;KNIT PICKS Biggo, 1 ball Bare, 1 ball Asphalt Heather, 1 ball Wonderland Heather<br />
+<b>Crochet Hook:</b>&nbsp;Size 10 (6mm)<br />
+<b>Finished Measurements:&nbsp;</b>8&quot; tall x 8&quot; long<br />
+<b>Gauge: </b>Gauge isn&#39;t vital but knit tightly enough so the stuffing doesn&#39;t show through              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/47/ms6rlxtqkn50p3uq0zfy.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Seamless Pullover              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Norah Gaughan and Creativebug</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                Worked up in gorgeous linen yarn, this lightweight pullover is perfect for spring and transitional weather.&nbsp;This pattern is also available as a class taught by Norah Gaughan!&nbsp;<b><a href="https://www.creativebug.com/classseries/single/knit-a-seamless-pullover">Click here</a>&nbsp;for step-by-step video instructions.</b><br />
+<b>Skill level:&nbsp;</b>Intermediate&nbsp;<br />
+<b>Yarn:</b>&nbsp;QUINCE &amp; CO. Kestrel, 8 hanks #502 Porpoise<br />
+<b>Needles:</b>&nbsp;Size 10 (6 mm)<br />
+<b>Finished Measurements:&nbsp;</b>Body measured below sleeves: 40&quot;, Length: 24&quot;; To fit bust size 34&quot; with instructions to customize to any larger size<br />
+<b>Gauge:&nbsp;</b>16 sts x 23 rows = 4&quot;              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/48/rtbmb4rm8bg07otckgkx.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Twisted Rib Socks              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Edie Eckman and Creativebug</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                Make these beautifully textured socks featuring a twisted rib stitch. This pattern is also available as a class taught by Edie Eckman!&nbsp;<b><a href="https://www.creativebug.com/classseries/single/how-to-knit-twisted-rib-socks-1">Click here</a>&nbsp;for step-by-step video instructions.</b><br />
+<b>Skill level:&nbsp;</b>Intermediate&nbsp;<br />
+<b>Yarn:</b>&nbsp;BLUE MOON FIBER ARTS Socks that Rock Medium, 1 skein Marina<br />
+<b>Needles:</b>&nbsp;Size 1 (2.5mm)<br />
+<b>Finished Measurements:&nbsp;</b>Circumference: 7&quot;, Length: 9 1/2&quot; or as desired<br />
+<b>Gauge:&nbsp;</b>15 sts x 21 rounds = 4&quot;              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/15/y98kq3larye734550kyh.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Zig-Zag Knee Socks              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Knitting Today! magazine</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                These knee-highs in self-striping yarn and sweet lace add a splash of color to any kid&#39;s back-to-school outfit.<br />
+<b>Skill level:</b>&nbsp;Intermediate<br />
+<b>Yarn:</b>&nbsp;REGIA 4-Ply Color in&nbsp;Papagei&nbsp;(Butterfly) color #07203<br />
+<b>Knitting Needles:</b>&nbsp;1 set size 2 (2.75mm) double-pointed knitting&nbsp;needles<br />
+<b>Finished Measurements:</b>&nbsp;Foot Circumference: 6.25 (6.75, 6.75, 7.75)&quot;; Foot Length: 6-7.5 (7.5-8, 9, 10)&quot;<br />
+<b>Gauge:</b>&nbsp;32 sts and 40 rows = 4&quot;/10cm in Stockinette st              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/16/gltlqkx3qec1xn3yspxp.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Honeycomb Throw              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Knitting Today! magazine</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                Brighten long winter days with spring colors echoing throughout this classic pattern.<br />
+<b>Skill level:</b>&nbsp;Intermediate<br />
+<b>Yarn:</b>&nbsp;Red Heart&nbsp;Super Saver in&nbsp;#316 Soft White,&nbsp;#661 Frosty Green,&nbsp;#406 Medium Thyme,&nbsp;#320 Cornmeal<br />
+<b>Knitting Needles:</b>&nbsp;size 10 (6mm) circular needle, 29&quot;/73.5cm long<br />
+<b>Finished Measurements:</b>&nbsp;34&quot;/86.5cm by 41&quot;/104cm<br />
+<b>Gauge:</b>&nbsp;14 sts = 4&quot;/10cm in Stockinette st              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/17/vwvz5hwulkb0zsbeasrt.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Lacy Fern Throw              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Knitting Today! magazine</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                Think of an early spring as you stitch up this three-paneled forest green blanket.<br />
+<b>Skill level:</b>&nbsp;Intermediate<br />
+<b>Yarn:</b>&nbsp;Red Heart&nbsp;Super Saver in&nbsp;#661 Frosty Green<br />
+<b>Knitting Needles:</b>&nbsp;size 10 (6mm) knitting needles<br />
+<b>Finished Measurements:</b>&nbsp;52&quot;/132cm by 64&quot;/162.5cm<br />
+<b>Gauge:</b>&nbsp;33 sts = 7&quot;/18cm;&nbsp;12 rows = 3&quot;/7.5cm              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/18/aqoicmfvn3ukyht0hc6n.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Bunny in a Pillow              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Knitting Today! magazine</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                Knit up this snuggly bunny and then make a little pillow bed for him to sleep in.<br />
+<b>Skill level:</b>&nbsp;Intermediate<br />
+<b>Yarn:</b>&nbsp;Schachenmayr Northern in&nbsp;#0283 Linen,&nbsp;#0830 Ecru,&nbsp;#0273 Stem Green,&nbsp;#0824 Cyclamen<br />
+<b>Knitting Needles:</b>&nbsp;size 6 (4mm) and&nbsp;size 7 (4.5mm)<br />
+<b>Finished Measurements:</b>&nbsp;Rabbit 10&quot;/25.5cm tall;&nbsp;Sweater 3&quot;/7.5cm long;&nbsp;Pillow 16&quot;/40.5 by 12&quot;/30.5cm<br />
+<b>Gauge:</b>&nbsp;Rabbit:&nbsp;22 sts and 32 rows = 4&quot;/10cm in Stockinette stitch;&nbsp;Pillow:&nbsp;20 sts and 26 rows = 4&quot;/10cm in Stockinette st              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/3/eksxevbrpjnpa36nehoj.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Jelly Bean Jumper              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Knitting Today! magazine</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                <b>Skill level:</b> Intermediate<br />
+<b>Yarn:</b> SMC Micro Grande in #00152 Light Blue, &nbsp;#00101 White, 1 ball #00172 Lime, 1 ball #00121 Sunshine<br />
+<b>Knitting Needles:</b> 1 size 6 (4mm) circular needle, 24&quot;/61cm long, or any size to obtain correct gauge, 1 size 6 (4mm) circular needle, 16&quot;/40.5 cm long, 1 set size 6 (4mm) double-pointed needles<br />
+<b>Finished Measurements:</b> Chest 23 (24.5, 27, 29)&quot;/58.5 (62, 68.5, 73.5)cm, Length 19 (20.5, 22.25, 24.25)&quot;/48.5 (52, 56.5, 61.5)cm<br />
+<b>Gauge:</b> 20 sts and 25 rows = 4&quot;/10cm in Stockinette st              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/20/9g5hdvg1sq8rsj7mqonf.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Beachy Coverup              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Knitting Today! magazine</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                <div class="page">
+<div class="layoutArea">
+<div class="column">This flattering neckline with sexy scoop back gives you just enough cover on the beach or at a party.</div>
+</div>
+</div>
+<b>Skill level:&nbsp;</b>Intermediate<br />
+<b>Yarn:&nbsp;</b>Schachenmayr Catania in&nbsp;#0105 Natural&nbsp;<br />
+<b>Knitting Needles:&nbsp;</b>1 size 8 (5mm) circular needle<br />
+<b>Finished Measurements:&nbsp;</b>Chest &nbsp;44 (48, 52, 55.5, 59.5, 63, 67)&quot;/112 (122, 132, 141, 151, 160, 170) cm, Length 24.75 (25, 25.25, 25.75, 26, 26.5, 26.75)&quot;/63 (63.5, 64, 65.5, 66, 67.5, 68) cm&nbsp;<br />
+<b>Gauge:&nbsp;</b>17 sts and 26 rows = 4&quot;/10cm in Lace Pattern.&nbsp;              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/24/s07qr4w90pm2b7mfn06g.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Menagerie Puppets              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Knitting Today! magazine</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                <div class="page">
+<div class="layoutArea">
+<div class="column">A zoo full of tiny animals comes alive when you wiggle your fingers!&nbsp;<br />
+<b>Skill level:</b>&nbsp;Intermediate<br />
+<b>Yarn:</b>&nbsp;Schachenmayr Regia 4-Ply in &nbsp;#2205 Plum, #0600 White, #2041 Yellow, #2002 Cherry, #2903 Dark Brown, #1092 Fashion Fern, #2066 Black<br />
+<b>Knitting Needles:</b>&nbsp;1 pair size 2 (2.75mm) needles<br />
+<b>Finished Measurements:</b>&nbsp; 4&quot;/10cm tall&nbsp;<br />
+<b>Gauge:</b>&nbsp;28 sts and 31 rows = 4&quot;/10cm in Stockinette st.&nbsp;</div>
+</div>
+</div>              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/25/gwgnhz1wguwqgdccmdh8.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Panda Hat and Mittens              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Knitting Today! magazine</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                <div class="page">
+<div class="layoutArea">
+<div class="column">Your little cub will look as cute as a button in this cozy topper and mitts.&nbsp;<br />
+<b>Skill level:&nbsp;</b>Intermediate<br />
+<b>Yarn:&nbsp;</b>Red Heart&nbsp;Comfort Solids in #3132 Off White, #3094 Black<br />
+<b>Knitting Needles:&nbsp;</b>1 pair size 7 (4.5mm) knitting needles, 1 set size 5 (3.75mm) double-pointed knitting needles, 1 set size 7 (4.5mm) double-pointed knitting needles&nbsp;<br />
+<b>Finished Measurements:&nbsp;</b>Hat Circumference 12.5 (15.5)&quot;/31.8 (39.5)cm&nbsp;<br />
+<b>Gauge:&nbsp;</b>18 sts and 26 rows = 4&quot;/10cm in Stockinette st using larger needles.<br />
+&nbsp;</div>
+</div>
+</div>              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-group">
+        <div class="row row-eq-height">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="img-wrapper">
+              <a class="
+      js-register "
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/pattern_thumbnails/original/26/jeag4mxg48fu69quo67g.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-9">
+            <div class="text-wrapper">
+              <div class="desc-title">
+                Reef Knot Tank              </div>
+              <!--<a class="desc-instructor" href="javascript:;">Knitting Today! magazine</a>-->
+              <div class="cb-txt-short cb-txt-long">
+                <div class="page">
+<div class="layoutArea">
+<div class="column">Simple stockinette stitch in cool cotton gets a twist on plain when you tie the back straps into a reef knot.&nbsp;
+<div class="cb-txt-short cb-txt-long"><b>Skill level:&nbsp;</b>Intermediate<br />
+<b>Yarn:&nbsp;</b>Rowan Summerlite 4Ply in #428 High Tide<br />
+<b>Knitting Needles:&nbsp;</b>2 size 4 (3.5mm) circular knitting needles, 24&quot;/61 cm long&nbsp;<br />
+<b>Finished Measurements:&nbsp;</b>Chest 24.5 (28.25, 31.75, 35.5, 39)&quot;/62 (72, 80.5, 90, 99)cm, measured below bust; Hip 35.5 (39, 42.75, 46.25, 50)&quot;/90 (99, 108.5, 117.5, 127)cm ;&nbsp;Length 23&quot;/58.5 cm from shoulder&nbsp;<br />
+<b>Gauge:&nbsp;</b>22 sts and 32 rows = 4&quot;/10cm in Stockinette st.&nbsp;</div>
+</div>
+</div>
+</div>              </div>
+            </div>
+            <div class="play-ctrls">
+              <a class="
+      js-register play-btn btn-danger"
+      data-register-title="Download Pattern"
+      data-register-action="download the pattern"
+      href="javascript:;">
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+<div id="register_modal" class="modal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="btn" class="close" data-dismiss="modal" aria-label="Close"><img src="/ui/images/icon-x.png"></button>
+        <h4 class="modal-title">Please register</h4>
+      </div>
+      <div class="modal-body">
+                  Please log in, or start your free trial,
+                to <span class="register-action">access this feature</span>.
+      </div>
+      <div class="modal-footer">
+                  <a href="/login?redirect_on_success=/patterns" class="confirm-btn js-login" data-dismiss="modal" title="Log In">Log In</a>
+          <a id="register_modal_signup" href="/trial/create-account?redirect_on_success=/patterns" class="confirm-btn" title="Start Your Free Trial">Start Your Free Trial</a>
+                </a>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="push"></div>
+  </section>
+  <footer id="website_footer">
+  <div class="footer-wrapper">
+    <div class="row">
+      <div class="col-xs-4 col-sm-2 col-sm-offset-1">
+        <h3>Classes</h3>
+        <ul>
+          <li><a href="/classes/knitting">Knitting</a></li>
+          <li><a href="/classes/crochet">Crochet</a></li>
+          <li><a href="/classes/art-and-design">Art + Design</a></li>
+          <li><a href="/classes/paper">Paper</a></li>
+          <li><a href="/classes/sewing">Sewing</a></li>
+          <li><a href="/classes/quilting">Quilting</a></li>
+          <li><a href="/classes/jewelry">Jewelry</a></li>
+          <li><a href="/classes/kids">Kids</a></li>
+          <li><a href="/classes/food-and-home">Food + Home</a></li>
+          <li><a href="/classes/holiday-and-party">Holiday + Party</a></li>
+        </ul>
+      </div>
+      <div class="col-xs-4 col-sm-2">
+        <h3>About Us</h3>
+        <ul>
+          <li><a href="/instructors">Instructors</a></li>
+          <li><a href="/site/about">About Creativebug</a></li>
+          <li><a href="/site/meet-creativebug-team">Meet the Team</a></li>
+          <li><a href="/site/jobs">Careers</a></li>
+          <li><a href="/site/contact">Contact Us</a></li>
+          <li><a href="/site/affiliate-program">Affiliate Program</a></li>
+          <li><a href="/site/rss">RSS Feeds</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/site/creativebug-brand-ambassadors">Brand Ambassadors</a></li>
+        </ul>
+      </div>
+      <div class="col-xs-4 col-sm-2">
+        <h3>Help Center</h3>
+        <ul>
+          <li><a href="/site/contact">Contact Us</a></li>
+          <li><a href="/gift_subscriptions">Gift Subscriptions</a></li>
+          <li><a href="/redeem">Redeem a Gift</a></li>
+          <li><a href="https://creativebughelp.zendesk.com">Customer Support</a></li>
+          <li><a href="/site/terms">Terms of Use</a></li>
+          <li><a href="/site/privacy-policy">Privacy Policy</a></li>
+          <li><a href="/site/community-guidelines">Community Guidelines</a></li>
+        </ul>
+      </div>
+      <div class="widgets col-xs-12 col-sm-4">
+        <div class="widgets-wrapper">
+                      <section class="subscribe">
+              <h3>Subscribe Now</h3>
+              Only $4.95 per month
+              &nbsp;&nbsp;
+              <a class="js-ga-click confirm-btn btn btn-primary"
+                  data-ga-click-cat="CTA"
+                  data-ga-click-label="footer free_trial sign_up button"
+                  href="/trial/create-account?redirect_on_success=/patterns" title="Start Free Trial">Start Free Trial</a>
+            </section>
+          
+                      <section class="newsletter-signup">
+              <h3>Creativebug Newsletter</h3>
+              <form class="js-newsletter-signup" action="/mailing_list" method="post" accept-charset="UTF-8">
+                <div class="error status hidden">Sorry, that didn't work.  Please try again.</div>
+                <div class="success status hidden">Thank you for signing up!  We'll be in touch soon.</div>
+                <input type="text" name="email" placeholder="Email">
+                <button class="btn btn-danger" type="submit">Sign Up</button>
+              </form>
+            </section>
+          
+          <section class="connect">
+            <h3>Connect</h3>
+            <ul class="social">
+              <li><a href="http://www.facebook.com/pages/Creativebug/356129344439441" target="_blank"><div data-icon class="icon-facebook"></div></a></li>
+              <li><a href="http://twitter.com/#!/creativebug" target="_blank"><div data-icon class="icon-twitter"></div></a></li>
+              <li><a href="http://instagram.com/creativebug" target="_blank"><div data-icon class="icon-instagram"></div></a></li>
+              <li><a href="http://pinterest.com/creativebuginc/" target="_blank"><div data-icon class="icon-pinterest"></div></a></li>
+              <li><a href="https://www.youtube.com/user/cbugstudio" target="_blank"><div data-icon class="icon-youtube"></div></a></li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">© 2016 Creativebug, LLC.</div>
+  </div>
+</footer>
+      <div id="overlay" class='modal'>
+        <div id="overlay-content">
+          <div id="fragment-content"></div>
+        </div>
+      </div>
+  <script type="text/javascript" src="/content/compressed/classseries-cbbf2ead.js"></script>
+<script type="text/javascript" src="/content/compressed/register-modal-04636aec.js"></script>
+<script type="text/javascript" src="/content/compressed/website-footer-5901413a.js"></script>
+<script type="text/javascript" src="/content/compressed/cb-login-modal-25e7119e.js"></script>
+<script type="text/javascript" src="/content/compressed/website_footer-ed432f77.js"></script>
+
+  <!-- CB Login Modal: start -->
+<div id="cb_login_modal" class="js-login-form cb-login cb-modal modal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+              <div type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <img src="/ui/images/icon-x.png">
+        </div>
+            <div class="modal-header">
+        Sign In      </div>
+      <form id="cb_login_modal_form" action="https://www.creativebug.com/services/access/validate" method="post" accept-charset="UTF-8">
+      <div class="modal-body">
+        <div class="login-error elem hidden">
+          Email/password combination not found. Please try again.        </div>
+        <input id="cb_login_modal_email" class="input elem" type="text" placeholder="Email" name="email">
+        <input id="cb_login_modal_password" class="input elem" type="password" placeholder="Password" name="password">
+        <div class="login-opts elem">
+          <a class="forgot-pass" href="/forgot-password">Forgot password?</a>
+          <label class="remember-me">
+            <input id="cb_login_modal_remember_me" type="checkbox" name="remember_me" value="true">
+            Stay logged in
+          </label>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+      <div class="modal-footer">
+        <input class="login-btn" type="submit" value="Sign In">
+
+                <div class="spacer-or"></div>
+        <a class="fb-btn login-btn" href="/facebook/signin">
+          <img src="/ui/images/signup/1504/fb-icon.png" width="28" height="28">
+          <span>Sign In with Facebook</span>
+        </a>
+        <div class="not-subscriber">
+          Not a subscriber yet?
+          <div class="subtext">
+            Start your free trial today to access over 700 classes!
+          </div>
+        </div>
+        <a class="login-btn" href="/trial/create-account" title="join">
+          Start Free Trial
+        </a>
+              </div>
+        <input id="cb_login_modal_redirect_on_success" type="hidden" name="redirect_on_success" value="">
+        <input id="cb_login_modal_source" type="hidden" name="source" value="/patterns">
+        <input id="cb_login_modal_slug" type="hidden" name="slug">
+      </form>
+    </div>
+  </div>
+</div>
+<!-- CB Login Modal: end -->
+
+<script type='text/javascript'>
+
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('require','linker');
+ga('create','UA-30229519-4');
+ga('require','ecommerce','ecommerce.js');
+ga('send','pageview');
+</script>
+<!-- Quantcast Tag -->
+<script type="text/javascript">
+var _qevents = _qevents || [];
+
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+qacct:"p-3esR6EkV-2DJB"
+});
+</script>
+
+<noscript>
+<div style="display:none;">
+<img src="//pixel.quantserve.com/pixel/p-3esR6EkV-2DJB.gif" border="0" height="1" width="1" alt="Quantcast"/>
+</div>
+</noscript>
+<!-- End Quantcast tag -->
+
+    </div>
+  </div>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"c4c7d0812a","applicationID":"3796878","transactionName":"ZFVbYxZTXkdUABBeC10feFQQW19aGjMWXgpHUVtbAR1ZWlEGHA==","queueTime":0,"applicationTime":90,"ttGuid":"","agentToken":"","atts":"SBJYFV5JTUk=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

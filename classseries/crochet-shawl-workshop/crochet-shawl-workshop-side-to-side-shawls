@@ -1,0 +1,1978 @@
+<!doctype html>
+<!--[if IE 7]><html class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html class="v2"  ><!--<![endif]-->
+<head lang="en">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UAcOUVVTGwAHXVdaAAk="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(15),c={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,o.indexOf("dev")!==-1&&(c.dev=!0),o.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&i.on("internal-error",function(t){r(t.stack)}),c.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(c){try{i("ierr",[c,(new Date).getTime(),!0])}catch(s){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,(new Date).getTime()])}var i=t("handle"),a=t(16),c=t("ee"),s=t("loader"),f=window.onerror,u=!1,d=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),s.xhrWrappable&&t(9),u=!0)}c.on("fn-start",function(t,e,n){u&&(d+=1)}),c.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),c.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),c.on("internal-error",function(t){i("ierr",[t,(new Date).getTime(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),c=t(7),s="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState";t("loader").features.stn=!0,t(6);var g=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof g&&(this.bstStart=Date.now())}),o.on(w,function(t,e){var n=t[0];n instanceof g&&i("bst",[n,e,this.bstStart,Date.now()])}),a.on(m,function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),a.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),this.bstType])}),c.on(m,function(){this.bstStart=Date.now()}),c.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=Date.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+s]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+s]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+s]()},!1)),document[f]("scroll",r,!1),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){c.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),c=t(17)(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,e,n){var r=t("ee").get("history"),o=t(17)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,e,n){var r=t("ee").get("raf"),o=t(17)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(17)(i),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(s+u,r),i.on(c+u,o)},{}],9:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",c)}function i(t){v.push(t),h&&(g=-g,b.data=g)}function a(){for(var t=0;t<v.length;t++)r([],v[t]);v.length&&(v=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(5);var f=t("ee"),u=f.get("xhr"),d=t(17)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],v=[];e.exports=u;var y=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(m,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var g=1,b=document.createTextNode(g);new h(a).observe(b,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],10:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var a=t.getResponseHeader("X-NewRelic-App-Data");a&&(e.cat=a.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var a=0;a<d;a++)e.addEventListener(u[a],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{}],11:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],12:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(15),c=t(16),s=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var u=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],d="api-",l=d+"ixn-";a(u,function(t,e){f[e]=o(d+e,!0,"api")}),f.addPageAction=o(d+"addPageAction",!0),f.setCurrentRouteName=o(d+"routeName",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var p=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(s.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{s.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){p[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],13:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],14:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],15:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],16:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],17:[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,c,s;try{a=this,r=i(arguments),c="function"==typeof n?n(r,a):n||{}}catch(f){l([f,"",[r,a,o],c])}u(e+"start",[r,a,o],c);try{return s=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],c),d}finally{u(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,c,s,f="-"===o.charAt(0);for(s=0;s<e.length;s++)c=e[s],a=t[c],r(a)||(t[c]=n(a,f?c+o:o,i,c))}function u(n,r,o){if(!s||e){var i=s;s=!0;try{t.emit(n,r,o)}catch(a){l([a,n,r,o])}s=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){l([r])}for(var o in t)c.call(t,o)&&(e[o]=t[o]);return e}function l(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,c,i):i()}function n(n,r,o){if(!l.aborted){t&&t(n,r,o);for(var i=e(o),a=h(n),c=a.length,s=0;s<c;s++)a[s].apply(i,r);var f=u[y[n]];return f&&f.push([g,n,r,i]),i}}function p(t,e){v[t]=h(t).concat(e)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(n)}function w(t,e){f(t,function(t,n){e=e||"feature",y[n]=e,e in u||(u[e]=[])})}var v={},y={},g={on:p,emit:n,get:m,listeners:h,context:e,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var c="nr@context",s=t("gos"),f=t(15),u={},d={},l=e.exports=o();l.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!b++){var t=g.info=NREUM.info,e=d.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return f.abort();s(v,function(e,n){t[e]||(t[e]=n)}),c("mark",["onload",a()],null,"api");var n=d.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var c=t("handle"),s=t(15),f=t("ee"),u=window,d=u.document,l="addEventListener",p="attachEvent",h=u.XMLHttpRequest,m=h&&h.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:h,REQ:u.Request,EV:u.Event,PR:u.Promise,MO:u.MutationObserver},t(12);var w=""+location,v={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-998.min.js"},y=h&&m&&m[l]&&!/CriOS/.test(navigator.userAgent),g=e.exports={offset:a(),origin:w,features:{},xhrWrappable:y};d[l]?(d[l]("DOMContentLoaded",i,!1),u[l]("load",r,!1)):(d[p]("onreadystatechange",o),u[p]("onload",r)),c("mark",["firstbyte",a()],null,"api");var b=0},{}]},{},["loader",2,10,4,3]);</script>
+  <title>Crochet Shawl Workshop by Marly Bird - Creativebug</title>
+  <meta name="copyright" content="Copyright 2016, Creativebug">
+  <meta name="description" content="Marly Bird is passionate about crocheted shawls. In this three-part series, she offers up big-time knowledge with healthy doses of enthusiasm and sass. Using three classic shawl shapes&mdash;side-to-side, crescent, and top-down triangle&mdash;she shows you how to make three distinctly different designs. These patterns are perfect for customizing...">
+  <meta name="keywords" content="how to crochet shawls,womens accessories,ladies accessories,side-to-side shawl,crescent shawl,triangle shawl,lion brand,red heart">
+  <meta property="og:image" content="https://www.creativebug.com/pimage/dynamic/highres~storage/public/images/tutorial_thumbnails/original/885/uxfvpxrzwaxwpaebg1sy.jpg" />  <meta property="og:title" content="Crochet Shawl Workshop by Marly Bird" />  <meta property="og:description" content="Marly Bird is passionate about crocheted shawls. In this three-part series, she offers up big-time knowledge with healthy doses of enthusiasm and sass. Using three classic shawl shapes&mdash;side-to-side, crescent, and top-down triangle&mdash;she shows you how to make three distinctly different..." />
+  <meta property="og:video:url" content="https://www.creativebug.com/ui/player.swf?file=http%3A%2F%2Fcbugdl.creativebug.com%2Fcbug%2Fnotoken-dest%2Fdelivery%2F72%2Fc7%2F72c740a9-45b6-4ebd-83b0-30bb7af594b5%2F5014_v1_800k.mp4&autostart=true">
+  <meta property="og:video:secure_url" content="https://www.creativebug.com/ui/player.swf?file=http%3A%2F%2Fcbugdl.creativebug.com%2Fcbug%2Fnotoken-dest%2Fdelivery%2F72%2Fc7%2F72c740a9-45b6-4ebd-83b0-30bb7af594b5%2F5014_v1_800k.mp4&autostart=true">
+  <meta property="og:video:type" content="application/x-shockwave-flash">
+  <meta property="og:video:width" content="1280">
+  <meta property="og:video:height" content="720">
+  <meta property="video:tag" content="how to crochet shawls">
+  <meta property="video:tag" content="womens accessories">
+  <meta property="video:tag" content="ladies accessories">
+  <meta property="video:tag" content="side-to-side shawl">
+  <meta property="video:tag" content="crescent shawl">
+  <meta property="video:tag" content="triangle shawl">
+  <meta property="video:tag" content="lion brand">
+  <meta property="video:tag" content="red heart">
+  <meta property="fb:app_id" content="275120962590744"/>
+  <meta property="og:type" content="video" />  <meta property="og:url" content="https://www.creativebug.com/classseries/crochet-shawl-workshop/crochet-shawl-workshop-side-to-side-shawls" />
+  <meta name="twitter:card" content="player">
+  <meta name="twitter:player" content="https://www.creativebug.com/ajax/modal/video/video/6575">
+  <meta name="twitter:player:width" content="1280">
+  <meta name="twitter:player:height" content="720">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  <meta name="build_version" content="php-master-2f13c271ea8adabf499afe257e6d4f7cf179938b" />
+  <link rel="apple-touch-icon" href="/ui/images/app_icon.png"><link rel="alternate" type="application/rss+xml" title="RSS Feed for Multi-Part Classes" href="/rss/classes/crochet/multi-part-classes.rss" />
+  <script type="application/ld+json">
+  {
+     "@context": "http://schema.org",
+     "@type": "WebSite",
+     "url": "https://www.creativebug.com/",
+     "potentialAction": {
+       "@type": "SearchAction",
+       "target": "https://www.creativebug.com/search/results?query={query}",
+       "query-input": "required name=query"
+     }
+  }
+  </script>
+  <script type='text/javascript'>
+  /* IE console mock up */
+  if(typeof console == 'undefined') {var console = {log: function(x){}}};
+  </script>
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-551b3e7a61847364" async="async"></script>
+  <link href="/ui/images/cbugfavicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link href="/ui/images/cbugfavicon.ico" rel="icon" type="image/x-icon" />
+  <link href='//fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700' rel='stylesheet' type='text/css'>
+
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+  <![endif]-->
+
+    <script async src="//cdn.optimizely.com/js/1743310672.js"></script>
+  <link rel="stylesheet" href="/content/compressed/website_header-9d3f33bd.css">
+    <link rel="stylesheet" href="/content/compressed/classseries-c47f93fc.css">
+    <link rel="stylesheet" href="/content/compressed/bac-button-b1ade248.css">
+    <link rel="stylesheet" href="/content/compressed/description-pane-0fa58180.css">
+    <link rel="stylesheet" href="/content/compressed/chapters-pane-72145903.css">
+    <link rel="stylesheet" href="/content/compressed/materials-pane-7a0eb1e3.css">
+    <link rel="stylesheet" href="/content/compressed/gallery-pane-35794409.css">
+    <link rel="stylesheet" href="/content/compressed/carousel-modal-101e40d2.css">
+    <link rel="stylesheet" href="/content/compressed/image-gallery-6b52834a.css">
+    <link rel="stylesheet" href="/content/compressed/upload-image-button-e059f4d4.css">
+    <link rel="stylesheet" href="/content/compressed/discussion-pane-df5888b5.css">
+    <link rel="stylesheet" href="/content/compressed/register-modal-7db5d5af.css">
+    <link rel="stylesheet" href="/content/compressed/confirm-modal-5f57a5f2.css">
+    <link rel="stylesheet" href="/content/compressed/member-carousel-5b3ec5f0.css">
+    <link rel="stylesheet" href="/content/compressed/class-carousel-099a83e6.css">
+    <link rel="stylesheet" href="/content/compressed/bac-modal-b5c06e3b.css">
+    <link rel="stylesheet" href="/content/compressed/website-footer-ecf968d6.css">
+    <link rel="stylesheet" href="/content/compressed/cb-login-modal-95b63eb2.css">
+  <script type="text/javascript" src="/content/compressed/website_header-694aa2a1.js"></script>
+  
+  <!-- Facebook Pixel Code: start -->
+  <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+    document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+    fbq('init', '597271883734030');
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=597271883734030&ev=PageView&noscript=1" />
+  </noscript>
+  <!-- Facebook Pixel Code: end -->
+
+  </head>
+<body>
+  <div id="page-wrapper">
+  
+  
+  <header id="header" class="clearfix fixed searchon" itemscope itemtype="http://schema.org/WPHeader">
+  <div>
+    <a href="javascript:;" id="sidebar-toggle" onclick="$('html').toggleClass('sidebar-open');">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </a>
+    <div id="logo"><a href="/"><img src="/ui/images/homev2/logo-red.png" alt="Creativebug"/></a></div>
+    <nav>
+  <ul class="navigation">
+
+          <li class="login"><a class="js-login" title="Log In">Log In</a></li>
+      <li class="signup"><a href="/trial/create-account?redirect_on_success=/classseries/crochet-shawl-workshop/crochet-shawl-workshop-side-to-side-shawls" title="Start Your Free Trial" class='action-login'>Start Free Trial</a></li>
+    
+  </ul>
+
+  <ul class="subjects" itemscope itemtype="http://schema.org/SiteNavigationElement"><li onmouseover="sel(this);"><a itemprop="url" class="sub" href="/classes">Classes</a></li><div class="submenu"><ul id="submenu-classes"><li onmouseover="sel(this);"><a itemprop="url" href="/classes/knitting">Knitting</a></li><div class="submenu2"><div><ul class="strong"><li><a href="/classes/knitting/accessories">Accessories</a></li><li><a href="/classes/knitting/baby-and-kids">Baby & Kids</a></li><li><a href="/classes/knitting/felting">Felting</a></li><li><a href="/classes/knitting/holiday-and-party">Holiday & Party</a></li></ul><ul class="strong"><li><a href="/classes/knitting/home-decor">Home Décor</a></li><li><a href="/classes/knitting/sweaters">Sweaters</a></li><li><a href="/classes/knitting/yarn-craft">Yarn Craft</a></li></ul><ul><li><a href="/classes/knitting/for-beginners">For Beginners</a></li><li><a href="/classes/knitting/multi-part-classes">Multi-Part Classes</a></li><li><a href="/classes/knitting/quick-classes">Quick Classes</a></li><li><a href="/classes/knitting/techniques">Techniques</a></li></ul><ul class="strong"><li><a href="/classes/knitting">See All Knitting Classes<span class="arrow">►</span></a></li><div><img src="/ui/images/menu/knitting.jpg"/></div></ul></div></div><li onmouseover="sel(this);"><a itemprop="url" href="/classes/crochet">Crochet</a></li><div class="submenu2"><div><ul class="strong"><li><a href="/classes/crochet/accessories">Accessories</a></li><li><a href="/classes/crochet/baby-and-kids">Baby & Kids</a></li><li><a href="/classes/crochet/home-decor">Home Décor</a></li></ul><ul class="strong"><li><a href="/classes/crochet/yarn-craft">Yarn Craft</a></li></ul><ul><li><a href="/classes/crochet/for-beginners">For Beginners</a></li><li><a href="/classes/crochet/multi-part-classes">Multi-Part Classes</a></li><li><a href="/classes/crochet/quick-classes">Quick Classes</a></li><li><a href="/classes/crochet/techniques">Techniques</a></li></ul><ul class="strong"><li><a href="/classes/crochet">See All Crochet Classes<span class="arrow">►</span></a></li><div><img src="/ui/images/menu/crochet.jpg"/></div></ul></div></div><li onmouseover="sel(this);"><a itemprop="url" href="/classes/art-and-design">Art + Design</a></li><div class="submenu2"><div><ul class="strong"><li><a href="/classes/art-and-design/ceramics">Ceramics</a></li><li><a href="/classes/art-and-design/drawing-and-illustration">Drawing & Illustration</a></li><li><a href="/classes/art-and-design/home-decor">Home Décor</a></li><li><a href="/classes/art-and-design/lettering">Lettering</a></li><li><a href="/classes/art-and-design/mixed-media">Mixed Media</a></li></ul><ul class="strong"><li><a href="/classes/art-and-design/painting">Painting</a></li><li><a href="/classes/art-and-design/printmaking">Printmaking</a></li><li><a href="/classes/art-and-design/sketchbook-exercises">Sketchbook Exercises</a></li><li><a href="/classes/art-and-design/textiles">Textiles</a></li></ul><ul><li><a href="/classes/art-and-design/for-beginners">For Beginners</a></li><li><a href="/classes/art-and-design/multi-part-classes">Multi-Part Classes</a></li><li><a href="/classes/art-and-design/quick-classes">Quick Classes</a></li><li><a href="/classes/art-and-design/techniques">Techniques</a></li></ul><ul class="strong"><li><a href="/classes/art-and-design">See All Art + Design Classes<span class="arrow">►</span></a></li><div><img src="/ui/images/menu/art-and-design.jpg"/></div></ul></div></div><li onmouseover="sel(this);"><a href="/classes/paper">Paper</a></li><div class="submenu2"><div><ul class="strong"><li><a href="/classes/paper/book-binding">Book Binding</a></li><li><a href="/classes/paper/cards-and-gift-wrap">Cards & Gift Wrap</a></li><li><a href="/classes/paper/collage-and-decoupage">Collage & Decoupage</a></li><li><a href="/classes/paper/cutting-machine-crafts">Cutting Machine Crafts</a></li><li><a href="/classes/paper/holiday-and-party">Holiday & Party</a></li><li><a href="/classes/paper/home-decor">Home Décor</a></li></ul><ul class="strong"><li><a href="/classes/paper/kids">Kids</a></li><li><a href="/classes/paper/paper-flowers">Paper Flowers</a></li><li><a href="/classes/paper/printing">Printing</a></li><li><a href="/classes/paper/sketchbook-exercises">Sketchbook Exercises</a></li></ul><ul><li><a href="/classes/paper/for-beginners">For Beginners</a></li><li><a href="/classes/paper/multi-part-classes">Multi-Part Classes</a></li><li><a href="/classes/paper/quick-classes">Quick Classes</a></li><li><a href="/classes/paper/techniques">Techniques</a></li></ul><ul class="strong"><li><a href="/classes/paper">See All Paper Classes<span class="arrow">►</span></a></li><div><img src="/ui/images/menu/paper.jpg"/></div></ul></div></div><li onmouseover="sel(this);"><a itemprop="url" href="/classes/sewing">Sewing</a></li><div class="submenu2"><div><ul class="strong"><li><a href="/classes/sewing/accessories">Accessories</a></li><li><a href="/classes/sewing/baby-and-kids">Baby & Kids</a></li><li><a href="/classes/sewing/fabric-design">Fabric Design</a></li><li><a href="/classes/sewing/garments">Garments</a></li><li><a href="/classes/sewing/hand-stitching">Hand-stitching</a></li></ul><ul class="strong"><li><a href="/classes/sewing/holiday-and-party">Holiday & Party</a></li><li><a href="/classes/sewing/home-decor">Home Décor</a></li><li><a href="/classes/sewing/pattern-drafting">Pattern Drafting</a></li></ul><ul><li><a href="/classes/sewing/for-beginners">For Beginners</a></li><li><a href="/classes/sewing/multi-part-classes">Multi-Part Classes</a></li><li><a href="/classes/sewing/quick-classes">Quick Classes</a></li><li><a href="/classes/sewing/techniques">Techniques</a></li></ul><ul class="strong"><li><a href="/classes/sewing">See All Sewing Classes<span class="arrow">►</span></a></li><div><img src="/ui/images/menu/sewing.jpg"/></div></ul></div></div><li onmouseover="sel(this);"><a href="/classes/quilting">Quilting</a></li><div class="submenu2"><div><ul class="strong"><li><a href="/classes/quilting/baby-and-kids">Baby & Kids</a></li><li><a href="/classes/quilting/blocks">Blocks</a></li><li><a href="/classes/quilting/design">Design</a></li><li><a href="/classes/quilting/home-decor">Home Décor</a></li></ul><ul class="strong"><li><a href="/classes/quilting/modern-quilts">Modern Quilts</a></li><li><a href="/classes/quilting/quilt-tops">Quilt Tops</a></li><li><a href="/classes/quilting/quilting">Quilting</a></li></ul><ul><li><a href="/classes/quilting/for-beginners">For Beginners</a></li><li><a href="/classes/quilting/multi-part-classes">Multi-Part Classes</a></li><li><a href="/classes/quilting/quick-classes">Quick Classes</a></li><li><a href="/classes/quilting/techniques">Techniques</a></li></ul><ul class="strong"><li><a href="/classes/quilting">See All Quilting Classes<span class="arrow">►</span></a></li><div><img src="/ui/images/menu/quilting.jpg"/></div></ul></div></div><li onmouseover="sel(this);"><a href="/classes/jewelry">Jewelry</a></li><div class="submenu2"><div><ul class="strong"><li><a href="/classes/jewelry/beading">Beading</a></li><li><a href="/classes/jewelry/bracelets">Bracelets</a></li><li><a href="/classes/jewelry/earrings-and-rings">Earrings and Rings</a></li><li><a href="/classes/jewelry/kids">Kids</a></li></ul><ul class="strong"><li><a href="/classes/jewelry/leather">Leather</a></li><li><a href="/classes/jewelry/metal-and-wire">Metal and Wire</a></li><li><a href="/classes/jewelry/necklaces">Necklaces</a></li></ul><ul><li><a href="/classes/jewelry/for-beginners">For Beginners</a></li><li><a href="/classes/jewelry/quick-classes">Quick Classes</a></li><li><a href="/classes/jewelry/techniques">Techniques</a></li></ul><ul class="strong"><li><a href="/classes/jewelry">See All Jewelry Classes<span class="arrow">►</span></a></li><div><img src="/ui/images/menu/jewelry.jpg"/></div></ul></div></div><li onmouseover="sel(this);"><a href="/classes/kids">Kids</a></li><div class="submenu2"><div><ul class="strong"><li><a href="/classes/kids/crafts">Crafts</a></li><li><a href="/classes/kids/drawing-and-painting">Drawing & Painting</a></li><li><a href="/classes/kids/holiday-and-party">Holiday & Party</a></li><li><a href="/classes/kids/jewelry">Jewelry</a></li></ul><ul class="strong"><li><a href="/classes/kids/paper">Paper</a></li><li><a href="/classes/kids/sewing">Sewing</a></li><li><a href="/classes/kids/yarn">Yarn</a></li></ul><ul><li><a href="/classes/kids/quick-classes">Quick Classes</a></li></ul><ul class="strong"><li><a href="/classes/kids">See All Kids Classes<span class="arrow">►</span></a></li><div><img src="/ui/images/menu/kids.jpg"/></div></ul></div></div><li onmouseover="sel(this);"><a href="/classes/food-and-home">Food + Home</a></li><div class="submenu2"><div><ul class="strong"><li><a href="/classes/food-and-home/baking-and-cake-decorating">Baking & Cake Decorating</a></li><li><a href="/classes/food-and-home/bath-and-body">Bath & Body</a></li><li><a href="/classes/food-and-home/canning-and-preserving">Canning & Preserving</a></li><li><a href="/classes/food-and-home/flowers">Flowers</a></li></ul><ul class="strong"><li><a href="/classes/food-and-home/furniture-refinishing-and-upholstery">Furniture Refinishing & Upholstery</a></li><li><a href="/classes/food-and-home/home-decor">Home Decor</a></li><li><a href="/classes/food-and-home/packaging-and-presentation">Packaging & Presentation</a></li></ul><ul><li><a href="/classes/food-and-home/multi-part-classes">Multi-Part Classes</a></li><li><a href="/classes/food-and-home/quick-classes">Quick Classes</a></li></ul><ul class="strong"><li><a href="/classes/food-and-home">See All Food + Home Classes<span class="arrow">►</span></a></li><div><img src="/ui/images/menu/food-and-home.jpg"/></div></ul></div></div><li onmouseover="sel(this);"><a href="/classes/holiday-and-party">Holiday + Party</a></li><div class="submenu2"><div><ul class="strong"><li><a href="/classes/holiday-and-party/packaging-and-presentation">Packaging & Presentation</a></li><li><a href="/classes/holiday-and-party/birthday-parties">Parties</a></li><li><a href="/classes/holiday-and-party/weddings">Weddings</a></li><li><a href="/classes/holiday-and-party/valentines-day">Valentine’s Day</a></li><li><a href="/classes/holiday-and-party/easter">Easter</a></li></ul><ul class="strong"><li><a href="/classes/holiday-and-party/mothers-day-and-fathers-day">Mother’s Day & Father’s Day</a></li><li><a href="/classes/holiday-and-party/halloween">Halloween</a></li><li><a href="/classes/holiday-and-party/thanksgiving">Thanksgiving</a></li><li><a href="/classes/holiday-and-party/christmas">Christmas</a></li></ul><ul><li><a href="/classes/holiday-and-party/quick-classes">Quick Classes</a></li></ul><ul class="strong"><li><a href="/classes/holiday-and-party">See All Holiday + Party Classes<span class="arrow">►</span></a></li><div><img src="/ui/images/menu/holiday-and-party.jpg"/></div></ul></div></div></ul></div><li onmouseover="sel(this);"><a class="sub" href="/inspiration">Inspiration</a></li><div class="submenu"><ul id="submenu-inspiration"><li onmouseover="sel(this);"><a href="/inspiration">Inspiration Feeds</a></li><li onmouseover="sel(this);"><a href="/patterns">Pattern Library</a></li><li onmouseover="sel(this);"><a href="/collections">Class Collections</a></li><li onmouseover="sel(this);"><a href="/inspiration/blog">Blog</a></li></ul></div><li onmouseover="sel(this);"><a class="sub" href="/arts-&-crafts-instructors">Instructors</a></li><li onmouseover="sel(this);"><a class="sub" href="/calendar">Calendar</a></li><li onmouseover="sel(this);"><a itemprop="url" class="sub" href="/free-arts-and-crafts-classes">Free</a></li><li><a href="/cbtv" style="color: #ff4b55">CBTV</a></li></ul>
+</nav>
+
+<form id="topnav_search" class="nav-search form-inline" action="/search/results" method="get"
+    accept-charset="UTF-8" autocomplete="off"
+    itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction"
+    role="search">
+  <link itemprop="target" href="/search/results?query={query}">
+
+  <div class="input-group">
+    <div class="input-group-btn">
+      <button type="button" class="search-categories btn dropdown-toggle" data-toggle="dropdown">
+        <span class="js-search-category-name">Classes</span><span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu">
+        <li class="dropdown-header">Search Category</li>
+        <li><a class="search-category">Classes</a></li>
+        <li><a class="search-category">Images</a></li>
+        <li><a class="search-category">Instructors</a></li>
+        <li><a class="search-category">Blog</a></li>
+      </ul>
+    </div>
+    <input class="js-search-query search-box form-control" type="text"
+        name="query" value="" autocomplete="off"
+        placeholder="Search" itemprop="query-input"
+        onkeypress="if(event.keyCode == 13){$(this).close('form').submit();}">
+    <div class="search-submit input-group-btn">
+      <a class="btn btn-primary" href="javascript:;" onclick="$('#topnav_search').submit();"><i class="glyphicon glyphicon-search"></i></a>
+    </div>
+  </div>
+  <input class="js-search-category" type="hidden" name="category" value="Classes">
+</form>
+  </div>
+  </header>
+  <aside class="main-sidebar">
+    <ul class="on"><li onclick="$('html').removeClass('sidebar-open'); $('.js-login').trigger('click');" class="bold"><a class="sub" href="javascript:;">Log in</a></li><li onclick="document.location.href='/trial/add/monthly-trial'" class="bold"><a class="sub" href="javascript:;">Start Free Trial</a></li><li onclick="liopen(this);" class="bold arrow"><a class="sub" href="/classes">Classes</a></li><ul><li onclick="liopen(this);" class="bold arrow"><a href="/classes/knitting">Knitting</a></li><ul><li onclick="document.location.href='/classes/knitting/accessories';"><a href="javascript:;">Accessories</a></li><li onclick="document.location.href='/classes/knitting/baby-and-kids';"><a href="javascript:;">Baby & Kids</a></li><li onclick="document.location.href='/classes/knitting/felting';"><a href="javascript:;">Felting</a></li><li onclick="document.location.href='/classes/knitting/holiday-and-party';"><a href="javascript:;">Holiday & Party</a></li><li onclick="document.location.href='/classes/knitting/home-decor';"><a href="javascript:;">Home Décor</a></li><li onclick="document.location.href='/classes/knitting/sweaters';"><a href="javascript:;">Sweaters</a></li><li onclick="document.location.href='/classes/knitting/yarn-craft';"><a href="javascript:;">Yarn Craft</a></li><li onclick="document.location.href='/classes/knitting/for-beginners';"><a href="javascript:;">For Beginners</a></li><li onclick="document.location.href='/classes/knitting/multi-part-classes';"><a href="javascript:;">Multi-Part Classes</a></li><li onclick="document.location.href='/classes/knitting/quick-classes';"><a href="javascript:;">Quick Classes</a></li><li onclick="document.location.href='/classes/knitting/techniques';"><a href="javascript:;">Techniques</a></li></ul><li onclick="liopen(this);" class="bold arrow"><a href="/classes/crochet">Crochet</a></li><ul><li onclick="document.location.href='/classes/crochet/accessories';"><a href="javascript:;">Accessories</a></li><li onclick="document.location.href='/classes/crochet/baby-and-kids';"><a href="javascript:;">Baby & Kids</a></li><li onclick="document.location.href='/classes/crochet/home-decor';"><a href="javascript:;">Home Décor</a></li><li onclick="document.location.href='/classes/crochet/yarn-craft';"><a href="javascript:;">Yarn Craft</a></li><li onclick="document.location.href='/classes/crochet/for-beginners';"><a href="javascript:;">For Beginners</a></li><li onclick="document.location.href='/classes/crochet/multi-part-classes';"><a href="javascript:;">Multi-Part Classes</a></li><li onclick="document.location.href='/classes/crochet/quick-classes';"><a href="javascript:;">Quick Classes</a></li><li onclick="document.location.href='/classes/crochet/techniques';"><a href="javascript:;">Techniques</a></li></ul><li onclick="liopen(this);" class="bold arrow"><a href="/classes/art-and-design">Art + Design</a></li><ul><li onclick="document.location.href='/classes/art-and-design/ceramics';"><a href="javascript:;">Ceramics</a></li><li onclick="document.location.href='/classes/art-and-design/drawing-and-illustration';"><a href="javascript:;">Drawing & Illustration</a></li><li onclick="document.location.href='/classes/art-and-design/home-decor';"><a href="javascript:;">Home Décor</a></li><li onclick="document.location.href='/classes/art-and-design/lettering';"><a href="javascript:;">Lettering</a></li><li onclick="document.location.href='/classes/art-and-design/mixed-media';"><a href="javascript:;">Mixed Media</a></li><li onclick="document.location.href='/classes/art-and-design/painting';"><a href="javascript:;">Painting</a></li><li onclick="document.location.href='/classes/art-and-design/printmaking';"><a href="javascript:;">Printmaking</a></li><li onclick="document.location.href='/classes/art-and-design/sketchbook-exercises';"><a href="javascript:;">Sketchbook Exercises</a></li><li onclick="document.location.href='/classes/art-and-design/textiles';"><a href="javascript:;">Textiles</a></li><li onclick="document.location.href='/classes/art-and-design/for-beginners';"><a href="javascript:;">For Beginners</a></li><li onclick="document.location.href='/classes/art-and-design/multi-part-classes';"><a href="javascript:;">Multi-Part Classes</a></li><li onclick="document.location.href='/classes/art-and-design/quick-classes';"><a href="javascript:;">Quick Classes</a></li><li onclick="document.location.href='/classes/art-and-design/techniques';"><a href="javascript:;">Techniques</a></li></ul><li onclick="liopen(this);" class="bold arrow"><a href="/classes/paper">Paper</a></li><ul><li onclick="document.location.href='/classes/paper/book-binding';"><a href="javascript:;">Book Binding</a></li><li onclick="document.location.href='/classes/paper/cards-and-gift-wrap';"><a href="javascript:;">Cards & Gift Wrap</a></li><li onclick="document.location.href='/classes/paper/collage-and-decoupage';"><a href="javascript:;">Collage & Decoupage</a></li><li onclick="document.location.href='/classes/paper/cutting-machine-crafts';"><a href="javascript:;">Cutting Machine Crafts</a></li><li onclick="document.location.href='/classes/paper/holiday-and-party';"><a href="javascript:;">Holiday & Party</a></li><li onclick="document.location.href='/classes/paper/home-decor';"><a href="javascript:;">Home Décor</a></li><li onclick="document.location.href='/classes/paper/kids';"><a href="javascript:;">Kids</a></li><li onclick="document.location.href='/classes/paper/paper-flowers';"><a href="javascript:;">Paper Flowers</a></li><li onclick="document.location.href='/classes/paper/printing';"><a href="javascript:;">Printing</a></li><li onclick="document.location.href='/classes/paper/sketchbook-exercises';"><a href="javascript:;">Sketchbook Exercises</a></li><li onclick="document.location.href='/classes/paper/for-beginners';"><a href="javascript:;">For Beginners</a></li><li onclick="document.location.href='/classes/paper/multi-part-classes';"><a href="javascript:;">Multi-Part Classes</a></li><li onclick="document.location.href='/classes/paper/quick-classes';"><a href="javascript:;">Quick Classes</a></li><li onclick="document.location.href='/classes/paper/techniques';"><a href="javascript:;">Techniques</a></li></ul><li onclick="liopen(this);" class="bold arrow"><a href="/classes/sewing">Sewing</a></li><ul><li onclick="document.location.href='/classes/sewing/accessories';"><a href="javascript:;">Accessories</a></li><li onclick="document.location.href='/classes/sewing/baby-and-kids';"><a href="javascript:;">Baby & Kids</a></li><li onclick="document.location.href='/classes/sewing/fabric-design';"><a href="javascript:;">Fabric Design</a></li><li onclick="document.location.href='/classes/sewing/garments';"><a href="javascript:;">Garments</a></li><li onclick="document.location.href='/classes/sewing/hand-stitching';"><a href="javascript:;">Hand-stitching</a></li><li onclick="document.location.href='/classes/sewing/holiday-and-party';"><a href="javascript:;">Holiday & Party</a></li><li onclick="document.location.href='/classes/sewing/home-decor';"><a href="javascript:;">Home Décor</a></li><li onclick="document.location.href='/classes/sewing/pattern-drafting';"><a href="javascript:;">Pattern Drafting</a></li><li onclick="document.location.href='/classes/sewing/for-beginners';"><a href="javascript:;">For Beginners</a></li><li onclick="document.location.href='/classes/sewing/multi-part-classes';"><a href="javascript:;">Multi-Part Classes</a></li><li onclick="document.location.href='/classes/sewing/quick-classes';"><a href="javascript:;">Quick Classes</a></li><li onclick="document.location.href='/classes/sewing/techniques';"><a href="javascript:;">Techniques</a></li></ul><li onclick="liopen(this);" class="bold arrow"><a href="/classes/quilting">Quilting</a></li><ul><li onclick="document.location.href='/classes/quilting/baby-and-kids';"><a href="javascript:;">Baby & Kids</a></li><li onclick="document.location.href='/classes/quilting/blocks';"><a href="javascript:;">Blocks</a></li><li onclick="document.location.href='/classes/quilting/design';"><a href="javascript:;">Design</a></li><li onclick="document.location.href='/classes/quilting/home-decor';"><a href="javascript:;">Home Décor</a></li><li onclick="document.location.href='/classes/quilting/modern-quilts';"><a href="javascript:;">Modern Quilts</a></li><li onclick="document.location.href='/classes/quilting/quilt-tops';"><a href="javascript:;">Quilt Tops</a></li><li onclick="document.location.href='/classes/quilting/quilting';"><a href="javascript:;">Quilting</a></li><li onclick="document.location.href='/classes/quilting/for-beginners';"><a href="javascript:;">For Beginners</a></li><li onclick="document.location.href='/classes/quilting/multi-part-classes';"><a href="javascript:;">Multi-Part Classes</a></li><li onclick="document.location.href='/classes/quilting/quick-classes';"><a href="javascript:;">Quick Classes</a></li><li onclick="document.location.href='/classes/quilting/techniques';"><a href="javascript:;">Techniques</a></li></ul><li onclick="liopen(this);" class="bold arrow"><a href="/classes/jewelry">Jewelry</a></li><ul><li onclick="document.location.href='/classes/jewelry/beading';"><a href="javascript:;">Beading</a></li><li onclick="document.location.href='/classes/jewelry/bracelets';"><a href="javascript:;">Bracelets</a></li><li onclick="document.location.href='/classes/jewelry/earrings-and-rings';"><a href="javascript:;">Earrings and Rings</a></li><li onclick="document.location.href='/classes/jewelry/kids';"><a href="javascript:;">Kids</a></li><li onclick="document.location.href='/classes/jewelry/leather';"><a href="javascript:;">Leather</a></li><li onclick="document.location.href='/classes/jewelry/metal-and-wire';"><a href="javascript:;">Metal and Wire</a></li><li onclick="document.location.href='/classes/jewelry/necklaces';"><a href="javascript:;">Necklaces</a></li><li onclick="document.location.href='/classes/jewelry/for-beginners';"><a href="javascript:;">For Beginners</a></li><li onclick="document.location.href='/classes/jewelry/quick-classes';"><a href="javascript:;">Quick Classes</a></li><li onclick="document.location.href='/classes/jewelry/techniques';"><a href="javascript:;">Techniques</a></li></ul><li onclick="liopen(this);" class="bold arrow"><a href="/classes/kids">Kids</a></li><ul><li onclick="document.location.href='/classes/kids/crafts';"><a href="javascript:;">Crafts</a></li><li onclick="document.location.href='/classes/kids/drawing-and-painting';"><a href="javascript:;">Drawing & Painting</a></li><li onclick="document.location.href='/classes/kids/holiday-and-party';"><a href="javascript:;">Holiday & Party</a></li><li onclick="document.location.href='/classes/kids/jewelry';"><a href="javascript:;">Jewelry</a></li><li onclick="document.location.href='/classes/kids/paper';"><a href="javascript:;">Paper</a></li><li onclick="document.location.href='/classes/kids/sewing';"><a href="javascript:;">Sewing</a></li><li onclick="document.location.href='/classes/kids/yarn';"><a href="javascript:;">Yarn</a></li><li onclick="document.location.href='/classes/kids/quick-classes';"><a href="javascript:;">Quick Classes</a></li></ul><li onclick="liopen(this);" class="bold arrow"><a href="/classes/food-and-home">Food + Home</a></li><ul><li onclick="document.location.href='/classes/food-and-home/baking-and-cake-decorating';"><a href="javascript:;">Baking & Cake Decorating</a></li><li onclick="document.location.href='/classes/food-and-home/bath-and-body';"><a href="javascript:;">Bath & Body</a></li><li onclick="document.location.href='/classes/food-and-home/canning-and-preserving';"><a href="javascript:;">Canning & Preserving</a></li><li onclick="document.location.href='/classes/food-and-home/flowers';"><a href="javascript:;">Flowers</a></li><li onclick="document.location.href='/classes/food-and-home/furniture-refinishing-and-upholstery';"><a href="javascript:;">Furniture Refinishing & Upholstery</a></li><li onclick="document.location.href='/classes/food-and-home/home-decor';"><a href="javascript:;">Home Decor</a></li><li onclick="document.location.href='/classes/food-and-home/packaging-and-presentation';"><a href="javascript:;">Packaging & Presentation</a></li><li onclick="document.location.href='/classes/food-and-home/multi-part-classes';"><a href="javascript:;">Multi-Part Classes</a></li><li onclick="document.location.href='/classes/food-and-home/quick-classes';"><a href="javascript:;">Quick Classes</a></li></ul><li onclick="liopen(this);" class="bold arrow"><a href="/classes/holiday-and-party">Holiday + Party</a></li><ul><li onclick="document.location.href='/classes/holiday-and-party/packaging-and-presentation';"><a href="javascript:;">Packaging & Presentation</a></li><li onclick="document.location.href='/classes/holiday-and-party/birthday-parties';"><a href="javascript:;">Parties</a></li><li onclick="document.location.href='/classes/holiday-and-party/weddings';"><a href="javascript:;">Weddings</a></li><li onclick="document.location.href='/classes/holiday-and-party/valentines-day';"><a href="javascript:;">Valentine’s Day</a></li><li onclick="document.location.href='/classes/holiday-and-party/easter';"><a href="javascript:;">Easter</a></li><li onclick="document.location.href='/classes/holiday-and-party/mothers-day-and-fathers-day';"><a href="javascript:;">Mother’s Day & Father’s Day</a></li><li onclick="document.location.href='/classes/holiday-and-party/halloween';"><a href="javascript:;">Halloween</a></li><li onclick="document.location.href='/classes/holiday-and-party/thanksgiving';"><a href="javascript:;">Thanksgiving</a></li><li onclick="document.location.href='/classes/holiday-and-party/christmas';"><a href="javascript:;">Christmas</a></li><li onclick="document.location.href='/classes/holiday-and-party/quick-classes';"><a href="javascript:;">Quick Classes</a></li></ul></ul><li onclick="liopen(this);" class="bold arrow"><a class="sub" href="/inspiration">Inspiration</a></li><ul><li onclick="document.location.href='/inspiration';" class="bold"><a href="javascript:;">Inspiration Feeds</a></li><li onclick="document.location.href='/patterns';" class="bold"><a href="javascript:;">Pattern Library</a></li><li onclick="document.location.href='/collections';" class="bold"><a href="javascript:;">Class Collections</a></li><li onclick="document.location.href='/inspiration/blog';" class="bold"><a href="javascript:;">Blog</a></li></ul><li onclick="document.location.href='/arts-&-crafts-instructors';" class="bold"><a href="javascript:;">Instructors</a></li><li onclick="document.location.href='/calendar';" class="bold"><a href="javascript:;">Calendar</a></li><li onclick="document.location.href='/free-arts-and-crafts-classes';" class="bold"><a href="javascript:;">Free</a></li><li><a href="/cbtv" style="color: #ff4b55">CBTV</a></li></ul>  </aside>
+  <div id="main-content" onmousedown="$('html').removeClass('sidebar-open');" ontouchstart="$('html').removeClass('sidebar-open');">
+  <section id="main" class="clearfix">
+<script type="text/javascript" src="/ui/vendor/jquery/jquery-ui.min.js"></script>
+<script type="text/javascript">
+  $(function() {
+    // track page info for class view analytics
+    var classInfo = {
+      class_category: 'Crochet',
+      class_subcategory: 'Multi-Part Classes',
+      class_name: 'Crochet Shawl Workshop'
+    };
+    fbq('track', 'ViewContent', classInfo);
+    ga('send', 'event', {
+      eventCategory: 'class_page',
+      eventAction: 'view',
+      eventLabel: classInfo.class_category + ' > ' +
+                  classInfo.class_subcategory + ' > ' +
+                  classInfo.class_name,
+      nonInteraction: true
+    });
+  });
+</script>
+<script type="text/javascript">
+var member_id = 0;
+var videoRendered = false;
+var ismobile = navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry)/) ? true : false;
+var trackingInfo = {
+  category: 'video',
+  primary_subject_id: "0",
+  slug: "crochet-shawl-workshop"};
+var ads = '/trial/create-account?from=prerollcard';
+var videos = [{"sources":[{"file":"http:\/\/www.creativebug.com\/storage\/public\/assets\/promos\/FrontBumper_Free.mp4"}]},{"image":"","mediaid":"Hcl4oDx5","sources":[{"file":"http:\/\/creativebughls-vh.akamaihd.net\/i\/cbug\/notoken-dest\/delivery\/72\/c7\/72c740a9-45b6-4ebd-83b0-30bb7af594b5\/5014_v1_,3110,1382,800,432,k.mp4.csmil\/master.m3u8"},{"file":"http:\/\/cbugdl.creativebug.com\/cbug\/notoken-dest\/delivery\/72\/c7\/72c740a9-45b6-4ebd-83b0-30bb7af594b5\/5014_v1_800k.mp4"}],"title":"Series Overview","tracks":[{"file":"\/api\/v1\/workshop\/annotations\/6575","kind":"chapters"},""]},{"sources":[{"file":"http:\/\/www.creativebug.com\/storage\/public\/assets\/promos\/EndBumper_Free.mp4"}]}];
+var ids = [{"video_id":"6575","chapter_id":"2942","tutorial_id":"885"}];
+var active_part = true;
+var has_reviewed = false;
+var annotations = [];
+var resume = false;
+var selected = false;
+var editing = false;
+var lastResumeTime = 0;
+var lastAutoScrollTime = 0;
+
+$(function(){
+  //window.player = new html5player(videos, trackingInfo);
+  jwplayer("videoplayer").setup({
+    playlist: videos,
+    height: '100%',
+    width: '100%',
+    image: "",
+    autostart: false,
+    skin: { url:"/ui/vendor/jwplayer-7.3.6/skins/bekle.css", name: "bekle" },
+    primary: "flash",
+    captions: {backgroundOpacity:0},
+    androidhls: true
+  });
+  jwplayer("videoplayer").onReady(function(){
+    $(".fakeVideoCover").removeClass("loading");
+    $(".fakeVideoCover").addClass("active");
+  });
+});
+</script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=275120962590744";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div id="primary" class='v2'>
+
+  <div id="page-header">
+          <div class="row">
+        <div class="col-xs-12">
+          <h1><small><a href="/">Home</a> &gt; <a href="/classes">Classes</a> &gt; <a href="/classes/crochet">Crochet</a> &gt; <a href="/classes/crochet/multi-part-classes">Multi-Part Classes</a></small></h1>
+          <a class="series-crumb" href="/classseries/crochet-shawl-workshop">Crochet Shawl Workshop</a>
+        </div>
+      </div>
+        <div class="row">
+      <div class="col-xs-12 col-sm-7 vcenter">
+        <h1>Crochet Shawl Workshop: Side-to-Side Shawl</h1>
+
+                <div class="star-ratings-css" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="4.8 out of 5 stars. Ratings provided by viewers at completion of class.">
+          <div class="star-ratings-css-top" style="width: 95%"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+          <div class="star-ratings-css-bottom"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+          <div  class="star-ratings-count" > (120)</div>
+        </div>
+        
+      </div><div class="class-header-ctrls col-xs-12 col-sm-5 vcenter">
+            <a class="action-login btn btn-primary" href="/trial/create-account?redirect_on_success=/classseries/crochet-shawl-workshop/crochet-shawl-workshop-side-to-side-shawls"
+              data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Start Free Trial and get unlimited access to this class,
+              plus hundreds more. Pay only $4.95/month thereafter. Cancel any time."
+              style="width: 185px; padding: 0 8px;">Free Trial Then $4.95/mo</a><div class="js-buy-class js-ga-click btn btn-alacarte"
+                data-buy-product="/services/cart/add/1642"
+                data-buy-success="/subscribe/create-account?alacarte=885-2942"
+                data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Purchasing a single class from Creativebug allows you access to this class in your Library for as long as you have a Creativebug account. You can continue to access this class whether or not you have a subscription."
+                data-ga-click-cat="alacarte" data-ga-click-action="click buy button" data-ga-click-label="Crochet Shawl Workshop: Side-to-Side Shawl"
+                >Buy $9.95</div></div>    </div>
+  </div>
+
+    <div id="video-wrapper" style="position:relative; margin:12px 0 0 0;">
+    <div class="fakeVideoCover loading">
+            <img class="cover-img" alt="Crochet Shawl Workshop" src="https://www.creativebug.com/pimage/dynamic/subject-slide~storage/public/images/tutorial_thumbnails/original/885/images/xmvdkizzwmicdmdgey79.jpg">
+            <div class="playbut">
+            </div>
+              <a style="position:absolute; bottom: 4%; left:2%" href="/instructors/marly-bird">
+          <img class="instructor-img" alt="Marly Bird" src="https://www.creativebug.com/pimage/dynamic/profile-80~storage/images/profile/142471/original/sjanpop6dumxkfqyhccp.jpg">
+          <div style="display:inline-block; margin:0 0 0 8px">Taught by Marly Bird</div>
+        </a>
+          </div>
+    <section id="videoPostPlate" class='about hidden'>
+  <div style="display:table; width:100%; height:100%">
+    <div style="display: table-cell; vertical-align:middle">
+      <a href="/trial/create-account?from=endcard" title="Click Now to Start Your Free Trial" class='action-login'>
+        <img id="endCard" src="//www.creativebug.com/storage/public/assets/promos/EndBumper_Free6.png" />
+      </a>
+    </div>
+  </div>
+</section>
+<!--Player-->
+<script type="text/javascript" src="/ui/vendor/jwplayer-7.3.6/jwplayer.js"></script>
+<script type="text/javascript">jwplayer.key="iBMES69k7+FkA45gmwN2h6LHTbBUgtWVsUjGG95my8k=";</script>
+<div id="videoplayer" style="width:800px; height:450px;"></div>
+  </div>
+
+  <div id="video-app">
+    <div id="video-player"></div>
+
+        <div id="video-nav" role="menu">
+      <div class="row">
+        <div class="col-xs-12 col-md-6 vcenter">
+          <ul role="tablist">
+            <li role="presentation" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Description" class="active"><a href="#description" aria-controls="description" role="tab" data-toggle="tab"><div class="icon video-description"></div></a></li>
+            <li role="presentation" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Chapters"><a href="#chapters" aria-controls="chapters" role="tab" data-toggle="tab"><div class="icon video-chapters"></div></a></li>
+                          <li role="presentation" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Materials"><a href="#materials" aria-controls="materials" role="tab" data-toggle="tab"><div class="icon video-materials"></div></a></li>
+                        <li role="presentation" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Gallery"><a href="#gallery" aria-controls="gallery" role="tab" data-toggle="tab"><div class="icon video-gallery"></div></a></li>
+                        <li role="presentation" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Discussions"><a href="#discussions" aria-controls="discussions" role="tab" data-toggle="tab"><div class="icon video-discussion"></div></a></li>
+                        <li role="presentation" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Notes"><a id="but-annotations" href="#annotations" aria-controls="annotations" role="tab" data-toggle="tab"><div class="icon video-notes"></div></a></li>
+                        <li role="button" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Add to Watchlist"><a href="javascript:;" class="js-register" data-register-title="Add to Watchlist" data-register-action="add this class to your watchlist"><div class="icon video-watchlist"></div></a></li>
+                                                                  <li role="link" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Download Class PDF"><a href="javascript:;" class="js-register" data-register-title="Download Class PDF" data-register-action="download the class PDF" onclick="ga('send', 'event', 'video player buttons', 'click', 'click download class pdf button');" role="link"><div class="icon video-pdf"></div></a></li>
+                                    </ul>
+        </div><!--
+        --><div class="col-md-6 vcenter">
+          <div class="nowplaying">
+            <label>NOW PLAYING</label>
+            <div>Crochet Shawl Workshop: Side-to-Side Shawl &gt; <strong></strong></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div id="video-tabs" class="fly-out tab-content noscroll">
+
+      <div id="description" role="tabpanel" class="tab-pane active">
+        <div class="description-pane cb-panel">
+  <div class="row">
+    <div class="col-xs-12 col-md-8">
+      <div class="panel-title">
+                              <script type="text/javascript">
+              $(function () {
+                var descCta = $('#description-cta');
+                if (!descCta.hasClass('cta-click-init')) {
+                  $('#description-cta').on('click', function () {
+                    ga('send', 'event', 'subscription-prompt', 'click', 'description cta');
+                  });
+                  descCta.addClass('cta-click-init');
+                }
+              });
+            </script>
+                    <a id="description-cta" class="subscribe-cta" href="/trial/create-account">
+            Start Your Free Trial to Take This Class!          </a>
+              </div>
+      <div class="row">
+        <div class="col-xs-6 vcenter">
+          <div class="class-info">
+            <strong>Intermediate</strong>
+            <span class="divider">|</span>
+            <strong>1 hour</strong>
+          </div>
+        </div><!--
+        --><div class="col-xs-6 vcenter">
+          <div class="instructor">
+            <img class="img-circle" src="https://www.creativebug.com/pimage/dynamic/product-50~storage/images/profile/142471/original/sjanpop6dumxkfqyhccp.jpg">
+            <div class="name">
+              Taught by              <a href="/instructors/marly-bird">Marly Bird</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="class-desc">
+            Side-to-side shawls can appear daunting, but it&rsquo;s actually one of the easiest shawl styles to construct. Using simple increases and decreases and basic crochet stitches, Marly Bird shows you how to create a mesh-like stitch pattern, keep track of your shaping as you go, and customize the size of the shawl by working more or less shaping rows. When the shawl is finished, you&rsquo;ll learn how to weave contrasting tassels through the mesh stitches to create a must-have fringed accessory.&nbsp;            <div style="margin:10px 0 0 0"><b>Learn how to:</b></div><ul>
+	<li>Read crochet charts and written patterns</li>
+	<li>Crochet a shawl in the &ldquo;side-to-side&rdquo; construction</li>
+	<li>Make the shawl larger or smaller depending on your preference</li>
+	<li>Increase and decrease to shape the shawl</li>
+	<li>Create contrasting woven tassels</li>
+</ul>                          <br>
+              <div class="download-link">
+                              <a class="js-register" data-register-title="Download Class PDF" data-register-action="download the class PDF" href="javascript:;" onclick="ga('send', 'event', 'video player buttons', 'click', 'click download class pdf button');" role="link"><span class="icon video-pdf"></span></a>
+                            </div>
+                        <br><div class="fb-like" data-href="https://www.creativebug.com/classseries/crochet-shawl-workshop/crochet-shawl-workshop-side-to-side-shawls" data-layout="button" data-action="like" data-show-faces="false" data-share="true"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-md-4 text-center">
+      <img class="class-img img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/tutorial_thumbnails/original/885/images/xmvdkizzwmicdmdgey79.jpg">
+    </div>
+  </div>
+</div>
+      </div>
+
+      <div id="chapters" role="tabpanel" class="tab-pane">
+        <div class="chapters-pane" >
+  <div class="row">
+    <div class="col-md-12">
+      <div class="title">Chapters</div>
+                  <table class="table table-hover">
+                      <caption>Introduction</caption>
+                          <tr class="playable" data-index="0">
+                <td>
+                  <div >
+                    <div class="play-icon"></div><label>Series Overview</label><span>00:57</span>                  </div>
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <div data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Premium Content - Please Log In or Start Your Free Trial" >
+                    <div class="play-icon"></div><label>Overview</label><span>00:41</span>                  </div>
+                </td>
+              </tr>
+                        </table>
+            <table class="table table-hover">
+                        <caption>Materials</caption>
+                          <tr>
+                <td>
+                  <div data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Premium Content - Please Log In or Start Your Free Trial" >
+                    <div class="play-icon"></div><label>Materials</label><span>00:25</span>                  </div>
+                </td>
+              </tr>
+                        </table>
+            <table class="table table-hover">
+                        <caption>Make Side-to-Side Shawl</caption>
+                          <tr>
+                <td>
+                  <div data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Premium Content - Please Log In or Start Your Free Trial" >
+                    <div class="play-icon"></div><label>Reading chart and working increases</label><span>09:07</span>                  </div>
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <div data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Premium Content - Please Log In or Start Your Free Trial" >
+                    <div class="play-icon"></div><label>Working even and decreasing</label><span>04:42</span>                  </div>
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <div data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Premium Content - Please Log In or Start Your Free Trial" >
+                    <div class="play-icon"></div><label>Adding tassels </label><span>07:03</span>                  </div>
+                </td>
+              </tr>
+                      </table>
+            </div>
+  </div>
+</div>
+      </div>
+
+      <div id="materials" role="tabpanel" class="tab-pane">
+        <div class="materials-pane cb-panel">
+  <div class="panel-title">Materials</div>
+  <div class="subhead">
+    Here’s what you’ll need:
+  </div>
+  <ul>
+	<li>Red Heart, &ldquo;Boutique Treasures&rdquo; (70% acrylic, 30% wool, 151 yds / 138m, 100g / 3&frac12; oz):&nbsp;Tapestry #1923 (A) &ndash; 2 skeins; and&nbsp;Spectrum #1913 (B) &ndash; 1 skein</li>
+	<li>Size J-10 (6 mm) crochet hook or size required for gauge</li>
+	<li>Yarn needle</li>
+	<li>3 stitch markers</li>
+	<!--NMS-->
+</ul>      <div class="download-link">
+          <a class="js-register" data-register-title="Download Class PDF" data-register-action="download the class PDF" href="javascript:;" onclick="ga('send', 'event', 'video player buttons', 'click', 'click download class pdf button');" role="link"><span class="icon video-pdf"></span></a>
+        </div>
+    </div>
+      </div>
+
+      <div id="gallery" role="tabpanel" class="tab-pane">
+        <div class="gallery-pane cb-panel">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="panel-title">&nbsp;</div>
+    </div>
+  </div>
+
+  <!-- Class Gallery Carousel Modal: begin -->
+  <div id="video-885-class-gallery" class="cb-photo-modal cb-modal modal fade"
+      tabindex="-1" role="dialog" aria-labelledby="test-modal" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <a class="cb-close" data-dismiss="modal" aria-label="Close">
+          <img src="/ui/images/icon-x.png">
+        </a>
+        <div class="modal-body">
+          <div id="video-885-class-gallery-carousel" class="carousel"
+              data-items="video-885-class-thumbs" data-ride="carousel" data-interval="false">
+            <div class="carousel-inner" role="listbox">
+              <div id="large-0" class="item"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Class Gallery Carousel Modal: end -->
+
+  <div class="thumb-gallery row">
+    <div id="video-885-class-thumbs">
+      <!-- Class Cover Thumbnail: begin -->
+      <div class="tile col-xs-6 col-sm-4 col-md-3">
+        <div class="gallery-item">
+          <div data-toggle="modal" data-type="tutorial" data-id="885" data-target="#video-885-class-gallery" onClick="enlarge(this);">
+            <img alt="Crochet Shawl Workshop" src="https://www.creativebug.com/pimage/dynamic/feed-248~storage/public/images/tutorial_thumbnails/original/885/uxfvpxrzwaxwpaebg1sy.jpg">
+          </div>
+        </div>
+      </div>
+      <!-- Class Cover Thumbnail: end -->
+
+      <!-- Class Image Thumbnails: begin -->
+              <div class="tile col-xs-6 col-sm-4 col-md-3">
+          <div class="gallery-item">
+            <div data-toggle="modal" data-type="images" data-id="2881" data-target="#video-885-class-gallery" onClick="enlarge(this);">
+              <img src="https://www.creativebug.com/pimage/dynamic/feed-248~storage/public/images/tutorial_thumbnails/original/885/images/xmvdkizzwmicdmdgey79.jpg" alt="">
+            </div>
+          </div>
+        </div>
+              <div class="tile col-xs-6 col-sm-4 col-md-3">
+          <div class="gallery-item">
+            <div data-toggle="modal" data-type="images" data-id="2882" data-target="#video-885-class-gallery" onClick="enlarge(this);">
+              <img src="https://www.creativebug.com/pimage/dynamic/feed-248~storage/public/images/tutorial_thumbnails/original/885/images/91ynual6mdgqvuw16wsg.jpg" alt="">
+            </div>
+          </div>
+        </div>
+              <div class="tile col-xs-6 col-sm-4 col-md-3">
+          <div class="gallery-item">
+            <div data-toggle="modal" data-type="images" data-id="2883" data-target="#video-885-class-gallery" onClick="enlarge(this);">
+              <img src="https://www.creativebug.com/pimage/dynamic/feed-248~storage/public/images/tutorial_thumbnails/original/885/images/sqpa1xowdhhhlfdmj1bs.jpg" alt="">
+            </div>
+          </div>
+        </div>
+              <div class="tile col-xs-6 col-sm-4 col-md-3">
+          <div class="gallery-item">
+            <div data-toggle="modal" data-type="images" data-id="2884" data-target="#video-885-class-gallery" onClick="enlarge(this);">
+              <img src="https://www.creativebug.com/pimage/dynamic/feed-248~storage/public/images/tutorial_thumbnails/original/885/images/cdbtmnod4wiac9je6tay.jpg" alt="">
+            </div>
+          </div>
+        </div>
+              <div class="tile col-xs-6 col-sm-4 col-md-3">
+          <div class="gallery-item">
+            <div data-toggle="modal" data-type="images" data-id="2885" data-target="#video-885-class-gallery" onClick="enlarge(this);">
+              <img src="https://www.creativebug.com/pimage/dynamic/feed-248~storage/public/images/tutorial_thumbnails/original/885/images/ogqyegcozgap4dqzzqkg.jpg" alt="">
+            </div>
+          </div>
+        </div>
+              <div class="tile col-xs-6 col-sm-4 col-md-3">
+          <div class="gallery-item">
+            <div data-toggle="modal" data-type="images" data-id="2886" data-target="#video-885-class-gallery" onClick="enlarge(this);">
+              <img src="https://www.creativebug.com/pimage/dynamic/feed-248~storage/public/images/tutorial_thumbnails/original/885/images/ptkc3yfbpxaszzicbpeb.jpg" alt="">
+            </div>
+          </div>
+        </div>
+            <!-- Class Image Thumbnails: end -->
+    </div>
+  </div>
+
+      <div class="row">
+      <div class="col-xs-12">
+        <div class="panel-title">Member Gallery</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="gallery-text">Browse members' projects from this class, add them to your Favorites, and share your own work!</div>
+      </div>
+    </div>
+
+    <script type="text/html" id="template_gallery_comment">
+      <div class="comment-[!= comment.id !] comment-item" data-id="[!=comment.id !]">
+        <div class="profile-link"><a href="[!=comment.user.profile_url !]">[!=comment.user.display_name !]</a></div>
+        <div class="comment-date">[!=comment.display_date !]</div>
+        <div>[!=comment.text !]</div>
+        <div class="comment-nav">
+          <div class="comment-[!=comment.id !]-like [!= like_class !] js-register"
+              data-register-ga-label="comments">
+            <span class="heart"></span>
+            <span class="likes-total">
+              [!= comment.likers.length !]
+            </span>
+            <span class="bullet"></span>
+            <span class="state-text"></span>
+          </div>
+          <div class="[!= report_class !] js-register"
+              data-register-ga-label="comments">
+            Report
+          </div>
+          <div class="[!= delete_class !] js-register"
+              data-register-ga-label="comments">
+            Delete
+          </div>
+        </div>
+      </div>
+    </script>
+
+    
+<div id="video-885_images-gallery" class="cb-photo-modal cb-modal modal fade"
+    tabindex="-1" role="dialog" aria-labelledby="test-modal" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <a class="cb-close" data-dismiss="modal" aria-label="Close">
+        <img src="/ui/images/icon-x.png">
+      </a>
+      <div class="modal-body">
+        <div id="video-885_images-gallery-carousel" class="carousel"
+            data-items="video-885_images-container" data-ride="carousel" data-interval="false">
+          <div class="carousel-inner" role="listbox">
+            <div id="large-0" class="item"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="image-gallery row">
+      <div class="col-xs-12 col-sm-4 col-md-3 text-center">
+      <div class="add-image-button">
+  <div class="add-image-box">
+    <div class="add-image-box-border">
+      <div class="add-image-lockup" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Log In or Start Your Free Trial">
+        <div class="add-plus glyphicon glyphicon-plus"></div>
+        <br>
+        ADD YOUR IMAGE
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+    <div id="video-885_images-container"></div>
+</div>
+
+  <div class="row">
+    <div class="col-xs-12 text-center">
+      <div class=".load-more">
+        <div class="js-image-gallery-more btn btn-primary js-image-gallery-pre-fetch"
+            title="Load More Images"
+
+            data-async-source="/services/mediafeed/class_gallery"
+            data-async-displayed-ids='[]'
+
+            data-async-tutorial-id="885"
+            data-async-member-id=""
+            data-async-type="gallery"
+
+            data-async-sort="likes"
+            data-async-limit="8"
+            data-async-marker=""
+
+            data-async-modal-target="#video-885_images-gallery"
+            data-async-enable-delete="1"
+            data-async-enable-upload="1"
+
+            data-async-container="#video-885_images-container">
+          Load More
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+</div>
+      </div>
+
+      <div id="discussion" role="tabpanel" class="tab-pane">
+        <div class="discussion-pane">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="title">Discussion</div>
+    </div>
+  </div>
+</div>
+      </div>
+
+      <div id="annotations" role="tabpanel" class="tab-pane">
+        <button id="new-annotation" type="button" class="btn btn-danger js-register" data-register-title="Add Note" data-register-action="add a timecode tag or note for this section" onclick="newAnnotation();" style="margin:10px 0 0 0; float:right">New Note</button>
+        <div class="section-title">Notes</div>
+        <div style="color: #777; padding-bottom: 8px;">Your timecode tags and notes for this section</div>
+        <div class="annotations-pane"></div>
+      </div>
+
+      <div id="transcript" role="tabpanel" class="tab-pane">
+                <div class="section-title">Transcript</div>
+        <div class="transcript-pane"></div>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="annotations-modal" class="notes-modal modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><img src="/ui/images/icon-x.png"></button>
+          <h4 class="modal-title">Add Note</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="confirmation-modal" class="notes-modal modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title">Delete Note</h4>
+        </div>
+        <div class="modal-body">
+          Are you sure do you want to delete this note?
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal" id="delete-annotation">Yes</button>
+          <button type="button" class="btn btn-primary" data-dismiss="modal">No</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+      <div id="listview">
+              <div class="title">Crochet Shawl Workshop</div>
+      <div id="885-1-listview" class="panel-group">
+  <div class="row row-eq-height">
+    <div class="col-xs-12 col-sm-6 col-md-3">
+      <div class="img-wrapper active">
+        <a href="/classseries/crochet-shawl-workshop/crochet-shawl-workshop-side-to-side-shawls">
+          <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/tutorial_thumbnails/original/885/images/xmvdkizzwmicdmdgey79.jpg">
+        </a>
+        <div class="listview-active listview-status">Now Playing</div>              </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-9">
+      <div class="text-wrapper">
+        <div class="desc-title">
+          <div class="title-prefix">Part 1:</div> Crochet Shawl Workshop: Side-to-Side Shawl        </div>
+        <a class="desc-instructor" href="/instructors/marly-bird">Marly Bird</a>
+        <div class="js-txt-more">
+          Side-to-side shawls can appear daunting, but it&rsquo;s actually one of the easiest shawl styles to construct. Using simple increases and decreases and basic crochet stitches, Marly Bird shows you how to create a mesh-like stitch pattern, keep track of your shaping as you go, and customize the size of the shawl by working more or less shaping rows. When the shawl is finished, you&rsquo;ll learn how to weave contrasting tassels through the mesh stitches to create a must-have fringed accessory.&nbsp;        </div>
+      </div>
+      <div class="play-ctrls">
+        <div class="row">
+                <div class="col-xs-12">
+                  <div class="listview-ctrl">
+                    <a class="play-btn" href="/classseries/crochet-shawl-workshop/crochet-shawl-workshop-side-to-side-shawls?auto=1" style="width:185px;">
+                      Watch Preview
+                    </a>
+                  </div><!--
+                  --><div class="listview-ctrl">
+                    
+            <a class="action-login btn btn-primary" href="/trial/create-account?redirect_on_success=/classseries/crochet-shawl-workshop/crochet-shawl-workshop-side-to-side-shawls"
+              data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Start Free Trial and get unlimited access to this class,
+              plus hundreds more. Pay only $4.95/month thereafter. Cancel any time."
+              style="width: 185px; padding: 0 8px;">Free Trial Then $4.95/mo</a><div class="js-buy-class js-ga-click btn btn-alacarte"
+                data-buy-product="/services/cart/add/1642"
+                data-buy-success="/subscribe/create-account?alacarte=885-2942"
+                data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Purchasing a single class from Creativebug allows you access to this class in your Library for as long as you have a Creativebug account. You can continue to access this class whether or not you have a subscription."
+                data-ga-click-cat="alacarte" data-ga-click-action="click buy button" data-ga-click-label="Crochet Shawl Workshop: Side-to-Side Shawl"
+                >Buy $9.95</div>
+                  </div>
+                  </div>
+                </div>
+      </div>
+      <div class="panel-ctrls">
+        
+                <div class="listview-nav">
+                  <a class="js-scrollto-video-tab collapsed" href="#chapters" aria-controls="#chapters" role="tab" data-toggle="tab">Chapters</a>
+                  <a class="js-scrollto-video-tab collapsed" href="#materials" aria-controls="#materials" role="tab" data-toggle="tab">Materials</a>
+                  <a class="js-scrollto-video-tab collapsed" href="#gallery" aria-controls="#gallery" role="tab" data-toggle="tab">Gallery</a>
+                </div>
+      </div>
+    </div>
+  </div>
+  <div class="panel">
+    <div id="885-1-chapters" role="tabpanel" class="collapse"
+          data-tutorial-id="885"
+          data-data-slug="/classseries/single/crochet-shawl-workshop/1"
+          data-chapter-position="1">
+      <a class="panel-close" href="#885-1-chapters" aria-controls="885-1-chapters" data-toggle="collapse">
+        <img src="/ui/images/icon-x.png">
+      </a>
+    </div>
+  </div>
+  <div class="panel">
+    <div id="885-1-materials" role="tabpanel" class="collapse"
+        data-tutorial-id="885"
+        data-chapter-id="2942">
+      <a class="panel-close" href="#885-1-materials" aria-controls="885-1-materials" data-toggle="collapse">
+        <img src="/ui/images/icon-x.png">
+      </a>
+    </div>
+  </div>
+  <div class="panel">
+    <div id="885-1-gallery" role="tabpanel" class="listview-gallery collapse"
+        data-pane-id="885-1"
+        data-chapter-id="2942"
+        data-tutorial-id="885"
+        data-classseries-id="">
+      <a class="panel-close" href="#885-1-gallery" aria-controls="885-1-gallery" data-toggle="collapse">
+        <img src="/ui/images/icon-x.png">
+      </a>
+    </div>
+  </div>
+</div>
+<div id="885-2-listview" class="panel-group">
+  <div class="row row-eq-height">
+    <div class="col-xs-12 col-sm-6 col-md-3">
+      <div class="img-wrapper ">
+        <a href="/classseries/crochet-shawl-workshop/crochet-shawl-workshop-crescent-shawls">
+          <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/tutorial_thumbnails/original/885/images/pm5hce7woizrv1kblvlq.jpg">
+        </a>
+                      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-9">
+      <div class="text-wrapper">
+        <div class="desc-title">
+          <div class="title-prefix">Part 2:</div> Crochet Shawl Workshop: Crescent Shawl        </div>
+        <a class="desc-instructor" href="/instructors/marly-bird">Marly Bird</a>
+        <div class="js-txt-more">
+          In this class, Marly Bird shows you how to make a classic crescent shawl that begins with a fanciful trim. Once the trim is complete, she shows you how to gradually create the body of the shawl by working short rows, attaching it to the trim as you go. This shawl construction is ideal for customization&mdash;you can use any stitch pattern you like and make it your preferred length. The version Marly shows here is a stunning wide shawl with a shallow depth, perfect for wearing like a scarf.        </div>
+      </div>
+      <div class="play-ctrls">
+        <div class="row">
+                <div class="col-xs-12">
+                  <div class="listview-ctrl">
+                    <a class="play-btn" href="/classseries/crochet-shawl-workshop/crochet-shawl-workshop-crescent-shawls?auto=1" style="width:185px;">
+                      Watch Preview
+                    </a>
+                  </div><!--
+                  --><div class="listview-ctrl">
+                    
+            <a class="action-login btn btn-primary" href="/trial/create-account?redirect_on_success=/classseries/crochet-shawl-workshop/crochet-shawl-workshop-side-to-side-shawls"
+              data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Start Free Trial and get unlimited access to this class,
+              plus hundreds more. Pay only $4.95/month thereafter. Cancel any time."
+              style="width: 185px; padding: 0 8px;">Free Trial Then $4.95/mo</a><div class="js-buy-class js-ga-click btn btn-alacarte"
+                data-buy-product="/services/cart/add/1643"
+                data-buy-success="/subscribe/create-account?alacarte=885-2943"
+                data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Purchasing a single class from Creativebug allows you access to this class in your Library for as long as you have a Creativebug account. You can continue to access this class whether or not you have a subscription."
+                data-ga-click-cat="alacarte" data-ga-click-action="click buy button" data-ga-click-label="Crochet Shawl Workshop: Crescent Shawl"
+                >Buy $9.95</div>
+                  </div>
+                  </div>
+                </div>
+      </div>
+      <div class="panel-ctrls">
+        
+                <div class="listview-nav">
+                  <a class="js-fetch-chapters-pane collapsed" href="#885-2-chapters" aria-controls="885-2-chapters" role="tab" data-toggle="collapse" data-parent="#885-2-listview" aria-expanded="false"
+                      data-async-source="/services/mediafeed/video_chapters_pane">Chapters</a>
+                  <a class="js-fetch-materials-pane collapsed" href="#885-2-materials" aria-controls="885-2-materials" role="tab" data-toggle="collapse" data-parent="#885-2-listview" aria-expanded="false"
+                      data-async-source="/services/mediafeed/video_materials_pane">Materials</a>
+                  <a class="js-fetch-gallery-pane collapsed" href="#885-2-gallery" aria-controls="885-2-gallery" role="tab" data-toggle="collapse" data-parent="#885-2-listview" aria-expanded="false"
+                      data-async-source="/services/mediafeed/video_gallery_pane">Gallery</a>
+                </div>
+      </div>
+    </div>
+  </div>
+  <div class="panel">
+    <div id="885-2-chapters" role="tabpanel" class="collapse"
+          data-tutorial-id="885"
+          data-data-slug="/classseries/single/crochet-shawl-workshop/2"
+          data-chapter-position="2">
+      <a class="panel-close" href="#885-2-chapters" aria-controls="885-2-chapters" data-toggle="collapse">
+        <img src="/ui/images/icon-x.png">
+      </a>
+    </div>
+  </div>
+  <div class="panel">
+    <div id="885-2-materials" role="tabpanel" class="collapse"
+        data-tutorial-id="885"
+        data-chapter-id="2943">
+      <a class="panel-close" href="#885-2-materials" aria-controls="885-2-materials" data-toggle="collapse">
+        <img src="/ui/images/icon-x.png">
+      </a>
+    </div>
+  </div>
+  <div class="panel">
+    <div id="885-2-gallery" role="tabpanel" class="listview-gallery collapse"
+        data-pane-id="885-2"
+        data-chapter-id="2943"
+        data-tutorial-id="885"
+        data-classseries-id="">
+      <a class="panel-close" href="#885-2-gallery" aria-controls="885-2-gallery" data-toggle="collapse">
+        <img src="/ui/images/icon-x.png">
+      </a>
+    </div>
+  </div>
+</div>
+<div id="885-3-listview" class="panel-group">
+  <div class="row row-eq-height">
+    <div class="col-xs-12 col-sm-6 col-md-3">
+      <div class="img-wrapper ">
+        <a href="/classseries/crochet-shawl-workshop/crochet-shawl-workshop-triangle-shawls">
+          <img style="width:100%" class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/tutorial_thumbnails/original/885/images/suwktrdtttuchwk9alxv.jpg">
+        </a>
+                      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-9">
+      <div class="text-wrapper">
+        <div class="desc-title">
+          <div class="title-prefix">Part 3:</div> Crochet Shawl Workshop: Triangle Shawl        </div>
+        <a class="desc-instructor" href="/instructors/marly-bird">Marly Bird</a>
+        <div class="js-txt-more">
+          Learn how to make a classic top-down triangle shawl with a fabulous multi-color trim. This shawl gets its iconic shape from a series of center and wingspan increases, so it grows in length and width as you go. The super-fun trim features an array of textured stitch patterns and pop colors, which will keep you on your toes. Marly encourages you to get creative with customization&mdash;you can swap out colors or stitch patterns on the trim and make the shawl as big or small as you like. Wear this shawl over your shoulders in traditional shawl style, or wrap it with the point dangling over your shoulder like an oversized kerchief.<br />
+&nbsp;        </div>
+      </div>
+      <div class="play-ctrls">
+        <div class="row">
+                <div class="col-xs-12">
+                  <div class="listview-ctrl">
+                    <a class="play-btn" href="/classseries/crochet-shawl-workshop/crochet-shawl-workshop-triangle-shawls?auto=1" style="width:185px;">
+                      Watch Preview
+                    </a>
+                  </div><!--
+                  --><div class="listview-ctrl">
+                    
+            <a class="action-login btn btn-primary" href="/trial/create-account?redirect_on_success=/classseries/crochet-shawl-workshop/crochet-shawl-workshop-side-to-side-shawls"
+              data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Start Free Trial and get unlimited access to this class,
+              plus hundreds more. Pay only $4.95/month thereafter. Cancel any time."
+              style="width: 185px; padding: 0 8px;">Free Trial Then $4.95/mo</a><div class="js-buy-class js-ga-click btn btn-alacarte"
+                data-buy-product="/services/cart/add/1644"
+                data-buy-success="/subscribe/create-account?alacarte=885-2944"
+                data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Purchasing a single class from Creativebug allows you access to this class in your Library for as long as you have a Creativebug account. You can continue to access this class whether or not you have a subscription."
+                data-ga-click-cat="alacarte" data-ga-click-action="click buy button" data-ga-click-label="Crochet Shawl Workshop: Triangle Shawl"
+                >Buy $19.95</div>
+                  </div>
+                  </div>
+                </div>
+      </div>
+      <div class="panel-ctrls">
+        
+                <div class="listview-nav">
+                  <a class="js-fetch-chapters-pane collapsed" href="#885-3-chapters" aria-controls="885-3-chapters" role="tab" data-toggle="collapse" data-parent="#885-3-listview" aria-expanded="false"
+                      data-async-source="/services/mediafeed/video_chapters_pane">Chapters</a>
+                  <a class="js-fetch-materials-pane collapsed" href="#885-3-materials" aria-controls="885-3-materials" role="tab" data-toggle="collapse" data-parent="#885-3-listview" aria-expanded="false"
+                      data-async-source="/services/mediafeed/video_materials_pane">Materials</a>
+                  <a class="js-fetch-gallery-pane collapsed" href="#885-3-gallery" aria-controls="885-3-gallery" role="tab" data-toggle="collapse" data-parent="#885-3-listview" aria-expanded="false"
+                      data-async-source="/services/mediafeed/video_gallery_pane">Gallery</a>
+                </div>
+      </div>
+    </div>
+  </div>
+  <div class="panel">
+    <div id="885-3-chapters" role="tabpanel" class="collapse"
+          data-tutorial-id="885"
+          data-data-slug="/classseries/single/crochet-shawl-workshop/3"
+          data-chapter-position="3">
+      <a class="panel-close" href="#885-3-chapters" aria-controls="885-3-chapters" data-toggle="collapse">
+        <img src="/ui/images/icon-x.png">
+      </a>
+    </div>
+  </div>
+  <div class="panel">
+    <div id="885-3-materials" role="tabpanel" class="collapse"
+        data-tutorial-id="885"
+        data-chapter-id="2944">
+      <a class="panel-close" href="#885-3-materials" aria-controls="885-3-materials" data-toggle="collapse">
+        <img src="/ui/images/icon-x.png">
+      </a>
+    </div>
+  </div>
+  <div class="panel">
+    <div id="885-3-gallery" role="tabpanel" class="listview-gallery collapse"
+        data-pane-id="885-3"
+        data-chapter-id="2944"
+        data-tutorial-id="885"
+        data-classseries-id="">
+      <a class="panel-close" href="#885-3-gallery" aria-controls="885-3-gallery" data-toggle="collapse">
+        <img src="/ui/images/icon-x.png">
+      </a>
+    </div>
+  </div>
+</div>
+    </div>
+  
+  <section class="cb-section">
+    <style>
+  .upsell-banner {
+    margin: 0 auto 25px auto;
+    text-align: center;
+  }
+  @media screen and (max-width: 1080px) {
+    .upsell-banner {
+      margin-left: 2%;
+      margin-right: 2%;
+    }
+  }
+</style>
+<div class="upsell-banner">
+  <a onclick="ga('send', 'event', 'upsell-banner', 'click', '/classseries/crochet-shawl-workshop/crochet-shawl-workshop-side-to-side-shawls');" href="/trial/create-account?redirect_on_success=/classseries/crochet-shawl-workshop/crochet-shawl-workshop-side-to-side-shawls"><img title="Unlimited Access to Over 700 Classes. New Classes Released Every Week. 1 Free Class to Keep with Free Trial." style="width:100%; max-width:1080px;" src="/ui/images/promo/free-trial.jpg" /></a>
+</div>
+
+<script type="text/javascript">
+  $(function() {
+    ga('send', 'event', 'upsell-banner', 'view', '/classseries/crochet-shawl-workshop/crochet-shawl-workshop-side-to-side-shawls', { nonInteraction: true } );
+  });
+</script>
+  </section>
+
+  <script type="text/html" id="template_comment">
+    <div class="comment-[!= comment.id !] comment-container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-9">
+          <div style="float:left; max-width: 50px; margin-left: 15px; margin-top: 4px;">
+            <a href="[!=comment.user.profile_url !]">
+              <div data-profile-letter="[!= comment.user.profile_letter !]">
+                <img src="[!=comment.user.profile_img !]">
+              </div>
+            </a>
+          </div>
+          <div class="comment-body">
+            <div style="display:inline-block"><a href="[!=comment.user.profile_url !]" style="font-weight: 400; color: #ff4b55; text-decoration: none;">[!=comment.user.display_name !]</a></div>
+            <div class="js-txt-more">
+              [!=comment.text !]
+            </div>
+            <div data-count="[!=comment.replies_count !]" id="expand-replies-[!=comment.id !]" class="[!=comment.expand_replies_class !]">
+              <a onclick="expandReplies([!=comment.id !]);" href="javascript:;">Expand Replies (<span class="reply-count">[!=comment.replies_count !]</span>)</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-3">
+          <div class="comment-nav">
+            <div class="comment-date">[!=comment.display_date !]</div>
+            <div class="[!=comment.reply_class !] js-register"
+                data-register-ga-label="comments">Reply</div>
+            <div class="comment-[!=comment.id !]-like [!= comment.like_class !] js-register"
+                data-register-ga-label="comments">
+              <span class="state-text"></span>
+              <span class="bullet"></span>
+              <span class="heart"></span>
+              <span class="likes-total">
+                [!= comment.likers.length !]
+              </span>
+            </div>
+            <div class="[!= comment.delete_class !] js-register"
+                data-register-ga-label="comments">
+              Delete
+            </div>
+            <div class="[!= comment.report_class !] js-register"
+                data-register-ga-label="comments">
+              Report
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="replies-[!=comment.id !]" class="replies"></div>
+    <div id="reply-[!=comment.id !]" class="comment-reply">
+      <div class="row">
+        <div class="col-xs-12" style="padding-top: 10px; padding-right: 30px;">
+          <textarea
+              style="width:100%;"
+              maxlength="30000"
+              placeholder="Post Reply"
+              tabindex="0"
+              data-limit="100"
+              data-last-id="0"
+              data-parent-id="[!=comment.id !]"
+              data-context-id="885"
+              data-context-type="tutorial"
+              data-owner-id="[!=comment.owner_id !]"></textarea>
+          <button class="comment-submit" style="margin:10px 0" type="button">Reply</button>
+        </div>
+      </div>
+    </div>
+  </script>
+  <script type="text/javascript">
+  $(function(){
+    // fetch root comments
+    CB.comments($('#root-comments'), function (response) {
+      // enable join discussion and hide comments frame if no starting comments
+      if (response.comments.comments.length === 0) {
+        $('.comments-frame').hide();
+      }
+      updateLastId(response);
+      cbEffects.bindEffects();
+    });
+  });
+  </script>
+  <div id="comments" class="cb-section">
+    <div class="title">
+              Class
+            Discussion
+    </div>
+    <div class="row">
+      <div class="comments-instructions col-xs-12 col-sm-7 vcenter" style="font-weight: 300;">
+        Questions or comments about this class?  Join the conversation here.
+      </div><!--
+      --><div class="col-xs-12 col-sm-5 text-right vcenter">
+        <div id="comments-cnt" class="comment-cnt" data-id="comments-885">
+          <span class="comments-total">20</span> Comments<div class="list-toggle-icon open"></div>
+        </div>
+      </div>
+    </div>
+    <div id="add-comment" class="row">
+      <div class="col-xs-12">
+        <textarea
+          id="comment"
+          style="width:100%; max-width:100%; min-width:100%"
+          maxlength="30000"
+          placeholder="Start a discussion"
+          tabindex="0"
+          data-limit="0"
+          data-last-id="0"
+          data-parent-id="0"
+          data-context-id="885"
+          data-context-type="tutorial"
+          data-owner-id="0"></textarea>
+        <button             class="comment-submit js-register" type="button"
+                data-register-ga-label="comments">Post</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <div id="root-comments"
+          tabindex="0"
+          data-page="1"
+          data-limit="4"
+          data-last-id="0"
+          data-parent-id="0"
+          data-context-id="885"
+          data-context-type="tutorial"
+          data-owner-id="0"></div>
+        <div class="comments-885 comments-frame"></div>
+      </div>
+    </div>
+  </div>
+  <div class="text-center">
+    <div class="show-more-comments more-comments-btn"
+        data-id="comments-885"
+        data-page="2"
+        data-limit="4"
+        data-last-id="0"
+        data-parent-id="0"
+        data-context-id="885"
+        data-context-type="tutorial"
+        data-owner-id="0">
+      View More Comments
+    </div>
+  </div>
+  
+  
+  <div id="register_modal" class="modal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="btn" class="close" data-dismiss="modal" aria-label="Close"><img src="/ui/images/icon-x.png"></button>
+        <h4 class="modal-title">Please register</h4>
+      </div>
+      <div class="modal-body">
+                  Please log in, or start your free trial,
+                to <span class="register-action">access this feature</span>.
+      </div>
+      <div class="modal-footer">
+                  <a href="/login?redirect_on_success=/classseries/crochet-shawl-workshop/crochet-shawl-workshop-side-to-side-shawls" class="confirm-btn js-login" data-dismiss="modal" title="Log In">Log In</a>
+          <a id="register_modal_signup" href="/trial/create-account?redirect_on_success=/classseries/crochet-shawl-workshop/crochet-shawl-workshop-side-to-side-shawls" class="confirm-btn" title="Start Your Free Trial">Start Your Free Trial</a>
+                </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div id="confirm-modal" class="modal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="btn" class="close" data-dismiss="modal" aria-label="Close"><img src="/ui/images/icon-x.png"></button>
+        <h4 class="modal-title">Please Confirm</h4>
+      </div>
+      <div class="modal-body">
+        Are you sure you want to do this?
+      </div>
+      <div class="modal-footer">
+        <div class="cancel-btn" data-dismiss="modal">Cancel</div>
+        <div class="confirm-btn" data-dismiss="modal">Confirm</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <section class="member-carousel">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="member-carousel-title">Who's Recently Taken This Class</div>
+      <div class="member-carousel-desc">Meet other Creativebug crafters who have recently taken this class.</div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="slick-carousel">
+                  <div class="slick-item">
+            <div class="member-portrait">
+              <a class="profile-link" href="/profile/ina-pupo">
+                <div data-profile-letter="">
+                  <img class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/profile-thumbnail~storage/images/profile/284105/original/fqhare1ohhcciolnax9b.jpg">                </div>
+              </a>
+            </div>
+            <div class="member-name">
+              <a class="profile-link" href="/profile/ina-pupo">
+                Ina Pupo              </a>
+            </div>
+          </div>
+                  <div class="slick-item">
+            <div class="member-portrait">
+              <a class="profile-link" href="/profile/sandie-post">
+                <div data-profile-letter="S">
+                                  </div>
+              </a>
+            </div>
+            <div class="member-name">
+              <a class="profile-link" href="/profile/sandie-post">
+                Sandie Post              </a>
+            </div>
+          </div>
+                  <div class="slick-item">
+            <div class="member-portrait">
+              <a class="profile-link" href="/profile/mari-johnson">
+                <div data-profile-letter="M">
+                                  </div>
+              </a>
+            </div>
+            <div class="member-name">
+              <a class="profile-link" href="/profile/mari-johnson">
+                Mari Johnson              </a>
+            </div>
+          </div>
+                  <div class="slick-item">
+            <div class="member-portrait">
+              <a class="profile-link" href="/profile/kathleen-burrell">
+                <div data-profile-letter="K">
+                                  </div>
+              </a>
+            </div>
+            <div class="member-name">
+              <a class="profile-link" href="/profile/kathleen-burrell">
+                Kathleen Burrell              </a>
+            </div>
+          </div>
+                  <div class="slick-item">
+            <div class="member-portrait">
+              <a class="profile-link" href="/profile/elynel-josefina-davila-cadena">
+                <div data-profile-letter="">
+                  <img class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/profile-thumbnail~storage/images/profile/285097/original/h0jhzjjwlmsse0adbwpc.jpg">                </div>
+              </a>
+            </div>
+            <div class="member-name">
+              <a class="profile-link" href="/profile/elynel-josefina-davila-cadena">
+                Elynel Josefina Davila Cadena              </a>
+            </div>
+          </div>
+                  <div class="slick-item">
+            <div class="member-portrait">
+              <a class="profile-link" href="/profile/chelsea-sena">
+                <div data-profile-letter="">
+                  <img class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/profile-thumbnail~storage/images/profile/17005/original/pqbzq7d3rwhmmjwjndub.jpg">                </div>
+              </a>
+            </div>
+            <div class="member-name">
+              <a class="profile-link" href="/profile/chelsea-sena">
+                Chelsea Sena              </a>
+            </div>
+          </div>
+                  <div class="slick-item">
+            <div class="member-portrait">
+              <a class="profile-link" href="/profile/cindy-stewart">
+                <div data-profile-letter="C">
+                                  </div>
+              </a>
+            </div>
+            <div class="member-name">
+              <a class="profile-link" href="/profile/cindy-stewart">
+                Cindy Stewart              </a>
+            </div>
+          </div>
+                  <div class="slick-item">
+            <div class="member-portrait">
+              <a class="profile-link" href="/profile/delisa-spencer">
+                <div data-profile-letter="D">
+                                  </div>
+              </a>
+            </div>
+            <div class="member-name">
+              <a class="profile-link" href="/profile/delisa-spencer">
+                DELISA SPENCER               </a>
+            </div>
+          </div>
+                  <div class="slick-item">
+            <div class="member-portrait">
+              <a class="profile-link" href="/profile/kari-widner">
+                <div data-profile-letter="K">
+                                  </div>
+              </a>
+            </div>
+            <div class="member-name">
+              <a class="profile-link" href="/profile/kari-widner">
+                Kari Widner              </a>
+            </div>
+          </div>
+                  <div class="slick-item">
+            <div class="member-portrait">
+              <a class="profile-link" href="/profile/zainab-hardwarewala">
+                <div data-profile-letter="Z">
+                                  </div>
+              </a>
+            </div>
+            <div class="member-name">
+              <a class="profile-link" href="/profile/zainab-hardwarewala">
+                Zainab Hardwarewala              </a>
+            </div>
+          </div>
+                  <div class="slick-item">
+            <div class="member-portrait">
+              <a class="profile-link" href="/profile/cheryl-schuler">
+                <div data-profile-letter="">
+                  <img class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/profile-thumbnail~storage/images/profile/89548/original/facebook-picture">                </div>
+              </a>
+            </div>
+            <div class="member-name">
+              <a class="profile-link" href="/profile/cheryl-schuler">
+                Cheryl Schuler              </a>
+            </div>
+          </div>
+                  <div class="slick-item">
+            <div class="member-portrait">
+              <a class="profile-link" href="/profile/diane-raney">
+                <div data-profile-letter="D">
+                                  </div>
+              </a>
+            </div>
+            <div class="member-name">
+              <a class="profile-link" href="/profile/diane-raney">
+                Diane Raney              </a>
+            </div>
+          </div>
+                  <div class="slick-item">
+            <div class="member-portrait">
+              <a class="profile-link" href="/profile/rene-boudreau">
+                <div data-profile-letter="R">
+                                  </div>
+              </a>
+            </div>
+            <div class="member-name">
+              <a class="profile-link" href="/profile/rene-boudreau">
+                Rene Boudreau              </a>
+            </div>
+          </div>
+                  <div class="slick-item">
+            <div class="member-portrait">
+              <a class="profile-link" href="/profile/anasoleil-nessuno">
+                <div data-profile-letter="A">
+                                  </div>
+              </a>
+            </div>
+            <div class="member-name">
+              <a class="profile-link" href="/profile/anasoleil-nessuno">
+                AnaSoleil Nessuno              </a>
+            </div>
+          </div>
+                  <div class="slick-item">
+            <div class="member-portrait">
+              <a class="profile-link" href="/profile/joy-small-1">
+                <div data-profile-letter="J">
+                                  </div>
+              </a>
+            </div>
+            <div class="member-name">
+              <a class="profile-link" href="/profile/joy-small-1">
+                Joy Small              </a>
+            </div>
+          </div>
+                  <div class="slick-item">
+            <div class="member-portrait">
+              <a class="profile-link" href="/profile/rety-peleg">
+                <div data-profile-letter="R">
+                                  </div>
+              </a>
+            </div>
+            <div class="member-name">
+              <a class="profile-link" href="/profile/rety-peleg">
+                rety peleg              </a>
+            </div>
+          </div>
+                  <div class="slick-item">
+            <div class="member-portrait">
+              <a class="profile-link" href="/profile/diane-davis-bailey">
+                <div data-profile-letter="D">
+                                  </div>
+              </a>
+            </div>
+            <div class="member-name">
+              <a class="profile-link" href="/profile/diane-davis-bailey">
+                Diane Davis-Bailey              </a>
+            </div>
+          </div>
+                  <div class="slick-item">
+            <div class="member-portrait">
+              <a class="profile-link" href="/profile/veviticusmjhw">
+                <div data-profile-letter="">
+                  <img class="img-responsive" src="https://www.creativebug.com/pimage/dynamic/profile-thumbnail~storage/images/profile/340516/original/hogufuobxggrl2f6vphc.jpg">                </div>
+              </a>
+            </div>
+            <div class="member-name">
+              <a class="profile-link" href="/profile/veviticusmjhw">
+                Veviticusmjhw               </a>
+            </div>
+          </div>
+                  <div class="slick-item">
+            <div class="member-portrait">
+              <a class="profile-link" href="/profile/denise-eastwood">
+                <div data-profile-letter="D">
+                                  </div>
+              </a>
+            </div>
+            <div class="member-name">
+              <a class="profile-link" href="/profile/denise-eastwood">
+                Denise Eastwood              </a>
+            </div>
+          </div>
+                  <div class="slick-item">
+            <div class="member-portrait">
+              <a class="profile-link" href="/profile/aimee-hoffbauer">
+                <div data-profile-letter="A">
+                                  </div>
+              </a>
+            </div>
+            <div class="member-name">
+              <a class="profile-link" href="/profile/aimee-hoffbauer">
+                Aimee Hoffbauer              </a>
+            </div>
+          </div>
+              </div>
+    </div>
+  </div>
+</section>
+
+  <section id=related class="class-carousel-4 class-carousel" style="opacity: 0">
+  <div class="class-carousel-title-row row">
+    <div class="col-xs-9 vcenter">
+      <div class="class-carousel-title">Related Classes</div>
+    </div><!--
+    --><div class="col-xs-3 vcenter text-right">
+      <div class="class-carousel-title-right"></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="class-carousel-desc"></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="slick-carousel">
+                  <div class="slick-item">
+            <div class="class-img">
+              <img class="img-responsive" style="background: #fafafa" data-ratio="0.556" data-lazy="https://www.creativebug.com/pimage/dynamic/class-carousel-md~storage/public/images/tutorial_thumbnails/original/741/eio9zij29uethjw4hft7.jpg" title="Granny Squares Baby Blanket">
+              <a href="/classseries/single/baby-blanket-crochet-along"><div class="playbut"></div></a>
+                                                                                                </div>
+            <div class="class-name">Granny Squares Baby Blanket</div>
+            <div class="class-instructor">
+              <a href="/instructors/edie-eckman">Edie Eckman</a>
+            </div>
+          </div>
+                  <div class="slick-item">
+            <div class="class-img">
+              <img class="img-responsive" style="background: #fafafa" data-ratio="0.556" data-lazy="https://www.creativebug.com/pimage/dynamic/class-carousel-md~storage/public/images/tutorial_thumbnails/original/781/z7sqzvxs3otxpoenrnfk.jpg" title="Weaving for Beginners">
+              <a href="/classseries/single/weaving-for-beginners"><div class="playbut"></div></a>
+                                                                                                </div>
+            <div class="class-name">Weaving for Beginners</div>
+            <div class="class-instructor">
+              <a href="/instructors/annabel-wrigley">Annabel Wrigley</a>
+            </div>
+          </div>
+                  <div class="slick-item">
+            <div class="class-img">
+              <img class="img-responsive" style="background: #fafafa" data-ratio="0.556" data-lazy="https://www.creativebug.com/pimage/dynamic/class-carousel-md~storage/public/images/tutorial_thumbnails/original/25/fhjyhaxfripjyq0lvolz.jpg" title="One Skein Crochet Scarf">
+              <a href="/classseries/single/one-skein-crochet-scarf"><div class="playbut"></div></a>
+                                                                                                </div>
+            <div class="class-name">One Skein Crochet Scarf</div>
+            <div class="class-instructor">
+              <a href="/instructors/debbie-stoller">Debbie Stoller</a>
+            </div>
+          </div>
+                  <div class="slick-item">
+            <div class="class-img">
+              <img class="img-responsive" style="background: #fafafa" data-ratio="0.556" data-lazy="https://www.creativebug.com/pimage/dynamic/class-carousel-md~storage/public/images/tutorial_thumbnails/original/1115/noglbenz3uzpvewdknkb.jpg" title="Crocheted Hair Clips: 9/13/16">
+              <a href="/classseries/single/9-13-16-hair-clips"><div class="playbut"></div></a>
+                                                                                                </div>
+            <div class="class-name">Crocheted Hair Clips: 9/13/16</div>
+            <div class="class-instructor">
+              <a href="/instructors/cbtv-live">CBTV Live</a>
+            </div>
+          </div>
+                  <div class="slick-item">
+            <div class="class-img">
+              <img class="img-responsive" style="background: #fafafa" data-ratio="0.556" data-lazy="https://www.creativebug.com/pimage/dynamic/class-carousel-md~storage/public/images/tutorial_thumbnails/original/926/sc2zzzkhdla9o0fqerj9.jpg" title="How to Crochet">
+              <a href="/classseries/single/how-to-crochet-part-1"><div class="playbut"></div></a>
+                                                                                                </div>
+            <div class="class-name">How to Crochet</div>
+            <div class="class-instructor">
+              <a href="/instructors/carla-scott">Carla Scott</a>
+            </div>
+          </div>
+                  <div class="slick-item">
+            <div class="class-img">
+              <img class="img-responsive" style="background: #fafafa" data-ratio="0.556" data-lazy="https://www.creativebug.com/pimage/dynamic/class-carousel-md~storage/public/images/tutorial_thumbnails/original/757/brkfdnvyjpd9h6d1q3ki.jpg" title="Crocheted Summer Bag">
+              <a href="/classseries/single/crocheted-summer-bag"><div class="playbut"></div></a>
+                                                                                                </div>
+            <div class="class-name">Crocheted Summer Bag</div>
+            <div class="class-instructor">
+              <a href="/instructors/edie-eckman">Edie Eckman</a>
+            </div>
+          </div>
+                  <div class="slick-item">
+            <div class="class-img">
+              <img class="img-responsive" style="background: #fafafa" data-ratio="0.556" data-lazy="https://www.creativebug.com/pimage/dynamic/class-carousel-md~storage/public/images/tutorial_thumbnails/original/1142/voq0wbzmnur0ieilruky.jpg" title="Halloween Fun with Twinkie Chan: 10/11/16">
+              <a href="/classseries/single/10-11-16-halloween-fun-with-twinkie-chan-1"><div class="playbut"></div></a>
+                                                                                                </div>
+            <div class="class-name">Halloween Fun with Twinkie Chan: 10/11/16</div>
+            <div class="class-instructor">
+              <a href="/instructors/cbtv-live">CBTV Live</a>
+            </div>
+          </div>
+                  <div class="slick-item">
+            <div class="class-img">
+              <img class="img-responsive" style="background: #fafafa" data-ratio="0.556" data-lazy="https://www.creativebug.com/pimage/dynamic/class-carousel-md~storage/public/images/tutorial_thumbnails/original/526/vajekel9v1m5ikxeikuj.jpg" title="How to Make a Pom Pom">
+              <a href="/classseries/single/how-to-make-a-pom-pom"><div class="playbut"></div></a>
+                                                                                                </div>
+            <div class="class-name">How to Make a Pom Pom</div>
+            <div class="class-instructor">
+              <a href="/instructors/maggie-pace">Maggie Pace</a>
+            </div>
+          </div>
+                  <div class="slick-item">
+            <div class="class-img">
+              <img class="img-responsive" style="background: #fafafa" data-ratio="0.556" data-lazy="https://www.creativebug.com/pimage/dynamic/class-carousel-md~storage/public/images/tutorial_thumbnails/original/42/fhpau1iosbeug1myggfv.jpg" title="Crochet Flower Jewelry">
+              <a href="/classseries/single/crochet-flower-jewelry"><div class="playbut"></div></a>
+                                                                                                </div>
+            <div class="class-name">Crochet Flower Jewelry</div>
+            <div class="class-instructor">
+              <a href="/instructors/jenny-doh">Jenny Doh</a>
+            </div>
+          </div>
+                  <div class="slick-item">
+            <div class="class-img">
+              <img class="img-responsive" style="background: #fafafa" data-ratio="0.556" data-lazy="https://www.creativebug.com/pimage/dynamic/class-carousel-md~storage/public/images/tutorial_thumbnails/original/221/u8xfj9tvtld15at33guq.jpg" title="Crochet Hexi Cowl">
+              <a href="/classseries/single/crochet-hexi-cowl"><div class="playbut"></div></a>
+                                                                                                </div>
+            <div class="class-name">Crochet Hexi Cowl</div>
+            <div class="class-instructor">
+              <a href="/instructors/cal-patch">Cal Patch</a>
+            </div>
+          </div>
+                  <div class="slick-item">
+            <div class="class-img">
+              <img class="img-responsive" style="background: #fafafa" data-ratio="0.556" data-lazy="https://www.creativebug.com/pimage/dynamic/class-carousel-md~storage/public/images/tutorial_thumbnails/original/1006/oadol5pl8vorixdb690d.jpg" title="Eat Your Fruits & Veggies Crochet-Along">
+              <a href="/classseries/single/eat-your-fruits-veggies-crochet-along"><div class="playbut"></div></a>
+                                                                                                </div>
+            <div class="class-name">Eat Your Fruits & Veggies Crochet-Along</div>
+            <div class="class-instructor">
+              <a href="/instructors/twinkie-chan">Twinkie Chan</a>
+            </div>
+          </div>
+                  <div class="slick-item">
+            <div class="class-img">
+              <img class="img-responsive" style="background: #fafafa" data-ratio="0.556" data-lazy="https://www.creativebug.com/pimage/dynamic/class-carousel-md~storage/public/images/tutorial_thumbnails/original/57/rl8zs63qavvnuw1lkrew.jpg" title="Talisman Necklace">
+              <a href="/classseries/single/talisman-necklace"><div class="playbut"></div></a>
+                                                                                                </div>
+            <div class="class-name">Talisman Necklace</div>
+            <div class="class-instructor">
+              <a href="/instructors/alix-bluh">Alix Bluh</a>
+            </div>
+          </div>
+              </div>
+    </div>
+  </div>
+</section>
+
+  <div id="885-2942-bac-modal" class="bac-modal cb-modal modal fade" tabindex="-1" role="dialog" aria-labelledby="video-bac-modal" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <a class="cb-close" data-dismiss="modal" aria-label="Close">
+        <img src="/ui/images/icon-x.png">
+      </a>
+      <div class="modal-body">
+        <form action="/services/workshop/bankclass/885/2942">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="cb-modal-header">
+                Bank A Class
+              </div>
+              <div class="cb-modal-subheader">
+                Crochet Shawl Workshop: Side-to-Side Shawl              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="visible-xs-block col-xs-12 text-center vcenter">
+              <img src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/tutorial_thumbnails/original/885/images/xmvdkizzwmicdmdgey79.jpg">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="bac-info col-xs-12 col-sm-6 text-center vcenter">
+
+               <div class="info-start">
+                <div class="info-header">
+                  Click confirm to add this class to your library.
+                </div>
+                <div class="info-cost">
+                  Total: 1 Credit
+                </div>
+                <div class="info-note">
+                  Access never expires
+                </div>
+              </div>
+
+              <div class="info-success hidden">
+                <div class="info-header">
+                  Hooray!
+                </div>
+                <div>
+                  This class has been added to your library.
+                </div>
+              </div>
+
+              <div class="info-error hidden">
+                Banking this class was not successful.
+              </div>
+
+            </div><!--
+            --><div class="hidden-xs col-sm-6 text-center vcenter">
+              <img src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/tutorial_thumbnails/original/885/images/xmvdkizzwmicdmdgey79.jpg">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="modal-ctrls">
+                <div class="vcenter">
+                  <div class="bac-cancel cancel" data-dismiss="modal" aria-label="Cancel">Cancel</div>
+                </div><!--
+                --><div class="vcenter">
+                  <div class="bac-save action" aria-label="Confirm">Confirm</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <input type="hidden" name="chapter_id" value="2942">
+          <input type="hidden" name="tutorial_id" value="885">
+          <input type="hidden" name="library" value="/members">
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="885-2943-bac-modal" class="bac-modal cb-modal modal fade" tabindex="-1" role="dialog" aria-labelledby="video-bac-modal" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <a class="cb-close" data-dismiss="modal" aria-label="Close">
+        <img src="/ui/images/icon-x.png">
+      </a>
+      <div class="modal-body">
+        <form action="/services/workshop/bankclass/885/2943">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="cb-modal-header">
+                Bank A Class
+              </div>
+              <div class="cb-modal-subheader">
+                Crochet Shawl Workshop: Crescent Shawl              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="visible-xs-block col-xs-12 text-center vcenter">
+              <img src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/tutorial_thumbnails/original/885/images/pm5hce7woizrv1kblvlq.jpg">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="bac-info col-xs-12 col-sm-6 text-center vcenter">
+
+               <div class="info-start">
+                <div class="info-header">
+                  Click confirm to add this class to your library.
+                </div>
+                <div class="info-cost">
+                  Total: 1 Credit
+                </div>
+                <div class="info-note">
+                  Access never expires
+                </div>
+              </div>
+
+              <div class="info-success hidden">
+                <div class="info-header">
+                  Hooray!
+                </div>
+                <div>
+                  This class has been added to your library.
+                </div>
+              </div>
+
+              <div class="info-error hidden">
+                Banking this class was not successful.
+              </div>
+
+            </div><!--
+            --><div class="hidden-xs col-sm-6 text-center vcenter">
+              <img src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/tutorial_thumbnails/original/885/images/pm5hce7woizrv1kblvlq.jpg">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="modal-ctrls">
+                <div class="vcenter">
+                  <div class="bac-cancel cancel" data-dismiss="modal" aria-label="Cancel">Cancel</div>
+                </div><!--
+                --><div class="vcenter">
+                  <div class="bac-save action" aria-label="Confirm">Confirm</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <input type="hidden" name="chapter_id" value="2943">
+          <input type="hidden" name="tutorial_id" value="885">
+          <input type="hidden" name="library" value="/members">
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="885-2944-bac-modal" class="bac-modal cb-modal modal fade" tabindex="-1" role="dialog" aria-labelledby="video-bac-modal" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <a class="cb-close" data-dismiss="modal" aria-label="Close">
+        <img src="/ui/images/icon-x.png">
+      </a>
+      <div class="modal-body">
+        <form action="/services/workshop/bankclass/885/2944">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="cb-modal-header">
+                Bank A Class
+              </div>
+              <div class="cb-modal-subheader">
+                Crochet Shawl Workshop: Triangle Shawl              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="visible-xs-block col-xs-12 text-center vcenter">
+              <img src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/tutorial_thumbnails/original/885/images/suwktrdtttuchwk9alxv.jpg">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="bac-info col-xs-12 col-sm-6 text-center vcenter">
+
+               <div class="info-start">
+                <div class="info-header">
+                  Click confirm to add this class to your library.
+                </div>
+                <div class="info-cost">
+                  Total: 1 Credit
+                </div>
+                <div class="info-note">
+                  Access never expires
+                </div>
+              </div>
+
+              <div class="info-success hidden">
+                <div class="info-header">
+                  Hooray!
+                </div>
+                <div>
+                  This class has been added to your library.
+                </div>
+              </div>
+
+              <div class="info-error hidden">
+                Banking this class was not successful.
+              </div>
+
+            </div><!--
+            --><div class="hidden-xs col-sm-6 text-center vcenter">
+              <img src="https://www.creativebug.com/pimage/dynamic/tutorial-image-thumbnail~storage/public/images/tutorial_thumbnails/original/885/images/suwktrdtttuchwk9alxv.jpg">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="modal-ctrls">
+                <div class="vcenter">
+                  <div class="bac-cancel cancel" data-dismiss="modal" aria-label="Cancel">Cancel</div>
+                </div><!--
+                --><div class="vcenter">
+                  <div class="bac-save action" aria-label="Confirm">Confirm</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <input type="hidden" name="chapter_id" value="2944">
+          <input type="hidden" name="tutorial_id" value="885">
+          <input type="hidden" name="library" value="/members">
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+  <div class="push"></div>
+  </section>
+  <footer id="website_footer">
+  <div class="footer-wrapper">
+    <div class="row">
+      <div class="col-xs-4 col-sm-2 col-sm-offset-1">
+        <h3>Classes</h3>
+        <ul>
+          <li><a href="/classes/knitting">Knitting</a></li>
+          <li><a href="/classes/crochet">Crochet</a></li>
+          <li><a href="/classes/art-and-design">Art + Design</a></li>
+          <li><a href="/classes/paper">Paper</a></li>
+          <li><a href="/classes/sewing">Sewing</a></li>
+          <li><a href="/classes/quilting">Quilting</a></li>
+          <li><a href="/classes/jewelry">Jewelry</a></li>
+          <li><a href="/classes/kids">Kids</a></li>
+          <li><a href="/classes/food-and-home">Food + Home</a></li>
+          <li><a href="/classes/holiday-and-party">Holiday + Party</a></li>
+        </ul>
+      </div>
+      <div class="col-xs-4 col-sm-2">
+        <h3>About Us</h3>
+        <ul>
+          <li><a href="/instructors">Instructors</a></li>
+          <li><a href="/site/about">About Creativebug</a></li>
+          <li><a href="/site/meet-creativebug-team">Meet the Team</a></li>
+          <li><a href="/site/jobs">Careers</a></li>
+          <li><a href="/site/contact">Contact Us</a></li>
+          <li><a href="/site/affiliate-program">Affiliate Program</a></li>
+          <li><a href="/site/rss">RSS Feeds</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/site/creativebug-brand-ambassadors">Brand Ambassadors</a></li>
+        </ul>
+      </div>
+      <div class="col-xs-4 col-sm-2">
+        <h3>Help Center</h3>
+        <ul>
+          <li><a href="/site/contact">Contact Us</a></li>
+          <li><a href="/gift_subscriptions">Gift Subscriptions</a></li>
+          <li><a href="/redeem">Redeem a Gift</a></li>
+          <li><a href="https://creativebughelp.zendesk.com">Customer Support</a></li>
+          <li><a href="/site/terms">Terms of Use</a></li>
+          <li><a href="/site/privacy-policy">Privacy Policy</a></li>
+          <li><a href="/site/community-guidelines">Community Guidelines</a></li>
+        </ul>
+      </div>
+      <div class="widgets col-xs-12 col-sm-4">
+        <div class="widgets-wrapper">
+                      <section class="subscribe">
+              <h3>Subscribe Now</h3>
+              Only $4.95 per month
+              &nbsp;&nbsp;
+              <a class="js-ga-click confirm-btn btn btn-primary"
+                  data-ga-click-cat="CTA"
+                  data-ga-click-label="footer free_trial sign_up button"
+                  href="/trial/create-account?redirect_on_success=/classseries/crochet-shawl-workshop/crochet-shawl-workshop-side-to-side-shawls" title="Start Free Trial">Start Free Trial</a>
+            </section>
+          
+                      <section class="newsletter-signup">
+              <h3>Creativebug Newsletter</h3>
+              <form class="js-newsletter-signup" action="/mailing_list" method="post" accept-charset="UTF-8">
+                <div class="error status hidden">Sorry, that didn't work.  Please try again.</div>
+                <div class="success status hidden">Thank you for signing up!  We'll be in touch soon.</div>
+                <input type="text" name="email" placeholder="Email">
+                <button class="btn btn-danger" type="submit">Sign Up</button>
+              </form>
+            </section>
+          
+          <section class="connect">
+            <h3>Connect</h3>
+            <ul class="social">
+              <li><a href="http://www.facebook.com/pages/Creativebug/356129344439441" target="_blank"><div data-icon class="icon-facebook"></div></a></li>
+              <li><a href="http://twitter.com/#!/creativebug" target="_blank"><div data-icon class="icon-twitter"></div></a></li>
+              <li><a href="http://instagram.com/creativebug" target="_blank"><div data-icon class="icon-instagram"></div></a></li>
+              <li><a href="http://pinterest.com/creativebuginc/" target="_blank"><div data-icon class="icon-pinterest"></div></a></li>
+              <li><a href="https://www.youtube.com/user/cbugstudio" target="_blank"><div data-icon class="icon-youtube"></div></a></li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">© 2016 Creativebug, LLC.</div>
+  </div>
+</footer>
+      <div id="overlay" class='modal'>
+        <div id="overlay-content">
+          <div id="fragment-content"></div>
+        </div>
+      </div>
+  <script type="text/javascript" src="/content/compressed/classseries-cbbf2ead.js"></script>
+<script type="text/javascript" src="http://assets.pinterest.com/js/pinit.js"></script>
+<script type="text/javascript" src="/content/compressed/video-player-94a322b4.js"></script>
+<script type="text/javascript" src="/content/compressed/html5player-7ade891e.js"></script>
+<script type="text/javascript" src="/content/compressed/gallery-pane-227587d9.js"></script>
+<script type="text/javascript" src="/content/compressed/carousel-modal-a0265773.js"></script>
+<script type="text/javascript" src="/content/compressed/image-gallery-040d8c7f.js"></script>
+<script type="text/javascript" src="/content/compressed/register-modal-04636aec.js"></script>
+<script type="text/javascript" src="/content/compressed/confirm-modal-8ed4e263.js"></script>
+<script type="text/javascript" src="/content/compressed/member-carousel-5b868fda.js"></script>
+<script type="text/javascript" src="/content/compressed/class-carousel-f4e5c538.js"></script>
+<script type="text/javascript" src="/content/compressed/bac-modal-76c06d9d.js"></script>
+<script type="text/javascript" src="/content/compressed/website-footer-5901413a.js"></script>
+<script type="text/javascript" src="/content/compressed/cb-login-modal-25e7119e.js"></script>
+<script type="text/javascript" src="/content/compressed/website_footer-ed432f77.js"></script>
+
+  <!-- CB Login Modal: start -->
+<div id="cb_login_modal" class="js-login-form cb-login cb-modal modal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+              <div type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <img src="/ui/images/icon-x.png">
+        </div>
+            <div class="modal-header">
+        Sign In      </div>
+      <form id="cb_login_modal_form" action="https://www.creativebug.com/services/access/validate" method="post" accept-charset="UTF-8">
+      <div class="modal-body">
+        <div class="login-error elem hidden">
+          Email/password combination not found. Please try again.        </div>
+        <input id="cb_login_modal_email" class="input elem" type="text" placeholder="Email" name="email">
+        <input id="cb_login_modal_password" class="input elem" type="password" placeholder="Password" name="password">
+        <div class="login-opts elem">
+          <a class="forgot-pass" href="/forgot-password">Forgot password?</a>
+          <label class="remember-me">
+            <input id="cb_login_modal_remember_me" type="checkbox" name="remember_me" value="true">
+            Stay logged in
+          </label>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+      <div class="modal-footer">
+        <input class="login-btn" type="submit" value="Sign In">
+
+                <div class="spacer-or"></div>
+        <a class="fb-btn login-btn" href="/facebook/signin">
+          <img src="/ui/images/signup/1504/fb-icon.png" width="28" height="28">
+          <span>Sign In with Facebook</span>
+        </a>
+        <div class="not-subscriber">
+          Not a subscriber yet?
+          <div class="subtext">
+            Start your free trial today to access over 700 classes!
+          </div>
+        </div>
+        <a class="login-btn" href="/trial/create-account" title="join">
+          Start Free Trial
+        </a>
+              </div>
+        <input id="cb_login_modal_redirect_on_success" type="hidden" name="redirect_on_success" value="">
+        <input id="cb_login_modal_source" type="hidden" name="source" value="/classseries/crochet-shawl-workshop/crochet-shawl-workshop-side-to-side-shawls">
+        <input id="cb_login_modal_slug" type="hidden" name="slug">
+      </form>
+    </div>
+  </div>
+</div>
+<!-- CB Login Modal: end -->
+
+<script type='text/javascript'>
+
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('require','linker');
+ga('create','UA-30229519-4');
+ga('require','ecommerce','ecommerce.js');
+ga('send','pageview');
+</script>
+<!-- Quantcast Tag -->
+<script type="text/javascript">
+var _qevents = _qevents || [];
+
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+qacct:"p-3esR6EkV-2DJB"
+});
+</script>
+
+<noscript>
+<div style="display:none;">
+<img src="//pixel.quantserve.com/pixel/p-3esR6EkV-2DJB.gif" border="0" height="1" width="1" alt="Quantcast"/>
+</div>
+</noscript>
+<!-- End Quantcast tag -->
+
+    </div>
+  </div>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"c4c7d0812a","applicationID":"3796878","transactionName":"ZFVbYxZTXkdUABBeC10feFQQW19aGiAIVhdAY1xFDVdDG1EKF0cIUkk=","queueTime":0,"applicationTime":235,"ttGuid":"","agentToken":"","atts":"SBJYFV5JTUk=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
