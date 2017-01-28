@@ -1,0 +1,28 @@
+.thin {
+	box-shadow: none;
+	height: auto !important;
+}
+
+.hidden {
+	display: none !important;
+}
+
+.mini-logo {
+	height: 40px;
+}
+
+#mini-search {
+	display: inline-block;
+	max-width: 275px;
+	margin-top: -15px;
+}
+
+#mini-search span {
+	padding-bottom: initial !important;
+	border-bottom: initial !important;
+	margin: 0;
+}
+
+#mini-search .btn {
+	line-height: 1.8;
+}

@@ -68,8 +68,12 @@
   </noscript>
   <!-- Facebook Pixel Code: end -->
 
+  <!-- Added! -->
+  <link rel="stylesheet" href="nav.css">
+
   </head>
 <body>
+
   <div id="page-wrapper">
   
   
@@ -121,6 +125,7 @@
   </div>
   <input class="js-search-category" type="hidden" name="category" value="Classes">
 </form>
+
   </div>
   </header>
   <aside class="main-sidebar">
@@ -1823,5 +1828,40 @@ qacct:"p-3esR6EkV-2DJB"
 
     </div>
   </div>
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"c4c7d0812a","applicationID":"3796878","transactionName":"ZFVbYxZTXkdUABBeC10feFQQW19aGisLWgFlAhZeClZVTA==","queueTime":0,"applicationTime":71,"ttGuid":"","agentToken":"","atts":"SBJYFV5JTUk=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"c4c7d0812a","applicationID":"3796878","transactionName":"ZFVbYxZTXkdUABBeC10feFQQW19aGisLWgFlAhZeClZVTA==","queueTime":0,"applicationTime":71,"ttGuid":"","agentToken":"","atts":"SBJYFV5JTUk=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+
+<script type="text/javascript" src="nav.js"></script>
+
+<form id="mini-search" class="nav-search form-inline hidden" action="/search/results" method="get"
+    accept-charset="UTF-8" autocomplete="off"
+    itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction"
+    role="search">
+  <link itemprop="target" href="/search/results?query={query}">
+
+  <div class="input-group input-group-sm">
+    <div class="input-group-btn">
+      <button type="button" class="search-categories btn dropdown-toggle" data-toggle="dropdown">
+        <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu">
+        <li class="dropdown-header">Search Category</li>
+        <li><a class="search-category">Classes</a></li>
+        <li><a class="search-category">Images</a></li>
+        <li><a class="search-category">Instructors</a></li>
+        <li><a class="search-category">Blog</a></li>
+      </ul>
+    </div>
+    <input class="js-search-query search-box form-control" type="text"
+        name="query" value="" autocomplete="off"
+        placeholder="Search" itemprop="query-input"
+        onkeypress="if(event.keyCode == 13){$(this).close('form').submit();}">
+    <div class="search-submit input-group-btn">
+      <a class="btn btn-primary" href="javascript:;" onclick="$('#mini-search').submit();"><i class="glyphicon glyphicon-search"></i></a>
+    </div>
+  </div>
+  <input class="js-search-category" type="hidden" name="category" value="Classes">
+</form>
+
+
+</body>
 </html>
